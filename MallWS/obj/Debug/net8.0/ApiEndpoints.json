@@ -1,0 +1,33 @@
+[
+  {
+    "ContainingType": "MallWS.GuestController",
+    "Method": "GetCatalogViewModel",
+    "RelativePath": "api/Guest/GetCatalogViewModel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BrandID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SaleID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Models.CatalogViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
