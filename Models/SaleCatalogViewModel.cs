@@ -12,3 +12,4 @@ namespace Models
         public int SaleNumber { get; set; }
     }
 }
+

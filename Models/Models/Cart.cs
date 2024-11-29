@@ -8,8 +8,9 @@ namespace Models
 {
     public class Cart : Model
     {
-        public Customer CustomerID { get; set; }
         public Customer Customer { get; set; }
         public List<Product> Products { get; set; }
+        public double TotalPrice { get; set; }  
     }
 }
+

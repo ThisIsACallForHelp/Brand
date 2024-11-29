@@ -10,6 +10,7 @@ namespace MallWS
 
         }
 
+
         public bool Create(Product model)
         {
             string sql = $@"Insert into Products (ProductName, ProductPrice, StoreID, BrandID, ProductIMG)

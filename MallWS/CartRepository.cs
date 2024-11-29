@@ -1,6 +1,7 @@
 ﻿using Models;
 using System.Data;
 
+
 namespace MallWS
 {
     public class CartRepository : Repository, IRepository<Cart>
@@ -12,12 +13,14 @@ namespace MallWS
 
         public bool Create(Cart model)
         {
+            
             string sql = $@"Insert into Carts (CustomerID)
                             values(@CustomerID)";  //parameters for SQL Injection, extension 1
             this.dbContext.AddParameter("@CustomerID", model.Customer.CustomerID.ToString());
             return this.dbContext.Insert(sql);
 
         }
+
 
         public bool Delete(string ID)
         {

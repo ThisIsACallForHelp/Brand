@@ -14,7 +14,6 @@ namespace Models
         public string CustomerPhoneNumber { get; set; }
         public string CustomerCity { get; set; }
         public string CustomerStreet { get; set; }
-        public int CustomerID { get; set; }
         public string CustomerPassword { get; set; }
         public Cart Cart { get; set; }
 
@@ -22,3 +21,4 @@ namespace Models
 
     }
 }
+

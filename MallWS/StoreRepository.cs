@@ -10,6 +10,34 @@ namespace MallWS
 
         }
 
+        public List<Store> GetStoreByBrand(int BrandID)
+        {
+            string sql = "SELECT * FROM Stores WHERE BrandID=@BrandID";
+            List<Store> list = new List<Store>();
+            using (IDataReader TypeReader = this.dbContext.Read(sql))
+            {
+                while (TypeReader.Read())
+                {
+                    list.Add(this.modelFactory.StoreCreator.CreateModel(TypeReader));
+                }
+
+            }
+            return list;
+        }
+        public List<Store> GetStoreByType(string StoreType)
+        {
+            string sql = "SELECT * FROM Stores WHERE StoreType=@StoreType";
+            List<Store> list = new List<Store>();
+            using (IDataReader TypeReader = this.dbContext.Read(sql))
+            {
+                while (TypeReader.Read())
+                {
+                    list.Add(this.modelFactory.StoreCreator.CreateModel(TypeReader));
+                }
+
+            }
+            return list;
+        }
         public bool Create(Store model)
         {
             string sql = $@"Insert into Stores (StoreName, StoreType, StoreIMG, StoreFloor, StoreDescription)
@@ -22,6 +50,7 @@ namespace MallWS
             return this.dbContext.Insert(sql);
 
         }
+
 
         public bool Delete(string ID)
         {

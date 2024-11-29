@@ -18,8 +18,7 @@ namespace MallWS
                     DB_Context = new DBContext();
                 }
                 return DB_Context;  
-            }
-            private DBContext()
+            }            private DBContext()
             {
                 this.connection = new OleDbConnection();
                 this.connection.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\USER\Downloads\MallDatabase.accdb";

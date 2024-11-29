@@ -16,3 +16,4 @@ namespace Models
         public int StoreTypeID {  get; set; }
     }
 }
+

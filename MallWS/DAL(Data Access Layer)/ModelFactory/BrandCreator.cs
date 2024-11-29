@@ -11,9 +11,9 @@ namespace MallWS
             Brand brand = new Brand()
             {
                 BrandName = Convert.ToString(src["BrandName"]),
-                BrandIMG = Convert.ToString(src["BrandIMG"]),
-                Products = null,
-                Sales = null
+                BrandID = Convert.ToInt32(src["BrandID"]),
+                BrandIMG = Convert.ToString(src["BrandIMG"])
+
             };
             return brand;
         }

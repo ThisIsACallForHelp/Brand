@@ -4,6 +4,7 @@ namespace MallWS
 {
     public class MallUnitOfWorkRepositery
     {
+
         BrandRepository brandRepository;
         CartRepository cartRepository;
         CustomerRepository customerRepository;

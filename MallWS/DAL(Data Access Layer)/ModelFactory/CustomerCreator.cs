@@ -11,7 +11,7 @@ namespace MallWS
             {
                 CustomerFirstName = Convert.ToString(src["CustomerFirstName"]),
                 CustomerLastName = Convert.ToString(src["CustomerLastName"]),
-                CustomerID = Convert.ToInt32(src["CustomerID"]),
+                CustomerID = Convert.ToString(src["CustomerID"]),
                 CustomerPhoneNumber = Convert.ToString(src["CustomerPhoneNumber"]),
                 CustomerPassword = Convert.ToString(src["CustomerPassword"]),
                 CustomerEmail = Convert.ToString(src["CustomerEmail"]),

@@ -9,7 +9,9 @@ namespace MallWS
         {
             Cart cart = new Cart()
             {
-                CustomerID = null,
+                CartID = Convert.ToString(src["CartID"]),
+                TotalPrice = Convert.ToDouble(src["CartID"]),
+                CustomerID = null
             };
             return cart;
         }

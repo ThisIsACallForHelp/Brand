@@ -24,6 +24,16 @@ namespace MallWS
 
         }
 
+        public Customer LoginAttempt(Customer customer)
+        {
+            string sql = "SELECT * FROM Customers WHERE CustomerID = @CustomerID";
+            using (IDataReader customerLogin = this.dbContext.Read(sql))
+            {
+                customerLogin.Read();
+                return this.modelFactory.CustomerCreator.CreateModel(customerLogin);
+            }
+        }
+
         public bool Delete(string ID)
         {
             string sql = "Delete from Customers where CustomerID=@CustomerID";

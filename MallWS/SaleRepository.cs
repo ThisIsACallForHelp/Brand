@@ -18,6 +18,7 @@ namespace MallWS
             this.dbContext.AddParameter("@Percentage", model.Product.ProductID.ToString());
             return this.dbContext.Insert(sql);
 
+
         }
 
         public bool Delete(string ID)

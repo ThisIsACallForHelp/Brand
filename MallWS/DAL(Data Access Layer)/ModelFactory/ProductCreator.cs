@@ -8,14 +8,12 @@ namespace MallWS
         {
             Product product = new Product() 
             { 
-                ProductName = Convert.ToString(src["ProductName"]),
-                ProductDescription = Convert.ToString(src["ProductDescription"]),
-                ProductPrice = Convert.ToDouble(src["ProductPrice"]),
-                ProductIMG = Convert.ToString(src["ProductIMG"]),
+                ProductID = Convert.ToInt32(src["ProductID"]),
+                ProductName = Convert.ToString(src["ProductFirstName"]),
                 Store = null,
-                Sale = null,
+                ProductPrice = Convert.ToDouble(src["ProductPrice"]),
                 Brand = null,
-                Cart = null
+                ProductIMG = Convert.ToString(src["ProductIMG"])
             };
             return product;
         }

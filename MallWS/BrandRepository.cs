@@ -21,6 +21,7 @@ namespace MallWS
                 
             }
 
+
             public bool Delete(string ID)
             {
                 string sql = "Delete from Brands where BrandID=@BrandID";

@@ -9,9 +9,9 @@ namespace MallWS
         {
             Sale sale = new Sale()
             {
+                ProductID = 0,
                 Percentage = Convert.ToInt32(src["Percentage"]),
-                Product = null,
-                Brand = null
+                SaleID = Convert.ToInt32(src["SaleID"])
             };
             return sale;
         }

@@ -12,4 +12,5 @@ namespace Models
         public int BrandNumber { get; set; }
 
     }
+
 }

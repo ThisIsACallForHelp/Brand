@@ -1,5 +1,6 @@
-﻿using Models;
+﻿
 using Microsoft.AspNetCore.Http;
+using Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MallWS
@@ -16,29 +17,83 @@ namespace MallWS
             this.MallUnitOfWork = new MallUnitOfWorkRepositery(this.dbContext);
         }
 
+
+
         [HttpGet]
-        public CatalogViewModel GetCatalogViewModel(int BrandID = -1, int SaleID= -1, int StoreTypeID = -1)
+        public Customer LoginCustmomer(Customer customer)
         {
-           CatalogViewModel catalogViewModel= new CatalogViewModel();
             try
             {
                 this.dbContext.OpenConnection();
-                catalogViewModel.Stores = MallUnitOfWork.StoreRepository.GetAll();
-                catalogViewModel.BrandID = -1;
-                catalogViewModel.SaleID = -1;
-                StoreTypeID = -1;
+                return MallUnitOfWork.CustomerRepository.LoginAttempt(customer);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                string message = ex.Message;
-                Console.WriteLine(message);
                 return null;
             }
             finally
             {
                 this.dbContext.CloseConnection();
             }
-            return catalogViewModel;
         }
+
+        [HttpPost]
+        public bool UpdateCustomer(Customer customer)
+        {
+            try
+            {
+                this.dbContext.OpenConnection();
+                bool flag = this.MallUnitOfWork.CustomerRepository.Update(customer);
+                if(flag)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+            finally
+            {
+                this.dbContext.CloseConnection();
+            }
+        }
+        [HttpGet]
+        public Store GetStoreCatalog(int AmountPerPage = 10, int PageNumber = 1, int BrandID = -1, string StoreTypeID = "", int SaleID = -1)
+        {
+            CatalogViewModel StoreViewModel = new CatalogViewModel();
+            this.dbContext.OpenConnection();
+            try
+            {
+                List<Brand> Brands = null;
+                List<Sale> Sales = null;
+                List<Store> Stores = null;
+                if(BrandID != -1)
+                {
+                    Brands = this.MallUnitOfWork.BrandRepository.GetAll();
+                }
+                if(SaleID != -1)
+                {
+                    Sales = this.MallUnitOfWork.SaleRepository.GetAll();
+                }
+                if(StoreTypeID != "")
+                {
+                    Stores = this.MallUnitOfWork.StoreRepository.GetAll();
+                }
+            }
+            catch (Exception)
+            {
+
+            }
+            finally
+            {
+                dbContext.CloseConnection();
+            }
+        }
+        
     }
 }
