@@ -10,89 +10,112 @@ namespace MallWS
 
         }
 
-        public List<Store> GetStoreByBrand(int BrandID)
-        {
-            string sql = "SELECT * FROM Stores WHERE BrandID=@BrandID";
-            List<Store> list = new List<Store>();
-            using (IDataReader TypeReader = this.dbContext.Read(sql))
-            {
-                while (TypeReader.Read())
-                {
-                    list.Add(this.modelFactory.StoreCreator.CreateModel(TypeReader));
-                }
-
-            }
-            return list;
-        }
-        public List<Store> GetStoreByType(string StoreType)
-        {
-            string sql = "SELECT * FROM Stores WHERE StoreType=@StoreType";
-            List<Store> list = new List<Store>();
-            using (IDataReader TypeReader = this.dbContext.Read(sql))
-            {
-                while (TypeReader.Read())
-                {
-                    list.Add(this.modelFactory.StoreCreator.CreateModel(TypeReader));
-                }
-
-            }
-            return list;
-        }
-        public bool Create(Store model)
+        public bool Create(Store model) //insert a new store
         {
             string sql = $@"Insert into Stores (StoreName, StoreType, StoreIMG, StoreFloor, StoreDescription)
-                            values(@StoreName,@StoreType, @StoreIMG, @StoreFloor, @StoreDescription)";  //parameters for SQL Injection, extension 1
+                            values(@StoreName,@StoreType, @StoreIMG, @StoreFloor, @StoreDescription)";  //SQL statememt that says "insert a store with this name, this type, this image, is located on this floor and has this description into the table in the DB"
             this.dbContext.AddParameter("@StoreName", model.StoreName);
             this.dbContext.AddParameter("@StoreType", model.StoreType);
             this.dbContext.AddParameter("@StoreIMG", model.StoreIMG);
             this.dbContext.AddParameter("@StoreFloor", model.StoreFloor.ToString());
             this.dbContext.AddParameter("@StoreDescription", model.StoreDescription);
-            return this.dbContext.Insert(sql);
+            return this.dbContext.Insert(sql); //inserts the new store
 
         }
 
-
-        public bool Delete(string ID)
+        public bool Delete(string ID) //delete a store with the same ID
         {
-            string sql = "Delete from Stores where StoreID=@StoreID";
+            string sql = "Delete from Stores where StoreID=@StoreID"; //SQL command that says "delete a store with this ID"
             this.dbContext.AddParameter("@StoresID", ID);
-            return this.dbContext.Delete(sql);
+            return this.dbContext.Delete(sql); //deletes the store 
         }
 
         public List<Store> GetAll()
         {
-            List<Store> list = new List<Store>();
-            string sql = "Select * from Store";
+            List<Store> list = new List<Store>(); //creates a new list 
+            string sql = "Select * from Store"; //select every column in store
             using (IDataReader Store = this.dbContext.Read(sql))
             {
                 while (Store.Read())
                 {
-                    list.Add(this.modelFactory.StoreCreator.CreateModel(Store));
+                    list.Add(this.modelFactory.StoreCreator.CreateModel(Store)); //add to the list 
                 }
             }
-            return list;
+            return list; //return the list 
         }
 
-        public Store GetById(string ID)
+        public List<Store> GetTypeList()
         {
-            string sql = "Select * from Stores Where StoreID = @StoreID";
+            string sql = "Select StoreType FROM Stores";
+            List<Store> StoreTypes = new List<Store>();
+            using (IDataReader StoreT = this.dbContext.Read(sql))
+            {
+                while (StoreT.Read())
+                {
+                    StoreTypes.Add(this.modelFactory.StoreCreator.CreateModel(StoreT));
+                }
+            }
+            return StoreTypes;
+        }
+
+        public List<Store> GetStoreByType(string StoreType)
+        {
+            string sql = "SELECT * FROM Stores WHERE StoreType = @StoreType";
+            List<Store> StoreTypes = new List<Store>();
+            using (IDataReader StoreT = this.dbContext.Read(sql))
+            {
+                while (StoreT.Read())
+                {
+                    StoreTypes.Add(this.modelFactory.StoreCreator.CreateModel(StoreT));
+                }
+            }
+            return StoreTypes;
+        }
+
+        public Store GetById(string ID) //get the store by its ID
+        {
+            string sql = "Select * from Stores Where StoreID = @StoreID"; //SQL statement that says "select a store with the same ID"
             this.dbContext.AddParameter("@StoreID", ID);
             using (IDataReader Store = this.dbContext.Read(sql))
             {
                 Store.Read();
-                return this.modelFactory.StoreCreator.CreateModel(Store);
+                return this.modelFactory.StoreCreator.CreateModel(Store); // return this store
             }
         }
-        public bool Update(Store model)
+        public bool Update(Store model) //update the a store 
         {
             string sql = $@"UPDATE Stores SET StoreName = @StoreName, StoreType = @StoreType, StoreIMG = @StoreIMG, StoreFloor = @StoreFloor, StoreDescription = @StoreDescription WHERE StoreID = @StoreID";
-                           //parameters for SQL Injection, extension 1
+            //SQL command tha says "update this info about a store with the same ID"
             this.dbContext.AddParameter("@StoreName", model.StoreName);
             this.dbContext.AddParameter("@StoreType", model.StoreType);
             this.dbContext.AddParameter("@StoreIMG", model.StoreIMG);
             this.dbContext.AddParameter("@StoreFloor", model.StoreFloor.ToString());
             this.dbContext.AddParameter("@StoreDescription", model.StoreDescription);
-            return this.dbContext.Update(sql);
+            return this.dbContext.Update(sql); //return 
+        }
+        public List<Store> GetStoresByBrand(Brand brand)
+        {
+            string sql = "SELECT \r\n   " +
+                        " Store.StoreName,\r\n    " +
+                        "Store.StoreIMG,\r\n   " +
+                        " Store.StoreDescription\r\n" +
+                        "FROM \r\n   " +
+                        " Store\r\n" +
+                        "JOIN \r\n  " +
+                        "  Brand\r\n" +
+                        "ON \r\n   " +
+                        " @Store.BrandName = @Brand.BrandName\r\n" +
+                        "WHERE \r\n    @Brand.BrandName = @Brand.BrandName;";
+            List<Store> list = new List<Store>();
+            using (IDataReader BrandReader = this.dbContext.Read(sql))
+            {
+                while (BrandReader.Read())
+                {
+                    list.Add(this.modelFactory.StoreCreator.CreateModel(BrandReader));
+                }
+            }
+            return list;
+
         }
     }
 }

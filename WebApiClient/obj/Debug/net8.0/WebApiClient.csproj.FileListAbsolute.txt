@@ -1,0 +1,13 @@
+C:\Mall\Brand\WebApiClient\bin\Debug\net8.0\WebApiClient.deps.json
+C:\Mall\Brand\WebApiClient\bin\Debug\net8.0\WebApiClient.dll
+C:\Mall\Brand\WebApiClient\bin\Debug\net8.0\WebApiClient.pdb
+C:\Mall\Brand\WebApiClient\obj\Debug\net8.0\WebApiClient.csproj.AssemblyReference.cache
+C:\Mall\Brand\WebApiClient\obj\Debug\net8.0\WebApiClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mall\Brand\WebApiClient\obj\Debug\net8.0\WebApiClient.AssemblyInfoInputs.cache
+C:\Mall\Brand\WebApiClient\obj\Debug\net8.0\WebApiClient.AssemblyInfo.cs
+C:\Mall\Brand\WebApiClient\obj\Debug\net8.0\WebApiClient.csproj.CoreCompileInputs.cache
+C:\Mall\Brand\WebApiClient\obj\Debug\net8.0\WebApiClient.sourcelink.json
+C:\Mall\Brand\WebApiClient\obj\Debug\net8.0\WebApiClient.dll
+C:\Mall\Brand\WebApiClient\obj\Debug\net8.0\refint\WebApiClient.dll
+C:\Mall\Brand\WebApiClient\obj\Debug\net8.0\WebApiClient.pdb
+C:\Mall\Brand\WebApiClient\obj\Debug\net8.0\ref\WebApiClient.dll
