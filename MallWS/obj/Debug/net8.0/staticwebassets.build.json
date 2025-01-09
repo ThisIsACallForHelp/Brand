@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "rbGbHvhI+q3rJ1IkIuvaLvNE4sSGk9qDuL36DlLlGhg=",
+  "Hash": "kI7EKVHPHzwn0o3iyOawlcsssAHintQ+/fVh9kpLeM4=",
   "Source": "MallWS",
   "BasePath": "_content/MallWS",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

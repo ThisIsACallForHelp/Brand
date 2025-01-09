@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "ProjectGUI/Home.6ozqw6yes1.html",
+      "AssetFile": "ProjectGUI/Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fs9uerP+fn8LI6idYxgeApbRQs21pYWB6JihkWy9Nmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 17:59:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6ozqw6yes1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fs9uerP+fn8LI6idYxgeApbRQs21pYWB6JihkWy9Nmk="
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/Home.html"
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/Home.html",
+      "AssetFile": "ProjectGUI/Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fs9uerP+fn8LI6idYxgeApbRQs21pYWB6JihkWy9Nmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 17:59:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fs9uerP+fn8LI6idYxgeApbRQs21pYWB6JihkWy9Nmk="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/HomeStyle.css",
+      "AssetFile": "ProjectGUI/HomeStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y5XlwWy8G0FuW35GkoSB/5ZEohv+zOwTLDvF53TuuA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 17:59:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y5XlwWy8G0FuW35GkoSB/5ZEohv+zOwTLDvF53TuuA8="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/HomeStyle.ro58n4s412.css",
+      "AssetFile": "ProjectGUI/HomeStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y5XlwWy8G0FuW35GkoSB/5ZEohv+zOwTLDvF53TuuA8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 17:59:32 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ro58n4s412"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y5XlwWy8G0FuW35GkoSB/5ZEohv+zOwTLDvF53TuuA8="
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/HomeStyle.css"
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/images/CRYSTAL_MallLogo.l65er74b3x.png",
+      "AssetFile": "ProjectGUI/images/CRYSTAL_MallLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vYhYP/w4E25ETNn/0C3ntTEix1xmp0+Obf6cmKSiizQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 19:04:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l65er74b3x"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vYhYP/w4E25ETNn/0C3ntTEix1xmp0+Obf6cmKSiizQ="
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/images/CRYSTAL_MallLogo.png"
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/images/CRYSTAL_MallLogo.png",
+      "AssetFile": "ProjectGUI/images/CRYSTAL_MallLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vYhYP/w4E25ETNn/0C3ntTEix1xmp0+Obf6cmKSiizQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 19:04:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vYhYP/w4E25ETNn/0C3ntTEix1xmp0+Obf6cmKSiizQ="
+        }
+      ]
+    }
+  ]
+}

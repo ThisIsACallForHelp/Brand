@@ -1,0 +1,3 @@
+wwwroot\ProjectGUI\Home.html
+wwwroot\ProjectGUI\HomeStyle.css
+wwwroot\ProjectGUI\images\CRYSTAL_MallLogo.png

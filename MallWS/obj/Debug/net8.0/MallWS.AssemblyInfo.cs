@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MallWS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acce0c2d5105f64f29678ed696689e096568bbe9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb3a6fba148743c8476aaff3ea77d6f7999555c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("MallWS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MallWS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "MallWS\\MallWS.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MallWebApp\\MallWebApp.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
