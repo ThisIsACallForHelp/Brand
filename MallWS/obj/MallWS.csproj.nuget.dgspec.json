@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyMall\\Brand\\MallWS\\MallWS.csproj": {}
+    "C:\\Brand\\MallWS\\MallWS.csproj": {}
   },
   "projects": {
-    "C:\\MyMall\\Brand\\MallWS\\MallWS.csproj": {
+    "C:\\Brand\\MallWS\\MallWS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyMall\\Brand\\MallWS\\MallWS.csproj",
+        "projectUniqueName": "C:\\Brand\\MallWS\\MallWS.csproj",
         "projectName": "MallWS",
-        "projectPath": "C:\\MyMall\\Brand\\MallWS\\MallWS.csproj",
+        "projectPath": "C:\\Brand\\MallWS\\MallWS.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\MyMall\\Brand\\MallWS\\obj\\",
+        "outputPath": "C:\\Brand\\MallWS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,8 +34,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\MyMall\\Brand\\Models\\Models.csproj": {
-                "projectPath": "C:\\MyMall\\Brand\\Models\\Models.csproj"
+              "C:\\Brand\\Models\\Models.csproj": {
+                "projectPath": "C:\\Brand\\Models\\Models.csproj"
               }
             }
           }
@@ -47,9 +48,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -83,21 +83,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyMall\\Brand\\Models\\Models.csproj": {
+    "C:\\Brand\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyMall\\Brand\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Brand\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\MyMall\\Brand\\Models\\Models.csproj",
+        "projectPath": "C:\\Brand\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\MyMall\\Brand\\Models\\obj\\",
+        "outputPath": "C:\\Brand\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,9 +127,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -149,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

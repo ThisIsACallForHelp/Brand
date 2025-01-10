@@ -71,7 +71,7 @@ namespace WebApiClient
                 if(this.response.IsSuccessStatusCode == true)
                 {
                     string json = await this.response.Content.ReadAsStringAsync();
-                    T viewModel = JsonSerializer.Deserialize<T>(json);
+                    T viewModel = await this.response.Content.ReadAsAsync<T>();
                     return viewModel;
                 }
 

@@ -25,9 +25,19 @@
     --tran-05: all 0.5s ease;
 }
 
-body{
-    height:100vh;
+.ContentHandle{
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+body {
+    height: 100vh;
     background: var(--body-color);
+    display: flex;
 }
 
 .sidebar li .icon,
@@ -62,6 +72,7 @@ body{
     padding: 10px 14px;
     background: var(--sidebar-color);
 }
+
 
 .sidebar header{
     position: relative;

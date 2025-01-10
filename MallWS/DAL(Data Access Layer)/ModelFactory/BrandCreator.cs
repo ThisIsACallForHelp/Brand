@@ -12,7 +12,7 @@ namespace MallWS
             {
                 BrandName = Convert.ToString(src["BrandName"]),
                 BrandID = Convert.ToInt32(src["BrandID"]),
-                BrandIMG = Convert.ToString(src["BrandIMG"])
+                BrandIMG = "http://localhost:7274/Images/Brands" + Convert.ToString(src["BrandIMG"])
 
             };
             return brand;

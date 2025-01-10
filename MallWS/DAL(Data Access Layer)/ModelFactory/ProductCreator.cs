@@ -13,7 +13,7 @@ namespace MallWS
                 Store = null,
                 ProductPrice = Convert.ToDouble(src["ProductPrice"]),
                 Brand = null,
-                ProductIMG = Convert.ToString(src["ProductIMG"])
+                ProductIMG = "http://localhost:7274/Images/Products" + Convert.ToString(src["ProductIMG"])
             };
             return product;
         }

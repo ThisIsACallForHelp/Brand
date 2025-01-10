@@ -28,6 +28,7 @@ namespace MallWS
 
             app.UseAuthorization();
 
+            app.UseStaticFiles();
 
             app.MapControllers();
 

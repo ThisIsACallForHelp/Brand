@@ -6,7 +6,7 @@ namespace MallWebApp.Controllers
 {
     public class ControllerController : Controller
     {
-        public IActionResult Index()
+        public IActionResult StartPage()
         {
             return View();
         }

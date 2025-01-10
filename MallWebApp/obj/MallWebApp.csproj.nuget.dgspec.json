@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MyMall\\Brand\\MallWebApp\\MallWebApp.csproj": {}
+    "C:\\Brand\\MallWebApp\\MallWebApp.csproj": {}
   },
   "projects": {
-    "C:\\MyMall\\Brand\\MallWebApp\\MallWebApp.csproj": {
+    "C:\\Brand\\MallWebApp\\MallWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyMall\\Brand\\MallWebApp\\MallWebApp.csproj",
+        "projectUniqueName": "C:\\Brand\\MallWebApp\\MallWebApp.csproj",
         "projectName": "MallWebApp",
-        "projectPath": "C:\\MyMall\\Brand\\MallWebApp\\MallWebApp.csproj",
+        "projectPath": "C:\\Brand\\MallWebApp\\MallWebApp.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\MyMall\\Brand\\MallWebApp\\obj\\",
+        "outputPath": "C:\\Brand\\MallWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -33,11 +34,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\MyMall\\Brand\\Models\\Models.csproj": {
-                "projectPath": "C:\\MyMall\\Brand\\Models\\Models.csproj"
+              "C:\\Brand\\Models\\Models.csproj": {
+                "projectPath": "C:\\Brand\\Models\\Models.csproj"
               },
-              "C:\\MyMall\\Brand\\WebApiClient\\WebApiClient.csproj": {
-                "projectPath": "C:\\MyMall\\Brand\\WebApiClient\\WebApiClient.csproj"
+              "C:\\Brand\\WebApiClient\\WebApiClient.csproj": {
+                "projectPath": "C:\\Brand\\WebApiClient\\WebApiClient.csproj"
               }
             }
           }
@@ -50,9 +51,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -82,21 +82,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyMall\\Brand\\Models\\Models.csproj": {
+    "C:\\Brand\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyMall\\Brand\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Brand\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\MyMall\\Brand\\Models\\Models.csproj",
+        "projectPath": "C:\\Brand\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\MyMall\\Brand\\Models\\obj\\",
+        "outputPath": "C:\\Brand\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -125,9 +126,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -148,21 +148,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\MyMall\\Brand\\WebApiClient\\WebApiClient.csproj": {
+    "C:\\Brand\\WebApiClient\\WebApiClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MyMall\\Brand\\WebApiClient\\WebApiClient.csproj",
+        "projectUniqueName": "C:\\Brand\\WebApiClient\\WebApiClient.csproj",
         "projectName": "WebApiClient",
-        "projectPath": "C:\\MyMall\\Brand\\WebApiClient\\WebApiClient.csproj",
+        "projectPath": "C:\\Brand\\WebApiClient\\WebApiClient.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\MyMall\\Brand\\WebApiClient\\obj\\",
+        "outputPath": "C:\\Brand\\WebApiClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -191,9 +192,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -202,6 +202,10 @@
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "System.Net.Http.Formatting.Extension": {
+              "target": "Package",
+              "version": "[5.2.3, )"
             },
             "System.ObjectModel": {
               "target": "Package",
@@ -228,7 +232,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

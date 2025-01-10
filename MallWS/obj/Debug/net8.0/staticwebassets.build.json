@@ -1,12 +1,19 @@
 {
   "Version": 1,
-  "Hash": "kI7EKVHPHzwn0o3iyOawlcsssAHintQ+/fVh9kpLeM4=",
+  "Hash": "3zBVmG9XtkVTt/tsfkqOScyA2wntY6BgPFN3h95q31M=",
   "Source": "MallWS",
   "BasePath": "_content/MallWS",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "MallWS\\wwwroot",
+      "Source": "MallWS",
+      "ContentRoot": "C:\\Brand\\MallWS\\wwwroot\\",
+      "BasePath": "_content/MallWS",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
 }
