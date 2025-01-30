@@ -5,15 +5,15 @@ namespace MallWS
 {
     public class SaleCreator : IModelCreator<Sale>
     {
-        public Sale CreateModel(IDataReader src)
+        public Sale CreateModel(IDataReader src) //create a new model
         {
-            Sale sale = new Sale()
+            Sale sale = new Sale() //assemble the model
             {
-                ProductID = 0,
-                Percentage = Convert.ToInt32(src["Percentage"]),
-                SaleID = Convert.ToInt32(src["SaleID"])
+                ProductID = 0, //Product ID
+                Percentage = Convert.ToInt32(src["Percentage"]), //Sale percentage
+                SaleID = Convert.ToInt32(src["SaleID"]) //Sale ID
             };
-            return sale;
+            return sale; //return the model
         }
     }
     

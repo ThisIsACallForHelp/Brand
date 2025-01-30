@@ -64,20 +64,23 @@ namespace MallWS
             this.dbContext.AddParameter("@CustomerID", model.Customer.CustomerID.ToString());
             return this.dbContext.Update(sql); //Update
         }
-        public bool ProductIntoCart(Product product)
+        public bool ProductIntoCart(Product product) //insert a product into a cart 
         {
             string sql = "ALTER TABLE Cart ADD ProductID INT;" +
                          "\r\nALTER TABLE Cart ADD Quantity INT;\r\n" +
                          "INSERT INTO Cart (CartID, ProductID, Quantity)\r\n" +
                          "VALUES (@CartID, @ProductID);\r\n";
+            //enter the product into the cart
             this.dbContext.AddParameter("@ProductID", product.ProductID.ToString());
             return this.dbContext.Update(sql);
+            //update the cart
         }
-        public bool DeleteProductInCart(Product product)
+        public bool DeleteProductInCart(Product product) //delete a product from cart
         {
             string sql = "\r\nDELETE FROM Cart\r\nWHERE CartID = @CartID AND ProductID = @ProductID;\r\n";
+            //delete the product with this ID from a cart with this ID 
             this.dbContext.AddParameter("@ProductID", product.ProductID.ToString());
-            return this.dbContext.Delete(sql);
+            return this.dbContext.Delete(sql); //execute 
         }
     }
 }

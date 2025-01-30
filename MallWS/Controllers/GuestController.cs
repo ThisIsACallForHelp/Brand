@@ -9,110 +9,135 @@ namespace MallWS
     [ApiController]
     public class GuestController : ControllerBase
     {
-            DBContext dbContext;
+            DBContext dbContext; //the DBContext 
             MallUnitOfWorkRepositery MallUnitOfWork { get; set; }
-            public GuestController()
+            public GuestController() //constructor 
             {
-                this.dbContext = DBContext.GetInstance();
-                this.MallUnitOfWork = new MallUnitOfWorkRepositery(this.dbContext);
+                this.dbContext = DBContext.GetInstance(); //get instance of DBContext
+                this.MallUnitOfWork = new MallUnitOfWorkRepositery(this.dbContext); //unit of work
             }
 
-            [HttpGet]
-            public Customer? LoginCustomer(Customer customer)
+            [HttpGet] //we are trying to log in, not register. so it is an HTTP GET packet
+            public Customer LoginCustomer(string CustomerFirstName, string CustomerLastName, string CustomerPassword)
+                //get all of the info 
             {
                 try
                 {
-                    this.dbContext.OpenConnection();
-                    return MallUnitOfWork.CustomerRepository.LoginAttempt(customer);
+                    this.dbContext.OpenConnection(); //open connection
+                    return MallUnitOfWork.CustomerRepository.LoginAttempt(CustomerFirstName, CustomerLastName, CustomerPassword);
+                    //return all the info about the customer 
                 }
-                catch (Exception ex)
+                catch (Exception ex) //if there is an excepion
                 {
-                    string message = ex.Message;
-                    Console.WriteLine(message);
-                    return null;
+                    string message = ex.Message; //create a string showing it 
+                    Console.WriteLine(message); //print it 
+                    return null; //return null (error)
                 }
                 finally
                 {
-                    this.dbContext.CloseConnection();
+                    this.dbContext.CloseConnection(); //close connection no matter what 
                 }
             }
+            //we are talking about registration which requires inserting a new Customer 
+            //to the DB, so its an HTTP POST packet
             [HttpPost]
-            public bool AddNewCustomer(Customer customer)
+            public bool AddNewCustomer(Customer customer) //get all of the info you need 
             {
                 try
                 {
-                    this.dbContext.OpenConnection();
+                    this.dbContext.OpenConnection(); //open the connection 
                     return MallUnitOfWork.CustomerRepository.Create(customer);
+                    //create a customer 
                 }
-                catch (Exception ex)
+                catch (Exception ex) //catch and exception
                 {
-                    string Message = ex.Message;
-                    Console.WriteLine(Message);
-                    return false;
+                    string Message = ex.Message; //make it a string
+                    Console.WriteLine(Message); //print it 
+                    return false; //return false (registration failed)
                 }
                 finally
                 {
-                    this.dbContext.CloseConnection();
+                    this.dbContext.CloseConnection(); //close the connection
+                }
+            }
+            
+            //we are updating info in our DB, so it's a HTTP POST packet 
+            [HttpPost]
+            public bool UpdateCustomerInfo(Customer customer) //get all of the info
+            {
+                try
+                {
+                    this.dbContext.OpenConnection(); //open connection
+                    return MallUnitOfWork.CustomerRepository.Update(customer);
+                    //take all of the new info and update the user
+                }
+                catch (Exception ex) //if there is an error 
+                {
+                    string message = ex.Message; //convert the exception to string 
+                    Console.WriteLine(message); //print it 
+                    return false; //return false (error)
+                }
+                finally
+                {
+                    this.dbContext.CloseConnection(); //close connection
+                }
+            }
+            //we want to get the catalog, so its an HTTP GET packet 
+            [HttpGet]
+            public CatalogViewModel GetStoreCatalog() //get the store catalog
+            {
+                CatalogViewModel catalogViewModel = new CatalogViewModel(); 
+                //create a new Store catalog object
+                try
+                {
+                    List<Store> allStores = MallUnitOfWork.StoreRepository.GetAll().ToList(); 
+                    //create a list of stores since we are showing all of the stores.
+                    //from the initialization of the list, call the repository to get all of the stores and 
+                    //fill the list 
+                    this.dbContext.OpenConnection(); //open connection 
+                    catalogViewModel.Stores = allStores; //the object's store list is all of our stores 
+                    return catalogViewModel; //return the catalog 
+                }
+                catch (Exception ex) //catch an exception 
+                {
+                    string message = ex.Message; //make it a string
+                    Console.WriteLine(message); //print it 
+                    return null; //return null 
+                }
+                finally
+                {
+                    this.dbContext.CloseConnection(); //close the connection 
                 }
             }
 
-            [HttpPost]
-            public bool UpdateCustomerInfo(Customer customer)
-            {
-                try
-                {
-                    this.dbContext.OpenConnection();
-                    return MallUnitOfWork.CustomerRepository.Update(customer);
-                }
-                catch (Exception ex)
-                {
-                    string message = ex.Message;
-                    Console.WriteLine(message);
-                    return false;
-                }
-                finally
-                {
-                    this.dbContext.CloseConnection();
-                }
-            }
+            //we want to request a brand catalog, so that is a HTTP GET packet 
             [HttpGet]
-            public List<Store> GetStoreCatalog()
+            public BrandCatalogViewModel GetBrandCatalog()
             {
+                BrandCatalogViewModel brandCatalogViewModel = new BrandCatalogViewModel();
+                //create a Brand catalog object 
                 try
                 {
-                    this.dbContext.OpenConnection();
-                    return this.MallUnitOfWork.StoreRepository.GetAll();
+                    List<Brand> AllBrands = MallUnitOfWork.BrandRepository.GetAll().ToList();
+                    //fill the list with all the brands 
+                    this.dbContext.OpenConnection(); //open connection 
+                    brandCatalogViewModel.Brands = AllBrands;
+                    //asign the object's list to be the brand list
+                    return brandCatalogViewModel; //return the object 
                 }
-                catch (Exception ex)
+                catch (Exception ex) //if there is an exception 
                 {
-                    string message = ex.Message;
-                    Console.WriteLine(message);
-                    return null;
+                    string message = ex.Message; //make it a string 
+                    Console.WriteLine(message); //print it 
+                    return null; //return null 
                 }
                 finally
                 {
-                    this.dbContext.CloseConnection();
+                    this.dbContext.CloseConnection(); //close connection 
                 }
             }
-            [HttpGet]
-            public List<Brand> GetBrandCatalog()
-            {
-                try
-                {
-                    this.dbContext.OpenConnection();
-                    return this.MallUnitOfWork.BrandRepository.GetAll();
-                }
-                catch (Exception ex)
-                {
-                    string message = ex.Message;
-                    Console.WriteLine(message);
-                    return null;
-                }
-                finally
-                {
-                    this.dbContext.CloseConnection();
-                }
-            }
+
+            //we want to get a store type list, so its an HTTP GET packet
             [HttpGet]
             public List<Store> GetStoreTypeList()
             {
@@ -132,121 +157,157 @@ namespace MallWS
                     this.dbContext.CloseConnection();
                 }
             }
+
+            //we want to get all of the stores by their types, so its an HTTP GET packet 
             [HttpGet]
-            public List<Store> GetStoreByType(string StoreType)
+            public CatalogViewModel GetStoreByType(string StoreType)
+            //return the catalog of store by a specific request 
             {
+                CatalogViewModel TypeCatalogViewModel = new CatalogViewModel();
                 try
                 {
-                    this.dbContext.OpenConnection();
-                    return this.MallUnitOfWork.StoreRepository.GetStoreByType(StoreType);
+                    List<Store> TypeStores = MallUnitOfWork.StoreRepository.GetStoreByType(StoreType).ToList();
+                    //create a list with the stores in it and use the function we built 
+                    //in the repository, which returns a list of all the stores with a specific type 
+                    this.dbContext.OpenConnection(); //open connection 
+                    TypeCatalogViewModel.Stores = TypeStores;
+                    //asign a value to our list 
+                    return TypeCatalogViewModel; //return it!
                 }
-                catch (Exception ex)
+                catch (Exception ex) //if there was an error 
                 {
-                    string message = ex.Message;
-                    Console.WriteLine(message);
-                    return null;
+                    string message = ex.Message; //make a string 
+                    Console.WriteLine(message); //print it out 
+                    return null; //return null 
                 }
                 finally
                 {
-                    this.dbContext.CloseConnection();
-                }
-            }
-            [HttpGet]
-            public List<Store> GetStoresByBrand(Brand brand)
-            {
-                try
-                {
-                    this.dbContext.OpenConnection();
-                    return this.MallUnitOfWork.StoreRepository.GetStoresByBrand(brand);
-                }
-                catch (Exception ex)
-                {
-                    string message = ex.Message;
-                    Console.WriteLine(message);
-                    return null;
-                }
-                finally
-                {
-                    this.dbContext.CloseConnection();
-                }
-            }
-            [HttpGet]
-            public List<Product> GetProductsBySale()
-            {
-                try
-                {
-                    this.dbContext.OpenConnection();
-                    return this.MallUnitOfWork.ProductRepository.GetBySales();
-                }
-                catch (Exception ex)
-                {
-                    string message = ex.Message;
-                    Console.WriteLine(message);
-                    return null;
-                }
-                finally
-                {
-                    this.dbContext.CloseConnection();
-                }
-            }
-            [HttpPost]
-            public bool InsertInTheCart(Product product)
-            {
-                try
-                {
-                    this.dbContext.OpenConnection();
-                    return this.MallUnitOfWork.CartRepository.ProductIntoCart(product);
-                }
-                catch (Exception ex)
-                {
-                    string message = ex.Message;
-                    Console.WriteLine(message);
-                    return false;
-                }
-                finally
-                {
-                    this.dbContext.CloseConnection();
-                }
-            }
-            [HttpPost]
-            public bool DeleteFromTheCart(Product product)
-            {
-                try
-                {
-                    this.dbContext.OpenConnection();
-                    return this.MallUnitOfWork.CartRepository.DeleteProductInCart(product);
-                }
-                catch (Exception ex)
-                {
-                    string message = ex.Message;
-                    Console.WriteLine(message);
-                    return false;
-                }
-                finally
-                {
-                    this.dbContext.CloseConnection();
-                }
-            }
-            [HttpGet]
-            public List<Product> GetAllFromStore(Store store)
-            {
-                try
-                {
-                    this.dbContext.OpenConnection();
-                    return this.MallUnitOfWork.ProductRepository.GetProductsFromStore(store);
-                }
-                catch (Exception ex)
-                {
-                    string message = ex.Message;
-                    Console.WriteLine(message);
-                    return null;
-                }
-                finally
-                {
-                    this.dbContext.CloseConnection();
+                    this.dbContext.CloseConnection(); //close the connection 
                 }
             }
 
+            //we want to get a page with stores by their brands, so its an HTTP GET  packet 
+            [HttpGet]
+            public CatalogViewModel GetStoresByBrand(Brand brand) //get the brand 
+            {
+                CatalogViewModel StoreByTypeCatalogViewModel = new CatalogViewModel();
+                //the view model object
+                try
+                {
+                    
+                    List<Store> StoreByBrand = MallUnitOfWork.StoreRepository.GetStoresByBrand(brand).ToList();
+                    //asign the values to the list
+                    this.dbContext.OpenConnection(); //open connection 
+                    StoreByTypeCatalogViewModel.Stores = StoreByBrand; //give the lsit it's values 
+                    return StoreByTypeCatalogViewModel; //return it 
+                }
+                catch (Exception ex) //if there is an error 
+                {
+                    string message = ex.Message; //make a string 
+                    Console.WriteLine(message); //print it 
+                    return null; //return null
+                }
+                finally
+                {
+                    this.dbContext.CloseConnection(); //close connection 
+                }
+            }
+            //we want to see the products on sale 
+            [HttpGet]
+            public ProductCatalogViewModel GetProductsBySale()
+            {
+                ProductCatalogViewModel saleCatalogViewModel = new ProductCatalogViewModel();
+                //create a new object 
+                try
+                {
+                    List<Product> SaleList = MallUnitOfWork.ProductRepository.GetBySales();
+                    //create a list that contains all of the products on sale 
+                    this.dbContext.OpenConnection(); //open connection 
+                    saleCatalogViewModel.ProductsOnSale = SaleList;
+                    //asign the Products on sale list 
+                    return saleCatalogViewModel;
+                    //return it
+                }
+                catch (Exception ex) //catch an exception
+                {
+                    string message = ex.Message; //make it a string 
+                    Console.WriteLine(message); //print it 
+                    return null; //return null
+                }
+                finally
+                {
+                    this.dbContext.CloseConnection(); //close connection 
+                }
+            }
+            //this time, we are adding a product into the cart, so its an HTTP POST packet 
+            [HttpPost]
+            public bool InsertInTheCart(Product product) //get a product 
+            {
+                try
+                {
+                    this.dbContext.OpenConnection(); //open the connection
+                    return this.MallUnitOfWork.CartRepository.ProductIntoCart(product); //insert it 
+                }
+                catch (Exception ex) //catch an error 
+                {
+                    string message = ex.Message; //make it a string 
+                    Console.WriteLine(message); //print it 
+                    return false; //return flase 
+                }
+                finally
+                {
+                    this.dbContext.CloseConnection(); //close the connection
+                }
+            }
+            //we are deleting a product from Customer's cart, so it's an HTTP POST packet
+            [HttpPost]
+            public bool DeleteFromTheCart(Product product) //delete a product from cart
+            {
+                try
+                {
+                    this.dbContext.OpenConnection(); //open connection 
+                    return this.MallUnitOfWork.CartRepository.DeleteProductInCart(product); //delete it 
+                }
+                catch (Exception ex) //catch an exception 
+                {
+                    string message = ex.Message; //make it a string 
+                    Console.WriteLine(message); //print it 
+                    return false; //return flase
+                }
+                finally
+                {
+                    this.dbContext.CloseConnection(); //close the connection
+                }
+            }
+            //we are getting all products from a store, so it's an HTTP GET packet
+            [HttpGet]
+            public ProductCatalogViewModel GetAllFromStore(Store store) 
+            //get a store                
+            {
+                ProductCatalogViewModel productCatalogViewModel = new ProductCatalogViewModel();
+                //product catalog view model object
+                try
+                {
+                    List<Product> ProductsFromStore = MallUnitOfWork.ProductRepository.GetProductsFromStore(store);
+                    //create a list of products from a requested store  
+                    this.dbContext.OpenConnection();
+                    productCatalogViewModel.ProductsOnSale = ProductsFromStore;
+                    //give the list it's value
+                    return productCatalogViewModel; //return it 
+                }
+                catch (Exception ex) //if an error occured:
+                {
+                    string message = ex.Message; //make it a string 
+                    Console.WriteLine(message); //print it 
+                    return null; //return null
+                }
+                finally
+                {
+                    this.dbContext.CloseConnection(); //close the connection 
+                }
+            }
+            //PLEEEEASE HELP MY FINGERS ARE ON FIRE AFTER TYPING THAT MUCHHHH
+            //Also fixed some strange stuff, new version 
     }
 
 }

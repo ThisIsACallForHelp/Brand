@@ -1,16 +1,20 @@
 {
   "Files": [
     {
-      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
+      "Id": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
       "PackagePath": "staticwebassets\\ProjectGUI\\Home.html"
     },
     {
-      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
+      "Id": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
       "PackagePath": "staticwebassets\\ProjectGUI\\HomeStyle.css"
     },
     {
-      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
+      "Id": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
       "PackagePath": "staticwebassets\\ProjectGUI\\images\\CRYSTAL_MallLogo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MallWebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MallWebApp.Microsoft.AspNetCore.StaticWebAssets.props",

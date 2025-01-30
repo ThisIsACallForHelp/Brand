@@ -477,3 +477,6 @@ C:\Brand\MallWebApp\obj\Debug\net8.0\ref\MallWebApp.dll
 C:\Brand\MallWebApp\bin\Debug\net8.0\System.Net.Http.WebRequest.dll
 C:\Brand\MallWebApp\bin\Debug\net8.0\System.Net.Http.Extensions.dll
 C:\Brand\MallWebApp\bin\Debug\net8.0\System.Net.Http.Primitives.dll
+C:\MyMall\Brand\MallWebApp\bin\Debug\net8.0\System.Net.Http.WebRequest.dll
+C:\MyMall\Brand\MallWebApp\bin\Debug\net8.0\System.Net.Http.Extensions.dll
+C:\MyMall\Brand\MallWebApp\bin\Debug\net8.0\System.Net.Http.Primitives.dll

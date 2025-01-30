@@ -59,7 +59,8 @@ namespace MallWS
                          " Sale.Percentage\r\nFROM \r\n  " +
                          "  Product\r\nINNER JOIN \r\n  " +
                          "  Sale ON Product.ProductID = Sale.ProductID;\r\n";
-            List<Product> list = new List<Product>();
+            //select every piece of data about the product and put it in the sales table
+            List<Product> list = new List<Product>(); //make a new list
             using (IDataReader Product = this.dbContext.Read(sql)) //Read the command
             {
                 while (Product.Read()) //until you didnt reach the end of this table...
@@ -108,6 +109,7 @@ namespace MallWS
                          " Store.StoreDescription\r\nFROM \r\n " +
                          "   Product\r\nINNER JOIN \r\n  " +
                          "  Store ON Product.StoreID = Store.StoreID;\r\n";
+            //get the products from a specific store if the IDs match
             List<Product> products = new List<Product>();
             using (IDataReader Product = this.dbContext.Read(sql)) //Read the command
             {
@@ -116,7 +118,7 @@ namespace MallWS
                     products.Add(this.modelFactory.ProductCreator.CreateModel(Product)); //add each product to the list
                 }
             }
-            return products;
+            return products; //return the list
         }
     }
 }

@@ -1658,7 +1658,10 @@
       },
       "Models/1.0.0": {
         "runtime": {
-          "Models.dll": {}
+          "Models.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "WebApiClient/1.0.0": {
@@ -1669,7 +1672,10 @@
           "System.Text.Json": "9.0.0"
         },
         "runtime": {
-          "WebApiClient.dll": {}
+          "WebApiClient.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

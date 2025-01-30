@@ -5,21 +5,21 @@ namespace MallWS
 {
     public class CustomerCreator : IModelCreator<Customer>
     {
-        public Customer CreateModel(IDataReader src)
+        public Customer CreateModel(IDataReader src) //create the model
         {
             Customer customer = new Customer()
             {
-                CustomerFirstName = Convert.ToString(src["CustomerFirstName"]),
-                CustomerLastName = Convert.ToString(src["CustomerLastName"]),
-                CustomerID = Convert.ToString(src["CustomerID"]),
-                CustomerPhoneNumber = Convert.ToString(src["CustomerPhoneNumber"]),
-                CustomerPassword = Convert.ToString(src["CustomerPassword"]),
-                CustomerEmail = Convert.ToString(src["CustomerEmail"]),
-                CustomerCity = Convert.ToString(src["CustomerCity"]),
-                CustomerStreet = Convert.ToString(src["CustomerRegion"]),
-                Cart = null
+                CustomerFirstName = Convert.ToString(src["CustomerFirstName"]), //Customer's first name
+                CustomerLastName = Convert.ToString(src["CustomerLastName"]), //Customer's Last Name
+                CustomerID = Convert.ToString(src["CustomerID"]), //Customer's real life ID 
+                CustomerPhoneNumber = Convert.ToString(src["CustomerPhoneNumber"]), //Customer's phone number
+                CustomerPassword = Convert.ToString(src["CustomerPassword"]), // Customer's password
+                CustomerEmail = Convert.ToString(src["CustomerEmail"]), // Customer's Email
+                CustomerCity = Convert.ToString(src["CustomerCity"]), // Customer city
+                CustomerStreet = Convert.ToString(src["CustomerRegion"]), // Customer street
+                CartID = null //Customer's cart 
             }; 
-            return customer;
+            return customer; //return the model 
         }
     }
 }

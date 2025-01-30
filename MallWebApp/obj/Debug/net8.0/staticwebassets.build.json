@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HZpffibWBuN3tok+PpvK+38dj+iTgP8v3puqttA66Qc=",
+  "Hash": "zh92hml2XSuXRBxcxAbqmFSBcFVkKgKqcqTpGK8U7DI=",
   "Source": "MallWebApp",
   "BasePath": "_content/MallWebApp",
   "Mode": "Default",
@@ -10,68 +10,322 @@
     {
       "Name": "MallWebApp\\wwwroot",
       "Source": "MallWebApp",
-      "ContentRoot": "C:\\Brand\\MallWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\",
       "BasePath": "_content/MallWebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
+      "Identity": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
       "SourceId": "MallWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Brand\\MallWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\",
       "BasePath": "_content/MallWebApp",
-      "RelativePath": "ProjectGUI/Home.html",
+      "RelativePath": "ProjectGUI/Home#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "hhpe0nig6g",
+      "Integrity": "hVRYcqVrbI8CfHPpWVLqYObg3ZI/8Q7vDiBY9KhvJTE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ProjectGUI\\Home.html"
     },
     {
-      "Identity": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
+      "Identity": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
       "SourceId": "MallWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Brand\\MallWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\",
       "BasePath": "_content/MallWebApp",
-      "RelativePath": "ProjectGUI/HomeStyle.css",
+      "RelativePath": "ProjectGUI/HomeStyle#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "5fdqhyppoa",
+      "Integrity": "cQ+9usiqFdsONMTPvD3MqJWBwJsxRfVI/FFGPaZ+NIk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ProjectGUI\\HomeStyle.css"
     },
     {
-      "Identity": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
+      "Identity": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
       "SourceId": "MallWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Brand\\MallWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\",
       "BasePath": "_content/MallWebApp",
-      "RelativePath": "ProjectGUI/images/CRYSTAL_MallLogo.png",
+      "RelativePath": "ProjectGUI/images/CRYSTAL_MallLogo#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "l65er74b3x",
+      "Integrity": "vYhYP/w4E25ETNn/0C3ntTEix1xmp0+Obf6cmKSiizQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "ProjectGUI/Home.hhpe0nig6g.html",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hVRYcqVrbI8CfHPpWVLqYObg3ZI/8Q7vDiBY9KhvJTE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hhpe0nig6g"
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/Home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hVRYcqVrbI8CfHPpWVLqYObg3ZI/8Q7vDiBY9KhvJTE="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/Home.html",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hVRYcqVrbI8CfHPpWVLqYObg3ZI/8Q7vDiBY9KhvJTE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hVRYcqVrbI8CfHPpWVLqYObg3ZI/8Q7vDiBY9KhvJTE="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/HomeStyle.5fdqhyppoa.css",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cQ+9usiqFdsONMTPvD3MqJWBwJsxRfVI/FFGPaZ+NIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5fdqhyppoa"
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/HomeStyle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cQ+9usiqFdsONMTPvD3MqJWBwJsxRfVI/FFGPaZ+NIk="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/HomeStyle.css",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2812"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cQ+9usiqFdsONMTPvD3MqJWBwJsxRfVI/FFGPaZ+NIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cQ+9usiqFdsONMTPvD3MqJWBwJsxRfVI/FFGPaZ+NIk="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/images/CRYSTAL_MallLogo.l65er74b3x.png",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vYhYP/w4E25ETNn/0C3ntTEix1xmp0+Obf6cmKSiizQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l65er74b3x"
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/images/CRYSTAL_MallLogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vYhYP/w4E25ETNn/0C3ntTEix1xmp0+Obf6cmKSiizQ="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/images/CRYSTAL_MallLogo.png",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "378564"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vYhYP/w4E25ETNn/0C3ntTEix1xmp0+Obf6cmKSiizQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vYhYP/w4E25ETNn/0C3ntTEix1xmp0+Obf6cmKSiizQ="
+        }
+      ]
     }
   ]
 }

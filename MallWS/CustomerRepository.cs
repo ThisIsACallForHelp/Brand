@@ -9,10 +9,11 @@ namespace MallWS
         {
 
         }
-        public bool Create(Customer model)
+        public bool Create(Customer model) //create a customer
         {
             string sql = $@"Insert into Customers (CustomerFirstName, CustomerLastName, CustomerPhoneNumber, CustomerEmail, CustomerCity, CustomerStreet, CustomerPassword)
-                            values(@CustomerFirstName,@CustomerLastName, @CustomerPhoneNumber, @CustomerEmail, @CustomerCity, @CustomerStreet, @CustomerPassword)";  //parameters for SQL Injection, extension 1
+                            values(@CustomerFirstName,@CustomerLastName, @CustomerPhoneNumber, @CustomerEmail, @CustomerCity, @CustomerStreet, @CustomerPassword)";  
+            //enter a new customer to the DB 
             this.dbContext.AddParameter("@CustomerFirstName", model.CustomerFirstName);
             this.dbContext.AddParameter("@CustomerLastName", model.CustomerLastName);
             this.dbContext.AddParameter("@CustomerPhoneNumber", model.CustomerPhoneNumber);
@@ -20,13 +21,13 @@ namespace MallWS
             this.dbContext.AddParameter("@CustomerCity", model.CustomerCity);
             this.dbContext.AddParameter("@CustomerStreet", model.CustomerStreet);
             this.dbContext.AddParameter("@CustomerPassword", model.CustomerPassword);
-            return this.dbContext.Insert(sql);
+            return this.dbContext.Insert(sql); //execute the sql
 
         }
 
-        public Customer LoginAttempt(Customer customer)
+        public Customer LoginAttempt(string CustomerFirstName, string CustomerLastName, string CustomerPassword)
         {
-            string sql = "SELECT * FROM Customers WHERE CustomerID = @CustomerID";
+            string sql = "SELECT * FROM Customers WHERE CustomerPassword = @CustomerPassword AND CustomerFirstName=@CustomerFirstName AND CustomerLastName=@CustomerLastName";
             using (IDataReader customerLogin = this.dbContext.Read(sql))
             {
                 customerLogin.Read();
@@ -34,41 +35,45 @@ namespace MallWS
             }
         }
 
-        public bool Delete(string ID)
+        public bool Delete(string ID) //delete a specific customer 
         {
             string sql = "Delete from Customers where CustomerID=@CustomerID";
+            //delete the customer if there is a mach in the IDs
             this.dbContext.AddParameter("@CustomersID", ID);
-            return this.dbContext.Delete(sql);
+            return this.dbContext.Delete(sql); //execute
         }
 
         public List<Customer> GetAll()
         {
-            List<Customer> list = new List<Customer>();
-            string sql = "Select * from Customer";
+            List<Customer> list = new List<Customer>(); //create a list
+            string sql = "Select * from Customer"; //select everything from the customer table
             using (IDataReader Customer = this.dbContext.Read(sql))
             {
-                while (Customer.Read())
+                while (Customer.Read()) //while you are still reading the customer table...
                 {
-                    list.Add(this.modelFactory.CustomerCreator.CreateModel(Customer));
+                    list.Add(this.modelFactory.CustomerCreator.CreateModel(Customer)); 
+                    //add every customer to the list
                 }
             }
             return list;
+            //return the list 
         }
 
-        public Customer GetById(string ID)
+        public Customer GetById(string ID) // get a customer by a specific ID
         {
-            string sql = "Select * from Customers Where CustomerID = @CustomerID";
+            string sql = "Select * from Customers Where CustomerID = @CustomerID"; 
+            //select every column from the customer table if it matches the ID
             this.dbContext.AddParameter("@CustomerID", ID);
             using (IDataReader Customer = this.dbContext.Read(sql))
             {
-                Customer.Read();
-                return this.modelFactory.CustomerCreator.CreateModel(Customer);
+                Customer.Read(); //read the customer
+                return this.modelFactory.CustomerCreator.CreateModel(Customer); //return the customer
             }
         }
-        public bool Update(Customer model)
+        public bool Update(Customer model) //update the customer Info
         {
             string sql = $@"Insert into Customers CustomerFirstName = @CustomerFirstName, CustomerLastName = @CustomerLastName, CustomerPhoneNumber = @CustomerPhoneNumber, CustomerEmail = @CustomerEmail, CustomerCity = @CustomerCity, CustomerStreet = @CustomerStreet, CustomerPassword = @CustomerPassword WHERE CustomerID = @CustomerID";
-            //parameters for SQL Injection, extension 1
+            //update the Customer info where there is a match in the ID
             this.dbContext.AddParameter("@CustomerFirstName", model.CustomerFirstName);
             this.dbContext.AddParameter("@CustomerLastName", model.CustomerLastName);
             this.dbContext.AddParameter("@CustomerPhoneNumber", model.CustomerPhoneNumber);
@@ -76,7 +81,8 @@ namespace MallWS
             this.dbContext.AddParameter("@CustomerCity", model.CustomerCity);
             this.dbContext.AddParameter("@CustomerStreet", model.CustomerStreet);
             this.dbContext.AddParameter("@CustomerPassword", model.CustomerPassword);
-            return this.dbContext.Update(sql);
+            return this.dbContext.Update(sql); //execute the update 
         }
+
     }
 }

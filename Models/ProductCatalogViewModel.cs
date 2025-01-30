@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class SaleCatalogViewModel
+    public class ProductCatalogViewModel
     {
-        public List<Product> ProductsOnSale { get; set; }
-        public int SaleNumber { get; set; }
+        public List<Product> ProductsOnSale { get; set; } 
     }
 }
 
