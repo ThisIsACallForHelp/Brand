@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="LoginRegisterStyle.css">
     <title>Register</title>
 </head>
 <body>
     <div class="wrapper">
         <form action="#">
-            <h1>Log-in</h1>
+            <h1>Registration</h1>
             <div class="input-box">
                 <input type="text" placeholder="First name" required>
                 <i class='bx bxs-user'></i>
@@ -19,16 +20,36 @@
                 <i class='bx bxs-user'></i>
             </div>
             <div class="input-box">
+                <input type="tel" placeholder="05X-XXX-XXXX" pattern="05[0-9]{8}" required id="phoneInput">
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="text" placeholder="City" required>
+                <i class='bx bxs-user'></i>
+            </div>        
+            <div class="input-box">
+                <input type="email" placeholder="Your E-Mail" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box"> 
+                <input type="text" placeholder="Your ID" pattern="[0-9]{9}"required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="input-box">
                 <input type="password" placeholder="password" required>
                 <i class='bx bxs-lock-alt'></i>
             </div>
-            <button type="submit" class="btn">Log In</button>
+            <button type="submit" class="btn">Register</button>
             <div class="reigster-link">
                 <p>Don't have an account?
-                    <a href="SignIn.html">Register</a>
+                    <a href="SignIn.html">Log-In</a>
+                </p>
+                <p>Back to the
+                    <a href="Home.html">Home-Page</a>
                 </p>
             </div>
         </form>
     </div>
+    
 </body>
 </html>

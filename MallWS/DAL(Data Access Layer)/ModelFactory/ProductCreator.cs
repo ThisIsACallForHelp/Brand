@@ -10,9 +10,9 @@ namespace MallWS
             { 
                 ProductID = Convert.ToInt32(src["ProductID"]), //product ID
                 ProductName = Convert.ToString(src["ProductFirstName"]), // Product Name 
-                StoreID = null, //The Store ID
+                StoreID = 0, //The Store ID
                 ProductPrice = Convert.ToDouble(src["ProductPrice"]), //Product Price 
-                BrandID = null, //The Product's brand
+                BrandID = 0, //The Product's brand
                 ProductIMG = "http://localhost:7274/Images/Products" + Convert.ToString(src["ProductIMG"]) 
                 //The product's image
             };

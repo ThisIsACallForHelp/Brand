@@ -11,7 +11,7 @@ namespace MallWS
             {
                 CustomerFirstName = Convert.ToString(src["CustomerFirstName"]), //Customer's first name
                 CustomerLastName = Convert.ToString(src["CustomerLastName"]), //Customer's Last Name
-                CustomerID = Convert.ToString(src["CustomerID"]), //Customer's real life ID 
+                CustomerID = Convert.ToString(src["CustomerIRLID"]), //Customer's real life ID 
                 CustomerPhoneNumber = Convert.ToString(src["CustomerPhoneNumber"]), //Customer's phone number
                 CustomerPassword = Convert.ToString(src["CustomerPassword"]), // Customer's password
                 CustomerEmail = Convert.ToString(src["CustomerEmail"]), // Customer's Email

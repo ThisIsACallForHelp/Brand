@@ -1,0 +1,39 @@
+﻿@using Models;
+@model CatalogViewModel
+@{
+    ViewData["Title"] = "GetStoreCatalog";
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+@foreach(Store store in @Model.Stores){
+    <div class="StoreHandle">
+        <div class="UpperDiv">
+            <img src="@store.StoreIMG" class="img">
+
+        </div>
+        <div class="LowerDiv">
+            <button id="OpenModal" style="top: 50%; bottom: 0px;">Open Modal</button>
+        </div>
+    </div>
+    <div class="modal" id="Modal">
+        <div class="modal-inner">
+            <h2>@store.StoreName</h2>
+            <div class="Content">
+                <div>
+                    <img src="@store.StoreIMG" style="width: 250px; height: 300px; margin-top: 10px; margin-bottom: 10px; margin-left: 5px;">
+                </div>
+                <div style="display: block;">
+                    <p>@store.StoreDescription</p>
+                    <p>Located on @store.StoreFloor floor</p>
+                    <p>It is a @store.StoreType store</p>
+                </div>
+            </div>
+            <button id="CloseModal"> Close </button>
+            <button>Products</button>
+        </div>
+    </div>
+    <script src="StoreScript.js"></script>
+}
+
+
+

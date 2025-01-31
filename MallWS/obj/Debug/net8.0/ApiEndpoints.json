@@ -67,7 +67,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Models.ProductCatalogViewModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -87,7 +87,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Models.Brand, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Models.BrandCatalogViewModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -107,7 +107,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Models.Product, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Models.ProductCatalogViewModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -133,7 +133,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Models.Store, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Models.CatalogViewModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -153,7 +153,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Models.Store, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Models.CatalogViewModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -179,7 +179,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[Models.Store, Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Models.CatalogViewModel",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -244,9 +244,19 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "customer",
-        "Type": "Models.Customer",
-        "IsRequired": true
+        "Name": "CustomerFirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CustomerLastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CustomerPassword",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": [

@@ -1,20 +1,40 @@
 {
   "Files": [
     {
-      "Id": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
+      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
       "PackagePath": "staticwebassets\\ProjectGUI\\Home.html"
     },
     {
-      "Id": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
+      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
       "PackagePath": "staticwebassets\\ProjectGUI\\HomeStyle.css"
     },
     {
-      "Id": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
-      "PackagePath": "staticwebassets\\ProjectGUI\\images\\CRYSTAL_MallLogo.png"
+      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\LoginRegisterStyle.css",
+      "PackagePath": "staticwebassets\\ProjectGUI\\LoginRegisterStyle.css"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MallWebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\Registration.html",
+      "PackagePath": "staticwebassets\\ProjectGUI\\Registration.html"
+    },
+    {
+      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\SignIn.html",
+      "PackagePath": "staticwebassets\\ProjectGUI\\SignIn.html"
+    },
+    {
+      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\StoreScript.js",
+      "PackagePath": "staticwebassets\\ProjectGUI\\StoreScript.js"
+    },
+    {
+      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\StoreStyle.css",
+      "PackagePath": "staticwebassets\\ProjectGUI\\StoreStyle.css"
+    },
+    {
+      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\BackroundForForm.jpg",
+      "PackagePath": "staticwebassets\\ProjectGUI\\images\\BackroundForForm.jpg"
+    },
+    {
+      "Id": "C:\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
+      "PackagePath": "staticwebassets\\ProjectGUI\\images\\CRYSTAL_MallLogo.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MallWebApp.Microsoft.AspNetCore.StaticWebAssets.props",

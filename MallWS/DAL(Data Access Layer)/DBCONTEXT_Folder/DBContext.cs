@@ -40,11 +40,11 @@ namespace MallWS
             {
                this.transaction.Commit(); //commit the transaction
             }
-            public void BeginTransaction()
-            {
-                this.transaction = this.transaction.BeginTransaction(); //the beggining of the transaction
-                this.command.transaction = this.transaction; 
-            }
+            //public void BeginTransaction()
+            //{
+            //    this.transaction = this.transaction.BeginTransaction(); //the beggining of the transaction
+            //    this.command.transaction = this.transaction; 
+            //}
             public bool Delete(string sql)
             {
                 return ChangeDB(sql); //delete an entity from the DB 
@@ -90,7 +90,7 @@ namespace MallWS
             }    
             public void ClearParameters()
             {
-                this.command.Parameters.Clear() //clears out all of the parameters
+                this.command.Parameters.Clear(); //clears out all of the parameters
             }
             public string GetLastInsertedID()
             {

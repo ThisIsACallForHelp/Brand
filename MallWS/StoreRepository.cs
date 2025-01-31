@@ -32,7 +32,7 @@ namespace MallWS
             return this.dbContext.Delete(sql); //deletes the store 
         }
 
-        public IEnumerable<Store> GetAll()
+        public List<Store> GetAll()
         {
             List<Store> list = new List<Store>(); //creates a new list 
             string sql = "Select * from Stores"; //select every column in store
