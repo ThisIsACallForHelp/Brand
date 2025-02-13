@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sH3CvsCUgvI=",
+  "dgSpecHash": "4XagmN2oAdc=",
   "success": true,
-  "projectFilePath": "C:\\Brand\\MallWS\\MallWS.csproj",
+  "projectFilePath": "C:\\MyMall\\Brand\\MallWS\\MallWebService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",

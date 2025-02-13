@@ -1,5 +1,5 @@
 
-namespace MallWS
+namespace MallWebService
 {
     public class Program
     {

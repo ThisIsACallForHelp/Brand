@@ -5,7 +5,7 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{E80F7FE8-5D58-45B7-9908-07A694B62396}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MallWS", "MallWS\MallWS.csproj", "{C95924C9-8591-4799-A0CD-EF63AD8B2791}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MallWebService", "MallWS\MallWebService.csproj", "{C95924C9-8591-4799-A0CD-EF63AD8B2791}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiClient", "WebApiClient\WebApiClient.csproj", "{A9CA7337-E961-4C51-9713-3BE15928B06D}"
 EndProject

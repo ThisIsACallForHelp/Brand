@@ -3,7 +3,7 @@
     "Name": "New Profile",
     "Projects": [
       {
-        "Path": "MallWS\\MallWS.csproj",
+        "Path": "MallWS\\MallWebService.csproj",
         "Action": "Start"
       },
       {

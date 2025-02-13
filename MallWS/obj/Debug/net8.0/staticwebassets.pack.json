@@ -1,360 +1,640 @@
 {
   "Files": [
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\1.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\1.jpg",
+      "PackagePath": "staticwebassets\\Brands\\1.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\10.jpg",
+      "PackagePath": "staticwebassets\\Brands\\10.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\11.jpg",
+      "PackagePath": "staticwebassets\\Brands\\11.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\12.jpg",
+      "PackagePath": "staticwebassets\\Brands\\12.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\13.jpg",
+      "PackagePath": "staticwebassets\\Brands\\13.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\14.jpg",
+      "PackagePath": "staticwebassets\\Brands\\14.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\16.jpg",
+      "PackagePath": "staticwebassets\\Brands\\16.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\18.jpg",
+      "PackagePath": "staticwebassets\\Brands\\18.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\19.jpg",
+      "PackagePath": "staticwebassets\\Brands\\19.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\2.jpg",
+      "PackagePath": "staticwebassets\\Brands\\2.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\20.jpg",
+      "PackagePath": "staticwebassets\\Brands\\20.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\21.jpg",
+      "PackagePath": "staticwebassets\\Brands\\21.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\22.jpg",
+      "PackagePath": "staticwebassets\\Brands\\22.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\23.jpg",
+      "PackagePath": "staticwebassets\\Brands\\23.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\24.jpg",
+      "PackagePath": "staticwebassets\\Brands\\24.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\25.jpg",
+      "PackagePath": "staticwebassets\\Brands\\25.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\26.jpg",
+      "PackagePath": "staticwebassets\\Brands\\26.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\27.jpg",
+      "PackagePath": "staticwebassets\\Brands\\27.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\28.jpg",
+      "PackagePath": "staticwebassets\\Brands\\28.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\29.jpg",
+      "PackagePath": "staticwebassets\\Brands\\29.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\3.jpg",
+      "PackagePath": "staticwebassets\\Brands\\3.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\30.jpg",
+      "PackagePath": "staticwebassets\\Brands\\30.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\31.jpg",
+      "PackagePath": "staticwebassets\\Brands\\31.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\32.jpg",
+      "PackagePath": "staticwebassets\\Brands\\32.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\33.jpg",
+      "PackagePath": "staticwebassets\\Brands\\33.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\35.jpg",
+      "PackagePath": "staticwebassets\\Brands\\35.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\36.jpg",
+      "PackagePath": "staticwebassets\\Brands\\36.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\37.jpg",
+      "PackagePath": "staticwebassets\\Brands\\37.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\38.jpg",
+      "PackagePath": "staticwebassets\\Brands\\38.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\4.jpg",
+      "PackagePath": "staticwebassets\\Brands\\4.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\41.jpg",
+      "PackagePath": "staticwebassets\\Brands\\41.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\42.jpg",
+      "PackagePath": "staticwebassets\\Brands\\42.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\43.jpg",
+      "PackagePath": "staticwebassets\\Brands\\43.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\44.jpg",
+      "PackagePath": "staticwebassets\\Brands\\44.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\45.jpg",
+      "PackagePath": "staticwebassets\\Brands\\45.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\47.jpg",
+      "PackagePath": "staticwebassets\\Brands\\47.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\48.jpg",
+      "PackagePath": "staticwebassets\\Brands\\48.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\49.jpg",
+      "PackagePath": "staticwebassets\\Brands\\49.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\5.jpg",
+      "PackagePath": "staticwebassets\\Brands\\5.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\50.jpg",
+      "PackagePath": "staticwebassets\\Brands\\50.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\51.jpg",
+      "PackagePath": "staticwebassets\\Brands\\51.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\53.jpg",
+      "PackagePath": "staticwebassets\\Brands\\53.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\54.jpg",
+      "PackagePath": "staticwebassets\\Brands\\54.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\56.jpg",
+      "PackagePath": "staticwebassets\\Brands\\56.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\58.jpg",
+      "PackagePath": "staticwebassets\\Brands\\58.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\59.jpg",
+      "PackagePath": "staticwebassets\\Brands\\59.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\6.jpg",
+      "PackagePath": "staticwebassets\\Brands\\6.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\62.jpg",
+      "PackagePath": "staticwebassets\\Brands\\62.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\63.jpg",
+      "PackagePath": "staticwebassets\\Brands\\63.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\64.jpg",
+      "PackagePath": "staticwebassets\\Brands\\64.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\65.jpg",
+      "PackagePath": "staticwebassets\\Brands\\65.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\66.jpg",
+      "PackagePath": "staticwebassets\\Brands\\66.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\67.jpg",
+      "PackagePath": "staticwebassets\\Brands\\67.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\68.jpg",
+      "PackagePath": "staticwebassets\\Brands\\68.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\69.jpg",
+      "PackagePath": "staticwebassets\\Brands\\69.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\7.jpg",
+      "PackagePath": "staticwebassets\\Brands\\7.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\72.jpg",
+      "PackagePath": "staticwebassets\\Brands\\72.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\74.jpg",
+      "PackagePath": "staticwebassets\\Brands\\74.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\75.jpg",
+      "PackagePath": "staticwebassets\\Brands\\75.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\76.jpg",
+      "PackagePath": "staticwebassets\\Brands\\76.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\77.jpg",
+      "PackagePath": "staticwebassets\\Brands\\77.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\8.jpg",
+      "PackagePath": "staticwebassets\\Brands\\8.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\80.jpg",
+      "PackagePath": "staticwebassets\\Brands\\80.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\81.jpg",
+      "PackagePath": "staticwebassets\\Brands\\81.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\82.jpg",
+      "PackagePath": "staticwebassets\\Brands\\82.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\83.jpg",
+      "PackagePath": "staticwebassets\\Brands\\83.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\84.jpg",
+      "PackagePath": "staticwebassets\\Brands\\84.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\85.jpg",
+      "PackagePath": "staticwebassets\\Brands\\85.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Brands\\9.jpg",
+      "PackagePath": "staticwebassets\\Brands\\9.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\1.jpg",
       "PackagePath": "staticwebassets\\Stores\\1.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\10.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\10.jpg",
       "PackagePath": "staticwebassets\\Stores\\10.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\11.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\11.jpg",
       "PackagePath": "staticwebassets\\Stores\\11.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\12.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\12.jpg",
       "PackagePath": "staticwebassets\\Stores\\12.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\13.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\13.jpg",
       "PackagePath": "staticwebassets\\Stores\\13.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\14.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\14.jpg",
       "PackagePath": "staticwebassets\\Stores\\14.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\15.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\15.jpg",
       "PackagePath": "staticwebassets\\Stores\\15.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\16.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\16.jpg",
       "PackagePath": "staticwebassets\\Stores\\16.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\17.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\17.jpg",
       "PackagePath": "staticwebassets\\Stores\\17.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\18.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\18.jpg",
       "PackagePath": "staticwebassets\\Stores\\18.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\19.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\19.jpg",
       "PackagePath": "staticwebassets\\Stores\\19.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\2.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\2.jpg",
       "PackagePath": "staticwebassets\\Stores\\2.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\20.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\20.jpg",
       "PackagePath": "staticwebassets\\Stores\\20.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\21.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\21.jpg",
       "PackagePath": "staticwebassets\\Stores\\21.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\22.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\22.jpg",
       "PackagePath": "staticwebassets\\Stores\\22.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\23.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\23.jpg",
       "PackagePath": "staticwebassets\\Stores\\23.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\24.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\24.jpg",
       "PackagePath": "staticwebassets\\Stores\\24.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\25.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\25.jpg",
       "PackagePath": "staticwebassets\\Stores\\25.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\26.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\26.jpg",
       "PackagePath": "staticwebassets\\Stores\\26.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\27.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\27.jpg",
       "PackagePath": "staticwebassets\\Stores\\27.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\28.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\28.jpg",
       "PackagePath": "staticwebassets\\Stores\\28.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\29.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\29.jpg",
       "PackagePath": "staticwebassets\\Stores\\29.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\3.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\3.jpg",
       "PackagePath": "staticwebassets\\Stores\\3.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\30.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\30.jpg",
       "PackagePath": "staticwebassets\\Stores\\30.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\31.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\31.jpg",
       "PackagePath": "staticwebassets\\Stores\\31.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\32.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\32.jpg",
       "PackagePath": "staticwebassets\\Stores\\32.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\33.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\33.jpg",
       "PackagePath": "staticwebassets\\Stores\\33.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\34.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\34.jpg",
       "PackagePath": "staticwebassets\\Stores\\34.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\35.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\35.jpg",
       "PackagePath": "staticwebassets\\Stores\\35.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\36.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\36.jpg",
       "PackagePath": "staticwebassets\\Stores\\36.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\37.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\37.jpg",
       "PackagePath": "staticwebassets\\Stores\\37.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\38.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\38.jpg",
       "PackagePath": "staticwebassets\\Stores\\38.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\39.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\39.jpg",
       "PackagePath": "staticwebassets\\Stores\\39.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\4.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\4.jpg",
       "PackagePath": "staticwebassets\\Stores\\4.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\40.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\40.jpg",
       "PackagePath": "staticwebassets\\Stores\\40.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\41.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\41.jpg",
       "PackagePath": "staticwebassets\\Stores\\41.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\42.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\42.jpg",
       "PackagePath": "staticwebassets\\Stores\\42.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\43.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\43.jpg",
       "PackagePath": "staticwebassets\\Stores\\43.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\44.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\44.jpg",
       "PackagePath": "staticwebassets\\Stores\\44.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\45.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\45.jpg",
       "PackagePath": "staticwebassets\\Stores\\45.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\46.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\46.jpg",
       "PackagePath": "staticwebassets\\Stores\\46.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\47.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\47.jpg",
       "PackagePath": "staticwebassets\\Stores\\47.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\48.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\48.jpg",
       "PackagePath": "staticwebassets\\Stores\\48.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\49.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\49.jpg",
       "PackagePath": "staticwebassets\\Stores\\49.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\5.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\5.jpg",
       "PackagePath": "staticwebassets\\Stores\\5.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\50.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\50.jpg",
       "PackagePath": "staticwebassets\\Stores\\50.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\51.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\51.jpg",
       "PackagePath": "staticwebassets\\Stores\\51.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\52.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\52.jpg",
       "PackagePath": "staticwebassets\\Stores\\52.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\53.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\53.jpg",
       "PackagePath": "staticwebassets\\Stores\\53.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\54.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\54.jpg",
       "PackagePath": "staticwebassets\\Stores\\54.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\55.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\55.jpg",
       "PackagePath": "staticwebassets\\Stores\\55.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\56.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\56.jpg",
       "PackagePath": "staticwebassets\\Stores\\56.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\57.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\57.jpg",
       "PackagePath": "staticwebassets\\Stores\\57.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\58.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\58.jpg",
       "PackagePath": "staticwebassets\\Stores\\58.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\59.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\59.jpg",
       "PackagePath": "staticwebassets\\Stores\\59.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\6.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\6.jpg",
       "PackagePath": "staticwebassets\\Stores\\6.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\60.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\60.jpg",
       "PackagePath": "staticwebassets\\Stores\\60.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\61.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\61.jpg",
       "PackagePath": "staticwebassets\\Stores\\61.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\62.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\62.jpg",
       "PackagePath": "staticwebassets\\Stores\\62.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\63.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\63.jpg",
       "PackagePath": "staticwebassets\\Stores\\63.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\64.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\64.jpg",
       "PackagePath": "staticwebassets\\Stores\\64.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\65.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\65.jpg",
       "PackagePath": "staticwebassets\\Stores\\65.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\66.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\66.jpg",
       "PackagePath": "staticwebassets\\Stores\\66.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\67.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\67.jpg",
       "PackagePath": "staticwebassets\\Stores\\67.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\68.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\68.jpg",
       "PackagePath": "staticwebassets\\Stores\\68.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\69.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\69.jpg",
       "PackagePath": "staticwebassets\\Stores\\69.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\7.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\7.jpg",
       "PackagePath": "staticwebassets\\Stores\\7.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\70.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\70.jpg",
       "PackagePath": "staticwebassets\\Stores\\70.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\71.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\71.jpg",
       "PackagePath": "staticwebassets\\Stores\\71.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\72.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\72.jpg",
       "PackagePath": "staticwebassets\\Stores\\72.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\73.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\73.jpg",
       "PackagePath": "staticwebassets\\Stores\\73.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\74.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\74.jpg",
       "PackagePath": "staticwebassets\\Stores\\74.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\75.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\75.jpg",
       "PackagePath": "staticwebassets\\Stores\\75.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\76.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\76.jpg",
       "PackagePath": "staticwebassets\\Stores\\76.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\77.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\77.jpg",
       "PackagePath": "staticwebassets\\Stores\\77.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\78.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\78.jpg",
       "PackagePath": "staticwebassets\\Stores\\78.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\79.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\79.jpg",
       "PackagePath": "staticwebassets\\Stores\\79.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\8.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\8.jpg",
       "PackagePath": "staticwebassets\\Stores\\8.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\80.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\80.jpg",
       "PackagePath": "staticwebassets\\Stores\\80.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\81.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\81.jpg",
       "PackagePath": "staticwebassets\\Stores\\81.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\82.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\82.jpg",
       "PackagePath": "staticwebassets\\Stores\\82.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\83.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\83.jpg",
       "PackagePath": "staticwebassets\\Stores\\83.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\84.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\84.jpg",
       "PackagePath": "staticwebassets\\Stores\\84.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\85.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\85.jpg",
       "PackagePath": "staticwebassets\\Stores\\85.jpg"
     },
     {
-      "Id": "C:\\Brand\\MallWS\\wwwroot\\Stores\\9.jpg",
+      "Id": "C:\\MyMall\\Brand\\MallWS\\wwwroot\\Stores\\9.jpg",
       "PackagePath": "staticwebassets\\Stores\\9.jpg"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MallWS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MallWebService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MallWebService.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MallWS.props",
-      "PackagePath": "build\\MallWS.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MallWebService.props",
+      "PackagePath": "build\\MallWebService.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MallWS.props",
-      "PackagePath": "buildMultiTargeting\\MallWS.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MallWebService.props",
+      "PackagePath": "buildMultiTargeting\\MallWebService.props"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MallWS.props",
-      "PackagePath": "buildTransitive\\MallWS.props"
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MallWebService.props",
+      "PackagePath": "buildTransitive\\MallWebService.props"
     }
   ],
   "ElementsToRemove": []

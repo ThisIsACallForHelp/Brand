@@ -29,7 +29,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -74,7 +74,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -111,7 +111,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -156,13 +156,505 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-cQ+9usiqFdsONMTPvD3MqJWBwJsxRfVI/FFGPaZ+NIk="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/LoginRegisterStyle.css",
+      "AssetFile": "ProjectGUI/LoginRegisterStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x8sOMf5mSOpIDNfhtUhwKIPaQwCKWPdMmHHcCie40E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-x8sOMf5mSOpIDNfhtUhwKIPaQwCKWPdMmHHcCie40E0="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/LoginRegisterStyle.zl75yd6skf.css",
+      "AssetFile": "ProjectGUI/LoginRegisterStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2077"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"x8sOMf5mSOpIDNfhtUhwKIPaQwCKWPdMmHHcCie40E0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zl75yd6skf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-x8sOMf5mSOpIDNfhtUhwKIPaQwCKWPdMmHHcCie40E0="
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/LoginRegisterStyle.css"
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/Registration.5wfo4pf8t4.html",
+      "AssetFile": "ProjectGUI/Registration.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dd5SuDWYFvQJEpAQ+V3AABBIwKMGF8jHV9mlSsaAjPg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5wfo4pf8t4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dd5SuDWYFvQJEpAQ+V3AABBIwKMGF8jHV9mlSsaAjPg="
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/Registration.html"
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/Registration.html",
+      "AssetFile": "ProjectGUI/Registration.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dd5SuDWYFvQJEpAQ+V3AABBIwKMGF8jHV9mlSsaAjPg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dd5SuDWYFvQJEpAQ+V3AABBIwKMGF8jHV9mlSsaAjPg="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/SignIn.andkp4026p.html",
+      "AssetFile": "ProjectGUI/SignIn.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6rRfLcXwTluR0RJO8kn2fwDhwMA4RE0PYpJUR56mws4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "andkp4026p"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6rRfLcXwTluR0RJO8kn2fwDhwMA4RE0PYpJUR56mws4="
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/SignIn.html"
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/SignIn.html",
+      "AssetFile": "ProjectGUI/SignIn.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1370"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6rRfLcXwTluR0RJO8kn2fwDhwMA4RE0PYpJUR56mws4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6rRfLcXwTluR0RJO8kn2fwDhwMA4RE0PYpJUR56mws4="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/StoreScript.js",
+      "AssetFile": "ProjectGUI/StoreScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T+wSBxwi0x4TSy7a/7+BFKVIqznaWPhLH7RPYKX3uag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T+wSBxwi0x4TSy7a/7+BFKVIqznaWPhLH7RPYKX3uag="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/StoreScript.z3gnffbuxw.js",
+      "AssetFile": "ProjectGUI/StoreScript.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T+wSBxwi0x4TSy7a/7+BFKVIqznaWPhLH7RPYKX3uag=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z3gnffbuxw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T+wSBxwi0x4TSy7a/7+BFKVIqznaWPhLH7RPYKX3uag="
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/StoreScript.js"
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/StoreStyle.8f2hsaam8k.css",
+      "AssetFile": "ProjectGUI/StoreStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fLWjqm6CVSTLWnSPBIVnyVemsebzxlQa4+rNP7dRQ+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8f2hsaam8k"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fLWjqm6CVSTLWnSPBIVnyVemsebzxlQa4+rNP7dRQ+E="
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/StoreStyle.css"
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/StoreStyle.css",
+      "AssetFile": "ProjectGUI/StoreStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2049"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fLWjqm6CVSTLWnSPBIVnyVemsebzxlQa4+rNP7dRQ+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fLWjqm6CVSTLWnSPBIVnyVemsebzxlQa4+rNP7dRQ+E="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/images/BackroundForForm.jpg",
+      "AssetFile": "ProjectGUI/images/BackroundForForm.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4OeiU7AVA7kTuLceqaZTcp1rEHQ7F/dHnIQShxlGGBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4OeiU7AVA7kTuLceqaZTcp1rEHQ7F/dHnIQShxlGGBg="
+        }
+      ]
+    },
+    {
+      "Route": "ProjectGUI/images/BackroundForForm.oayp2j042q.jpg",
+      "AssetFile": "ProjectGUI/images/BackroundForForm.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4OeiU7AVA7kTuLceqaZTcp1rEHQ7F/dHnIQShxlGGBg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oayp2j042q"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4OeiU7AVA7kTuLceqaZTcp1rEHQ7F/dHnIQShxlGGBg="
+        },
+        {
+          "Name": "label",
+          "Value": "ProjectGUI/images/BackroundForForm.jpg"
         }
       ]
     },
@@ -193,7 +685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
         }
       ],
       "EndpointProperties": [
@@ -238,7 +730,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Jan 2025 18:37:56 GMT"
+          "Value": "Wed, 05 Feb 2025 18:43:42 GMT"
         }
       ],
       "EndpointProperties": [

@@ -174,3 +174,4 @@ C:\Brand\MallWS\obj\Debug\net8.0\MallWS.pdb
 C:\Brand\MallWS\obj\Debug\net8.0\MallWS.genruntimeconfig.cache
 C:\Brand\MallWS\obj\Debug\net8.0\ref\MallWS.dll
 C:\Brand\MallWS\bin\Debug\net8.0\MallWS.staticwebassets.runtime.json
+C:\MyMall\Brand\MallWS\bin\Debug\net8.0\MallWS.staticwebassets.runtime.json

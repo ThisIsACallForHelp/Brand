@@ -10,25 +10,29 @@
         "tags": [
           "Guest"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Customer"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Customer"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Customer"
-              }
+        "parameters": [
+          {
+            "name": "CustomerFirstName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CustomerLastName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "CustomerPassword",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -160,26 +164,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Store"
-                  }
+                  "$ref": "#/components/schemas/CatalogViewModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Store"
-                  }
+                  "$ref": "#/components/schemas/CatalogViewModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Store"
-                  }
+                  "$ref": "#/components/schemas/CatalogViewModel"
                 }
               }
             }
@@ -198,26 +193,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Brand"
-                  }
+                  "$ref": "#/components/schemas/BrandCatalogViewModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Brand"
-                  }
+                  "$ref": "#/components/schemas/BrandCatalogViewModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Brand"
-                  }
+                  "$ref": "#/components/schemas/BrandCatalogViewModel"
                 }
               }
             }
@@ -283,26 +269,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Store"
-                  }
+                  "$ref": "#/components/schemas/CatalogViewModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Store"
-                  }
+                  "$ref": "#/components/schemas/CatalogViewModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Store"
-                  }
+                  "$ref": "#/components/schemas/CatalogViewModel"
                 }
               }
             }
@@ -340,26 +317,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Store"
-                  }
+                  "$ref": "#/components/schemas/CatalogViewModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Store"
-                  }
+                  "$ref": "#/components/schemas/CatalogViewModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Store"
-                  }
+                  "$ref": "#/components/schemas/CatalogViewModel"
                 }
               }
             }
@@ -378,26 +346,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
-                  }
+                  "$ref": "#/components/schemas/ProductCatalogViewModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
-                  }
+                  "$ref": "#/components/schemas/ProductCatalogViewModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
-                  }
+                  "$ref": "#/components/schemas/ProductCatalogViewModel"
                 }
               }
             }
@@ -531,26 +490,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
-                  }
+                  "$ref": "#/components/schemas/ProductCatalogViewModel"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
-                  }
+                  "$ref": "#/components/schemas/ProductCatalogViewModel"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
-                  }
+                  "$ref": "#/components/schemas/ProductCatalogViewModel"
                 }
               }
             }
@@ -1049,6 +999,19 @@
         },
         "additionalProperties": false
       },
+      "BrandCatalogViewModel": {
+        "type": "object",
+        "properties": {
+          "brands": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Brand"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Cart": {
         "type": "object",
         "properties": {
@@ -1093,6 +1056,19 @@
           "totalPrice": {
             "type": "number",
             "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CatalogViewModel": {
+        "type": "object",
+        "properties": {
+          "stores": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Store"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -1220,6 +1196,19 @@
           },
           "cart": {
             "$ref": "#/components/schemas/Cart"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProductCatalogViewModel": {
+        "type": "object",
+        "properties": {
+          "productsOnSale": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Product"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false

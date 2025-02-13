@@ -1,4 +1,4 @@
-﻿namespace MallWS
+﻿namespace MallWebService
 {
     public class ModelFactory
     {

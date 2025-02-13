@@ -1,18 +1,18 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models;
-namespace MallWS.Controllers
+namespace MallWebService.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
     public class StoreManagerController : ControllerBase
     {
         DBContext dbContext;
-        MallUnitOfWorkRepositery MallUnitOfWork { get; set; }
+        UnitOfWork unitOfWork { get; set; }
         public StoreManagerController() //constructor 
         {
             this.dbContext = DBContext.GetInstance(); //DBContext instance to access the DB 
-            this.MallUnitOfWork = new MallUnitOfWorkRepositery(this.dbContext); 
+            this.unitOfWork = new UnitOfWork(this.dbContext); 
             //mall unit of work to access the repositories 
         }
         //we are inserting a new product, so HTTP POST
@@ -23,7 +23,7 @@ namespace MallWS.Controllers
             try
             {
                 this.dbContext.OpenConnection(); //open connection
-                return this.MallUnitOfWork.ProductRepository.Create(product); //create it 
+                return this.unitOfWork.ProductRepository.Create(product); //create it 
             }
             catch (Exception) //if there was an error 
             {
@@ -41,7 +41,7 @@ namespace MallWS.Controllers
             try
             {
                 this.dbContext.OpenConnection(); //open the connection 
-                return this.MallUnitOfWork.ProductRepository.Delete(product.ID); 
+                return this.unitOfWork.ProductRepository.Delete(product.ID); 
                 //delete the product by using it's ID 
             }
             catch (Exception) //catch the exception 
@@ -60,7 +60,7 @@ namespace MallWS.Controllers
             try
             {
                 this.dbContext.OpenConnection(); //open connection
-                return this.MallUnitOfWork.BrandRepository.Delete(brand.ID); //delete it by using the ID 
+                return this.unitOfWork.BrandRepository.Delete(brand.ID); //delete it by using the ID 
             }
             catch (Exception) //catch the error 
             {
@@ -78,7 +78,7 @@ namespace MallWS.Controllers
             try
             {
                 this.dbContext.OpenConnection(); //open connection
-                return this.MallUnitOfWork.BrandRepository.Create(brand); //create the brand 
+                return this.unitOfWork.BrandRepository.Create(brand); //create the brand 
             }
             catch (Exception) //catch the exception 
             {
@@ -96,7 +96,7 @@ namespace MallWS.Controllers
             try
             {
                 this.dbContext.OpenConnection(); //open connection
-                return this.MallUnitOfWork.SaleRepository.Create(sale); //create it
+                return this.unitOfWork.SaleRepository.Create(sale); //create it
             }
             catch (Exception) //catch the error
             {
@@ -114,7 +114,7 @@ namespace MallWS.Controllers
             try
             {
                 this.dbContext.OpenConnection(); //open connection
-                return this.MallUnitOfWork.SaleRepository.Delete(sale.ID); 
+                return this.unitOfWork.SaleRepository.Delete(sale.ID); 
                 //create the sale by using it's ID
             }
             catch (Exception) //catch the error

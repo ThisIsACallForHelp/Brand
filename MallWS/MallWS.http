@@ -1,6 +1,6 @@
-@MallWS_HostAddress = http://localhost:5263
+@MallWebService_HostAddress = http://localhost:5263
 
-GET {{MallWS_HostAddress}}/weatherforecast/
+GET {{MallWebService_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

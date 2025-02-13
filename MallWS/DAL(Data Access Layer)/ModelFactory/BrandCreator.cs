@@ -1,7 +1,7 @@
 ﻿using Models;
 using System.Data;
 
-namespace MallWS
+namespace MallWebService
 {
     public class BrandCreator : IModelCreator<Brand>
     {

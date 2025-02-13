@@ -1,3 +1,9 @@
 wwwroot\ProjectGUI\Home.html
 wwwroot\ProjectGUI\HomeStyle.css
+wwwroot\ProjectGUI\images\BackroundForForm.jpg
 wwwroot\ProjectGUI\images\CRYSTAL_MallLogo.png
+wwwroot\ProjectGUI\LoginRegisterStyle.css
+wwwroot\ProjectGUI\Registration.html
+wwwroot\ProjectGUI\SignIn.html
+wwwroot\ProjectGUI\StoreScript.js
+wwwroot\ProjectGUI\StoreStyle.css

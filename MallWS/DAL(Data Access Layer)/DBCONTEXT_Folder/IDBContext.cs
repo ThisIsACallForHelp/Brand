@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace MallWS
+namespace MallWebService
 {
     public interface IDBContext
     {
