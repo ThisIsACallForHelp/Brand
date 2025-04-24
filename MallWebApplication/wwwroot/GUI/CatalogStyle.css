@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-height: 1000px;
+    display: block;
+}
+
+.StoresAndBrands{
+    width: 300px;
+    height: 900px;
+    position: sticky;
+    top: 0;
+    background: rgba(200, 200, 200, 0.7);
+    border: 2px solid #4CAF50;
+    display: block;
+}
+
+.ProductContent{
+    width: 85%;
+    min-height: 1000px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.Product{
+    margin: 20px;
+    padding: 0px;
+    height: 350px;
+    width: 325px;
+    border: 5px solid black;
+    background-color: black;
+    display: block;
+}
+
+.Properties{
+    width: 15%;
+    height: 900px;
+    position: sticky;
+    top: 0;
+    background: rgba(200, 200, 200, 0.7);
+    border: 2px solid rgba(200, 200, 200, 0.7);
+    display: block;
+    padding: 0px;
+}
+
+.SaleContainer{
+    height: 180px;
+    width: 257px;
+    background: rgba(200, 200, 200, 0.7);
+    text-align: center;
+    padding: 10px;
+    border: 5px solid white;
+}
+
+.StoreTypes{
+    background: rgba(200, 200, 200, 0.7);
+    height: 300px;
+    width: 277px;
+    border: 5px solid white;
+    text-align: center;
+    align-content: center;
+}
+
+.BrandsAndStores{
+    text-align: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px;
+    background: rgba(200, 200, 200, 0.7);
+    width: 257px;
+    height: 350px;
+    border: 5px solid white;
+}
+
+button{
+    height: 40px;
+    width: 100%;
+    margin-bottom: 100px; 
+    padding: 0px; 
+    border: 5px solid black; 
+    background-color: crimson; 
+    color: azure;
+    cursor: pointer;
+
+}
+
+button:active{
+    opacity: 0.8;
+}
+
+.modal{
+    background-color: rgba(0,0,0,0.3);
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: all .3s ease-in-out;
+    z-index: -1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.open{
+    opacity: 1;
+    z-index: 999;
+}
+
+.modal-inner{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0,0,0, 0.3);
+    padding: 15px 25px;
+    text-align: center;
+    width: 600px;
+    height: 345px;
+    border: 5px solid black;
+}
+
+.modal-inner h2{
+    margin: 0;
+}
+
+.modal-inner p{
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+.header{
+    top: 0;
+    left: 0;
+    width: 1702px;
+    height: 150px;
+    padding: 20px 100px;
+    background: rgba(200, 200, 200, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s ;
+    width: 50px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar a:hover{
+    background-color: black;
+    color: #00FFAA
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+
+.navbar{
+    width: 650px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Paging{
+    padding: 10px;
+    display: flex;
+    width: 1880px;
+    height: 50px;
+}
+
+.Arrow{
+    margin: 5px;
+    width: 0px;
+    height: 0px;
+    border-left: 25px solid transparent;
+    border-bottom: 25px solid black;
+    border-right: 25px solid transparent;
+    cursor: pointer;
+}
+
+.Right{
+    transform: rotate(270deg);
+}
+
+.Left{
+    margin-right: 500px;
+    transform: rotate(90deg);
+}
+
+.PageNumber{
+    width: 30px;
+    height: 30px;
+    border: 5px solid black;
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+}
+
+
+button{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: black;
+}

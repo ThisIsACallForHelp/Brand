@@ -1,0 +1,54 @@
+﻿@using Models;
+@model ViewCustomerDetails;
+@{
+    ViewData["Title"] = "ViewProfile";
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/GUI/DetailsStyle.css">
+    <title>Details</title>
+</head>
+<body>
+    <div class="Holder" style="margin-top:100px">
+        <div class="Title">
+            <h1 style="font-size: 80px; "> Hello, @Model.customer.CustomerFirstName! </h1>
+        </div>
+        <div class="Content">
+            <img src="@Model.customer.CustomerIMG" style="height: 500px; width: 400px; border: 5px solid black; margin: 20px;">
+            <div class="Text">
+                <div style="display: flex; margin: 0px; height: 50px;">
+                    <p style="font-size: 30px;"> First name: </p>
+                    <p style="font-size: 30px; margin-left: 30px;"> @Model.customer.CustomerFirstName</p>
+                </div>
+                <div style="display: flex; margin: 0px; height: 50px; margin-top: 20px;">
+                    <p style="font-size: 30px;"> Last name: </p>
+                    <p style="font-size: 30px; margin-left: 30px;"> @Model.customer.CustomerLastName</p>
+                </div>
+                <div style="display: flex; margin: 0px; height: 50px; margin-top: 20px;">
+                    <p style="font-size: 30px;"> Phone Number: </p>
+                    <p style="font-size: 30px; margin-left: 10px;"> 0506403115 </p>
+                </div>
+                <div style="display: flex; margin: 0px; height: 50px; margin-top: 60px;">
+                    <p style="font-size: 30px;"> Email: </p>
+                    <p style="font-size: 30px; margin-left: 30px;"> @Model.customer.CustomerEmail</p>
+                </div>
+                <div style="display: flex; margin: 0px; height: 50px; margin-top: 20px;">
+                    <p style="font-size: 30px;"> City: </p>
+                    <p style="font-size: 30px; margin-left: 30px;"> @Model.CityName
+                </div>
+            </div>
+        </div>
+        <div class="Buttons">
+            <button style="border-radius: 0px 0px 20px 20px; width: 100%;" onclick="window.location.href='http://localhost:5041/User/GetCatalog'">Back</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "SojVYfXPwvM=",
+  "success": true,
+  "projectFilePath": "C:\\MyMall\\Brand\\ExternalWebService\\ExternalWebService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\system.io.pipelines\\9.0.3\\system.io.pipelines.9.0.3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.encodings.web\\9.0.3\\system.text.encodings.web.9.0.3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.json\\9.0.3\\system.text.json.9.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

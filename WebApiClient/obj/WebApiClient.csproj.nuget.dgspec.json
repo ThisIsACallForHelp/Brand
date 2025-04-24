@@ -43,9 +43,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -55,17 +55,13 @@
               "target": "Package",
               "version": "[6.0.0, )"
             },
-            "System.Net.Http.Formatting.Extension": {
-              "target": "Package",
-              "version": "[5.2.3, )"
-            },
             "System.ObjectModel": {
               "target": "Package",
               "version": "[4.3.0, )"
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[9.0.1, )"
+              "version": "[9.0.3, )"
             }
           },
           "imports": [
@@ -84,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -9,9 +9,8 @@
       "WebApiClient/1.0.0": {
         "dependencies": {
           "Microsoft.AspNet.WebApi.Client": "6.0.0",
-          "System.Net.Http.Formatting.Extension": "5.2.3",
           "System.ObjectModel": "4.3.0",
-          "System.Text.Json": "9.0.1"
+          "System.Text.Json": "9.0.3"
         },
         "runtime": {
           "WebApiClient.dll": {}
@@ -82,38 +81,15 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.IO.Pipelines/9.0.1": {
+      "System.IO.Pipelines/9.0.3": {
         "runtime": {
           "lib/net8.0/System.IO.Pipelines.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
+            "fileVersion": "9.0.325.11113"
           }
         }
       },
       "System.Memory/4.5.5": {},
-      "System.Net.Http/2.0.20126.16343": {
-        "runtime": {
-          "lib/net40/System.Net.Http.WebRequest.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "System.Net.Http.Formatting.Extension/5.2.3": {
-        "dependencies": {
-          "System.Net.Http": "2.0.20126.16343"
-        },
-        "runtime": {
-          "lib/System.Net.Http.Extensions.dll": {
-            "assemblyVersion": "2.2.29.0",
-            "fileVersion": "2.2.29.0"
-          },
-          "lib/System.Net.Http.Primitives.dll": {
-            "assemblyVersion": "4.2.29.0",
-            "fileVersion": "4.2.29.0"
-          }
-        }
-      },
       "System.ObjectModel/4.3.0": {
         "dependencies": {
           "System.Collections": "4.3.0",
@@ -161,11 +137,11 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Text.Encodings.Web/9.0.1": {
+      "System.Text.Encodings.Web/9.0.3": {
         "runtime": {
           "lib/net8.0/System.Text.Encodings.Web.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
+            "fileVersion": "9.0.325.11113"
           }
         },
         "runtimeTargets": {
@@ -173,19 +149,19 @@
             "rid": "browser",
             "assetType": "runtime",
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
+            "fileVersion": "9.0.325.11113"
           }
         }
       },
-      "System.Text.Json/9.0.1": {
+      "System.Text.Json/9.0.3": {
         "dependencies": {
-          "System.IO.Pipelines": "9.0.1",
-          "System.Text.Encodings.Web": "9.0.1"
+          "System.IO.Pipelines": "9.0.3",
+          "System.Text.Encodings.Web": "9.0.3"
         },
         "runtime": {
           "lib/net8.0/System.Text.Json.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.124.61010"
+            "fileVersion": "9.0.325.11113"
           }
         }
       },
@@ -274,12 +250,12 @@
       "path": "system.io/4.3.0",
       "hashPath": "system.io.4.3.0.nupkg.sha512"
     },
-    "System.IO.Pipelines/9.0.1": {
+    "System.IO.Pipelines/9.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-uXf5o8eV/gtzDQY4lGROLFMWQvcViKcF8o4Q6KpIOjloAQXrnscQSu6gTxYJMHuNJnh7szIF9AzkaEq+zDLoEg==",
-      "path": "system.io.pipelines/9.0.1",
-      "hashPath": "system.io.pipelines.9.0.1.nupkg.sha512"
+      "sha512": "sha512-aP1Qh9llcEmo0qN+VKvVDHFMe5Cqpfb1VjhBO7rjmxCXtLs3IfVSOiNqqLBZ/4Qbcr4J0SDdJq9S7EKAGpnwEA==",
+      "path": "system.io.pipelines/9.0.3",
+      "hashPath": "system.io.pipelines.9.0.3.nupkg.sha512"
     },
     "System.Memory/4.5.5": {
       "type": "package",
@@ -287,20 +263,6 @@
       "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "path": "system.memory/4.5.5",
       "hashPath": "system.memory.4.5.5.nupkg.sha512"
-    },
-    "System.Net.Http/2.0.20126.16343": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-d/7SOttVRBIMJPpdZ8XIMthRNvYcBmRHzV54+z0LTp/W+h2ZIfxnMefECZSQsNtclcBoUbpFVWdpr45DwUC9FA==",
-      "path": "system.net.http/2.0.20126.16343",
-      "hashPath": "system.net.http.2.0.20126.16343.nupkg.sha512"
-    },
-    "System.Net.Http.Formatting.Extension/5.2.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BlYwj3Mbgc2i+NqtBZ+bea3LiN9WuGpE8PCylBvhxV0wBs0XTkXJmDuzkNnUyPhDBqKMBwDK0ZCnwJ8LpQ0aEg==",
-      "path": "system.net.http.formatting.extension/5.2.3",
-      "hashPath": "system.net.http.formatting.extension.5.2.3.nupkg.sha512"
     },
     "System.ObjectModel/4.3.0": {
       "type": "package",
@@ -344,19 +306,19 @@
       "path": "system.text.encoding/4.3.0",
       "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
     },
-    "System.Text.Encodings.Web/9.0.1": {
+    "System.Text.Encodings.Web/9.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XkspqduP2t1e1x2vBUAD/xZ5ZDvmywuUwsmB93MvyQLospJfqtX0GsR/kU0vUL2h4kmvf777z3txV2W4NrQ9Qg==",
-      "path": "system.text.encodings.web/9.0.1",
-      "hashPath": "system.text.encodings.web.9.0.1.nupkg.sha512"
+      "sha512": "sha512-5L+iI4fBMtGwt4FHLQh40/rgdbxnw6lHaLkR3gbaHG97TohzUv+z/oP03drsTR1lKCLhOkp40cFnHYOQLtpT5A==",
+      "path": "system.text.encodings.web/9.0.3",
+      "hashPath": "system.text.encodings.web.9.0.3.nupkg.sha512"
     },
-    "System.Text.Json/9.0.1": {
+    "System.Text.Json/9.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eqWHDZqYPv1PvuvoIIx5pF74plL3iEOZOl/0kQP+Y0TEbtgNnM2W6k8h8EPYs+LTJZsXuWa92n5W5sHTWvE3VA==",
-      "path": "system.text.json/9.0.1",
-      "hashPath": "system.text.json.9.0.1.nupkg.sha512"
+      "sha512": "sha512-r2JRkLjsYrq5Dpo7+y3Wa73OfirZPdVhxiTJWwZ+oJM7FOAe0LkM3GlH+pgkNRdd1G1kwUbmRCdmh4uoaWwu1g==",
+      "path": "system.text.json/9.0.3",
+      "hashPath": "system.text.json.9.0.3.nupkg.sha512"
     },
     "System.Threading/4.3.0": {
       "type": "package",

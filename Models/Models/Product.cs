@@ -6,19 +6,13 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Product : Model
+    public class Product : Model //Inherit the ID
     {
-        public string ProductName { get; set; }
-        public string ProductDescription { get; set; }
-        public double ProductPrice { get; set; }
-        public int BrandID { get; set; }
-        public string ProductIMG { get; set; }
-        public Store Store { get; set; }
-        public Sale Sale { get; set; }
-        public Brand Brand { get; set; }
-        public Cart Cart { get; set; }
-
-
+        public string? ProductName { get; set; } //name
+        public int ProductPrice { get; set; } //price
+        public int? StoreID { get; set; } //home store
+        public int? ProductBrand { get; set; } //home brand
+        public string? ProductIMG {  get; set; } //image
+        public int? SaleID { get; set; } // sale (if it is on sale)
     }
 }
-

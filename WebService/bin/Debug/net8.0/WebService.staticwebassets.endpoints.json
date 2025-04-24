@@ -1,0 +1,1728 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "Products/H&M_1.2m44e9dca9.jpg",
+      "AssetFile": "Products/H&M_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WlIW+oO74zkG/vVwe4kNyUJvFkzIEg3ZMsIa14wdzPQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2m44e9dca9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WlIW+oO74zkG/vVwe4kNyUJvFkzIEg3ZMsIa14wdzPQ="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_1.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_1.jpg",
+      "AssetFile": "Products/H&M_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WlIW+oO74zkG/vVwe4kNyUJvFkzIEg3ZMsIa14wdzPQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WlIW+oO74zkG/vVwe4kNyUJvFkzIEg3ZMsIa14wdzPQ="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_10.jpg",
+      "AssetFile": "Products/H&M_10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j2JWkmjQT3sy7KLjqineMtNvgWv9juki6CKTheKlK04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j2JWkmjQT3sy7KLjqineMtNvgWv9juki6CKTheKlK04="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_10.zbibxo5z3s.jpg",
+      "AssetFile": "Products/H&M_10.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39174"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j2JWkmjQT3sy7KLjqineMtNvgWv9juki6CKTheKlK04=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zbibxo5z3s"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j2JWkmjQT3sy7KLjqineMtNvgWv9juki6CKTheKlK04="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_10.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_11.jkamqfatkb.jpg",
+      "AssetFile": "Products/H&M_11.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A7VNpjTwzswPgysfDD+hUVLmyVd6lxdNJwJN8o3HYZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jkamqfatkb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A7VNpjTwzswPgysfDD+hUVLmyVd6lxdNJwJN8o3HYZA="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_11.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_11.jpg",
+      "AssetFile": "Products/H&M_11.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A7VNpjTwzswPgysfDD+hUVLmyVd6lxdNJwJN8o3HYZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A7VNpjTwzswPgysfDD+hUVLmyVd6lxdNJwJN8o3HYZA="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_12.jpg",
+      "AssetFile": "Products/H&M_12.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ic4KmhhCnyhl7VpLAkgvvaLPloxaiioD+2nOyGeyHdA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ic4KmhhCnyhl7VpLAkgvvaLPloxaiioD+2nOyGeyHdA="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_12.x2ikumsaly.jpg",
+      "AssetFile": "Products/H&M_12.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "59476"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ic4KmhhCnyhl7VpLAkgvvaLPloxaiioD+2nOyGeyHdA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2ikumsaly"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ic4KmhhCnyhl7VpLAkgvvaLPloxaiioD+2nOyGeyHdA="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_12.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_13.jpg",
+      "AssetFile": "Products/H&M_13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"31brWpZQ+HbrFObC5PPLmlKS4ls0rpJ5Af4pW6haf2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-31brWpZQ+HbrFObC5PPLmlKS4ls0rpJ5Af4pW6haf2Q="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_13.xw0ud3jggg.jpg",
+      "AssetFile": "Products/H&M_13.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"31brWpZQ+HbrFObC5PPLmlKS4ls0rpJ5Af4pW6haf2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xw0ud3jggg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-31brWpZQ+HbrFObC5PPLmlKS4ls0rpJ5Af4pW6haf2Q="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_13.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_14.jpg",
+      "AssetFile": "Products/H&M_14.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NNY+cSG8OU/YzWNqCpga1UXInumeW3F5DFGmFF0GNI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NNY+cSG8OU/YzWNqCpga1UXInumeW3F5DFGmFF0GNI0="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_14.scs5nh3606.jpg",
+      "AssetFile": "Products/H&M_14.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22554"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NNY+cSG8OU/YzWNqCpga1UXInumeW3F5DFGmFF0GNI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "scs5nh3606"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NNY+cSG8OU/YzWNqCpga1UXInumeW3F5DFGmFF0GNI0="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_14.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_15.jpg",
+      "AssetFile": "Products/H&M_15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FGigH2CHB8yJLo6iHOI4DgoUgk8NEwvFi6G8WB7KeB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FGigH2CHB8yJLo6iHOI4DgoUgk8NEwvFi6G8WB7KeB4="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_15.s0pli1j4x8.jpg",
+      "AssetFile": "Products/H&M_15.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15034"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FGigH2CHB8yJLo6iHOI4DgoUgk8NEwvFi6G8WB7KeB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s0pli1j4x8"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FGigH2CHB8yJLo6iHOI4DgoUgk8NEwvFi6G8WB7KeB4="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_15.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_16.23lmb52xy2.jpg",
+      "AssetFile": "Products/H&M_16.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmyS4c4LP5uIVJdMQmIYeFtynaqSJQiSR7CX7LyFO5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "23lmb52xy2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmyS4c4LP5uIVJdMQmIYeFtynaqSJQiSR7CX7LyFO5I="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_16.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_16.jpg",
+      "AssetFile": "Products/H&M_16.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28670"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wmyS4c4LP5uIVJdMQmIYeFtynaqSJQiSR7CX7LyFO5I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wmyS4c4LP5uIVJdMQmIYeFtynaqSJQiSR7CX7LyFO5I="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_17.2zwthu1r99.jpg",
+      "AssetFile": "Products/H&M_17.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0vr693Sg2jHaq0dWcAJRbLI5kn0lGbvGzAdeZUiHVPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2zwthu1r99"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0vr693Sg2jHaq0dWcAJRbLI5kn0lGbvGzAdeZUiHVPo="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_17.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_17.jpg",
+      "AssetFile": "Products/H&M_17.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0vr693Sg2jHaq0dWcAJRbLI5kn0lGbvGzAdeZUiHVPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0vr693Sg2jHaq0dWcAJRbLI5kn0lGbvGzAdeZUiHVPo="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_18.biwa7msfqh.jpg",
+      "AssetFile": "Products/H&M_18.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E8KueTfYaVg7wmopy1uVxIGxYaYmmUnYMbyuB7WeSB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "biwa7msfqh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-E8KueTfYaVg7wmopy1uVxIGxYaYmmUnYMbyuB7WeSB0="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_18.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_18.jpg",
+      "AssetFile": "Products/H&M_18.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"E8KueTfYaVg7wmopy1uVxIGxYaYmmUnYMbyuB7WeSB0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-E8KueTfYaVg7wmopy1uVxIGxYaYmmUnYMbyuB7WeSB0="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_19.jpg",
+      "AssetFile": "Products/H&M_19.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2rbhrhyDIaavG1q9i4lBNnJ+ZjJd21ozKN2Jj+c7JLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2rbhrhyDIaavG1q9i4lBNnJ+ZjJd21ozKN2Jj+c7JLg="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_19.yxmc6tbd4d.jpg",
+      "AssetFile": "Products/H&M_19.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2rbhrhyDIaavG1q9i4lBNnJ+ZjJd21ozKN2Jj+c7JLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yxmc6tbd4d"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2rbhrhyDIaavG1q9i4lBNnJ+ZjJd21ozKN2Jj+c7JLg="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_19.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_2.d71hjjhxex.jpg",
+      "AssetFile": "Products/H&M_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WY9l88vnj9sMJq4YONwUCWDshXQkx75fpMye0fxLDfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d71hjjhxex"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WY9l88vnj9sMJq4YONwUCWDshXQkx75fpMye0fxLDfI="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_2.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_2.jpg",
+      "AssetFile": "Products/H&M_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WY9l88vnj9sMJq4YONwUCWDshXQkx75fpMye0fxLDfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WY9l88vnj9sMJq4YONwUCWDshXQkx75fpMye0fxLDfI="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_20.jpg",
+      "AssetFile": "Products/H&M_20.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54949"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WAOkkq1gEOEQVgWF6/1EjCHo1lsJtyR5Wo+dcL2xeZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WAOkkq1gEOEQVgWF6/1EjCHo1lsJtyR5Wo+dcL2xeZE="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_20.ow03ku9q4x.jpg",
+      "AssetFile": "Products/H&M_20.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54949"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WAOkkq1gEOEQVgWF6/1EjCHo1lsJtyR5Wo+dcL2xeZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ow03ku9q4x"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WAOkkq1gEOEQVgWF6/1EjCHo1lsJtyR5Wo+dcL2xeZE="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_20.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_21.jpg",
+      "AssetFile": "Products/H&M_21.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b1kYmR386QYyB9zcorUrsgrjhschhTolZxp6pCWOK5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b1kYmR386QYyB9zcorUrsgrjhschhTolZxp6pCWOK5k="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_21.zzypwfywyq.jpg",
+      "AssetFile": "Products/H&M_21.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12562"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b1kYmR386QYyB9zcorUrsgrjhschhTolZxp6pCWOK5k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zzypwfywyq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b1kYmR386QYyB9zcorUrsgrjhschhTolZxp6pCWOK5k="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_21.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_3.cwyt0mmk6c.jpg",
+      "AssetFile": "Products/H&M_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7M09wu+LEf9qK/QSAOk7oAhcsUBliotp2wFnxY8+tv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cwyt0mmk6c"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7M09wu+LEf9qK/QSAOk7oAhcsUBliotp2wFnxY8+tv8="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_3.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_3.jpg",
+      "AssetFile": "Products/H&M_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13592"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7M09wu+LEf9qK/QSAOk7oAhcsUBliotp2wFnxY8+tv8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7M09wu+LEf9qK/QSAOk7oAhcsUBliotp2wFnxY8+tv8="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_4.b21c6izimy.jpg",
+      "AssetFile": "Products/H&M_4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nXGA7ze0FxPeEmHVV/SxazFMc+lsGD+TOA/GhdkI7b0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b21c6izimy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nXGA7ze0FxPeEmHVV/SxazFMc+lsGD+TOA/GhdkI7b0="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_4.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_4.jpg",
+      "AssetFile": "Products/H&M_4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "36048"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nXGA7ze0FxPeEmHVV/SxazFMc+lsGD+TOA/GhdkI7b0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nXGA7ze0FxPeEmHVV/SxazFMc+lsGD+TOA/GhdkI7b0="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_5.ceu4y6a422.jpg",
+      "AssetFile": "Products/H&M_5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HLObs4sAOsPipXZXIwEXmzGuKgo33P5qvgWlZApVhHw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ceu4y6a422"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HLObs4sAOsPipXZXIwEXmzGuKgo33P5qvgWlZApVhHw="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_5.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_5.jpg",
+      "AssetFile": "Products/H&M_5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HLObs4sAOsPipXZXIwEXmzGuKgo33P5qvgWlZApVhHw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HLObs4sAOsPipXZXIwEXmzGuKgo33P5qvgWlZApVhHw="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_6.jc6z6ypb4o.jpg",
+      "AssetFile": "Products/H&M_6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HReq/C3Vo42ef95HwdOBF+eAtYyBoxR+WsjhPLmfwA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jc6z6ypb4o"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HReq/C3Vo42ef95HwdOBF+eAtYyBoxR+WsjhPLmfwA0="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_6.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_6.jpg",
+      "AssetFile": "Products/H&M_6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9998"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HReq/C3Vo42ef95HwdOBF+eAtYyBoxR+WsjhPLmfwA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HReq/C3Vo42ef95HwdOBF+eAtYyBoxR+WsjhPLmfwA0="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_7.c57oy2z6cg.jpg",
+      "AssetFile": "Products/H&M_7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0GuR9c0gB92L8+T/KN/D321kt3SfDMDoRq52ZE7Oqgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c57oy2z6cg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0GuR9c0gB92L8+T/KN/D321kt3SfDMDoRq52ZE7Oqgo="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_7.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_7.jpg",
+      "AssetFile": "Products/H&M_7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6036"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0GuR9c0gB92L8+T/KN/D321kt3SfDMDoRq52ZE7Oqgo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0GuR9c0gB92L8+T/KN/D321kt3SfDMDoRq52ZE7Oqgo="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_8.ekzxq03iee.jpg",
+      "AssetFile": "Products/H&M_8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ssOJqkw0wAvFhXNCen9/0UWwRQCGXIfaP5CyQslRHaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ekzxq03iee"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ssOJqkw0wAvFhXNCen9/0UWwRQCGXIfaP5CyQslRHaM="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_8.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_8.jpg",
+      "AssetFile": "Products/H&M_8.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ssOJqkw0wAvFhXNCen9/0UWwRQCGXIfaP5CyQslRHaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ssOJqkw0wAvFhXNCen9/0UWwRQCGXIfaP5CyQslRHaM="
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_9.0ahcuh7dzp.jpg",
+      "AssetFile": "Products/H&M_9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iKuHg8+ayKnkq3riAT2hjDes2jKT6w2cINkok3Oqguc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ahcuh7dzp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iKuHg8+ayKnkq3riAT2hjDes2jKT6w2cINkok3Oqguc="
+        },
+        {
+          "Name": "label",
+          "Value": "Products/H&M_9.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "Products/H&M_9.jpg",
+      "AssetFile": "Products/H&M_9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90561"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iKuHg8+ayKnkq3riAT2hjDes2jKT6w2cINkok3Oqguc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Mar 2025 12:13:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iKuHg8+ayKnkq3riAT2hjDes2jKT6w2cINkok3Oqguc="
+        }
+      ]
+    }
+  ]
+}

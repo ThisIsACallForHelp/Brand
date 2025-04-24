@@ -122,7 +122,7 @@
           }
         }
       },
-      "System.IO.Pipelines/9.0.1": {
+      "System.IO.Pipelines/9.0.3": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.IO.Pipelines.dll": {
@@ -145,41 +145,6 @@
         },
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
-        }
-      },
-      "System.Net.Http/2.0.20126.16343": {
-        "type": "package",
-        "compile": {
-          "lib/net40/System.Net.Http.WebRequest.dll": {
-            "related": ".xml"
-          },
-          "lib/net40/System.Net.Http.dll": {
-            "related": ".WebRequest.xml;.xml"
-          }
-        },
-        "runtime": {
-          "lib/net40/System.Net.Http.WebRequest.dll": {
-            "related": ".xml"
-          },
-          "lib/net40/System.Net.Http.dll": {
-            "related": ".WebRequest.xml;.xml"
-          }
-        }
-      },
-      "System.Net.Http.Formatting.Extension/5.2.3": {
-        "type": "package",
-        "dependencies": {
-          "System.Net.Http": "(, )"
-        },
-        "compile": {
-          "lib/System.Net.Http.Extensions.dll": {},
-          "lib/System.Net.Http.Formatting.dll": {},
-          "lib/System.Net.Http.Primitives.dll": {}
-        },
-        "runtime": {
-          "lib/System.Net.Http.Extensions.dll": {},
-          "lib/System.Net.Http.Formatting.dll": {},
-          "lib/System.Net.Http.Primitives.dll": {}
         }
       },
       "System.ObjectModel/4.3.0": {
@@ -268,7 +233,7 @@
           }
         }
       },
-      "System.Text.Encodings.Web/9.0.1": {
+      "System.Text.Encodings.Web/9.0.3": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Text.Encodings.Web.dll": {
@@ -290,11 +255,11 @@
           }
         }
       },
-      "System.Text.Json/9.0.1": {
+      "System.Text.Json/9.0.3": {
         "type": "package",
         "dependencies": {
-          "System.IO.Pipelines": "9.0.1",
-          "System.Text.Encodings.Web": "9.0.1"
+          "System.IO.Pipelines": "9.0.3",
+          "System.Text.Encodings.Web": "9.0.3"
         },
         "compile": {
           "lib/net8.0/System.Text.Json.dll": {
@@ -732,10 +697,10 @@
         "system.io.nuspec"
       ]
     },
-    "System.IO.Pipelines/9.0.1": {
-      "sha512": "uXf5o8eV/gtzDQY4lGROLFMWQvcViKcF8o4Q6KpIOjloAQXrnscQSu6gTxYJMHuNJnh7szIF9AzkaEq+zDLoEg==",
+    "System.IO.Pipelines/9.0.3": {
+      "sha512": "aP1Qh9llcEmo0qN+VKvVDHFMe5Cqpfb1VjhBO7rjmxCXtLs3IfVSOiNqqLBZ/4Qbcr4J0SDdJq9S7EKAGpnwEA==",
       "type": "package",
-      "path": "system.io.pipelines/9.0.1",
+      "path": "system.io.pipelines/9.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -755,7 +720,7 @@
         "lib/net9.0/System.IO.Pipelines.xml",
         "lib/netstandard2.0/System.IO.Pipelines.dll",
         "lib/netstandard2.0/System.IO.Pipelines.xml",
-        "system.io.pipelines.9.0.1.nupkg.sha512",
+        "system.io.pipelines.9.0.3.nupkg.sha512",
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -783,41 +748,13 @@
         "version.txt"
       ]
     },
-    "System.Net.Http/2.0.20126.16343": {
-      "sha512": "d/7SOttVRBIMJPpdZ8XIMthRNvYcBmRHzV54+z0LTp/W+h2ZIfxnMefECZSQsNtclcBoUbpFVWdpr45DwUC9FA==",
-      "type": "package",
-      "path": "system.net.http/2.0.20126.16343",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/System.Net.Http.WebRequest.dll",
-        "lib/net40/System.Net.Http.WebRequest.xml",
-        "lib/net40/System.Net.Http.dll",
-        "lib/net40/System.Net.Http.xml",
-        "system.net.http.2.0.20126.16343.nupkg.sha512",
-        "system.net.http.nuspec"
-      ]
-    },
-    "System.Net.Http.Formatting.Extension/5.2.3": {
-      "sha512": "BlYwj3Mbgc2i+NqtBZ+bea3LiN9WuGpE8PCylBvhxV0wBs0XTkXJmDuzkNnUyPhDBqKMBwDK0ZCnwJ8LpQ0aEg==",
-      "type": "package",
-      "path": "system.net.http.formatting.extension/5.2.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/System.Net.Http.Extensions.dll",
-        "lib/System.Net.Http.Formatting.dll",
-        "lib/System.Net.Http.Primitives.dll",
-        "system.net.http.formatting.extension.5.2.3.nupkg.sha512",
-        "system.net.http.formatting.extension.nuspec"
-      ]
-    },
     "System.ObjectModel/4.3.0": {
       "sha512": "bdX+80eKv9bN6K4N+d77OankKHGn6CH711a6fcOpMQu2Fckp/Ft4L/kW9WznHpyR0NRAvJutzOMHNNlBGvxQzQ==",
       "type": "package",
       "path": "system.objectmodel/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -1236,10 +1173,10 @@
         "system.text.encoding.nuspec"
       ]
     },
-    "System.Text.Encodings.Web/9.0.1": {
-      "sha512": "XkspqduP2t1e1x2vBUAD/xZ5ZDvmywuUwsmB93MvyQLospJfqtX0GsR/kU0vUL2h4kmvf777z3txV2W4NrQ9Qg==",
+    "System.Text.Encodings.Web/9.0.3": {
+      "sha512": "5L+iI4fBMtGwt4FHLQh40/rgdbxnw6lHaLkR3gbaHG97TohzUv+z/oP03drsTR1lKCLhOkp40cFnHYOQLtpT5A==",
       "type": "package",
-      "path": "system.text.encodings.web/9.0.1",
+      "path": "system.text.encodings.web/9.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1263,15 +1200,15 @@
         "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
         "runtimes/browser/lib/net9.0/System.Text.Encodings.Web.dll",
         "runtimes/browser/lib/net9.0/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.9.0.1.nupkg.sha512",
+        "system.text.encodings.web.9.0.3.nupkg.sha512",
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/9.0.1": {
-      "sha512": "eqWHDZqYPv1PvuvoIIx5pF74plL3iEOZOl/0kQP+Y0TEbtgNnM2W6k8h8EPYs+LTJZsXuWa92n5W5sHTWvE3VA==",
+    "System.Text.Json/9.0.3": {
+      "sha512": "r2JRkLjsYrq5Dpo7+y3Wa73OfirZPdVhxiTJWwZ+oJM7FOAe0LkM3GlH+pgkNRdd1G1kwUbmRCdmh4uoaWwu1g==",
       "type": "package",
-      "path": "system.text.json/9.0.1",
+      "path": "system.text.json/9.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1334,7 +1271,7 @@
         "lib/net9.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.9.0.1.nupkg.sha512",
+        "system.text.json.9.0.3.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1519,9 +1456,8 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.AspNet.WebApi.Client >= 6.0.0",
-      "System.Net.Http.Formatting.Extension >= 5.2.3",
       "System.ObjectModel >= 4.3.0",
-      "System.Text.Json >= 9.0.1"
+      "System.Text.Json >= 9.0.3"
     ]
   },
   "packageFolders": {
@@ -1567,9 +1503,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -1579,17 +1515,13 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
-          "System.Net.Http.Formatting.Extension": {
-            "target": "Package",
-            "version": "[5.2.3, )"
-          },
           "System.ObjectModel": {
             "target": "Package",
             "version": "[4.3.0, )"
           },
           "System.Text.Json": {
             "target": "Package",
-            "version": "[9.0.1, )"
+            "version": "[9.0.3, )"
           }
         },
         "imports": [
@@ -1608,50 +1540,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1602",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "System.Net.Http.Formatting.Extension 5.2.3 does not provide an inclusive lower bound for dependency System.Net.Http. System.Net.Http 2.0.20126.16343 was resolved instead.",
-      "libraryId": "System.Net.Http",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Net.Http' 2.0.20126.16343 has a known high severity vulnerability, https://github.com/advisories/GHSA-7jgj-8wvc-jh57",
-      "libraryId": "System.Net.Http",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Net.Http 2.0.20126.16343' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "System.Net.Http",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Net.Http.Formatting.Extension 5.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "libraryId": "System.Net.Http.Formatting.Extension",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

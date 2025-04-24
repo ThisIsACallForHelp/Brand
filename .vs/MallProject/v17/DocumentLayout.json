@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\MyMall\\Brand\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|c:\\mymall\\brand\\mallwebapp\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|solutionrelative:mallwebapp\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A9CA7337-E961-4C51-9713-3BE15928B06D}|WebApiClient\\WebApiClient.csproj|c:\\mymall\\brand\\webapiclient\\webclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9CA7337-E961-4C51-9713-3BE15928B06D}|WebApiClient\\WebApiClient.csproj|solutionrelative:webapiclient\\webclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9CA7337-E961-4C51-9713-3BE15928B06D}|WebApiClient\\WebApiClient.csproj|c:\\mymall\\brand\\webapiclient\\webclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A9CA7337-E961-4C51-9713-3BE15928B06D}|WebApiClient\\WebApiClient.csproj|solutionrelative:webapiclient\\webclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\modelfactory\\brandcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\modelfactory\\brandcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\modelfactory\\customercreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\modelfactory\\customercreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\modelfactory\\imodelcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\modelfactory\\imodelcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|c:\\mymall\\brand\\mallwebapp\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|solutionrelative:mallwebapp\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|c:\\mymall\\brand\\mallwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,28 +35,28 @@
       "RelativeMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|solutionrelative:mallwebapp\\views\\shared\\masterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\repository\\storerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\repository\\storerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|c:\\mymall\\brand\\mallwebapp\\views\\guest\\getstorecatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|solutionrelative:mallwebapp\\views\\guest\\getstorecatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|c:\\mymall\\brand\\mallwebapp\\wwwroot\\projectgui\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|solutionrelative:mallwebapp\\wwwroot\\projectgui\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\controllers\\storemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\controllers\\storemanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E80F7FE8-5D58-45B7-9908-07A694B62396}|Models\\Models.csproj|c:\\mymall\\brand\\models\\brandcatalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E80F7FE8-5D58-45B7-9908-07A694B62396}|Models\\Models.csproj|solutionrelative:models\\brandcatalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\controllers\\mallownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\controllers\\mallownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\repository\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\repository\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\repository\\storerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\repository\\storerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\repository\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,12 +67,48 @@
       "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\repository\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\repository\\brandrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\dbcontext_folder\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\dbcontext_folder\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9CA7337-E961-4C51-9713-3BE15928B06D}|WebApiClient\\WebApiClient.csproj|c:\\mymall\\brand\\webapiclient\\webapiclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A9CA7337-E961-4C51-9713-3BE15928B06D}|WebApiClient\\WebApiClient.csproj|solutionrelative:webapiclient\\webapiclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\modelfactory\\modelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\modelfactory\\modelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\dbcontext_folder\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\dbcontext_folder\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\mallwebservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\mallwebservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\mallwebservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\mallwebservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|c:\\mymall\\brand\\mallwebapp\\views\\guest\\getstorecatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|solutionrelative:mallwebapp\\views\\guest\\getstorecatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E80F7FE8-5D58-45B7-9908-07A694B62396}|Models\\Models.csproj|c:\\mymall\\brand\\models\\brandcatalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E80F7FE8-5D58-45B7-9908-07A694B62396}|Models\\Models.csproj|solutionrelative:models\\brandcatalogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\repository\\salerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -73,10 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\mallwebservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\mallwebservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -122,20 +162,12 @@
       "RelativeMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|solutionrelative:mallwebapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A9CA7337-E961-4C51-9713-3BE15928B06D}|WebApiClient\\WebApiClient.csproj|c:\\mymall\\brand\\webapiclient\\webapiclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A9CA7337-E961-4C51-9713-3BE15928B06D}|WebApiClient\\WebApiClient.csproj|solutionrelative:webapiclient\\webapiclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A9CA7337-E961-4C51-9713-3BE15928B06D}|WebApiClient\\WebApiClient.csproj|c:\\mymall\\brand\\webapiclient\\iwebclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9CA7337-E961-4C51-9713-3BE15928B06D}|WebApiClient\\WebApiClient.csproj|solutionrelative:webapiclient\\iwebclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|c:\\mymall\\brand\\mallwebapp\\wwwroot\\projectgui\\images\\crystal_malllogo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|solutionrelative:mallwebapp\\wwwroot\\projectgui\\images\\crystal_malllogo.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|c:\\mymall\\brand\\mallwebapp\\wwwroot\\projectgui\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|solutionrelative:mallwebapp\\wwwroot\\projectgui\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|c:\\mymall\\brand\\mallwebapp\\wwwroot\\projectgui\\homestyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -146,36 +178,8 @@
       "RelativeMoniker": "D:0:0:{735E1CF4-D991-4843-8974-51C9D42420DE}|MallWebApp\\MallWebApp.csproj|solutionrelative:mallwebapp\\mallwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\controllers\\mallownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\controllers\\mallownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\dbcontext_folder\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\dbcontext_folder\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\dbcontext_folder\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\dbcontext_folder\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\modelfactory\\brandcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\modelfactory\\brandcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\modelfactory\\cartcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\modelfactory\\cartcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\modelfactory\\customercreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\modelfactory\\customercreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\modelfactory\\imodelcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\modelfactory\\imodelcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\modelfactory\\modelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|solutionrelative:mallws\\dal(data access layer)\\modelfactory\\modelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C95924C9-8591-4799-A0CD-EF63AD8B2791}|MallWS\\MallWebService.csproj|c:\\mymall\\brand\\mallws\\dal(data access layer)\\modelfactory\\productcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -197,404 +201,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 14,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GuestController.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\Controllers\\GuestController.cs",
-              "RelativeDocumentMoniker": "MallWS\\Controllers\\GuestController.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\Controllers\\GuestController.cs",
-              "RelativeToolTip": "MallWS\\Controllers\\GuestController.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAiwFgAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:29:19.7Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "MallOwnerController.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\Controllers\\MallOwnerController.cs",
-              "RelativeDocumentMoniker": "MallWS\\Controllers\\MallOwnerController.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\Controllers\\MallOwnerController.cs",
-              "RelativeToolTip": "MallWS\\Controllers\\MallOwnerController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwD0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T06:23:44.759Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StoreManagerController.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\Controllers\\StoreManagerController.cs",
-              "RelativeDocumentMoniker": "MallWS\\Controllers\\StoreManagerController.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\Controllers\\StoreManagerController.cs",
-              "RelativeToolTip": "MallWS\\Controllers\\StoreManagerController.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAuwIEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T10:30:02.158Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MasterPage.cshtml",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\Views\\Shared\\MasterPage.cshtml",
-              "RelativeDocumentMoniker": "MallWebApp\\Views\\Shared\\MasterPage.cshtml",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\Views\\Shared\\MasterPage.cshtml",
-              "RelativeToolTip": "MallWebApp\\Views\\Shared\\MasterPage.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-08T13:22:34.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\Program.cs",
-              "RelativeDocumentMoniker": "MallWebApp\\Program.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\Program.cs",
-              "RelativeToolTip": "MallWebApp\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T18:56:33.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WebClient.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\WebApiClient\\WebClient.cs",
-              "RelativeDocumentMoniker": "WebApiClient\\WebClient.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\WebApiClient\\WebClient.cs",
-              "RelativeToolTip": "WebApiClient\\WebClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T09:02:02.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\UnitOfWork.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\UnitOfWork.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\UnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T15:32:09.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\Program.cs",
-              "RelativeDocumentMoniker": "MallWS\\Program.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\Program.cs",
-              "RelativeToolTip": "MallWS\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAMwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T11:13:10.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "GuestController.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\Controllers\\GuestController.cs",
               "RelativeDocumentMoniker": "MallWebApp\\Controllers\\GuestController.cs",
               "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\Controllers\\GuestController.cs",
               "RelativeToolTip": "MallWebApp\\Controllers\\GuestController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T13:47:27.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "WhenOpened": "2025-01-08T13:47:27.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StoreRepository.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\StoreRepository.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\StoreRepository.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\StoreRepository.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\StoreRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAowBYAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:13:22.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "CartRepository.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\CartRepository.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\CartRepository.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\CartRepository.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\CartRepository.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowFIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:36:18.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\CustomerRepository.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\CustomerRepository.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\CustomerRepository.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAuwFMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:10:41.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GetStoreCatalog.cshtml",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\Views\\Guest\\GetStoreCatalog.cshtml",
-              "RelativeDocumentMoniker": "MallWebApp\\Views\\Guest\\GetStoreCatalog.cshtml",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\Views\\Guest\\GetStoreCatalog.cshtml",
-              "RelativeToolTip": "MallWebApp\\Views\\Guest\\GetStoreCatalog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-13T20:10:23.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BrandRepository.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\BrandRepository.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\BrandRepository.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\BrandRepository.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\BrandRepository.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAcwBwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:37:24.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BrandCatalogViewModel.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\BrandCatalogViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\BrandCatalogViewModel.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\Models\\BrandCatalogViewModel.cs",
-              "RelativeToolTip": "Models\\BrandCatalogViewModel.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAowAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T17:09:59.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-14T18:39:06.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\Repository.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\Repository.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\Repository.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T16:46:36.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SaleRepository.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\SaleRepository.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\SaleRepository.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\SaleRepository.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\SaleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:12:30.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 22,
               "Title": "IDBContext.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\IDBContext.cs",
               "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\IDBContext.cs",
               "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\IDBContext.cs",
               "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\IDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wBEAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:37:21.506Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T07:37:21.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\DBContext.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\DBContext.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\DBContext.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\DBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:37:16.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "BrandCreator.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\BrandCreator.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\BrandCreator.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\BrandCreator.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\BrandCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:41:49.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "CartCreator.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\CartCreator.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\CartCreator.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\CartCreator.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\CartCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:36:53.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "CustomerCreator.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\CustomerCreator.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\CustomerCreator.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\CustomerCreator.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\CustomerCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:42:07.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "IModelCreator.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\IModelCreator.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\IModelCreator.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\IModelCreator.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\IModelCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:36:56.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "ModelFactory.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\ModelFactory.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\ModelFactory.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\ModelFactory.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\ModelFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:36:58.368Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ProductCreator.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\ProductCreator.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\ProductCreator.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\ProductCreator.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\ProductCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:36:59.305Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "StoreCreator.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\StoreCreator.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\StoreCreator.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\StoreCreator.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\StoreCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:42:55.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "SaleCreator.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\SaleCreator.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\SaleCreator.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\SaleCreator.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\SaleCreator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:37:05.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\IRepository.cs",
-              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\IRepository.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\IRepository.cs",
-              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:36:47.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "WebApiClient.csproj",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\WebApiClient\\WebApiClient.csproj",
-              "RelativeDocumentMoniker": "WebApiClient\\WebApiClient.csproj",
-              "ToolTip": "C:\\MyMall\\Brand\\WebApiClient\\WebApiClient.csproj",
-              "RelativeToolTip": "WebApiClient\\WebApiClient.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-05T18:47:24.131Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "MallWebService.csproj",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\MallWebService.csproj",
               "RelativeDocumentMoniker": "MallWS\\MallWebService.csproj",
@@ -606,109 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "MallWebApp\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\Properties\\launchSettings.json",
-              "RelativeToolTip": "MallWebApp\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-06T14:48:09.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Microsoft.PackageDependencyResolution.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "RelativeToolTip": "..\\..\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
-              "ViewState": "AgIAAAABAAAAAAAAAAAQwAkBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-02-06T14:38:21.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IWebClient.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\WebApiClient\\IWebClient.cs",
-              "RelativeDocumentMoniker": "WebApiClient\\IWebClient.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\WebApiClient\\IWebClient.cs",
-              "RelativeToolTip": "WebApiClient\\IWebClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T08:46:34.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Store.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\Models\\Store.cs",
-              "RelativeDocumentMoniker": "Models\\Models\\Store.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\Models\\Models\\Store.cs",
-              "RelativeToolTip": "Models\\Models\\Store.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwA8AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:41:04.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CatalogViewModel.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\CatalogViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\CatalogViewModel.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\Models\\CatalogViewModel.cs",
-              "RelativeToolTip": "Models\\CatalogViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:29:48.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ProductCatalogViewModel.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\ProductCatalogViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ProductCatalogViewModel.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\Models\\ProductCatalogViewModel.cs",
-              "RelativeToolTip": "Models\\ProductCatalogViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T18:16:54.529Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "CRYSTAL_MallLogo.png",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
-              "RelativeDocumentMoniker": "MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
-              "RelativeToolTip": "MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2025-01-10T08:54:25.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Brand.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\Models\\Brand.cs",
-              "RelativeDocumentMoniker": "Models\\Models\\Brand.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\Models\\Models\\Brand.cs",
-              "RelativeToolTip": "Models\\Models\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:36:50.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 8,
               "Title": "Home.html",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
               "RelativeDocumentMoniker": "MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
@@ -716,25 +269,467 @@
               "RelativeToolTip": "MallWebApp\\wwwroot\\ProjectGUI\\Home.html",
               "ViewState": "AgIAAC0AAAAAAAAAAADwv0UAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-10T08:51:23.281Z",
+              "WhenOpened": "2025-01-10T08:51:23.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MasterPage.cshtml",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\Views\\Shared\\MasterPage.cshtml",
+              "RelativeDocumentMoniker": "MallWebApp\\Views\\Shared\\MasterPage.cshtml",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\Views\\Shared\\MasterPage.cshtml",
+              "RelativeToolTip": "MallWebApp\\Views\\Shared\\MasterPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-08T13:22:34.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IModelCreator.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\IModelCreator.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\IModelCreator.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\IModelCreator.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\IModelCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:36:56.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerCreator.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\CustomerCreator.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\CustomerCreator.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\CustomerCreator.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\CustomerCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:42:07.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BrandCreator.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\BrandCreator.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\BrandCreator.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\BrandCreator.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\BrandCreator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAABQwA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:41:49.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\Program.cs",
+              "RelativeDocumentMoniker": "MallWS\\Program.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\Program.cs",
+              "RelativeToolTip": "MallWS\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T11:13:10.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebClient.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebApiClient\\WebClient.cs",
+              "RelativeDocumentMoniker": "WebApiClient\\WebClient.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebApiClient\\WebClient.cs*",
+              "RelativeToolTip": "WebApiClient\\WebClient.cs*",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwEkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T09:02:02.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 9,
+              "Title": "StoreManagerController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\Controllers\\StoreManagerController.cs",
+              "RelativeDocumentMoniker": "MallWS\\Controllers\\StoreManagerController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\Controllers\\StoreManagerController.cs",
+              "RelativeToolTip": "MallWS\\Controllers\\StoreManagerController.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAuwIEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T10:30:02.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MallOwnerController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\Controllers\\MallOwnerController.cs",
+              "RelativeDocumentMoniker": "MallWS\\Controllers\\MallOwnerController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\Controllers\\MallOwnerController.cs",
+              "RelativeToolTip": "MallWS\\Controllers\\MallOwnerController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwD0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T06:23:44.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GuestController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\Controllers\\GuestController.cs",
+              "RelativeDocumentMoniker": "MallWS\\Controllers\\GuestController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\Controllers\\GuestController.cs",
+              "RelativeToolTip": "MallWS\\Controllers\\GuestController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAACBjwFgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:29:19.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StoreRepository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\StoreRepository.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\StoreRepository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\StoreRepository.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\StoreRepository.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowG8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:13:22.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "MallWebApp\\Program.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\Program.cs",
+              "RelativeToolTip": "MallWebApp\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T18:56:33.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAAwHUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T18:39:06.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\Repository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\Repository.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T16:46:36.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:10:41.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CartRepository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\CartRepository.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\CartRepository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\CartRepository.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\CartRepository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:36:18.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\DBContext.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\DBContext.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\DBContext.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\DBCONTEXT_Folder\\DBContext.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAADwvwsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:37:16.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BrandRepository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\BrandRepository.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\BrandRepository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\BrandRepository.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\BrandRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:37:24.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ModelFactory.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\ModelFactory.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\ModelFactory.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\ModelFactory.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\ModelFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:36:58.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\UnitOfWork.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\UnitOfWork.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T15:32:09.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WebApiClient.csproj",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebApiClient\\WebApiClient.csproj",
+              "RelativeDocumentMoniker": "WebApiClient\\WebApiClient.csproj",
+              "ToolTip": "C:\\MyMall\\Brand\\WebApiClient\\WebApiClient.csproj",
+              "RelativeToolTip": "WebApiClient\\WebApiClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-05T18:47:24.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MallWebService",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\MallWebService.csproj",
+              "RelativeDocumentMoniker": "MallWS\\MallWebService.csproj",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\MallWebService.csproj",
+              "RelativeToolTip": "MallWS\\MallWebService.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-20T19:42:47.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetStoreCatalog.cshtml",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\Views\\Guest\\GetStoreCatalog.cshtml",
+              "RelativeDocumentMoniker": "MallWebApp\\Views\\Guest\\GetStoreCatalog.cshtml",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\Views\\Guest\\GetStoreCatalog.cshtml",
+              "RelativeToolTip": "MallWebApp\\Views\\Guest\\GetStoreCatalog.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T20:10:23.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BrandCatalogViewModel.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\BrandCatalogViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\BrandCatalogViewModel.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\Models\\BrandCatalogViewModel.cs",
+              "RelativeToolTip": "Models\\BrandCatalogViewModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T17:09:59.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SaleRepository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\SaleRepository.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\SaleRepository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\SaleRepository.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\SaleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:12:30.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CartCreator.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\CartCreator.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\CartCreator.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\CartCreator.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\CartCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:36:53.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ProductCreator.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\ProductCreator.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\ProductCreator.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\ProductCreator.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\ProductCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:36:59.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "StoreCreator.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\StoreCreator.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\StoreCreator.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\StoreCreator.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\StoreCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:42:55.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "SaleCreator.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\SaleCreator.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\SaleCreator.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\ModelFactory\\SaleCreator.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\ModelFactory\\SaleCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:37:05.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "MallWS\\DAL(Data Access Layer)\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWS\\DAL(Data Access Layer)\\Repository\\IRepository.cs",
+              "RelativeToolTip": "MallWS\\DAL(Data Access Layer)\\Repository\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:36:47.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MallWebApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MallWebApp\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-06T14:48:09.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAAABAAAAAAAAAAAQwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-06T14:38:21.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IWebClient.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebApiClient\\IWebClient.cs",
+              "RelativeDocumentMoniker": "WebApiClient\\IWebClient.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebApiClient\\IWebClient.cs",
+              "RelativeToolTip": "WebApiClient\\IWebClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T08:46:34.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\Models\\Store.cs",
+              "RelativeDocumentMoniker": "Models\\Models\\Store.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\Models\\Models\\Store.cs",
+              "RelativeToolTip": "Models\\Models\\Store.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T08:41:04.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CatalogViewModel.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\CatalogViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\CatalogViewModel.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\Models\\CatalogViewModel.cs",
+              "RelativeToolTip": "Models\\CatalogViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:29:48.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ProductCatalogViewModel.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\ProductCatalogViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ProductCatalogViewModel.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\Models\\ProductCatalogViewModel.cs",
+              "RelativeToolTip": "Models\\ProductCatalogViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T18:16:54.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CRYSTAL_MallLogo.png - PNG [632x762, 32 bit, PNG]",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
+              "RelativeDocumentMoniker": "MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png - PNG [632x762, 32 bit, PNG]",
+              "RelativeToolTip": "MallWebApp\\wwwroot\\ProjectGUI\\images\\CRYSTAL_MallLogo.png - PNG [632x762, 32 bit, PNG]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-01-10T08:54:25.744Z",
+              "EditorCaption": " - PNG [632x762, 32 bit, PNG]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Brand.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\Models\\Brand.cs",
+              "RelativeDocumentMoniker": "Models\\Models\\Brand.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\Models\\Models\\Brand.cs",
+              "RelativeToolTip": "Models\\Models\\Brand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T07:36:50.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "HomeStyle.css",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
               "RelativeDocumentMoniker": "MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
               "ToolTip": "C:\\MyMall\\Brand\\MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
               "RelativeToolTip": "MallWebApp\\wwwroot\\ProjectGUI\\HomeStyle.css",
-              "ViewState": "AgIAAHwAAAAAAAAAAIBZwIkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAOBvwIkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-10T08:50:38.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T08:50:38.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "Cart.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\Models\\Cart.cs",
               "RelativeDocumentMoniker": "Models\\Models\\Cart.cs",
@@ -742,12 +737,11 @@
               "RelativeToolTip": "Models\\Models\\Cart.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:37:00.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T07:37:00.345Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 43,
               "Title": "MallWebApp.csproj",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApp\\MallWebApp.csproj",
               "RelativeDocumentMoniker": "MallWebApp\\MallWebApp.csproj",
@@ -759,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Models\\Models\\Product.cs",
@@ -767,12 +761,11 @@
               "RelativeToolTip": "Models\\Models\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:40:00.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T08:40:00.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "Customer.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\Models\\Customer.cs",
               "RelativeDocumentMoniker": "Models\\Models\\Customer.cs",
@@ -780,12 +773,11 @@
               "RelativeToolTip": "Models\\Models\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:36:56.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T07:36:56.176Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "Sale.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\Models\\Sale.cs",
               "RelativeDocumentMoniker": "Models\\Models\\Sale.cs",
@@ -793,12 +785,11 @@
               "RelativeToolTip": "Models\\Models\\Sale.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T08:41:03.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T08:41:03.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "Model.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\Models\\Models\\Model.cs",
               "RelativeDocumentMoniker": "Models\\Models\\Model.cs",
@@ -806,8 +797,11 @@
               "RelativeToolTip": "Models\\Models\\Model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:36:54.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-29T07:36:54.063Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

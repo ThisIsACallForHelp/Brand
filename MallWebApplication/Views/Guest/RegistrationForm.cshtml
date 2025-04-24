@@ -1,0 +1,58 @@
+﻿@using Models;
+@model CityViewModel;
+@{
+    ViewData["Title"] = "RegistrationForm";
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+<link rel="stylesheet" href="~/GUI/SignUpStyle.css"/>
+
+@if(ViewBag.Error == true){
+    <h1> There was an error, try again </h1>
+}
+
+<div style="width: 100%; height: 800px; background-image: url(~/GUI/images/Sams-Club-Dress-Code-for-staff.jpg); background-repeat: no-repeat; background-size: cover; height: 900px;">
+    <div class="Wrapper">
+        <div style="text-align: center; width: 500px; border-bottom: 5px solid black; height: 100px; text-justify: center;">
+            <h1 style="font-size: 60px;"> Registration </h1>
+        </div>
+        <form 
+            method="post"
+            action="http://localhost:5041/Guest/Register"
+            enctype="multipart/form-data">
+            <h1> Please enter: </h1>
+            <label> First name </label>
+            <input type="text" placeholder="First Name" name="CustomerFirstName" required>
+            <label> Last name </label>
+            <input type="text" placeholder="Last Name" name="CustomerLastName" required>
+            <br>
+            <label> Email </label>
+            <input type="email" placeholder="Email" name="CustomerEmail" required>
+            <label> Phone number </label>
+            <input type="tel" pattern="^05[1-9][0-9]{7}$" placeholder="05xxxxxxxx" name="CustomerPhoneNumber"  required>
+
+            <br>
+            <label> Select Your City </label>
+            <select name="CityID">
+                @foreach(City city in Model.cities){
+                    <option value="@city.ID"> @city.CityName </option>
+                }                
+            </select>
+            <br>
+            <label> Enter Password </label>
+            <input type="password" placeholder="Password" name="CustomerPassword" required>
+            <br>
+            <label> Select Your Avatar </label>
+            <input type="file" style="width: 80px; height: 20px; align-items: stretch; padding: 0px;"  name="CustomerIMG" required>
+
+            <h2 style="margin: 0px;"> already have an account? <a href="http://localhost:5041/Guest/LoginForm"> Sign In </a></h2>
+
+            <div style="display: flex; justify-content: flex-start; width: 450px; height: 100px;">
+                <input type="reset" class="Clear">
+                <input type="submit" class="Submit">
+            </div>
+        </form>
+    </div>
+</div>
+
+

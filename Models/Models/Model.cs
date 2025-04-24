@@ -6,15 +6,9 @@ using System.Threading.Tasks;
 
 namespace Models
 {
+    //Every Model's ID
     public class Model
     {
-        public string? ID { get; set; }
-        public int ProductID { get; set; }
-        public int BrandID { get; set; }
-        public string CustomerID { get; set; }
-        public int SaleID { get; set; }
-        public int StoreID { get; set; }
-        public string CartID { get; set; }
+        public int ID { get; set; } 
     }
 }
-

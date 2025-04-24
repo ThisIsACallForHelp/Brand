@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Sale : Model
+    public class Sale : Model //inherit the ID
     {
-        public int Percentage { get; set; }       
-        public Product Product { get; set; }
-        public Brand Brand { get; set; }
+        public int Percentage { get; set; } //sale percentage
+        //public List<Product> ProductsOnSale { get; set; }
+        //list of products on sale
 
     }
 }
-

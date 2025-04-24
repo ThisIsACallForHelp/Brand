@@ -1,0 +1,102 @@
+body{
+    display: block;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;  /* Centers vertically */
+    height: 100vh;  /* Full viewport height */
+    margin: 0;
+    background-color: yellow;
+} 
+
+
+
+.header{
+    top: 0;
+    left: 0;
+    width: 1720px;
+    height: 150px;
+    padding: 20px 100px;
+    background-color: rgba(200, 200, 200, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: .3s ;
+    width: 50px;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar a:hover{
+    background-color: black;
+    color:#00FFAA
+}
+
+.navbar{
+    width: 1000px;
+    margin-right: 250px;
+}
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.ProductList{
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    min-height: 500px;
+    padding: 10px;
+}
+
+.Total{
+    width: 20%;
+    background-color: aqua;
+    text-align: center;
+    border: 5px solid black;
+    padding: 20px;
+    height: 250px;
+}
+
+.ProductInfo{
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    display: flex;
+    background-color: white;
+    margin: 30px;
+    margin-left: 100px;
+}
+
+.ProductText{
+    background-color: #00FFAA;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    padding: 0px;
+}
+button{
+    margin-top: 20px;
+    height: 50px; 
+    background-color: crimson;
+    width: 125px; 
+    border: 5px solid black; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}

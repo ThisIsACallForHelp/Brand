@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CatalogStyle.css">
+    <title>Catalog</title>
+</head>
+<body>
+    <div class="header">
+        <img src="images/CRYSTAL_MallLogo-removebg-preview.png" style="height: 100px; width: 100px;">
+
+        <nav class="navbar">
+            <a href="#" > Home</a>
+            <a href="Catalog.html"> Catalog</a>
+            <a href="SignUp.html"> Register</a>
+            <a href="SingIn.html"> Sign-In</a>
+            <a href="CustomerCart.html"> My Cart</a>
+        </nav>
+    </div>
+    <div style="display: flex; min-height: 1000px;">
+        <div class="ProductContent">
+            <div class="Product">
+                <img src="images/CRYSTAL_MallLogo-removebg-preview.png" style="height: 310px; width: 325px; margin: 0px;">
+                <button id="OpenModal"> Click Me To See More!</button>
+                <div class="modal" id="Modal">
+                    <div class="modal-inner">
+                        <div style="display: flex;">
+                            <div>
+                                <img src="images/CRYSTAL_MallLogo-removebg-preview.png" style="width: 250px; height: 300px; margin-top: 10px; margin-bottom: 10px; margin-left: 5px;">
+                            </div>
+                            <div style="display: block;font-size: 20px; justify-content: center;">
+                                <h1 style="margin-left: 40px;"> ProductName</h1>
+                                <div style="display: flex; margin: 20px;">
+                                    <h2 style="align-content: flex-start;"> ProductPrice: </h2>
+                                    <h2 style="align-content: flex-end; margin-left:20px ;"> 567 ILS</h2>
+                                </div>
+                                <div style="display: flex; margin: 30px;">
+                                    <h2 style="align-content: flex-start;"> Store </h2>
+                                    <h2 style="align-content: flex-end; margin-left:40px ;"> StoreName</h2>
+                                </div>
+                            </div>
+                            
+                        
+                        </div>
+                        <div style="display: flex;">
+                            <button id="CloseModal"> Close </button>
+                            <button> Add To My Cart </button>
+                        </div>
+                    </div>
+                    
+                </div>
+            
+            </div>
+        </div>
+        <div class="Properties">
+            <div class="SaleContainer">
+                <p style="font-size: 35px; margin: 0px;"><u> Search for sale</u></p>
+                <p style="font-size: 25px;"> Enter the sale percentage to see products on sale</p>
+                <form style="margin: 10px;">
+                    <input type="text" style="border: 5px solid black; border-radius: 20px; width: 50px; " pattern="[0-9]{1,3}">
+                </form>
+            </div>
+            <div class="BrandsAndStores">
+                <h1 style="margin-top: 0px; margin-bottom: 20px; width: 100%;"> <u> Brands & Stores </u></h1>
+                <div style="display: flex; margin-left: 15px; overflow-y: auto;">
+                    <div style="background-color: black; width: 120px; height: 250px; margin: 0px; color: #00FFAA; border: 3px solid white;">
+                        
+                    </div>
+                    <div style="background-color: black; width: 120px; height: 250px; margin: 0px; color: #00FFAA; border: 3px solid white;">
+            
+                    </div>
+                </div>
+            </div>
+            <div class="StoreTypes">
+                <h1 style="margin: 10px; width: 100%; font-size: 25px;"> <u> Looking for a specific store type? </u></h1>
+                <div style="background-color: black; width: 150px; height: 200px; margin-left: 65px; color: #00FFAA; border: 3px solid white;">
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="CatalogScript.js"></script>
+</body>
+</html>

@@ -1,18 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices.Marshalling;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Brand : Model
+    public class Brand : Model //inherit the ID
     {
-        public string BrandName { get; set; }
-        public string BrandIMG { get; set; }
-        public List<Product> Products { get; set; }
-        public List<Sale> Sales { get; set; }
-
+        public string? BrandName { get; set; } //name
+        public string? BrandIMG {  get; set; } //image 
+        public List<Store>? BrandStores { get; set; } 
+        //list of stores 
+        public List<Product> BrandProducts { get; set; }
     }
 }
-

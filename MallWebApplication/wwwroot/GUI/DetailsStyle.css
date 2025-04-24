@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    justify-content: center;
+    height: 1000px;
+}
+
+.Holder{
+    width: 800px;
+    height: 810px;
+    border:  5px solid black;
+    border-radius: 20px;
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: crimson;
+}
+
+.Title{
+    text-align: center;
+    width: 800px;
+    border-bottom: 5px solid black;
+    height: 100px;
+    align-items: center;
+}
+
+.Content{
+    height: 550px;
+    width: 800px;
+    display: flex;
+    background-color: white;
+}
+
+.Text{
+    margin: 20px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.Buttons{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 800px;
+    height: 100px;
+    display: flex;
+    border-top: 5px solid black;
+}
+
+button{
+    margin-top: 0px;
+    height: 100px;
+    width: 60%;
+    border: 5px solid black;
+    font-size: 60px;
+    background-color: crimson;
+}

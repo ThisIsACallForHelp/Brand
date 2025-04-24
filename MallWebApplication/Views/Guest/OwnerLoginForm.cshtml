@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "OwnerLoginForm";
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/GUI/SignUpStyle.css">
+    <title>Sign-In Form</title>
+</head>
+<body style="width: 100%">
+    <div style="width: 100%; height: 800px; background-image: url(~/GUI/images/Sams-Club-Dress-Code-for-staff.jpg); background-repeat: no-repeat; background-size: cover; height: 910px; width:1000px">
+        <div class="Wrapper" style="height: 520px">
+            <div style="text-align: center; width: 500px; border-bottom: 5px solid black; height: 100px; text-justify: center;">
+                <h1 style="font-size: 60px;"> Sign-In </h1>
+            </div>
+            <form method="get" action="http://localhost:5041/Guest/OwnerLogin" enctype="multipart/form-data">
+                <div class="error">
+                    <h1> Please, check the form again </h1>
+                </div>
+                <label> First name </label>
+                <input type="text" placeholder="First Name" id="FirstName" name="StoreOwnerName" required>
+                <label> Last name </label>
+                <input type="text" placeholder="Last Name" id="LastName" name="StoreOwnerLastName" required>
+                <label style="margin-left: 60px;"> Your ID </label>
+                <input type="number" placeholder="ID" id="Password" name="StoreOwnerID" required>
+                <br>
+                <h2 style="margin: 0px;"><a href="http://localhost:5041/Guest/LoginForm"> Back </a></h2>
+
+                <div style="display: flex; justify-content: flex-start; width: 450px; height: 100px;">
+                    <input type="reset" class="Clear">
+                    <input type="submit" class="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="~/GUI/SignInValidation.js"></script>
+</body>
+</html>
+

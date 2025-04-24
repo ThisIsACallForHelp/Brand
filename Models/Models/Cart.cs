@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Cart : Model
+    public class Cart : Model //inherit the ID
     {
-        public Customer Customer { get; set; }
-        public List<Product> Products { get; set; }
-        public double TotalPrice { get; set; }  
+        public Customer? customer { get; set; } 
+        //the owner of the cart
+        public Product? Product {  get; set; } 
+        //List of products in the cart
     }
 }
-

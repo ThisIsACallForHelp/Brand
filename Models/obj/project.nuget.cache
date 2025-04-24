@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "a3aIH1rEauo=",
+  "dgSpecHash": "7lCaYe0qVtA=",
   "success": true,
   "projectFilePath": "C:\\MyMall\\Brand\\Models\\Models.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\system.io.pipelines\\9.0.3\\system.io.pipelines.9.0.3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.encodings.web\\9.0.3\\system.text.encodings.web.9.0.3.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.text.json\\9.0.3\\system.text.json.9.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

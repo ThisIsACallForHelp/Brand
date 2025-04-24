@@ -8,10 +8,9 @@ namespace WebApiClient
 {
     public interface IWebClient<T>
     {
-        Task<T> Get();
-        Task<bool> Post(T model);
-        Task<bool> Post(T model, Stream file);
-        Task<bool> Post(T model, List<Stream> files); //Second extension --> upload files 
-
+        Task<T> GetAsync();
+        Task<bool> PostAsync(T model);
+        Task<bool> PostAsync(T model, Stream file);
+        Task<bool> PostAsync(T model, Stream[] files);
     }
 }

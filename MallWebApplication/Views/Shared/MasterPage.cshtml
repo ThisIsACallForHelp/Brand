@@ -1,0 +1,81 @@
+﻿@using Models;
+
+@{
+    Layout = null;
+    string currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/GUI/CatalogStyle.css">
+    <title>Catalog</title>
+</head>
+<body style="background-color: yellow">
+    <div class="header" style="width: 1851px; background: rgba(200, 200, 200, 1); align-items: center">
+        <img src="~/GUI/images/CRYSTAL_MallLogo-removebg-preview.png" style="height: 100px; width: 100px;">
+
+        <nav class="navbar" style="width:800px; display: flex; text-align: center">
+            @if (currentController == "User" && Model != null)
+            {
+                <a href="http://localhost:5041/User/GetCatalog" style="width: 70px;"> Catalog</a>
+                <a href="http://localhost:5041/User/GetCart" style="width: 70px;" > My Cart</a>
+                <a href="http://localhost:5041/User/ViewProfile" style="width: 105px;" name="CustomerID"> My Account</a>
+            }
+            @if (currentController == "Guest" && Model != null)
+            {
+                <a href="http://localhost:5041/Guest/GetCatalog" style="width: 70px;"> Catalog</a>
+                <a href="http://localhost:5041/Guest/RegistrationForm" style="width: 70px;"> Register</a>
+                <a href="http://localhost:5041/Guest/LoginForm" style="width: 70px;"> Sign-In</a>
+            }
+        </nav>
+    </div>
+    <div style="display: flex; min-height: 1000px;">
+        <div class="ProductContent">
+            @RenderBody()
+        </div>
+        @if(Model != null && Model.GetType() == typeof(CatalogViewModel)){
+            <div class="Properties">
+                <div class="SaleContainer">
+                    <p style="font-size: 35px; margin: 0px;"><u> Search for sale</u></p>
+                    <p style="font-size: 25px;"> Enter the sale percentage to see products on sale</p>
+                    <input type="text" style="border: 5px solid black; border-radius: 20px; width: 50px; margin: 0px" pattern="[0-9]{1,3}">
+                </div>
+                <div class="BrandsAndStores">
+                    <h1 style="margin-top: 0px; margin-bottom: 20px; width: 100%;"> <u> Brands & Stores </u></h1>
+                    <div style="display: flex; margin-left: 15px; overflow-y: auto;">
+                        <div style="background-color: black; width: 120px; height: 250px; margin: 0px; color: #00FFAA; border: 3px solid white;">
+                            <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black;">
+                                @foreach(Brand brand in Model.Brands){
+                                    <li style="font-size: 30px;margin-top: 5px; margin-left: 0px;"> @brand.BrandName </li>
+                                }
+                            </ul>
+
+                        </div>
+                        <div style="background-color: black; width: 120px; height: 250px; margin: 0px; color: #00FFAA; border: 3px solid white;">
+                            <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black;">
+                                @foreach (Store store in Model.stores)
+                                {
+                                    <li style="font-size: 30px;margin-top: 5px; margin-left: 0px;"> @store.StoreName </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="StoreTypes">
+                    <h1 style="margin: 10px; width: 100%; font-size: 25px;"> <u> Looking for a specific store type? </u></h1>
+                    <div style="background-color: black; width: 150px; height: 200px; margin-left: 65px; color: #00FFAA; border: 3px solid white;">
+                    </div>
+                </div>
+            </div>
+        }     
+
+    </div>
+    <script src="~/GUI/CatalogScript.js"></script>
+</body>
+</html>

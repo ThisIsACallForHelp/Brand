@@ -1,0 +1,24 @@
+﻿@using Models;
+@model CatalogViewModel;
+@{
+    ViewData["Title"] = "GetCatalog";
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+<script src="~/GUI/CatalogScript.js"></script>
+@foreach (Product product in Model.Products)
+{
+    <div class="Product">
+        <img src="@product.ProductIMG" style="height: 310px; width: 325px; margin: 0px;">
+        <button onclick="window.location.href='@Url.Action("GetProduct", "Guest", new { ProductID = product.ID })'">Click Me To See More!</button>
+    </div>
+}
+
+<div class="Paging">
+    <div class="Arrow Right" style="margin-left: 42%;"></div>
+    @for(int i=0; i < Model.PageNumber;i++){
+        <div class="PageNumber"> @i </div>
+    }
+    <button class="Arrow Left" ></button>
+</div>
+
