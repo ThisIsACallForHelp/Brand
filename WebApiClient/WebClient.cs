@@ -84,6 +84,24 @@ namespace WebApiClient
             return default(T);
         }
 
+        public async Task<int> RegPost(T model)
+        {
+            this.request.Method = HttpMethod.Post;
+            this.request.RequestUri = this.uriBuilder.Uri;
+            ObjectContent<T> objectContent = new ObjectContent<T>(model, new JsonMediaTypeFormatter());
+            this.request.Content = objectContent;
+            using (HttpClient Client = new HttpClient())
+            {
+                this.response = await Client.SendAsync(this.request);
+                Console.WriteLine("Status Code: " + this.response.StatusCode);
+                if (this.response.IsSuccessStatusCode)
+                {
+                    return await this.response.Content.ReadAsAsync<int>();
+                }
+            }
+            return 0;
+        }
+
         public async Task<bool> PostAsync(T model)
         {
             this.request.Method=HttpMethod.Post;
@@ -100,7 +118,8 @@ namespace WebApiClient
                 }
             }
             return false;
-        }
+        }       
+
 
         public async Task<bool> PostAsync(T model, Stream file)
         {

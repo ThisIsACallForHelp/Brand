@@ -11,14 +11,16 @@ namespace WebService
         }
         public bool Create(Product product)
         {
+
             string sql = $@"INSERT INTO Product(ProductName, ProductPrice, ProductID, StoreID, BrandID, ProductIMG)
-                            VALUES(@ProductName,@ProductPrice, @ProductID, @StoreID, @BrandID, @ProductIMG)";
-            base.dbContext.AddParameters("@ProductID", product.ID.ToString());
-            base.dbContext.AddParameters("@ProductName", product.ProductName);
-            base.dbContext.AddParameters("@ProductPrice", product.ProductPrice.ToString());
-            base.dbContext.AddParameters("@StoreID", product.StoreID.ToString());
-            base.dbContext.AddParameters("@BrandID", product.ProductBrand.ToString());
-            base.dbContext.AddParameters("@ProductIMG", product.ProductIMG);
+                            VALUES('{product.ProductName}',{product.ProductPrice}, {product.ID}, {product.StoreID}, {product.ProductBrand}, '{product.ProductIMG}')";
+
+            //base.dbContext.AddParameters("@ProductID", product.ID.ToString());
+            //base.dbContext.AddParameters("@ProductName", product.ProductName);
+            //base.dbContext.AddParameters("@ProductPrice", product.ProductPrice.ToString());
+            //base.dbContext.AddParameters("@StoreID", product.StoreID.ToString());
+            //base.dbContext.AddParameters("@BrandID", product.ProductBrand.ToString());
+            //base.dbContext.AddParameters("@ProductIMG", product.ProductIMG);
             return this.dbContext.Create(sql) > 0;
         }
         public Product GetByID(int ProductID)
@@ -131,7 +133,7 @@ namespace WebService
 
         public int GetPrice(int ProductID)
         {
-            string sql = "SELECT ProductPrice FROM Product WHERE ProductID = @productID";
+            string sql = "SELECT * FROM Product WHERE ProductID = @productID";
             base.dbContext.AddParameters("@ProductID", ProductID.ToString());
             using (IDataReader product = base.dbContext.Read(sql))
             {
@@ -142,11 +144,12 @@ namespace WebService
 
         public bool ChangeSaleID(int ProductID, int SaleID)
         {
-            int productPrice = GetPrice(ProductID) - Convert.ToInt32((GetPrice(ProductID) / 100) * (SaleID * 5));
+            int productPrice = GetPrice(ProductID);
+            productPrice -= Convert.ToInt32((GetPrice(ProductID) / 100) * (SaleID * 5));
             string sql = $@"UPDATE Product SET 
-                                   SaleID = @saleID
-                                   ProductPrice = @productPrice
-                            WHERE ProductID = @productID";
+                                   SaleID = {SaleID},
+                                   ProductPrice = {productPrice}
+                            WHERE ProductID = {ProductID}";
             base.dbContext.AddParameters("@SaleID", SaleID.ToString());
             base.dbContext.AddParameters("@ProductID", ProductID.ToString());
             return this.dbContext.Update(sql) > 0;
@@ -205,7 +208,8 @@ namespace WebService
 
         public bool DeleteSale(int ProductID)
         {
-            string sql = $@"UPDATE Product SET SaleID = 0 WHERE ProductID = @productID";
+            string sql = $@"UPDATE Product SET SaleID=0 WHERE ProductID = {ProductID}";
+            Console.WriteLine(sql);
             base.dbContext.AddParameters("@ProductID", ProductID.ToString());
             return base.dbContext.Update(sql) > 0;
         }

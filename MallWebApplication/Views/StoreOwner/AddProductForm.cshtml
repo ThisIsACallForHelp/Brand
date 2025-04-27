@@ -1,0 +1,53 @@
+﻿
+@{
+    ViewData["Title"] = "AddProductForm";
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/GUI/SignUpStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Wrapper" style="height: 800px;">
+        <div style="text-align: center; width: 500px; border-bottom: 5px solid black; height: 100px; text-justify: center;">
+            <h1 style="font-size: 55px;"> Product Registration </h1>
+        </div>
+        <form style="display: block;" action="http://localhost:5041/StoreOwner/AddProduct"
+              method="post" enctype="multipart/form-data">
+            <div class="error" id="ErrorDiv">
+                <h1> Please, check the form again </h1>
+            </div>
+            <label> Product Name </label>
+            <input type="text" placeholder="Name" required name="ProductName">
+            <br>
+            <label> Product Price </label>
+            <input type="number" placeholder="Price" required name="ProductPrice">
+            <br>
+            <label> ProductID </label>
+            <input type="number" placeholder="ProductID" required name="ProductID">
+            <br>
+            <label> BrandID </label>
+            <input type="number" placeholder="BrandID" required name="BrandID">
+            <br>
+            <label> StoreID </label>
+            <input type="number" placeholder="BrandID" required name="StoreID">
+            <br>
+            <label> Sale Percentage </label>
+            <input type="number" placeholder="Percentage" name="Percentage">
+            <br>
+            <label> Product image </label>
+            <input type="file" style="width: 80px; height: 20px; align-items: stretch; padding: 0px;" name="ProductIMG" required>
+            <div style="display: flex; justify-content: center; width: 450px; height: 100px; margin: 0px;">
+                <button class="Clear" onclick="window.location.href='@Url.Action("StoreOwnerView", "StoreOwner")'"> Back </button>
+                <button type="submit" class="Submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

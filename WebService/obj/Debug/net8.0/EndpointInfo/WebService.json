@@ -119,17 +119,20 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "type": "boolean"
+                  "type": "integer",
+                  "format": "int32"
                 }
               },
               "application/json": {
                 "schema": {
-                  "type": "boolean"
+                  "type": "integer",
+                  "format": "int32"
                 }
               },
               "text/json": {
                 "schema": {
-                  "type": "boolean"
+                  "type": "integer",
+                  "format": "int32"
                 }
               }
             }
@@ -1009,24 +1012,25 @@
         "tags": [
           "StoreOwner"
         ],
-        "parameters": [
-          {
-            "name": "ProductID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "Percentage",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK",
@@ -1056,16 +1060,25 @@
         "tags": [
           "StoreOwner"
         ],
-        "parameters": [
-          {
-            "name": "ProductID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK",
@@ -1095,16 +1108,25 @@
         "tags": [
           "StoreOwner"
         ],
-        "parameters": [
-          {
-            "name": "ProductID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Product"
+              }
             }
           }
-        ],
+        },
         "responses": {
           "200": {
             "description": "OK",
@@ -1490,8 +1512,7 @@
           },
           "saleID": {
             "type": "integer",
-            "format": "int32",
-            "nullable": true
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -1573,8 +1594,7 @@
             "nullable": true
           },
           "onSale": {
-            "type": "boolean",
-            "nullable": true
+            "type": "boolean"
           },
           "storeOwnerID": {
             "type": "integer",

@@ -13,6 +13,6 @@ namespace Models
         public int? StoreID { get; set; } //home store
         public int? ProductBrand { get; set; } //home brand
         public string? ProductIMG {  get; set; } //image
-        public int? SaleID { get; set; } // sale (if it is on sale)
+        public int SaleID { get; set; } // sale (if it is on sale)
     }
 }

@@ -1,7 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Build.Execution;
 using Microsoft.CodeAnalysis;
 using Models;
 using System.Net;
+using System.Runtime.CompilerServices;
 using WebApiClient;
 
 namespace MallWebApplication.Controllers
@@ -18,7 +21,9 @@ namespace MallWebApplication.Controllers
         [HttpGet]
         public async Task<IActionResult> StoreOwnerView(bool OnSale, int StoreOwnerID)
         {
-           //need to finish this, but the product catalog works perfectly fr fr 
+            //works 
+            Console.WriteLine("On sale ->" + OnSale);
+            HttpContext.Session.SetString("OnSale", OnSale.ToString());
             StoreOwnerID = Convert.ToInt32(HttpContext.Session.GetString("StoreOwnerID"));
             Console.WriteLine("StoreOwnerID -> " + StoreOwnerID);
             Console.WriteLine(StoreOwnerID.GetType());
@@ -40,34 +45,94 @@ namespace MallWebApplication.Controllers
             return View(products);
         }
 
-        [HttpPost]
 
-        public async Task<IActionResult> AddProduct(Product product)
+        
+
+
+        [HttpPost]
+        //works
+        public async Task<IActionResult> AddProduct(string ProductName, int ProductPrice, int ProductID,int BrandID, int Percentage, IFormFile ProductIMG,int StoreID)
         {
-            //need to code this 
-            //maybe open a modal menu?
+            //complex code + documentation incoming 🗣️🗣️🗣️🔥🔥💯💯💯💯
+            //the storing path in the project 
+            string relativePath = null;
+            // Save the uploaded image first
+            if (ProductIMG != null && ProductIMG.Length > 0)
+            //check if i am actually getting an image instead of getting scammed
+            {
+                var uploadsFolder = Path.Combine("C:\\MyMall\\Brand\\WebService", "wwwroot", "Products");
+                //get the storing folder path 
+                //Directory.CreateDirectory(uploadsFolder);
+                //create that directory if it doesnt exist
+                var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(ProductIMG.FileName);
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                //that thing is complex but basically -> GUID is Globally Unique Identifier
+                //this command prevents overwriting files. if i got test.jpg it would be stored as:
+                //"(some 128-bit, or 16-byte identifier like: (f7e3f4c2-3293-45ab-bf13-1e4a1e5ad1be)_(FileName)"
+                //in basic words, it just gives the photo string a unique ID to prevent overwriting data 
+                //the final path in which the file will be stored in, combining the next things:
+                //the storing folder and the file name with the GUID
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    //what is using in basic words? (in-case i forget)
+                    //you execute a block of code(resource) and then dispose of it when u exit it 
+                    //FileStream is like a pipe that opens the file at filePath, so we pass the filePath
+                    //again, the filePath is the path where we want to store the image
+                    //what is FileMode.Create? It basically overwrites the file if it exists
+                    //and if it doesnt, it creates it 
+                    //to sum this line: Open a file on the hard drive and prepares to write into it.
+                    await ProductIMG.CopyToAsync(stream);
+                    //the line above this comment basically takes the content of the string and
+                    //copies it to the stream asynchronously so the server can do other things while copying the data
+                    //basically: Writes the uploaded image into the opened file
+                }
+                //if the image doesnt show up just remove the "Products" from the string
+                relativePath = uniqueFileName;
+                // This is the path you store the data in 
+            }
+            else
+            {
+                //if i did get scammed, then just tell the server to throw a
+                //BadRequest (code 400) Exception
+                return BadRequest("No image uploaded.");
+            }
+            Console.WriteLine("The Relative Path -> " + relativePath);
+            Console.WriteLine("The Relative Path Type -> " + relativePath.GetType());
+            // Create the Client now
             WebClient<Product> Client = new WebClient<Product>()
             {
                 Schema = "http",
                 Port = 5134,
                 Host = "localhost",
                 Path = "api/StoreOwner/AddNewProductToStore"
-            };           
+            };
+            //Create the Product
+            Product product = new Product()
+            {
+                ProductName = ProductName,
+                ProductPrice = ProductPrice,
+                ProductBrand = BrandID,
+                SaleID = (Percentage - (Percentage % 5)) / 5,
+                StoreID = StoreID,
+                ProductIMG = relativePath,  
+                ID = ProductID
+            };
+
             bool CustomerAdded = await Client.PostAsync(product);
+
             if (CustomerAdded)
             {
-                return View();
+                return RedirectToAction("StoreOwnerView", "StoreOwner"); 
             }
             else
             {
                 return null;
             }
         }
-
+        
         [HttpPost]
-        //i dont need to pass the whole product if i can just pass it's ID
-        // i have to do it like i said above 
-        public async Task<IActionResult> AddSale(Product Product, int Percentage)
+        //works
+        public async Task<IActionResult> AddSale(int ProductID, int Percentage)
         {
             WebClient<Product> Client = new WebClient<Product>()
             {
@@ -76,11 +141,15 @@ namespace MallWebApplication.Controllers
                 Host = "localhost",
                 Path = "api/StoreOwner/AddNewSale"
             };
-            Product.SaleID = Percentage / 5;
-            bool CustomerAdded = await Client.PostAsync(Product);
+            Product product = new Product()
+            {
+                ID = ProductID,
+                SaleID = (Percentage - (Percentage % 5)) / 5
+            };
+            bool CustomerAdded = await Client.PostAsync(product);
             if (CustomerAdded)
             {
-                return View();
+                return RedirectToAction("StoreOwnerView", "StoreOwner");
             }
             else
             {
@@ -89,70 +158,57 @@ namespace MallWebApplication.Controllers
 
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Delete(int ProductID)
+        {
+            //works. it works for the sales and the products aswell\
+            //but idk why it doesnt just delete the products from the sale menu after setting the saleID to 0
+            Product product = new Product()
+            {
+                ID = ProductID
+            };
+            string OnSale = HttpContext.Session.GetString("OnSale");
+            Console.WriteLine("Product ID -> " + ProductID);
+            Console.WriteLine("OnSale -> " + OnSale);
+            WebClient<Product> Client = new WebClient<Product>()
+            {
+                Schema = "http",
+                Port = 5134,
+                Host = "localhost",
+            };
+            if (OnSale.Equals("True"))
+            {
+                Client.Path = "api/StoreOwner/DeleteSale";             
+            }
+            else
+            {
+                Client.Path = "api/StoreOwner/DeleteProduct";
+            }                
+            Console.WriteLine("Product ID -> " + product.ID);
+            bool Deleted = await Client.PostAsync(product);
+            if (Deleted)
+            {
+                return RedirectToAction("StoreOwnerView", "StoreOwner");
+            }
+            else
+            {
+                return null;
+            }
+        }
+
         [HttpGet]
-        public async Task<IActionResult> GetProduct(int ProductID)
+
+        public IActionResult AddProductForm()
         {
-            //should work since i already have the html
-            WebClient<Product> Client = new WebClient<Product>();
-            Client.Schema = "http";
-            Client.Port = 5134; //12 is an example, it will be changed later
-            Client.Host = "localhost";
-            Client.Path = "api/Customer/GetProduct";
-            Client.AddParams("ProductID", ProductID.ToString());
-            Product product = await Client.GetAsync();
-            return View(product);
+            //works
+            return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> DeleteProduct(int ProductID)
+        [HttpGet]
+        public IActionResult AddSaleForm()
         {
-            //need to fix this shit fr 
-            //the webservice gets ProductID = 0 even though here it gives the correct ID 
-            WebClient<int> Client = new WebClient<int>()
-            {
-                Schema = "http",
-                Port = 5134,
-                Host = "localhost",
-                Path = "api/StoreOwner/DeleteProduct"
-            };
-            Console.WriteLine("Product ID -> " + ProductID);    
-            bool Deleted = await Client.PostAsync(ProductID);
-            if (Deleted)
-            {
-                return RedirectToAction("GetCatalog", "User");
-            }
-            else
-            {
-                ViewBag["ProductError"] = true;
-                return View("StoreOwnerView", "StoreOwner");
-            }
+            //works
+            return View();
         }
-
-        [HttpPost]
-
-        public async Task<IActionResult> DeleteSale(int ProductID)
-        {
-            //need to code this 
-            WebClient<int> webClient = new WebClient<int>()
-            {
-                Schema = "http",
-                Port = 5134,
-                Host = "localhost",
-                Path = "api/StoreOwner/DeleteSale"
-            };
-            bool Deleted = await webClient.PostAsync(ProductID);
-            if (Deleted)
-            {
-                return View();
-            }
-            else
-            {
-                ViewBag["ProductError"] = true;
-                return View("StoreOwnerView");
-            }
-        }
-
-
-        
     }
 }

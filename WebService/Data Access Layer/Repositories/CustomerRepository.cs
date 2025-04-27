@@ -1,5 +1,6 @@
 ﻿using Models;
 using System.Data;
+using System.Text;
 
 namespace WebService
 {
@@ -131,6 +132,21 @@ namespace WebService
             }
         }
 
-        
+        public int CreateAndGetID(Customer customer)
+        {
+            string sql = $@"INSERT INTO Customer(CustomerFirstName, CustomerLastName, CustomerPhoneNumber, CustomerEmail, CityID, CustomerPassword)
+                            VALUES(@CustomerFirstName,@CustomerLastName,@CustomerPhoneNumber,@CustomerEmail,@CityID,@CustomerPassword)";
+            base.dbContext.AddParameters("@CustomerFirstName", customer.CustomerFirstName);
+            base.dbContext.AddParameters("@CustomerLastName", customer.CustomerLastName);
+            base.dbContext.AddParameters("@CustomerPhoneNumber", customer.CustomerPhoneNumber);
+            base.dbContext.AddParameters("@CustomerEmail", customer.CustomerEmail);
+            base.dbContext.AddParameters("@CityID", customer.CityID.ToString());
+            base.dbContext.AddParameters("@CustomerPassword", customer.CustomerPassword);
+            if (base.dbContext.Create(sql) > 0)
+            {
+                return base.GetLastID();
+            }
+            return 0;
+        }
     }
 }

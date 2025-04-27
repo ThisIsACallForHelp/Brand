@@ -1,6 +1,34 @@
 {
   "Files": [
     {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\6207386e-570f-4a2c-b715-fa9ee8a9d12f_2BRILLIANT.png",
+      "PackagePath": "staticwebassets\\Customers\\6207386e-570f-4a2c-b715-fa9ee8a9d12f_2BRILLIANT.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\be4faa7f-9911-4085-9924-d9d9cda61547_9thGrade.png",
+      "PackagePath": "staticwebassets\\Customers\\be4faa7f-9911-4085-9924-d9d9cda61547_9thGrade.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\d249d963-0bd2-448d-9423-16c1ea156a72_2BRILLIANT.png",
+      "PackagePath": "staticwebassets\\Customers\\d249d963-0bd2-448d-9423-16c1ea156a72_2BRILLIANT.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\dc7519fa-90c5-4420-9b5c-ca676eefe3fd_100ACC.png",
+      "PackagePath": "staticwebassets\\Customers\\dc7519fa-90c5-4420-9b5c-ca676eefe3fd_100ACC.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\e28e955d-303e-44e4-a2d0-9bb0ab43b01e_100ACC.png",
+      "PackagePath": "staticwebassets\\Customers\\e28e955d-303e-44e4-a2d0-9bb0ab43b01e_100ACC.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\fed3db23-6d05-4c74-9f7d-b928fe99c08f_100ACC.png",
+      "PackagePath": "staticwebassets\\Customers\\fed3db23-6d05-4c74-9f7d-b928fe99c08f_100ACC.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\748e932e-5733-47b6-8bdf-52a30a9617ff_100ACC.png",
+      "PackagePath": "staticwebassets\\Products\\748e932e-5733-47b6-8bdf-52a30a9617ff_100ACC.png"
+    },
+    {
       "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\H&M_1.jpg",
       "PackagePath": "staticwebassets\\Products\\H&M_1.jpg"
     },
@@ -83,6 +111,14 @@
     {
       "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\H&M_9.jpg",
       "PackagePath": "staticwebassets\\Products\\H&M_9.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\ab6cf5f8-2c23-4b0a-9964-a31570f8ed22_9thGrade.png",
+      "PackagePath": "staticwebassets\\Products\\ab6cf5f8-2c23-4b0a-9964-a31570f8ed22_9thGrade.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\bae4c4a3-cb70-4cc2-bc87-26b615c89381_100ACC.png",
+      "PackagePath": "staticwebassets\\Products\\bae4c4a3-cb70-4cc2-bc87-26b615c89381_100ACC.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

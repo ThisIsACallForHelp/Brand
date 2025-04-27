@@ -39,6 +39,8 @@ namespace WebService
         {
             try
             {
+                Console.WriteLine("WebService Got -> " + product.ProductIMG);
+                Console.WriteLine("Var Type -> " + product.ProductIMG.GetType());
                 this.dbContext.OpenConnection();
                 return this.unitOfWork.ProductRepository.Create(product);
             }
@@ -59,13 +61,12 @@ namespace WebService
 
         //you take the product and change it's SaleID 
         //i need to see if it works 
-        public bool AddNewSale(int ProductID, int Percentage)
+        public bool AddNewSale(Product product)
         {
             try
             {
                 this.dbContext.OpenConnection();
-                int SaleID = Percentage / 5;
-                return this.unitOfWork.ProductRepository.ChangeSaleID(ProductID, SaleID);
+                return this.unitOfWork.ProductRepository.ChangeSaleID(product.ID, product.SaleID);
             }
             catch (Exception ex)
             {
@@ -79,13 +80,13 @@ namespace WebService
         }
 
         [HttpPost]
-        public bool DeleteProduct(int ProductID)
+        public bool DeleteProduct(Product product)
         {
             try
             {
                 this.dbContext.OpenConnection();
-                Console.WriteLine(ProductID);
-                return this.unitOfWork.ProductRepository.DeleteByID(ProductID);
+                Console.WriteLine(product.ID);
+                return this.unitOfWork.ProductRepository.DeleteByID(product.ID);
             }
             catch (Exception ex)
             {
@@ -100,12 +101,12 @@ namespace WebService
         }
 
         [HttpPost]
-        public bool DeleteSale(int ProductID)
+        public bool DeleteSale(Product product)
         {
             try
             {
                 this.dbContext.OpenConnection();
-                return this.unitOfWork.ProductRepository.DeleteSale(ProductID);
+                return this.unitOfWork.ProductRepository.DeleteSale(product.ID);
             }
             catch (Exception ex)
             {

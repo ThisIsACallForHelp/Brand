@@ -26,17 +26,65 @@ namespace MallWebApplication
 
         [HttpPost]
 
-        public async Task<IActionResult> Register(Customer customer)
+        public async Task<IActionResult> Register(Customer customer, IFormFile CustomerImage)
         {
-            //works
+            //works, but the IMG is null
+            //complex code + documentation incoming 🗣️🗣️🗣️🔥🔥💯💯💯💯
+            //the storing path in the project 
+            string relativePath = null;
+            // Save the uploaded image first
+            if (CustomerImage != null && CustomerImage.Length > 0)
+            //check if i am actually getting an image instead of getting scammed
+            {
+                var uploadsFolder = Path.Combine("C:\\MyMall\\Brand\\WebService", "wwwroot", "Customers");
+                //get the storing folder path 
+                //Directory.CreateDirectory(uploadsFolder);
+                //create that directory if it doesnt exist
+                var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(CustomerImage.FileName);
+                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                //that thing is complex but basically -> GUID is Globally Unique Identifier
+                //this command prevents overwriting files. if i got test.jpg it would be stored as:
+                //"(some 128-bit, or 16-byte identifier like: (f7e3f4c2-3293-45ab-bf13-1e4a1e5ad1be)_(FileName)"
+                //in basic words, it just gives the photo string a unique ID to prevent overwriting data 
+                //the final path in which the file will be stored in, combining the next things:
+                //the storing folder and the file name with the GUID
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    //what is using in basic words? (in-case i forget)
+                    //you execute a block of code(resource) and then dispose of it when u exit it 
+                    //FileStream is like a pipe that opens the file at filePath, so we pass the filePath
+                    //again, the filePath is the path where we want to store the image
+                    //what is FileMode.Create? It basically overwrites the file if it exists
+                    //and if it doesnt, it creates it 
+                    //to sum this line: Open a file on the hard drive and prepares to write into it.
+                    await CustomerImage.CopyToAsync(stream);
+                    //the line above this comment basically takes the content of the string and
+                    //copies it to the stream asynchronously so the server can do other things while copying the data
+                    //basically: Writes the uploaded image into the opened file
+                }
+                relativePath = uniqueFileName;
+                // This is the path you store
+            }
+            else
+            {
+                //if i did get scammed, then just tell the server to throw a
+                //BadRequest (code 400) Exception
+                return BadRequest("No product image uploaded.");
+            }
+            Console.WriteLine("The Relative Path -> " + relativePath);
+            Console.WriteLine("The Relative Path Type -> " + relativePath.GetType());
+            customer.CustomerIMG = relativePath;
             WebClient<Customer> Client = new WebClient<Customer>();
             Client.Schema = "http";
             Client.Port = 5134;
             Client.Host = "localhost";
             Client.Path = "api/Customer/AddNewCustomer";
-            bool CustomerAdded = await Client.PostAsync(customer);
-            if (CustomerAdded)
+            int CustomerID = await Client.RegPost(customer);
+            if (CustomerID != 0)
             {
+                HttpContext.Session.SetString("CustomerID", CustomerID.ToString());
+                string userID = HttpContext.Session.GetString("CustomerID");
+                Console.WriteLine(userID);
                 return RedirectToAction("GetCatalog", "User");
             }
             else

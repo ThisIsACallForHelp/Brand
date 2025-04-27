@@ -1,3 +1,12 @@
+wwwroot\Customers\6207386e-570f-4a2c-b715-fa9ee8a9d12f_2BRILLIANT.png
+wwwroot\Customers\be4faa7f-9911-4085-9924-d9d9cda61547_9thGrade.png
+wwwroot\Customers\d249d963-0bd2-448d-9423-16c1ea156a72_2BRILLIANT.png
+wwwroot\Customers\dc7519fa-90c5-4420-9b5c-ca676eefe3fd_100ACC.png
+wwwroot\Customers\e28e955d-303e-44e4-a2d0-9bb0ab43b01e_100ACC.png
+wwwroot\Customers\fed3db23-6d05-4c74-9f7d-b928fe99c08f_100ACC.png
+wwwroot\Products\748e932e-5733-47b6-8bdf-52a30a9617ff_100ACC.png
+wwwroot\Products\ab6cf5f8-2c23-4b0a-9964-a31570f8ed22_9thGrade.png
+wwwroot\Products\bae4c4a3-cb70-4cc2-bc87-26b615c89381_100ACC.png
 wwwroot\Products\H&M_1.jpg
 wwwroot\Products\H&M_10.jpg
 wwwroot\Products\H&M_11.jpg

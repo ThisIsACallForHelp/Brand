@@ -63,20 +63,21 @@ namespace WebService
         }
 
         [HttpPost]
-        public bool AddNewCustomer(Customer customer)
+        public int AddNewCustomer(Customer customer)
         {
             try
             {
                 this.dbContext.OpenConnection();
-                return this.unitOfWork.CustomerRepository.Create(customer);
+                return this.unitOfWork.CustomerRepository.CreateAndGetID(customer);
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.ToString());
-                return false;
+                return 0;
             }
             finally
             {
+                
                 this.dbContext.ClearParameters();
                 this.dbContext.CloseConnection();
             }

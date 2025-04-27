@@ -9,7 +9,7 @@ namespace Models
     public class StoreOwnerViewModel
     {
         public List<Product>? Products { get; set; }
-        public bool? OnSale {  get; set; }
+        public bool OnSale {  get; set; }
         public int StoreOwnerID { get; set; }
         //public int Choice {  get; set; }
     }

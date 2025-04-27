@@ -10,7 +10,7 @@ namespace MallWebApplication.Controllers
         public IActionResult Index()
         {
             TempData["CustomerID"] = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"));
-            return View();
+            return RedirectToAction("GetCatalog", "User");
         }
 
 
@@ -102,7 +102,7 @@ namespace MallWebApplication.Controllers
         [HttpGet]
         public async Task<IActionResult> ViewProfile()
         {
-            //works
+            //it works but not if the user just registered to the site 
             int CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"));
             WebClient<ViewCustomerDetails> Client = new WebClient<ViewCustomerDetails>();
             Client.Schema = "http";
@@ -110,8 +110,12 @@ namespace MallWebApplication.Controllers
             Client.Host = "localhost";
             Client.Path = "api/Customer/GetDetail";
             Client.AddParams("CustomerID", CustomerID.ToString());
-            ViewCustomerDetails Details = await Client.GetAsync();
-            Details.CustomerID = CustomerID;
+            Console.WriteLine("cusotmer id -> " + CustomerID);
+            ViewCustomerDetails Details = new ViewCustomerDetails()
+            {
+                CustomerID = CustomerID
+            };
+            Details = await Client.GetAsync();
             return View(Details);
         }
 
