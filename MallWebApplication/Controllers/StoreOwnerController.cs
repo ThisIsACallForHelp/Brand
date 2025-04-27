@@ -161,7 +161,7 @@ namespace MallWebApplication.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(int ProductID)
         {
-            //works. it works for the sales and the products aswell\
+            //works. it works for the sales and the products aswell
             //but idk why it doesnt just delete the products from the sale menu after setting the saleID to 0
             Product product = new Product()
             {

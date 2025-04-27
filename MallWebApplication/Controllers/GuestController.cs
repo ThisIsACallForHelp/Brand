@@ -28,7 +28,7 @@ namespace MallWebApplication
 
         public async Task<IActionResult> Register(Customer customer, IFormFile CustomerImage)
         {
-            //works, but the IMG is null
+            //works
             //complex code + documentation incoming 🗣️🗣️🗣️🔥🔥💯💯💯💯
             //the storing path in the project 
             string relativePath = null;

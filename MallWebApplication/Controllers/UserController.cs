@@ -102,7 +102,7 @@ namespace MallWebApplication.Controllers
         [HttpGet]
         public async Task<IActionResult> ViewProfile()
         {
-            //it works but not if the user just registered to the site 
+            //nvm it works im goated with the sauce  
             int CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"));
             WebClient<ViewCustomerDetails> Client = new WebClient<ViewCustomerDetails>();
             Client.Schema = "http";

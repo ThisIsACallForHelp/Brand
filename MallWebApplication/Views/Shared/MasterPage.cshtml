@@ -50,18 +50,18 @@
                     <h1 style="margin-top: 0px; margin-bottom: 20px; width: 100%;"> <u> Brands & Stores </u></h1>
                     <div style="display: flex; margin-left: 15px; overflow-y: auto;">
                         <div style="background-color: black; width: 120px; height: 250px; margin: 0px; color: #00FFAA; border: 3px solid white;">
-                            <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black;">
+                            <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black;">
                                 @foreach(Brand brand in Model.Brands){
-                                    <li style="font-size: 30px;margin-top: 5px; margin-left: 0px;"> @brand.BrandName </li>
+                                    <li style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;"> @brand.BrandName </li>
                                 }
                             </ul>
 
                         </div>
                         <div style="background-color: black; width: 120px; height: 250px; margin: 0px; color: #00FFAA; border: 3px solid white;">
-                            <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black;">
+                            <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black;">
                                 @foreach (Store store in Model.stores)
                                 {
-                                    <li style="font-size: 30px;margin-top: 5px; margin-left: 0px;"> @store.StoreName </li>
+                                    <li style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;"> @store.StoreName </li>
                                 }
                             </ul>
                         </div>
@@ -69,7 +69,13 @@
                 </div>
                 <div class="StoreTypes">
                     <h1 style="margin: 10px; width: 100%; font-size: 25px;"> <u> Looking for a specific store type? </u></h1>
-                    <div style="background-color: black; width: 150px; height: 200px; margin-left: 65px; color: #00FFAA; border: 3px solid white;">
+                    <div style="background-color: black; width: 150px; height: 120px; margin-left: 65px; color: #00FFAA; border: 3px solid white;">
+                        <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black; overflow-y: hidden">
+                            @foreach (StoreType Storetype in Model.storeTypes)
+                            {
+                                <li style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;"> @Storetype.StoreTypeName </li>
+                            }
+                        </ul>
                     </div>
                 </div>
             </div>
