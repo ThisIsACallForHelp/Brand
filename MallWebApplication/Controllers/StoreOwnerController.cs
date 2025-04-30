@@ -55,24 +55,24 @@ namespace MallWebApplication.Controllers
         {
             //complex code + documentation incoming 🗣️🗣️🗣️🔥🔥💯💯💯💯
             //the storing path in the project 
-            string relativePath = null;
+            string RelativePath = null;
             // Save the uploaded image first
             if (ProductIMG != null && ProductIMG.Length > 0)
             //check if i am actually getting an image instead of getting scammed
             {
-                var uploadsFolder = Path.Combine("C:\\MyMall\\Brand\\WebService", "wwwroot", "Products");
+                var UploadsFolder = Path.Combine("C:\\MyMall\\Brand\\WebService", "wwwroot", "Products");
                 //get the storing folder path 
                 //Directory.CreateDirectory(uploadsFolder);
                 //create that directory if it doesnt exist
-                var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(ProductIMG.FileName);
-                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                var UniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(ProductIMG.FileName);
+                var FilePath = Path.Combine(UploadsFolder, UniqueFileName);
                 //that thing is complex but basically -> GUID is Globally Unique Identifier
                 //this command prevents overwriting files. if i got test.jpg it would be stored as:
                 //"(some 128-bit, or 16-byte identifier like: (f7e3f4c2-3293-45ab-bf13-1e4a1e5ad1be)_(FileName)"
                 //in basic words, it just gives the photo string a unique ID to prevent overwriting data 
                 //the final path in which the file will be stored in, combining the next things:
                 //the storing folder and the file name with the GUID
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                using (var stream = new FileStream(FilePath, FileMode.Create))
                 {
                     //what is using in basic words? (in-case i forget)
                     //you execute a block of code(resource) and then dispose of it when u exit it 
@@ -87,7 +87,7 @@ namespace MallWebApplication.Controllers
                     //basically: Writes the uploaded image into the opened file
                 }
                 //if the image doesnt show up just remove the "Products" from the string
-                relativePath = uniqueFileName;
+                RelativePath = UniqueFileName;
                 // This is the path you store the data in 
             }
             else
@@ -96,8 +96,8 @@ namespace MallWebApplication.Controllers
                 //BadRequest (code 400) Exception
                 return BadRequest("No image uploaded.");
             }
-            Console.WriteLine("The Relative Path -> " + relativePath);
-            Console.WriteLine("The Relative Path Type -> " + relativePath.GetType());
+            Console.WriteLine("The Relative Path -> " + RelativePath);
+            Console.WriteLine("The Relative Path Type -> " + RelativePath.GetType());
             // Create the Client now
             WebClient<Product> Client = new WebClient<Product>()
             {
@@ -114,7 +114,7 @@ namespace MallWebApplication.Controllers
                 ProductBrand = BrandID,
                 SaleID = (Percentage - (Percentage % 5)) / 5,
                 StoreID = StoreID,
-                ProductIMG = relativePath,  
+                ProductIMG = RelativePath,  
                 ID = ProductID
             };
 
@@ -161,8 +161,7 @@ namespace MallWebApplication.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(int ProductID)
         {
-            //works. it works for the sales and the products aswell
-            //but idk why it doesnt just delete the products from the sale menu after setting the saleID to 0
+            //works
             Product product = new Product()
             {
                 ID = ProductID

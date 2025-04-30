@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExternalWebService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f2258f07ae7236dff697df9cd10782a2e5ab183")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f22f2644b0a2fd490fe54aeedbb300eb3d4ac717")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExternalWebService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExternalWebService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

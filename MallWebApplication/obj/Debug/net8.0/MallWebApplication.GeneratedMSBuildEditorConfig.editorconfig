@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcR2V0UHJvZHVjdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/MyMall/Brand/MallWebApplication/Views/Guest/GetProductCatalog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcR2V0UHJvZHVjdENhdGFsb2cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/MyMall/Brand/MallWebApplication/Views/Guest/LoginForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR3Vlc3RcTG9naW5Gb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

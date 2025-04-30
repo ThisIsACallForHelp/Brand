@@ -51,6 +51,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.15, )"
+            },
             "System.Text.Json": {
               "target": "Package",
               "version": "[9.0.3, )"
@@ -127,6 +131,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.15, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"

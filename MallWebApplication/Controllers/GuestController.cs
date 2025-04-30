@@ -31,24 +31,24 @@ namespace MallWebApplication
             //works
             //complex code + documentation incoming 🗣️🗣️🗣️🔥🔥💯💯💯💯
             //the storing path in the project 
-            string relativePath = null;
+            string RelativePath = null;
             // Save the uploaded image first
             if (CustomerImage != null && CustomerImage.Length > 0)
             //check if i am actually getting an image instead of getting scammed
             {
-                var uploadsFolder = Path.Combine("C:\\MyMall\\Brand\\WebService", "wwwroot", "Customers");
+                var UploadsFolder = Path.Combine("C:\\MyMall\\Brand\\WebService", "wwwroot", "Customers");
                 //get the storing folder path 
                 //Directory.CreateDirectory(uploadsFolder);
-                //create that directory if it doesnt exist
-                var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(CustomerImage.FileName);
-                var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+                //create that directory if it doesnt exist, ig i dont need that 
+                var UniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(CustomerImage.FileName);
+                var FilePath = Path.Combine(UploadsFolder, UniqueFileName);
                 //that thing is complex but basically -> GUID is Globally Unique Identifier
                 //this command prevents overwriting files. if i got test.jpg it would be stored as:
                 //"(some 128-bit, or 16-byte identifier like: (f7e3f4c2-3293-45ab-bf13-1e4a1e5ad1be)_(FileName)"
                 //in basic words, it just gives the photo string a unique ID to prevent overwriting data 
                 //the final path in which the file will be stored in, combining the next things:
                 //the storing folder and the file name with the GUID
-                using (var stream = new FileStream(filePath, FileMode.Create))
+                using (var stream = new FileStream(FilePath, FileMode.Create))
                 {
                     //what is using in basic words? (in-case i forget)
                     //you execute a block of code(resource) and then dispose of it when u exit it 
@@ -56,13 +56,13 @@ namespace MallWebApplication
                     //again, the filePath is the path where we want to store the image
                     //what is FileMode.Create? It basically overwrites the file if it exists
                     //and if it doesnt, it creates it 
-                    //to sum this line: Open a file on the hard drive and prepares to write into it.
+                    //to sum this line: Opens a file on the hard drive and prepares to write into it.
                     await CustomerImage.CopyToAsync(stream);
                     //the line above this comment basically takes the content of the string and
                     //copies it to the stream asynchronously so the server can do other things while copying the data
                     //basically: Writes the uploaded image into the opened file
                 }
-                relativePath = uniqueFileName;
+                RelativePath = UniqueFileName;
                 // This is the path you store
             }
             else
@@ -71,9 +71,9 @@ namespace MallWebApplication
                 //BadRequest (code 400) Exception
                 return BadRequest("No product image uploaded.");
             }
-            Console.WriteLine("The Relative Path -> " + relativePath);
-            Console.WriteLine("The Relative Path Type -> " + relativePath.GetType());
-            customer.CustomerIMG = relativePath;
+            Console.WriteLine("The Relative Path -> " + RelativePath);
+            Console.WriteLine("The Relative Path Type -> " + RelativePath.GetType());
+            customer.CustomerIMG = RelativePath;
             WebClient<Customer> Client = new WebClient<Customer>();
             Client.Schema = "http";
             Client.Port = 5134;
@@ -104,8 +104,7 @@ namespace MallWebApplication
 
         [HttpGet]
 
-        //int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0,
-        //                                int ProductsPerPage = 15, int pageNumber = 1
+      
         public async Task<IActionResult> GetCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0)
         {
             //works
@@ -134,6 +133,37 @@ namespace MallWebApplication
             }
             CatalogViewModel productsAndSalesViewModel = await Client.GetAsync();
             return View(productsAndSalesViewModel);
+        }
+
+        public async Task<IActionResult> GetProductCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0)
+        {
+            //works
+            //this is the catalog that USES THE AJAX
+            WebClient<CatalogViewModel> Client = new WebClient<CatalogViewModel>();
+            Client.Schema = "http";
+            Client.Port = 5134;
+            Client.Host = "localhost";
+            Client.Path = "api/Customer/GetProductList";
+            Client.AddParams("pageNumber", pageNumber.ToString());
+            Client.AddParams("ProductsPerPage", ProductsPerPage.ToString());
+            if (StoreID > 0)
+            {
+                Client.AddParams("StoreID", StoreID.ToString());
+            }
+            if (StoreTypeID > 0)
+            {
+                Client.AddParams("StoreTypeID", StoreTypeID.ToString());
+            }
+            if (Percentage > 0)
+            {
+                Client.AddParams("Percentage", Percentage.ToString());
+            }
+            if (BrandID > 0)
+            {
+                Client.AddParams("BrandID", BrandID.ToString());
+            }
+            CatalogViewModel productsAndSalesViewModel = await Client.GetAsync();
+            return PartialView(productsAndSalesViewModel);
         }
 
         //Guest/GetProduct?ProductID=4
@@ -220,132 +250,3 @@ namespace MallWebApplication
     }
 }
 
-//[HttpGet]
-//public async Task<IActionResult> StartPage()
-//{
-//    return View();
-//}
-//[HttpGet]
-
-//public async Task<IActionResult> RegistrationForm()
-//{
-//    WebClient<List<City>> Client = new WebClient<List<City>>();
-//    Client.Schema = "http";
-//    Client.Port = 5134;
-//    Client.Host = "localhost";
-//    Client.Path = "api/Customer/Cities";
-//    List<City> cities = await Client.GetAsync();
-//    return View(cities);
-//}
-
-//[HttpPost]
-
-//public async Task<IActionResult> Register(Customer customer)
-//{
-//    WebClient<Customer> Client = new WebClient<Customer>();
-//    Client.Schema = "http";
-//    Client.Port = 5134;
-//    Client.Host = "localhost";
-//    Client.Path = "api/Customer/Register";
-//    bool CustomerAdded = await Client.PostAsync(customer);
-//    if (CustomerAdded)
-//    {
-//        return View();
-//    }
-//    else
-//    {
-//        ViewBag["Error"] = true;
-//        return View("RegistrationForm");
-//    }
-//}
-
-//[HttpGet]
-
-////int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0,
-////                                int ProductsPerPage = 15, int pageNumber = 1
-//public async Task<IActionResult> GetCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0)
-//{
-//    WebClient<CatalogViewModel> Client = new WebClient<CatalogViewModel>();
-//    Client.Schema = "http";
-//    Client.Port = 5134;
-//    Client.Host = "localhost";
-//    Client.Path = "api/Customer/Catalog";
-//    Client.AddParams("pageNumber", pageNumber.ToString());
-//    Client.AddParams("ProductsPerPage", ProductsPerPage.ToString());
-//    if (StoreID > 0)
-//    {
-//        Client.AddParams("StoreID", StoreID.ToString());
-//    }
-//    if (StoreTypeID > 0)
-//    {
-//        Client.AddParams("StoreTypeID", StoreTypeID.ToString());
-//    }
-//    if (Percentage > 0)
-//    {
-//        Client.AddParams("Percentage", Percentage.ToString());
-//    }
-//    if (BrandID > 0)
-//    {
-//        Client.AddParams("BrandID", BrandID.ToString());
-//    }
-//    CatalogViewModel productsAndSalesViewModel = await Client.GetAsync();
-//    return View(productsAndSalesViewModel);
-//}
-
-//[HttpGet]
-//public async Task<IActionResult> GetProduct(int ProductID)
-//{
-//    WebClient<Product> Client = new WebClient<Product>();
-//    Client.Schema = "http";
-//    Client.Port = 5134;
-//    Client.Host = "localhost";
-//    Client.Path = "api/Customer/GetProduct";
-//    Client.AddParams("ProductID", ProductID.ToString());
-//    Product product = await Client.GetAsync();
-//    return View(product);
-//}
-
-//[HttpGet]
-//public async Task<IActionResult> GetCart(int CartID)
-//{
-//    WebClient<CartProduct> Client = new WebClient<CartProduct>();
-//    Client.Schema = "http";
-//    Client.Port = 5134;
-//    Client.Host = "localhost";
-//    Client.Path = "api/Customer/ViewCart";
-//    Client.AddParams("CartID", CartID.ToString());
-//    CartProduct cartProduct = await Client.GetAsync();
-//    return View(cartProduct);
-//}
-
-//[HttpGet]
-//public async Task<IActionResult> ViewProfile(int CustomerID)
-//{
-//    WebClient<Customer> Client = new WebClient<Customer>();
-//    Client.Schema = "http";
-//    Client.Port = 5134;
-//    Client.Host = "localhost";
-//    Client.Path = "api/Customer/GetDetail";
-//    Client.AddParams("CustomerID", CustomerID.ToString());
-//    Customer customer = await Client.GetAsync();
-//    return View(customer);
-//}
-
-//[HttpPost]
-//public async Task<IActionResult> AddToCart(int CustomerID, int ProductID, int Quantity)
-//{
-//    WebClient<CartProduct> Client = new WebClient<CartProduct>()
-//    {
-//        Schema = "http",
-//        Port = 5134,
-//        Host = "localhost",
-//        Path = "api/Customer/AddToCart"
-//    };
-//    Client.AddParams("CustomerID", CustomerID.ToString());
-//    Client.AddParams("ProductID", ProductID.ToString());
-//    Client.AddParams("Quantity", Quantity.ToString());
-//    CartProduct cart = await Client.GetAsync();
-//    return View(cart);
-//}
-//    }
-//}

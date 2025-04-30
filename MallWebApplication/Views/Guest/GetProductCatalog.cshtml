@@ -1,12 +1,12 @@
 ﻿@using Models;
 @model CatalogViewModel;
+
 @{
-    ViewData["Title"] = "GetCatalog";
-    Layout = "~/Views/Shared/MasterPage.cshtml";
     int Next = Model.PageNumber + 1;
     int Previous = Model.PageNumber - 1;
 }
 
+<link rel="stylesheet" href="~/GUI/CatalogStyle.css" />
 @foreach (Product product in Model.Products)
 {
     <div class="Product">
@@ -19,16 +19,13 @@
     @if (@Model.PageNumber != @Model.MaxPage)
     {
         <div class="Arrow Right" style="margin-left: 42%;background: none" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { pageNumber = Next })'"></div>
-    }    
+    }
     @if (@Model.PageNumber != 1 && @Model.PageNumber != @Model.MaxPage)
     {
         <div class="Arrow Left" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { pageNumber = Previous })'"></div>
-    }   
-    @if(Model.PageNumber == Model.MaxPage)
+    }
+    @if (Model.PageNumber == Model.MaxPage)
     {
         <div class="Arrow Left" style="margin-left: 55%;background: none" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { pageNumber = Previous })'"></div>
     }
 </div>
-
-
-

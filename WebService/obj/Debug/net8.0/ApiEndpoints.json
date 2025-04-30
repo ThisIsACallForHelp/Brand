@@ -202,6 +202,57 @@
   },
   {
     "ContainingType": "WebService.CustomerController",
+    "Method": "GetProductList",
+    "RelativePath": "api/Customer/GetProductList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StoreID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Percentage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StoreTypeID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BrandID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductsPerPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Models.CatalogViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebService.CustomerController",
     "Method": "LoginAttempt",
     "RelativePath": "api/Customer/LoginAttempt",
     "HttpMethod": "GET",

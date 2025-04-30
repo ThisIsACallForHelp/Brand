@@ -1,12 +1,13 @@
 wwwroot\favicon.ico
+wwwroot\GUI\ajax.js
 wwwroot\GUI\CartStyle.css
 wwwroot\GUI\Catalog.html
-wwwroot\GUI\CatalogScript.js
 wwwroot\GUI\CatalogStyle.css
 wwwroot\GUI\CustomerCart.html
 wwwroot\GUI\Details.html
 wwwroot\GUI\DetailsStyle.css
 wwwroot\GUI\FormValidation.js
+wwwroot\GUI\images\AJAX_GIF.gif
 wwwroot\GUI\images\CRYSTAL_MallLogo-removebg-preview.png
 wwwroot\GUI\images\Sams-Club-Dress-Code-for-staff.jpg
 wwwroot\GUI\MasterPage.html

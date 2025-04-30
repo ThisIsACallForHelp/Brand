@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\GUI\\Catalog.html"
     },
     {
-      "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\CatalogScript.js",
-      "PackagePath": "staticwebassets\\GUI\\CatalogScript.js"
-    },
-    {
       "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\CatalogStyle.css",
       "PackagePath": "staticwebassets\\GUI\\CatalogStyle.css"
     },
@@ -71,6 +67,14 @@
     {
       "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\Update.html",
       "PackagePath": "staticwebassets\\GUI\\Update.html"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\ajax.js",
+      "PackagePath": "staticwebassets\\GUI\\ajax.js"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\AJAX_GIF.gif",
+      "PackagePath": "staticwebassets\\GUI\\images\\AJAX_GIF.gif"
     },
     {
       "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\CRYSTAL_MallLogo-removebg-preview.png",

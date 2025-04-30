@@ -2,7 +2,7 @@
 
 @{
     Layout = null;
-    string currentController = ViewContext.RouteData.Values["controller"].ToString();
+    string CurrController = ViewContext.RouteData.Values["controller"].ToString();
 }
 
 <!DOCTYPE html>
@@ -13,21 +13,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="~/GUI/ajax.js"></script>
     <link rel="stylesheet" href="~/GUI/CatalogStyle.css">
     <title>Catalog</title>
 </head>
-<body style="background-color: yellow">
-    <div class="header" style="width: 1851px; background: rgba(200, 200, 200, 1); align-items: center">
+<body style="background-color: rgba(200, 200, 200, 1);">
+    <div class="header" style="width: 1690px; background: rgba(200, 200, 200, 1); align-items: center">
         <img src="~/GUI/images/CRYSTAL_MallLogo-removebg-preview.png" style="height: 100px; width: 100px;">
 
         <nav class="navbar" style="width:800px; display: flex; text-align: center">
-            @if (currentController == "User" && Model != null)
+            @if (CurrController == "User" && Model != null)
             {
                 <a href="http://localhost:5041/User/GetCatalog" style="width: 70px;"> Catalog</a>
                 <a href="http://localhost:5041/User/GetCart" style="width: 70px;" > My Cart</a>
                 <a href="http://localhost:5041/User/ViewProfile" style="width: 105px;" name="CustomerID"> My Account</a>
             }
-            @if (currentController == "Guest" && Model != null)
+            @if (CurrController == "Guest" && Model != null)
             {
                 <a href="http://localhost:5041/Guest/GetCatalog" style="width: 70px;"> Catalog</a>
                 <a href="http://localhost:5041/Guest/RegistrationForm" style="width: 70px;"> Register</a>
@@ -36,7 +38,7 @@
         </nav>
     </div>
     <div style="display: flex; min-height: 1000px;">
-        <div class="ProductContent">
+        <div class="ProductContent" style="background-color: yellow">
             @RenderBody()
         </div>
         @if(Model != null && Model.GetType() == typeof(CatalogViewModel)){
@@ -48,14 +50,15 @@
                 </div>
                 <div class="BrandsAndStores">
                     <h1 style="margin-top: 0px; margin-bottom: 20px; width: 100%;"> <u> Brands & Stores </u></h1>
-                    @if (currentController == "Guest")
+                    @if (CurrController == "Guest")
                     {
                         <div style="display: flex; margin-left: 15px; overflow-y: auto;">
                             <div style="background-color: black; width: 120px; height: 250px; margin: 0px; color: #00FFAA; border: 3px solid white;">
                                 <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black;">
                                     @foreach (Brand brand in Model.Brands)
                                     {
-                                        <li style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { BrandID = brand.ID })'" > @brand.BrandName </li>
+                                        <span id="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black; cursor:pointer" data-BrandID="@brand.ID"> @brand.BrandName </span>
+                                        <br />
                                     }
                                 </ul>
 
@@ -64,20 +67,22 @@
                                 <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black;">
                                     @foreach (Store store in Model.stores)
                                     {
-                                        <li style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { StoreID = store.ID })'"> @store.StoreName </li>
+                                        <span id="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black; cursor:pointer" data-StoreID="@store.ID"> @store.StoreName </span>
+                                        <br />
                                     }
                                 </ul>
                             </div>
                         </div>
                     }
-                    @if (currentController == "User")
+                    @if (CurrController == "User")
                     {
                         <div style="display: flex; margin-left: 15px; overflow-y: auto;">
                             <div style="background-color: black; width: 120px; height: 250px; margin: 0px; color: #00FFAA; border: 3px solid white;">
                                 <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black;">
                                     @foreach (Brand brand in Model.Brands)
                                     {
-                                        <li style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { BrandID = brand.ID })'"> @brand.BrandName </li>
+                                        <span id="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;cursor:pointer" data-BrandID="@brand.ID"> @brand.BrandName </span>
+                                        <br />
                                     }
                                 </ul>
 
@@ -86,14 +91,15 @@
                                 <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black;">
                                     @foreach (Store store in Model.stores)
                                     {
-                                        <li style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { StoreID = store.ID })'"> @store.StoreName </li>
+                                        <span id="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black; cursor:pointer" data-StoreID="@store.ID"> @store.StoreName </span>
+                                        <br/>
                                     }
                                 </ul>
                             </div>
                         </div>
                     }
                 </div>
-                @if (currentController == "Guest")
+                @if (CurrController == "Guest")
                 {
                     <div class="StoreTypes" style="overflow-y: auto">
                         <h1 style="margin: 10px; width: 100%; font-size: 25px;"> <u> Looking for a specific store type? </u></h1>
@@ -101,13 +107,14 @@
                             <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black; overflow-y: auto">
                                 @foreach (StoreType Storetype in Model.storeTypes)
                                 {
-                                    <li style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { StoreTypeID = Storetype.ID })'"> @Storetype.StoreTypeName </li>
+                                    <span id="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;" data-StoreTypeID="@Storetype.ID"> @Storetype.StoreTypeName </span>
+
                                 }
                             </ul>
                         </div>
                     </div>
                 }
-                @if (currentController == "User")
+                @if (CurrController == "User")
                 {
                     <div class="StoreTypes" style="overflow-y: auto">
                         <h1 style="margin: 10px; width: 100%; font-size: 25px;"> <u> Looking for a specific store type? </u></h1>
@@ -115,7 +122,8 @@
                             <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black; overflow-y: auto">
                                 @foreach (StoreType Storetype in Model.storeTypes)
                                 {
-                                    <li style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;" onclick="window.location.href='@Url.Action("GetCatalog", "User", new { StoreTypeID = Storetype.ID })'"> @Storetype.StoreTypeName </li>
+                                    <span id="Filter" style="font-size: 10px;margin-top: 10px; margin-left: 0px; background-color: black;" data-StoreTypeID="@Storetype.ID"> @Storetype.StoreTypeName </span>
+
                                 }
                             </ul>
                         </div>
@@ -125,6 +133,9 @@
         }     
 
     </div>
-    <script src="~/GUI/CatalogScript.js"></script>
+    <script>
+        let Cont = "@CurrController";
+        window.UsingController = Cont;
+    </script>
 </body>
 </html>

@@ -24,7 +24,6 @@ namespace MallWebApplication.Controllers
         public async Task<IActionResult> GetCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0)
         {
             //works 
-            //now i only need the goddamn ajax for fucks sake pls save me 
             WebClient<CatalogViewModel> Client = new WebClient<CatalogViewModel>();
             Client.Schema = "http";
             Client.Port = 5134;
@@ -102,7 +101,7 @@ namespace MallWebApplication.Controllers
         [HttpGet]
         public async Task<IActionResult> ViewProfile()
         {
-            //nvm it works im goated with the sauce  
+            //nvm it works the register finally hands out the ID
             int CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"));
             WebClient<ViewCustomerDetails> Client = new WebClient<ViewCustomerDetails>();
             Client.Schema = "http";
@@ -140,7 +139,7 @@ namespace MallWebApplication.Controllers
         [HttpPost]
         public async Task<IActionResult> RemoveProductFromCart(int ProductID, int CustomerID)
         {
-            //works ong fr fr 
+            //works
             WebClient<CartProduct> Client = new WebClient<CartProduct>()
             {
                 Schema = "http",

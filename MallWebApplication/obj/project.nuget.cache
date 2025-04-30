@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "N5a1Jh4/x+w=",
+  "dgSpecHash": "2U4kKz4G9G8=",
   "success": true,
   "projectFilePath": "C:\\MyMall\\Brand\\MallWebApplication\\MallWebApplication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\docker.dotnet\\3.125.15\\docker.dotnet.3.125.15.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -98,6 +99,7 @@
     "C:\\Users\\USER\\.nuget\\packages\\nuget.projectmodel\\6.11.0\\nuget.projectmodel.6.11.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\nuget.protocol\\6.11.0\\nuget.protocol.6.11.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\nuget.versioning\\6.11.0\\nuget.versioning.6.11.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.codedom\\5.0.0\\system.codedom.5.0.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.collections.immutable\\7.0.0\\system.collections.immutable.7.0.0.nupkg.sha512",
