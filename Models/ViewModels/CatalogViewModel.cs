@@ -20,5 +20,6 @@ namespace Models
         public int? StoreTypeID { get; set; }
         public int? BrandID { get; set; }
         public int? StoreID { get; set; }
+        public int? MaxPage { get; set; }
     }
 }

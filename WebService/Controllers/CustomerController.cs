@@ -169,10 +169,10 @@ namespace WebService
                 {
                     products = this.unitOfWork.ProductRepository.GetAll();
                 }
-                catalogViewModel.PageNumber = products.Count / ProductsPerPage;
+                catalogViewModel.MaxPage = products.Count / ProductsPerPage;
                 if(products.Count % ProductsPerPage > 0)
                 {
-                    catalogViewModel.PageNumber++;
+                    catalogViewModel.MaxPage++;
                 }
                 products = products.Skip((pageNumber - 1)*ProductsPerPage).Take(ProductsPerPage * pageNumber).ToList();
                 catalogViewModel.Products = products;

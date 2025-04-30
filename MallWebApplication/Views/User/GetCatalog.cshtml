@@ -3,7 +3,8 @@
 @{
     ViewData["Title"] = "GetCatalog";
     Layout = "~/Views/Shared/MasterPage.cshtml";
-    
+    int Next = Model.PageNumber + 1;
+    int Previous = Model.PageNumber - 1;
 }
 
 <script src="~/GUI/CatalogScript.js"></script>
@@ -16,11 +17,17 @@
 }
 
 <div class="Paging">
-    <div class="Arrow Right" style="margin-left: 42%;"></div>
-    @for (int i = 0; i < Model.PageNumber; i++)
+    @if (@Model.PageNumber != @Model.MaxPage)
     {
-        <div class="PageNumber"> @i </div>
+        <div class="Arrow Right" style="margin-left: 42%;background: none" onclick="window.location.href='@Url.Action("GetCatalog", "User", new { pageNumber = Next })'"></div>
     }
-    <div class="Arrow Left"></div>
+    @if (@Model.PageNumber != 1 && @Model.PageNumber != @Model.MaxPage)
+    {
+        <div class="Arrow Left" onclick="window.location.href='@Url.Action("GetCatalog", "User", new { pageNumber = Previous })'"></div>
+    }
+    @if (Model.PageNumber == Model.MaxPage)
+    {
+        <div class="Arrow Left" style="margin-left: 55%;background: none" onclick="window.location.href='@Url.Action("GetCatalog", "User", new { pageNumber = Previous })'"></div>
+    }
 </div>
 
