@@ -137,8 +137,10 @@ namespace MallWebApplication
 
         public async Task<IActionResult> GetProductCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0)
         {
-            //works
+            
             //this is the catalog that USES THE AJAX
+            //all of the CSS from the masterpage is gone, logical since Partial View
+            //but i want and need that style from the masterpage i dont know what to do 
             WebClient<CatalogViewModel> Client = new WebClient<CatalogViewModel>();
             Client.Schema = "http";
             Client.Port = 5134;

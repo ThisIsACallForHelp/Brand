@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lFgNTKGKDTpNHu9MzLFvuUs8Hi/xs+tqSsSWKGRS1QU=",
+  "Hash": "a0hNRmBNoolU2MeBcDE0yYwsIISoyKHLoPkI1Ud8Xl8=",
   "Source": "MallWebApplication",
   "BasePath": "_content/MallWebApplication",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9zzqv828um",
-      "Integrity": "pfdY3a9jJxlFSlE+KI4xZZ+Rc6NjRpc2o9HNkXSf2UI=",
+      "Fingerprint": "80cg0vorl9",
+      "Integrity": "OEN3mokClImsiNjME7qza/TgJjLy/euJozF+pM+cIIk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GUI\\ajax.js"
@@ -1781,7 +1781,7 @@
       ]
     },
     {
-      "Route": "GUI/ajax.9zzqv828um.js",
+      "Route": "GUI/ajax.80cg0vorl9.js",
       "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\ajax.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1791,7 +1791,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1848"
+          "Value": "1850"
         },
         {
           "Name": "Content-Type",
@@ -1799,11 +1799,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pfdY3a9jJxlFSlE+KI4xZZ+Rc6NjRpc2o9HNkXSf2UI=\""
+          "Value": "\"OEN3mokClImsiNjME7qza/TgJjLy/euJozF+pM+cIIk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 17:49:29 GMT"
+          "Value": "Wed, 30 Apr 2025 18:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1813,7 +1813,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9zzqv828um"
+          "Value": "80cg0vorl9"
         },
         {
           "Name": "label",
@@ -1821,7 +1821,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pfdY3a9jJxlFSlE+KI4xZZ+Rc6NjRpc2o9HNkXSf2UI="
+          "Value": "sha256-OEN3mokClImsiNjME7qza/TgJjLy/euJozF+pM+cIIk="
         }
       ]
     },
@@ -1836,7 +1836,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1848"
+          "Value": "1850"
         },
         {
           "Name": "Content-Type",
@@ -1844,11 +1844,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pfdY3a9jJxlFSlE+KI4xZZ+Rc6NjRpc2o9HNkXSf2UI=\""
+          "Value": "\"OEN3mokClImsiNjME7qza/TgJjLy/euJozF+pM+cIIk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 30 Apr 2025 17:49:29 GMT"
+          "Value": "Wed, 30 Apr 2025 18:07:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1858,7 +1858,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pfdY3a9jJxlFSlE+KI4xZZ+Rc6NjRpc2o9HNkXSf2UI="
+          "Value": "sha256-OEN3mokClImsiNjME7qza/TgJjLy/euJozF+pM+cIIk="
         }
       ]
     },

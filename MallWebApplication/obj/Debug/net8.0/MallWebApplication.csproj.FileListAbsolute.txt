@@ -1200,3 +1200,4 @@ C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\refint\MallWebApplication.dl
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\MallWebApplication.pdb
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\MallWebApplication.genruntimeconfig.cache
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\ref\MallWebApplication.dll
+C:\MyMall\Brand\MallWebApplication\bin\Debug\net8.0\Docker.DotNet.dll

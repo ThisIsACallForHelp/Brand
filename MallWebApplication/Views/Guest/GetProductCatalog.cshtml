@@ -2,6 +2,7 @@
 @model CatalogViewModel;
 
 @{
+    Layout = "~/Views/Shared/MasterPage.cshtml";
     int Next = Model.PageNumber + 1;
     int Previous = Model.PageNumber - 1;
 }

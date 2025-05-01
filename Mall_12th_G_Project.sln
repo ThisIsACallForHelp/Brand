@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiClient", "WebApiClien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MallWebApplication", "MallWebApplication\MallWebApplication.csproj", "{D5575D51-966C-47AE-95D3-44A979285197}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MallAdmin", "MallAdmin\MallAdmin.csproj", "{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,8 +41,15 @@ Global
 		{D5575D51-966C-47AE-95D3-44A979285197}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5575D51-966C-47AE-95D3-44A979285197}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5575D51-966C-47AE-95D3-44A979285197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05DB596D-13FB-43A6-BA56-24896DA96ADE}
 	EndGlobalSection
 EndGlobal
