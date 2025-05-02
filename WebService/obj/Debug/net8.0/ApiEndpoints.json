@@ -65,7 +65,7 @@
         "IsRequired": false
       },
       {
-        "Name": "Percentage",
+        "Name": "SaleID",
         "Type": "System.Int32",
         "IsRequired": false
       },

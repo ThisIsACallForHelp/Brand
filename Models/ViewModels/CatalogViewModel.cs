@@ -10,7 +10,7 @@ namespace Models
     {
         public List<Product>? Products {  get; set; }
         //list of products
-        public int? Percentage { get; set; }
+        public int? SaleID { get; set; }
         //sale percentage 
         public List<StoreType>? storeTypes { get; set; }
         public List<Store>? stores { get; set; }

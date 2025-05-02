@@ -105,7 +105,7 @@ namespace MallWebApplication
         [HttpGet]
 
       
-        public async Task<IActionResult> GetCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0)
+        public async Task<IActionResult> GetCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int SaleID = 0, int StoreTypeID = 0, int BrandID = 0)
         {
             //works
             WebClient<CatalogViewModel> Client = new WebClient<CatalogViewModel>();
@@ -123,9 +123,9 @@ namespace MallWebApplication
             {
                 Client.AddParams("StoreTypeID", StoreTypeID.ToString());
             }
-            if (Percentage > 0)
+            if (SaleID > 0)
             {
-                Client.AddParams("Percentage", Percentage.ToString());
+                Client.AddParams("Percentage", SaleID.ToString());
             }
             if (BrandID > 0)
             {
@@ -135,7 +135,7 @@ namespace MallWebApplication
             return View(productsAndSalesViewModel);
         }
 
-        public async Task<IActionResult> GetProductCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0)
+        public async Task<PartialViewResult> GetProductCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int SaleID = 0, int StoreTypeID = 0, int BrandID = 0)
         {
             
             //this is the catalog that USES THE AJAX
@@ -145,7 +145,7 @@ namespace MallWebApplication
             Client.Schema = "http";
             Client.Port = 5134;
             Client.Host = "localhost";
-            Client.Path = "api/Customer/GetProductList";
+            Client.Path = "api/Customer/Catalog";
             Client.AddParams("pageNumber", pageNumber.ToString());
             Client.AddParams("ProductsPerPage", ProductsPerPage.ToString());
             if (StoreID > 0)
@@ -156,9 +156,9 @@ namespace MallWebApplication
             {
                 Client.AddParams("StoreTypeID", StoreTypeID.ToString());
             }
-            if (Percentage > 0)
+            if (SaleID > 0)
             {
-                Client.AddParams("Percentage", Percentage.ToString());
+                Client.AddParams("Percentage", SaleID.ToString());
             }
             if (BrandID > 0)
             {

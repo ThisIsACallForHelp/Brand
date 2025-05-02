@@ -1,4 +1,5 @@
 ﻿using Models;
+using System.Collections.Generic;
 using System.Data;
 
 namespace WebService
@@ -97,12 +98,12 @@ namespace WebService
             return products; //return the list
         }
 
-        public List<Product> PercentSalesRangeList(int Percentage)
+        public List<Product> PercentSalesRangeList(int SaleID)
         {
             List<Product> sales = new List<Product>();
             string sql = $@"SELECT Product.ProductID, Product.ProductName, Product.ProductPrice, Product.ProductIMG  
-                            FROM Product LEFT JOIN Sales ON Product.SaleID = Sales.SaleID WHERE Sales.Percentage >= @percentage AND Sales.Percentage < 100";
-            base.dbContext.AddParameters("@Percentage", Percentage.ToString());
+                            FROM Product LEFT JOIN Sales ON Product.SaleID = Sales.SaleID WHERE Sales.SaleID >= @SaleID AND Sales.Percentage <= 100";
+            base.dbContext.AddParameters("@SaleID", SaleID.ToString());
             using (IDataReader sale = base.dbContext.Read(sql))
             {
                 while (sale.Read()) //until you have not reached the end...
@@ -119,7 +120,7 @@ namespace WebService
         public List<Product> ProductsFromBrand(int BrandID)
         {
             List<Product> products = new List<Product>();
-            string sql = $@"SELECT * FROM Product WHERE Product.BrandID = @brandID";
+            string sql = $@"SELECT * FROM Product WHERE Product.BrandID = @BrandID";
             base.dbContext.AddParameters("@BrandID", BrandID.ToString());
             using (IDataReader brandReader = base.dbContext.Read(sql))
             {
@@ -245,6 +246,7 @@ namespace WebService
                                    Product.SaleID FROM Product LEFT JOIN StoreOwner
                                      ON Product.StoreID = StoreOwner.StoreID
                                      WHERE Product.SaleID > 0";
+            base.dbContext.AddParameters("@StoreOwnerID", StoreOwnerID.ToString());
             using (IDataReader product = base.dbContext.Read(sql))
             {
                 while (product.Read())
@@ -252,6 +254,39 @@ namespace WebService
                     Products.Add(this.modelFactory.ProductCreator.CreateModel(product));
                 }
                 return Products;
+            }
+        }
+
+        public List<Product> SaleAndStore(int SaleID, int StoreID)
+        {
+            string sql = $@"SELECT * FROM Product WHERE SaleID >= {SaleID} AND StoreID = {StoreID}";
+            Console.WriteLine(sql);
+            List<Product> product = new List<Product>();
+            base.dbContext.AddParameters("@SaleID", SaleID.ToString());
+            base.dbContext.AddParameters("@StoreID", StoreID.ToString());
+            using (IDataReader reader = base.dbContext.Read(sql))
+            {
+                while (reader.Read())
+                {
+                    product.Add(this.modelFactory.ProductCreator.CreateModel(reader));
+                }
+                return product;
+            }
+        }
+
+        public List<Product> SaleAndBrand(int SaleID, int BrandID)
+        {
+            string sql = $@"SELECT * FROM Product WHERE SaleID >= @SaleID AND BrandID = @BrandID";
+            List<Product> products = new List<Product>();
+            base.dbContext.AddParameters("@SaleID", SaleID.ToString());
+            base.dbContext.AddParameters("@BrandID", BrandID.ToString());
+            using (IDataReader reader = base.dbContext.Read(sql))
+            {
+                while (reader.Read())
+                {
+                    products.Add(this.modelFactory.ProductCreator.CreateModel(reader));
+                }
+                return products;
             }
         }
     }

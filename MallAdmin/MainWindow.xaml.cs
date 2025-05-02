@@ -20,5 +20,11 @@ namespace MallAdmin
         {
             InitializeComponent();
         }
+
+
+        private void btn_AdminLogIn(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

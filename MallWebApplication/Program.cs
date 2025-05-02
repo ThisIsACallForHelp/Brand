@@ -30,7 +30,7 @@ using System;
 
     app.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Guest}/{action=GetProductCatalog}/{id?}");
+        pattern: "{controller=Guest}/{action=GetCatalog}/{id?}");
 
     app.Run();
 

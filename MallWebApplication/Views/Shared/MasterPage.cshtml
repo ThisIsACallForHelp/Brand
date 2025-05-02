@@ -45,19 +45,26 @@
             <div class="Properties">
                 <div class="SaleContainer">
                     <p style="font-size: 35px; margin: 0px;"><u> Search for sale</u></p>
+                    @* onclick="@Url.Action("GetCatalog", $"{CurrController}", new { Percentage = }) *@
                     <p style="font-size: 25px;"> Enter the sale percentage to see products on sale</p>
-                    <input type="text" style="border: 5px solid black; border-radius: 20px; width: 50px; margin: 0px" pattern="[0-9]{1,3}">
+                    <select style="margin: 0px; width:100px; height: 30px" id="SalePercentage">
+                        @for(int i = 0; i <= 100; i+=5)
+                        {
+                            <option value="@(i/5)" name="SaleID"> @i</option>
+                            <br />
+                        }
+                    </select>
                 </div>
                 <div class="BrandsAndStores">
                     <h1 style="margin-top: 0px; margin-bottom: 20px; width: 100%;"> <u> Brands & Stores </u></h1>
-                    @if (CurrController == "Guest")
+                    @* @if (CurrController == "Guest")
                     {
                         <div style="display: flex; margin-left: 15px; overflow-y: auto;">
                             <div style="background-color: black; width: 120px; height: 250px; margin: 0px; color: #00FFAA; border: 3px solid white;">
                                 <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black;">
                                     @foreach (Brand brand in Model.Brands)
                                     {
-                                        <span id="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black; cursor:pointer" data-BrandID="@brand.ID"> @brand.BrandName </span>
+                                        <span class="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black; cursor:pointer" data-BrandID="@brand.ID"> @brand.BrandName </span>
                                         <br />
                                     }
                                 </ul>
@@ -73,15 +80,15 @@
                                 </ul>
                             </div>
                         </div>
-                    }
-                    @if (CurrController == "User")
-                    {
+                    } *@
+                    @* @if (CurrController == "User")
+                    { *@
                         <div style="display: flex; margin-left: 15px; overflow-y: auto;">
                             <div style="background-color: black; width: 120px; height: 250px; margin: 0px; color: #00FFAA; border: 3px solid white;">
                                 <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black;">
                                     @foreach (Brand brand in Model.Brands)
                                     {
-                                        <span id="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;cursor:pointer" data-BrandID="@brand.ID"> @brand.BrandName </span>
+                                        <span class="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;cursor:pointer" data-BrandID="@brand.ID"> @brand.BrandName </span>
                                         <br />
                                     }
                                 </ul>
@@ -91,15 +98,15 @@
                                 <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black;">
                                     @foreach (Store store in Model.stores)
                                     {
-                                        <span id="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black; cursor:pointer" data-StoreID="@store.ID"> @store.StoreName </span>
+                                    <span class="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black; cursor:pointer" data-StoreID="@store.ID"> @store.StoreName </span>
                                         <br/>
                                     }
                                 </ul>
                             </div>
                         </div>
-                    }
+                    @* } *@
                 </div>
-                @if (CurrController == "Guest")
+                @* @if (CurrController == "Guest")
                 {
                     <div class="StoreTypes" style="overflow-y: auto">
                         <h1 style="margin: 10px; width: 100%; font-size: 25px;"> <u> Looking for a specific store type? </u></h1>
@@ -107,28 +114,28 @@
                             <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black; overflow-y: auto">
                                 @foreach (StoreType Storetype in Model.storeTypes)
                                 {
-                                    <span id="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;" data-StoreTypeID="@Storetype.ID"> @Storetype.StoreTypeName </span>
+                                    <span class="Filter" style="font-size: 15px;margin-top: 10px; margin-left: 0px; background-color: black;" data-StoreTypeID="@Storetype.ID"> @Storetype.StoreTypeName </span>
 
                                 }
                             </ul>
                         </div>
                     </div>
-                }
-                @if (CurrController == "User")
-                {
+                } *@
+                @* @if (CurrController == "User")
+                { *@
                     <div class="StoreTypes" style="overflow-y: auto">
                         <h1 style="margin: 10px; width: 100%; font-size: 25px;"> <u> Looking for a specific store type? </u></h1>
                         <div style="background-color: black; width: 150px; height: 120px; margin-left: 65px; color: #00FFAA; border: 3px solid white;">
                             <ul style="margin: 0px; flex-wrap: wrap; list-style: none;flex-wrap: wrap; padding: 0px; border: 5px solid black; background-color: black; overflow-y: auto">
                                 @foreach (StoreType Storetype in Model.storeTypes)
                                 {
-                                    <span id="Filter" style="font-size: 10px;margin-top: 10px; margin-left: 0px; background-color: black;" data-StoreTypeID="@Storetype.ID"> @Storetype.StoreTypeName </span>
-
+                                    <span class="Filter" style="font-size: 10px;margin-top: 10px; margin-left: 0px; background-color: black;" data-StoreTypeID="@Storetype.ID"> @Storetype.StoreTypeName </span>
+                                    <br />
                                 }
                             </ul>
                         </div>
                     </div>
-                }
+                @* } *@
             </div>
         }     
 

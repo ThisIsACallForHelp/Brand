@@ -243,7 +243,7 @@
             }
           },
           {
-            "name": "Percentage",
+            "name": "SaleID",
             "in": "query",
             "schema": {
               "type": "integer",
@@ -1398,7 +1398,7 @@
             },
             "nullable": true
           },
-          "percentage": {
+          "saleID": {
             "type": "integer",
             "format": "int32",
             "nullable": true

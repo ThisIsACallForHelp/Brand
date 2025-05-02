@@ -1,7 +1,8 @@
 ﻿$("document").ready(
     function () {
-        $("#Filter").click(
+        $(".Filter").click(
             function () {
+                let SaleID = document.getElementById("SalePercentage")?.value;
                 let uri = `http://localhost:5041/${window.UsingController}/GetProductCatalog/?`;
                 if (this.hasAttribute("data-StoreID")) {
                     let ext = "StoreID=" + this.getAttribute("data-StoreID");
@@ -15,6 +16,11 @@
                     let ext = "StoreTypeID=" + this.getAttribute("data-StoreTypeID");
                     uri = uri + ext;
                 }
+                if (SaleID > 0) {
+                    let ext = "SaleID=" + SaleID;
+                    uri = uri + ext;
+                }
+                alert(uri);
                 $.ajax({
                     url: uri,
                     method: "GET",
@@ -23,15 +29,15 @@
                         let loader = "<div class='modal-inner' style='top: 40 %; right: 40 %; position: calc(-50 %, -50 %); position: absolute'>" +
                             "<img src='~/GUI/images/AJAX_GIF.gif'/>" +
                             "</div>";
-                        $("#dataBar").html(loader);
+                        $(".ProductContent").html(loader);
                     },
                     error: function () {
                         // your code here;
                     },
                     success: function (data) {
+                        alert(data);
                         setTimeout(function () {
-                            $("#dataBar").html(data);
-                            reapplyDynamicStyles();
+                            $(".ProductContent").html(data);
                         }, 3000);
                     },
                     complete: function () {

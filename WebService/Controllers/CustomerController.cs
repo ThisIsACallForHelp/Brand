@@ -129,7 +129,7 @@ namespace WebService
         //All == 0
 
         [HttpGet]
-        public CatalogViewModel Catalog(int StoreID = 0, int Percentage = 0, int StoreTypeID =0, int BrandID =0,
+        public CatalogViewModel Catalog(int StoreID = 0, int SaleID = 0, int StoreTypeID =0, int BrandID =0,
                                         int ProductsPerPage = 16, int pageNumber = 1)
         {
             CatalogViewModel catalogViewModel = new CatalogViewModel();
@@ -137,34 +137,28 @@ namespace WebService
             {
                 this.dbContext.OpenConnection();
                 List<Product> products = new List<Product>();
-                int SaleID = (Percentage + (Percentage % 5)) / 5;
+                
                 catalogViewModel.Products = null;
-                if (StoreTypeID > 0)
-                {
-                    catalogViewModel.stores = this.unitOfWork.StoreRepository.GetStoresByType(StoreTypeID);
-                }
-                if(StoreID > 0 && Percentage > 0 && BrandID == 0)
+                if(StoreID > 0 && SaleID > 0)
                 {
                     BrandID = 0;
-                    products = this.unitOfWork.ProductRepository.CheckSaleAndStore(SaleID, StoreID);
+                    products = this.unitOfWork.ProductRepository.SaleAndStore(SaleID, StoreID);
                 }
-                if (Percentage > 0 && StoreID == 0 && BrandID ==0)
-                {
-                    products = this.unitOfWork.ProductRepository.PercentSalesRangeList(Percentage);
-                }
-                if (Percentage == 0 && StoreID > 0 && BrandID == 0)
-                {
-                    products = this.unitOfWork.ProductRepository.ProductsFromStore(StoreID);
-                }
-                if(BrandID > 0 && Percentage > 0 && StoreID == 0)
+                if (SaleID > 0 && BrandID >0)
                 {
                     StoreID = 0;
-                    products = this.unitOfWork.ProductRepository.FromBrandAndSale(SaleID, StoreID);
+                    products = this.unitOfWork.ProductRepository.SaleAndBrand(SaleID, BrandID);
                 }
-                if(StoreID > 0 && BrandID == 0 && Percentage == 0)
+                if (StoreID > 0 && SaleID == 0)
                 {
+                    BrandID = 0;
                     products = this.unitOfWork.ProductRepository.ProductsFromStore(StoreID);
                 }
+                if (BrandID > 0 && SaleID == 0)
+                {
+                    StoreID = 0;
+                    products = this.unitOfWork.ProductRepository.ProductsFromBrand(BrandID);
+                }             
                 else
                 {
                     products = this.unitOfWork.ProductRepository.GetAll();
@@ -179,7 +173,7 @@ namespace WebService
                 catalogViewModel.PageNumber = pageNumber;
                 catalogViewModel.stores = this.unitOfWork.StoreRepository.GetAll();
                 catalogViewModel.storeTypes = this.unitOfWork.StoreTypeRepository.GetAll();
-                catalogViewModel.Percentage = Percentage;
+                catalogViewModel.SaleID = SaleID;
                 catalogViewModel.Brands = this.unitOfWork.BrandRepository.GetAll();
                 catalogViewModel.PageNumber = pageNumber;
                 catalogViewModel.StoreTypeID = StoreTypeID;
@@ -215,12 +209,12 @@ namespace WebService
                 {
                     catalogViewModel.stores = this.unitOfWork.StoreRepository.GetStoresByType(StoreTypeID);
                 }
-                if (StoreID > 0 && Percentage > 0 && BrandID == 0)
+                if (StoreID > 0 && Percentage > 0)
                 {
                     BrandID = 0;
-                    products = this.unitOfWork.ProductRepository.CheckSaleAndStore(SaleID, StoreID);
+                    products = this.unitOfWork.ProductRepository.SaleAndStore(SaleID, StoreID);
                 }
-                if (Percentage > 0 && StoreID == 0 && BrandID == 0)
+                if (Percentage > 0  && BrandID > 0)
                 {
                     products = this.unitOfWork.ProductRepository.PercentSalesRangeList(Percentage);
                 }
@@ -251,7 +245,7 @@ namespace WebService
                 catalogViewModel.PageNumber = pageNumber;
                 catalogViewModel.stores = null;
                 catalogViewModel.storeTypes = null;
-                catalogViewModel.Percentage = Percentage;
+                catalogViewModel.SaleID = SaleID;
                 catalogViewModel.Brands = null;
                 catalogViewModel.PageNumber = pageNumber;
                 catalogViewModel.StoreTypeID = StoreTypeID;
