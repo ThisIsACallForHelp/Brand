@@ -9,7 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="diverse-employees-store-posing-together_257123-22260.png" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Fonts\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\WebApiClient\WebApiClient.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="diverse-employees-store-posing-together_257123-22260.png" />
   </ItemGroup>
 
 </Project>

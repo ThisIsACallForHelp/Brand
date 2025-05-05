@@ -9,6 +9,10 @@
       {
         "Path": "MallWebApplication\\MallWebApplication.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "MallAdmin\\MallAdmin.csproj",
+        "Action": "Start"
       }
     ]
   }

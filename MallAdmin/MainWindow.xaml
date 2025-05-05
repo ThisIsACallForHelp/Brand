@@ -20,11 +20,21 @@
         <Border BorderBrush="Black" BorderThickness="1" Height="122" Width="800" Background="#FFC8C8C8" HorizontalAlignment="Center" VerticalAlignment="Top">
             <Button Content="Log In" Margin="234,25,268,38" FontSize="40px" Click="btn_AdminLogIn"/>
         </Border>
-        <Image Source="/Images/CRYSTAL_MallLogo-removebg-preview.png" Height="122" Width="138" HorizontalAlignment="Left" VerticalAlignment="Center"></Image>
-        <Border BorderThickness="1" Height="363" Width="800"  HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Top="122">
+        <Image Source="/Images/CRYSTAL_MallLogo-removebg-preview.png" Height="122" Width="107" HorizontalAlignment="Left" VerticalAlignment="Center"></Image>
+        <Border BorderThickness="1"  x:Name="Content" Height="363" Width="800"  HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Top="122">
             <Border.Background>
-                <ImageBrush ImageSource="/Images/diverse-employees-store-posing-together_257123-22260.png" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="/diverse-employees-store-posing-together_257123-22260.png" Stretch="UniformToFill"/>
             </Border.Background>
+            <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="221" Background="White" Margin="258,0,0,0" VerticalAlignment="Center" Width="262">
+                <StackPanel>
+                    <Label Content="Enter Your First Name" FontSize="20px"/>
+                    <TextBox Background="#FFC8C8C8" Margin="5" Height="27px" x:Name="FirstName"></TextBox>
+                    <Label Content="Enter Your Last Name" FontSize="20px"/>
+                    <TextBox Background="#FFC8C8C8" Margin="5" Height="27px" x:Name="LastName"></TextBox>
+                    <Label Content="Enter Your ID" FontSize="20px"/>
+                    <TextBox Background="#FFC8C8C8" Margin="5" Height="27px" x:Name="ID"></TextBox>
+                </StackPanel>
+            </Border>
         </Border>
 
 
