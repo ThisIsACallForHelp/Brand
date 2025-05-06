@@ -162,5 +162,31 @@ namespace WebService
                 this.dbContext.CloseConnection();
             }
         }
+
+        [HttpGet]
+        public StoreOwnerViewModel AdminView(StoreOwnerViewModel storeOwnerViewModel)
+        {
+            StoreOwnerViewModel StoreOwnerViewModel = new StoreOwnerViewModel();
+            try
+            {
+                this.dbContext.OpenConnection();
+                StoreOwnerViewModel.Products = this.unitOfWork.ProductRepository.GetByOwnerID(storeOwnerViewModel.StoreOwnerID);
+                if (storeOwnerViewModel.OnSale)
+                {
+                    StoreOwnerViewModel.Products = this.unitOfWork.ProductRepository.OwnerSales(storeOwnerViewModel.StoreOwnerID);
+                }
+                return StoreOwnerViewModel;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+                return null;
+            }
+            finally
+            {
+                this.dbContext.ClearParameters();
+                this.dbContext.CloseConnection();
+            }
+        }
     }
 }

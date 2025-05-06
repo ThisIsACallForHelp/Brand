@@ -3,36 +3,72 @@
   "WorkspaceRootPath": "C:\\MyMall\\Brand\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\catalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\views\\storeowner\\storeownerview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\views\\storeowner\\storeownerview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\appdata\\appstoreownerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\appdata\\appstoreownerid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\addsale.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\addsale.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\addproductform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\addproductform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\addproductform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\addproductform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\malladmin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\malladmin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\addsale.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|solutionrelative:malladmin\\addsale.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\controllers\\mallownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\controllers\\mallownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -67,74 +103,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StoreOwnerView.cshtml",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\StoreOwner\\StoreOwnerView.cshtml",
-              "RelativeDocumentMoniker": "MallWebApplication\\Views\\StoreOwner\\StoreOwnerView.cshtml",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\StoreOwner\\StoreOwnerView.cshtml",
-              "RelativeToolTip": "MallWebApplication\\Views\\StoreOwner\\StoreOwnerView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAACJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T09:36:27.82Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "StoreOwnerController.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Controllers\\StoreOwnerController.cs",
-              "RelativeDocumentMoniker": "WebService\\Controllers\\StoreOwnerController.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Controllers\\StoreOwnerController.cs",
-              "RelativeToolTip": "WebService\\Controllers\\StoreOwnerController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAADgv4wAAAAnAAAAAAAAAA==",
+              "Title": "AppStoreOwnerID.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AppData\\AppStoreOwnerID.cs",
+              "RelativeDocumentMoniker": "MallAdmin\\AppData\\AppStoreOwnerID.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\AppData\\AppStoreOwnerID.cs",
+              "RelativeToolTip": "MallAdmin\\AppData\\AppStoreOwnerID.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T19:09:29.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Catalog.xaml",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\Catalog.xaml",
-              "RelativeDocumentMoniker": "MallAdmin\\Catalog.xaml",
-              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\Catalog.xaml",
-              "RelativeToolTip": "MallAdmin\\Catalog.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-04T19:08:10.097Z",
+              "WhenOpened": "2025-05-06T09:46:44.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AddSale.xaml.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AddSale.xaml.cs",
+              "RelativeDocumentMoniker": "MallAdmin\\AddSale.xaml.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\AddSale.xaml.cs",
+              "RelativeToolTip": "MallAdmin\\AddSale.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAvwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:20:31.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "StoreOwnerController.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\StoreOwnerController.cs",
               "RelativeDocumentMoniker": "MallWebApplication\\Controllers\\StoreOwnerController.cs",
               "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\StoreOwnerController.cs",
               "RelativeToolTip": "MallWebApplication\\Controllers\\StoreOwnerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T18:43:39.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MallAdmin\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MallAdmin\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAtwEIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T18:28:44.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GuestController.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\GuestController.cs",
-              "RelativeDocumentMoniker": "MallWebApplication\\Controllers\\GuestController.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\GuestController.cs",
-              "RelativeToolTip": "MallWebApplication\\Controllers\\GuestController.cs",
-              "ViewState": "AgIAANcAAAAAAAAAAAAAwOUAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T18:28:42.772Z"
+              "WhenOpened": "2025-05-05T16:25:13.709Z"
             },
             {
               "$type": "Document",
@@ -144,20 +146,167 @@
               "RelativeDocumentMoniker": "MallAdmin\\Catalog.xaml.cs",
               "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\Catalog.xaml.cs",
               "RelativeToolTip": "MallAdmin\\Catalog.xaml.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAADgv0kAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAtwB0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T18:29:52.916Z"
+              "WhenOpened": "2025-05-05T16:07:58.887Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
+              "Title": "AddProductForm.xaml.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AddProductForm.xaml.cs",
+              "RelativeDocumentMoniker": "MallAdmin\\AddProductForm.xaml.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\AddProductForm.xaml.cs",
+              "RelativeToolTip": "MallAdmin\\AddProductForm.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA5wDIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:14:52.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "MallAdmin\\AssemblyInfo.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\AssemblyInfo.cs",
+              "RelativeToolTip": "MallAdmin\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T08:09:06.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MallAdmin\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MallAdmin\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAADgvxUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:08:00.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MallAdmin\\MainWindow.xaml",
               "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\MainWindow.xaml",
               "RelativeToolTip": "MallAdmin\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-01T16:29:25.567Z"
+              "WhenOpened": "2025-05-05T16:07:11.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MallWebApplication\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MallWebApplication\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:25:11.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Catalog.xaml",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\Catalog.xaml",
+              "RelativeDocumentMoniker": "MallAdmin\\Catalog.xaml",
+              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\Catalog.xaml",
+              "RelativeToolTip": "MallAdmin\\Catalog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T16:29:29.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddProductForm.xaml",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AddProductForm.xaml",
+              "RelativeDocumentMoniker": "MallAdmin\\AddProductForm.xaml",
+              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\AddProductForm.xaml",
+              "RelativeToolTip": "MallAdmin\\AddProductForm.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T19:08:58.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MallAdmin.csproj",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\MallAdmin.csproj",
+              "RelativeDocumentMoniker": "MallAdmin\\MallAdmin.csproj",
+              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\MallAdmin.csproj",
+              "RelativeToolTip": "MallAdmin\\MallAdmin.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-06T09:46:18.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StoreOwnerController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Controllers\\StoreOwnerController.cs",
+              "RelativeDocumentMoniker": "WebService\\Controllers\\StoreOwnerController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Controllers\\StoreOwnerController.cs",
+              "RelativeToolTip": "WebService\\Controllers\\StoreOwnerController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAQwKYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:30:32.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddSale.xaml",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AddSale.xaml",
+              "RelativeDocumentMoniker": "MallAdmin\\AddSale.xaml",
+              "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\AddSale.xaml",
+              "RelativeToolTip": "MallAdmin\\AddSale.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T19:22:39.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GuestController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\GuestController.cs",
+              "RelativeDocumentMoniker": "MallWebApplication\\Controllers\\GuestController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\GuestController.cs",
+              "RelativeToolTip": "MallWebApplication\\Controllers\\GuestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T19:25:13.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MallOwnerController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Controllers\\MallOwnerController.cs",
+              "RelativeDocumentMoniker": "WebService\\Controllers\\MallOwnerController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Controllers\\MallOwnerController.cs",
+              "RelativeToolTip": "WebService\\Controllers\\MallOwnerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:31:40.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "WebService\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "WebService\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:31:42.493Z"
             }
           ]
         }

@@ -9,7 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="diverse-employees-store-posing-together_257123-22260.png" />
+    <None Remove="Images\CRYSTAL_MallLogo-removebg-preview.png" />
+    <None Remove="Images\LogInBG.png" />
+    <None Remove="Images\Sams-Club-Dress-Code-for-staff.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -22,7 +24,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="diverse-employees-store-posing-together_257123-22260.png" />
+    <Resource Include="Images\CRYSTAL_MallLogo-removebg-preview.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\LogInBG.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Sams-Club-Dress-Code-for-staff.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>

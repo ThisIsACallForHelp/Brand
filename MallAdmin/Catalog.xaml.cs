@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using MallAdmin.AppData;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,27 +22,25 @@ namespace MallAdmin
     public partial class Catalog : Window
     {
         int OwnerID;
+        AddProductForm addProductForm;
+        AddSale addSale;
         public Catalog(int StoreOwnerID)
         {
             InitializeComponent();
             this.OwnerID = StoreOwnerID;
         }
-
-        
-
         private void btn_AddAProduct(object sender, RoutedEventArgs e)
         {
-
+            this.Content.Child = this.addProductForm;
         }
 
         private void btn_AddASale(object sender, RoutedEventArgs e)
         {
-
+            this.Content.Child = this.addSale;
         }
-
         private async void btn_StoreOwnerView(object sender, RoutedEventArgs e)
         {
-            //it gets 0, even though the OwnerID is actually valid idk why debug this bitch
+            //it says that it works, i debugged it but the Images are null 
             Button button = (Button)sender;
             bool OnSale = false;
             if(button.Tag == "True")
@@ -69,9 +68,30 @@ namespace MallAdmin
             products = await Client.GetAsync();
         }
 
-        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private async void btn_DeleteProduct(object sender, RoutedEventArgs e)
         {
-
+            Button btn = (Button)sender;
+            Product product = new Product(){
+                ID = Convert.ToInt32(btn.Tag)
+            };
+            MessageBoxResult result = MessageBox.Show("Are you sure you want to proceed?", 
+                                                      "Confirmation", MessageBoxButton.YesNo, 
+                                                       MessageBoxImage.Question);
+            if(result == MessageBoxResult.Yes)
+            {
+                WebClient<Product> Client = new WebClient<Product>()
+                {
+                    Schema = "http",
+                    Port = 5134,
+                    Host = "localhost",
+                };
+                bool Deleted = await Client.PostAsync(product);
+                if (Deleted)
+                {
+                    Catalog catalog = new Catalog(this.OwnerID);
+                    catalog.Show();
+                }
+            }           
         }
     }
 }

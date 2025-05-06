@@ -23,26 +23,31 @@
         <Button Content="On Sale" Background="LightBlue" FontSize="20px" Click="btn_StoreOwnerView" Canvas.Left="288" Tag="True" Canvas.Top="34" HorizontalAlignment="Left" Height="54" VerticalAlignment="Center" Width="152"/>
         <Button Content="Add A Product" FontSize="20px" Click="btn_AddAProduct" Background="LightGreen" Canvas.Left="456" Canvas.Top="34" HorizontalAlignment="Left" Height="54" VerticalAlignment="Center" Width="152"/>
         <Button Content="Add A Sale" FontSize="20px" Click="btn_AddASale" Background="LightGreen" Canvas.Left="624" Canvas.Top="34" HorizontalAlignment="Left" Height="54" VerticalAlignment="Center" Width="152"/>
-        <Image Source="/Images/CRYSTAL_MallLogo-removebg-preview.png" Height="122" Width="107" HorizontalAlignment="Left" VerticalAlignment="Center"></Image>
+        <Image Source="/Images/CRYSTAL_MallLogo-removebg-preview.png" Height="122" Width="107" HorizontalAlignment="Left" VerticalAlignment="Center">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/Images/CRYSTAL_MallLogo-removebg-preview.png"/>
+            </Image.OpacityMask>
+        </Image>
         <Border BorderBrush="Yellow" BorderThickness="1" x:Name="Content" Height="312" Width="800" Background="Yellow" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="122">
-            <ListView d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="ListView_SelectionChanged" Background="Yellow">
+
+            <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Background="Yellow"> <!--SelectionChanged="ListView_SelectionChanged"-->
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel />
                     </ItemsPanelTemplate>
                 </ListView.ItemsPanel>
-
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <Border Width="120" Height="120" Margin="10" Background="Blue">
-                            <!--<Border.Background>
+                        <Border Width="120" Height="120" Margin="10">
+                            <Button Margin="0,120,0,-30" Background="Red" Height="30px" Content="Delete" Width="120px" Click="btn_DeleteProduct" Tag="ProductID"></Button>
+                            <Border.Background>
                                 <ImageBrush ImageSource="{Binding ProductIMG}"/>
-                            </Border.Background>-->
+                            </Border.Background>
                         </Border>
-                        
                     </DataTemplate>
-                    
+
                 </ListView.ItemTemplate>
+
             </ListView>
         </Border>
 

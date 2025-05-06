@@ -1,4 +1,5 @@
-﻿using Models;
+﻿using MallAdmin.AppData;
+using Models;
 using System.Net;
 using System.Text;
 using System.Windows;
@@ -19,7 +20,6 @@ namespace MallAdmin
     public partial class MainWindow : Window
     {
         //Catalog catalog;
-        int StoreOwnerID =0;
         public MainWindow()
         {
             InitializeComponent();
@@ -50,12 +50,11 @@ namespace MallAdmin
             Client.AddParams("StoreOwnerID", Owner.ID.ToString());
             try
             {
-                StoreOwnerID = await Client.GetAsync();
-                Owner.ID = StoreOwnerID;
-                Console.WriteLine("Owner Id = "+ StoreOwnerID);
-                if (StoreOwnerID != 0)
+                AppStoreOwnerID.StoreOwnerID = await Client.GetAsync();
+                Console.WriteLine("Owner Id = "+ AppStoreOwnerID.StoreOwnerID);
+                if (AppStoreOwnerID.StoreOwnerID != 0)
                 {
-                    Catalog catalog = new Catalog(StoreOwnerID);
+                    Catalog catalog = new Catalog(AppStoreOwnerID.StoreOwnerID);
                     catalog.Show();
                     this.Close();
                 }

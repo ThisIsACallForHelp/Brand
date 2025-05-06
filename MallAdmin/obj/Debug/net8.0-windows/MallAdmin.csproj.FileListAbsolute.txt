@@ -35,3 +35,7 @@ C:\MyMall\Brand\MallAdmin\obj\Debug\net8.0-windows\refint\MallAdmin.dll
 C:\MyMall\Brand\MallAdmin\obj\Debug\net8.0-windows\MallAdmin.pdb
 C:\MyMall\Brand\MallAdmin\obj\Debug\net8.0-windows\MallAdmin.genruntimeconfig.cache
 C:\MyMall\Brand\MallAdmin\obj\Debug\net8.0-windows\ref\MallAdmin.dll
+C:\MyMall\Brand\MallAdmin\obj\Debug\net8.0-windows\AddProductForm.g.cs
+C:\MyMall\Brand\MallAdmin\obj\Debug\net8.0-windows\AddSale.g.cs
+C:\MyMall\Brand\MallAdmin\obj\Debug\net8.0-windows\AddProductForm.baml
+C:\MyMall\Brand\MallAdmin\obj\Debug\net8.0-windows\AddSale.baml

@@ -101,3 +101,5 @@ C:\MyMall\Brand\ExternalWebService\obj\Debug\net8.0\refint\ExternalWebService.dl
 C:\MyMall\Brand\ExternalWebService\obj\Debug\net8.0\ExternalWebService.pdb
 C:\MyMall\Brand\ExternalWebService\obj\Debug\net8.0\ExternalWebService.genruntimeconfig.cache
 C:\MyMall\Brand\ExternalWebService\obj\Debug\net8.0\ref\ExternalWebService.dll
+C:\MyMall\Brand\ExternalWebService\bin\Debug\net8.0\Docker.DotNet.dll
+C:\MyMall\Brand\ExternalWebService\bin\Debug\net8.0\Newtonsoft.Json.dll

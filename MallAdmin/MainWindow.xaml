@@ -23,7 +23,7 @@
         <Image Source="/Images/CRYSTAL_MallLogo-removebg-preview.png" Height="122" Width="107" HorizontalAlignment="Left" VerticalAlignment="Center"></Image>
         <Border BorderThickness="1"  x:Name="Content" Height="363" Width="800"  HorizontalAlignment="Center" VerticalAlignment="Center" Canvas.Top="122">
             <Border.Background>
-                <ImageBrush ImageSource="/diverse-employees-store-posing-together_257123-22260.png" Stretch="UniformToFill"/>
+                <ImageBrush Stretch="UniformToFill" ImageSource="/Images/LogInBG.png"/>
             </Border.Background>
             <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="221" Background="White" Margin="258,0,0,0" VerticalAlignment="Center" Width="262">
                 <StackPanel>
