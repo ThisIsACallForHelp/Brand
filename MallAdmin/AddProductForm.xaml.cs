@@ -22,7 +22,6 @@ namespace MallAdmin
     /// </summary>
     public partial class AddProductForm : UserControl
     {
-        int StoreOwnerID = AppStoreOwnerID.StoreOwnerID;
         public AddProductForm()
         {
             InitializeComponent();
@@ -30,7 +29,8 @@ namespace MallAdmin
 
         private async void btn_AddProduct(object sender, RoutedEventArgs e)
         {
-            //i forgot to add the image, so no imagew i guess whatsoever 
+            //i forgot to add the image, so no image i guess  
+
             WebClient<Product> webClient = new WebClient<Product>();
             Product product = new Product()
             {
@@ -46,7 +46,7 @@ namespace MallAdmin
             bool Added = await webClient.PostAsync(product);
             if (Added)
             {
-                Catalog catalog = new Catalog(StoreOwnerID);
+                Catalog catalog = new Catalog(AppStoreOwnerID.StoreOwnerID);
                 catalog.Show();
             }
         }

@@ -653,32 +653,6 @@
   },
   {
     "ContainingType": "WebService.StoreOwnerController",
-    "Method": "AdminView",
-    "RelativePath": "api/StoreOwner/AdminView",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "storeOwnerViewModel",
-        "Type": "Models.StoreOwnerViewModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Models.StoreOwnerViewModel",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebService.StoreOwnerController",
     "Method": "DeleteProduct",
     "RelativePath": "api/StoreOwner/DeleteProduct",
     "HttpMethod": "POST",

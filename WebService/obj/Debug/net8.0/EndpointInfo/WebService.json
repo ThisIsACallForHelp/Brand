@@ -1330,54 +1330,6 @@
           }
         }
       }
-    },
-    "/api/StoreOwner/AdminView": {
-      "get": {
-        "tags": [
-          "StoreOwner"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/StoreOwnerViewModel"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/StoreOwnerViewModel"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/StoreOwnerViewModel"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/StoreOwnerViewModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/StoreOwnerViewModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/StoreOwnerViewModel"
-                }
-              }
-            }
-          }
-        }
-      }
     }
   },
   "components": {

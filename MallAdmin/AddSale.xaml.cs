@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MallAdmin.AppData;
 using Models;
 using WebApiClient;
 namespace MallAdmin
@@ -28,6 +29,7 @@ namespace MallAdmin
         }
         private async void btn_AddSale(object sender, RoutedEventArgs e)
         {
+            //works, i just need to finish it. just go back to the catalog 
             WebClient<Product> webClient = new WebClient<Product>()
             {
                 Schema = "http",
@@ -38,10 +40,14 @@ namespace MallAdmin
             Product product = new Product()
             {
                 ID = Convert.ToInt32(ProductID.Text),
-                SaleID = Convert.ToInt32(Percentage)
+                SaleID = Convert.ToInt32(Percentage.Text)
             };
             product.SaleID = (product.SaleID - product.SaleID % 5) / 5;
             bool Added = await webClient.PostAsync(product);
+            if(Added)
+            {
+                //code here 
+            }
         }
     }
 }

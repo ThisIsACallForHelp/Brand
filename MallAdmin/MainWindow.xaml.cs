@@ -30,8 +30,9 @@ namespace MallAdmin
         }
 
 
-        private async void btn_AdminLogIn(object sender, RoutedEventArgs e)
-        {           
+        private async void btn_AdminLogIn(object sender, RoutedEventArgs e)        
+        {
+            //works
             WebClient<int> Client = new WebClient<int>()
             {
                 Schema = "http",

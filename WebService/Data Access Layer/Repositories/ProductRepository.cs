@@ -134,19 +134,20 @@ namespace WebService
 
         public int GetPrice(int ProductID)
         {
-            string sql = "SELECT * FROM Product WHERE ProductID = @productID";
+            string sql = $@"SELECT * FROM Product WHERE ProductID = {ProductID}";
+            Console.WriteLine(sql);
             base.dbContext.AddParameters("@ProductID", ProductID.ToString());
             using (IDataReader product = base.dbContext.Read(sql))
             {
                 product.Read(); //Read the object 
-                return (int)this.modelFactory.ProductCreator.CreateModel(product).ProductPrice;
+                return this.modelFactory.ProductCreator.CreateModel(product).ProductPrice;
             }
         }
 
         public bool ChangeSaleID(int ProductID, int SaleID)
         {
             int productPrice = GetPrice(ProductID);
-            productPrice -= Convert.ToInt32((GetPrice(ProductID) / 100) * (SaleID * 5));
+            productPrice -= (productPrice / 100) * (SaleID * 5);
             string sql = $@"UPDATE Product SET 
                                    SaleID = {SaleID},
                                    ProductPrice = {productPrice}
