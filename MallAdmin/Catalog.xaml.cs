@@ -22,8 +22,8 @@ namespace MallAdmin
     /// </summary>
     public partial class Catalog : Window
     {
-        AddProductForm addProductForm;
-        AddSale addSale;
+        AddProductForm addProductForm = new AddProductForm();
+        AddSale addSale = new AddSale();
         bool OnSale = false;
         StoreOwnerViewModel viewModel = new StoreOwnerViewModel();
         public Catalog(int StoreOwnerID)

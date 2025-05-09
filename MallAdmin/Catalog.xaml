@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MallAdmin"
         mc:Ignorable="d"
-        Title="Catalog" Height="450" Width="800">
+        Title="Catalog" Height="620" Width="800">
     <Canvas RenderTransformOrigin="0.5,0.5" Margin="0,0,0,517" Background="#FFC8C8C8">
         <Canvas.RenderTransform>
             <TransformGroup>
@@ -28,7 +28,7 @@
                 <ImageBrush ImageSource="/Images/CRYSTAL_MallLogo-removebg-preview.png"/>
             </Image.OpacityMask>
         </Image>
-        <Border BorderBrush="Yellow" BorderThickness="1" x:Name="Content" Height="312" Width="800" Background="Yellow" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="122">
+        <Border BorderBrush="Yellow" BorderThickness="1" x:Name="Content" Height="482" Width="800" Background="Yellow" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="122">
 
             <ListView ItemsSource="{Binding Products}" Background="Yellow">
                 <!--SelectionChanged="ListView_SelectionChanged"-->
