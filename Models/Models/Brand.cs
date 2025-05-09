@@ -11,8 +11,6 @@ namespace Models
     {
         public string? BrandName { get; set; } //name
         public string? BrandIMG {  get; set; } //image 
-        public List<Store>? BrandStores { get; set; } 
-        //list of stores 
-        public List<Product> BrandProducts { get; set; }
+
     }
 }

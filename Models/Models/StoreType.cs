@@ -8,9 +8,7 @@ namespace Models
 {
     public class StoreType : Model //inherit the ID
     {
-        public string? StoreTypeName { get; set; } //type name
-        //public List<Store> TypeStores { get; set; } 
-        //list of stores that match the type 
-
+        public string? StoreTypeName { get; set; } 
+        //The name of the store type 
     }
 }

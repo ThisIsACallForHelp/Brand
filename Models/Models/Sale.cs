@@ -8,9 +8,7 @@ namespace Models
 {
     public class Sale : Model //inherit the ID
     {
-        public int Percentage { get; set; } //sale percentage
-        //public List<Product> ProductsOnSale { get; set; }
-        //list of products on sale
-
+        public int Percentage { get; set; } 
+        //sale percentage
     }
 }

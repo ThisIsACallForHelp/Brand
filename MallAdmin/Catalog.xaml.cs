@@ -3,6 +3,7 @@ using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,13 +22,14 @@ namespace MallAdmin
     /// </summary>
     public partial class Catalog : Window
     {
-        int OwnerID;
         AddProductForm addProductForm;
         AddSale addSale;
+        bool OnSale = false;
+        StoreOwnerViewModel viewModel = new StoreOwnerViewModel();
         public Catalog(int StoreOwnerID)
         {
             InitializeComponent();
-            this.OwnerID = StoreOwnerID;
+            AppStoreOwnerID.StoreOwnerID = StoreOwnerID;
         }
         private void btn_AddAProduct(object sender, RoutedEventArgs e)
         {
@@ -42,7 +44,6 @@ namespace MallAdmin
         {
             //it says that it works, i debugged it but the Images are null 
             Button button = (Button)sender;
-            bool OnSale = false;
             if(button.Tag == "True")
             {
                 OnSale = true;
@@ -51,21 +52,24 @@ namespace MallAdmin
             {
                 OnSale = false;
             }
-            WebClient<StoreOwnerViewModel> Client = new WebClient<StoreOwnerViewModel>()
+            try
             {
-                Schema = "http",
-                Port = 5134,
-                Host = "localhost",
-                Path = "api/StoreOwner/StoreOwnerView"
-            };
-            Client.AddParams("StoreOwnerID", this.OwnerID.ToString());
-            Client.AddParams("OnSale", OnSale.ToString());
-            StoreOwnerViewModel products = new StoreOwnerViewModel()
+                WebClient<StoreOwnerViewModel> Client = new WebClient<StoreOwnerViewModel>()
+                {
+                    Schema = "http",
+                    Port = 5134,
+                    Host = "localhost",
+                    Path = "api/StoreOwner/StoreOwnerView"
+                };
+                Client.AddParams("StoreOwnerID", AppStoreOwnerID.StoreOwnerID.ToString());
+                Client.AddParams("OnSale", OnSale.ToString());
+                viewModel = await Client.GetAsync();
+                this.DataContext = viewModel;
+            }
+            catch (Exception ex)
             {
-                StoreOwnerID = this.OwnerID,
-                OnSale = OnSale
-            };
-            products = await Client.GetAsync();
+                Console.WriteLine(ex.ToString());   
+            }            
         }
 
         private async void btn_DeleteProduct(object sender, RoutedEventArgs e)
@@ -88,7 +92,7 @@ namespace MallAdmin
                 bool Deleted = await Client.PostAsync(product);
                 if (Deleted)
                 {
-                    Catalog catalog = new Catalog(this.OwnerID);
+                    Catalog catalog = new Catalog(AppStoreOwnerID.StoreOwnerID);
                     catalog.Show();
                 }
             }           

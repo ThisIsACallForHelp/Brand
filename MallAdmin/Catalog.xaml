@@ -30,7 +30,8 @@
         </Image>
         <Border BorderBrush="Yellow" BorderThickness="1" x:Name="Content" Height="312" Width="800" Background="Yellow" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="122">
 
-            <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Background="Yellow"> <!--SelectionChanged="ListView_SelectionChanged"-->
+            <ListView ItemsSource="{Binding Products}" Background="Yellow">
+                <!--SelectionChanged="ListView_SelectionChanged"-->
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel />
@@ -47,16 +48,9 @@
                     </DataTemplate>
 
                 </ListView.ItemTemplate>
-
+                
             </ListView>
         </Border>
-
-
-
-
-
-
-
 
     </Canvas>
 </Window>

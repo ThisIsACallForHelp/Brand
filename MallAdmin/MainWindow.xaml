@@ -28,11 +28,11 @@
             <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Left" Height="221" Background="White" Margin="258,0,0,0" VerticalAlignment="Center" Width="262">
                 <StackPanel>
                     <Label Content="Enter Your First Name" FontSize="20px"/>
-                    <TextBox Background="#FFC8C8C8" Margin="5" Height="27px" x:Name="FirstName"></TextBox>
+                    <TextBox Text="Test" Background="#FFC8C8C8" Margin="5" Height="27px" x:Name="FirstName"></TextBox>
                     <Label Content="Enter Your Last Name" FontSize="20px"/>
-                    <TextBox Background="#FFC8C8C8" Margin="5" Height="27px" x:Name="LastName"></TextBox>
+                    <TextBox Text="Test" Background="#FFC8C8C8" Margin="5" Height="27px" x:Name="LastName"></TextBox>
                     <Label Content="Enter Your ID" FontSize="20px"/>
-                    <TextBox Background="#FFC8C8C8" Margin="5" Height="27px" x:Name="ID"></TextBox>
+                    <TextBox Text="1" Background="#FFC8C8C8" Margin="5" Height="27px" x:Name="ID"></TextBox>
                 </StackPanel>
             </Border>
         </Border>
