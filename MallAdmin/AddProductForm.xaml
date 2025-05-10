@@ -21,9 +21,9 @@
                 <TextBox Background="#FFC8C8C8" Margin="5" Height="20px" x:Name="StoreID"></TextBox>
                 <Label Content="Enter Percentage" FontSize="15px"/>
                 <TextBox Background="#FFC8C8C8" Margin="5" Height="20px" x:Name="Percentage"></TextBox>
-                <Label Content="Product Image" FontSize="15px"/>
-                <TextBox Background="#FFC8C8C8" Margin="5" Height="20px" x:Name="ProductIMG"></TextBox>
-                <Button Height="30" Width="150px" Content="Submit" FontSize="22" Click="btn_AddProduct" Margin="0,15,0,0"/>
+                <Button Content="Upload Image" Click="UploadImage_Click" Width="150" Height="30"/>
+                <Image x:Name="ProductIMG" Width="20" Height="20" Stretch="Uniform" Margin="10"/>
+                <Button Height="30" Width="150px" Content="Submit" FontSize="22" Click="btn_AddProduct" />
             </StackPanel>
 
         </Border>
