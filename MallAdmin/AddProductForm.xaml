@@ -6,22 +6,24 @@
              xmlns:local="clr-namespace:MallAdmin"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Canvas Background="Yellow">
-        <Border BorderBrush="Black" BorderThickness="1" Height="441" Width="315" Canvas.Left="219" Canvas.Top="10" HorizontalAlignment="Center" VerticalAlignment="Top" CornerRadius="20">
-            <StackPanel>
-                <Label Content="Enter Product's  Name" FontSize="20px"/>
+    <Canvas Background="Yellow" Margin="0,0,0,-41">
+        <Border BorderBrush="Black" BorderThickness="1" Height="481" Width="315" Canvas.Left="219" Canvas.Top="10" HorizontalAlignment="Center" VerticalAlignment="Top" CornerRadius="20">
+            <StackPanel Margin="0,0,0,-1">
+                <Label Content="Enter Product's  Name" FontSize="15px"/>
                 <TextBox Background="#FFC8C8C8" Margin="5" Height="20px" x:Name="ProductName"></TextBox>
-                <Label Content="Enter Your Product's Price" FontSize="20px"/>
+                <Label Content="Enter Your Product's Price" FontSize="15px"/>
                 <TextBox Background="#FFC8C8C8" Margin="5" Height="20px" x:Name="ProductPrice"></TextBox>
-                <Label Content="Enter Product ID" FontSize="20px"/>
+                <Label Content="Enter Product ID" FontSize="15px"/>
                 <TextBox Background="#FFC8C8C8" Margin="5" Height="20px" x:Name="ProductID"></TextBox>
-                <Label Content="Enter Brand ID" FontSize="20px"/>
+                <Label Content="Enter Brand ID" FontSize="15px"/>
                 <TextBox Background="#FFC8C8C8" Margin="5" Height="20px" x:Name="BrandID"></TextBox>
-                <Label Content="Enter Store ID" FontSize="20px"/>
+                <Label Content="Enter Store ID" FontSize="15px"/>
                 <TextBox Background="#FFC8C8C8" Margin="5" Height="20px" x:Name="StoreID"></TextBox>
-                <Label Content="Enter Percentage" FontSize="20px"/>
+                <Label Content="Enter Percentage" FontSize="15px"/>
                 <TextBox Background="#FFC8C8C8" Margin="5" Height="20px" x:Name="Percentage"></TextBox>
-                <Button Height="30" Width="150px" Content="Submit" FontSize="22" Click="btn_AddProduct"></Button>
+                <Label Content="Product Image" FontSize="15px"/>
+                <TextBox Background="#FFC8C8C8" Margin="5" Height="20px" x:Name="ProductIMG"></TextBox>
+                <Button Height="30" Width="150px" Content="Submit" FontSize="22" Click="btn_AddProduct" Margin="0,15,0,0"/>
             </StackPanel>
 
         </Border>

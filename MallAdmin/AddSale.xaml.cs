@@ -23,6 +23,7 @@ namespace MallAdmin
     /// </summary>
     public partial class AddSale : UserControl
     {
+        
         public AddSale()
         {
             InitializeComponent();
@@ -46,7 +47,8 @@ namespace MallAdmin
             bool Added = await webClient.PostAsync(product);
             if(Added)
             {
-                //code here 
+                Catalog catalog = new Catalog(AppStoreOwnerID.StoreOwnerID);
+                catalog.Show();
             }
         }
     }

@@ -22,8 +22,7 @@ namespace MallAdmin
     /// </summary>
     public partial class Catalog : Window
     {
-        AddProductForm addProductForm = new AddProductForm();
-        AddSale addSale = new AddSale();
+        AddProductForm addProductForm = new AddProductForm();        
         StoreOwnerViewModel viewModel = new StoreOwnerViewModel();
         public Catalog(int StoreOwnerID)
         {
@@ -39,8 +38,8 @@ namespace MallAdmin
 
         private void btn_AddASale(object sender, RoutedEventArgs e)
         {
-            //works
-            this.Content.Child = this.addSale;
+            AddSale addSale = new AddSale();
+            this.Content.Child = addSale;
         }
         //private async void btn_StoreOwnerView(object sender, RoutedEventArgs e)
         //{
