@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\Brands\**" />
+    <Compile Remove="wwwroot\Stores\**" />
+    <Content Remove="wwwroot\Brands\**" />
+    <Content Remove="wwwroot\Stores\**" />
+    <EmbeddedResource Remove="wwwroot\Brands\**" />
+    <EmbeddedResource Remove="wwwroot\Stores\**" />
+    <None Remove="wwwroot\Brands\**" />
+    <None Remove="wwwroot\Stores\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Docker.DotNet" Version="3.125.15" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     <PackageReference Include="System.Data.OleDb" Version="9.0.2" />
@@ -18,9 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Brands\" />
     <Folder Include="wwwroot\Customers\" />
-    <Folder Include="wwwroot\Stores\" />
   </ItemGroup>
 
 </Project>

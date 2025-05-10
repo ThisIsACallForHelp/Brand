@@ -21,8 +21,7 @@ namespace MallAdmin
     /// Interaction logic for Catalog.xaml
     /// </summary>
     public partial class Catalog : Window
-    {
-        AddProductForm addProductForm = new AddProductForm();        
+    {                
         StoreOwnerViewModel viewModel = new StoreOwnerViewModel();
         public Catalog(int StoreOwnerID)
         {
@@ -32,14 +31,12 @@ namespace MallAdmin
         }
         private void btn_AddAProduct(object sender, RoutedEventArgs e)
         {
-            //works
-            this.Content.Child = this.addProductForm;
+            this.Content.Child = new AddProductForm();
         }
 
         private void btn_AddASale(object sender, RoutedEventArgs e)
         {
-            AddSale addSale = new AddSale();
-            this.Content.Child = addSale;
+            this.Content.Child = new AddSale();
         }
         //private async void btn_StoreOwnerView(object sender, RoutedEventArgs e)
         //{
@@ -66,32 +63,39 @@ namespace MallAdmin
 
         private async void btn_Delete(object sender, RoutedEventArgs e)
         {
-            //Deletes the Product: yes 
-            //Sets the SaleID to be 0: idk i didnt check yet 
-            Button btn = (Button)sender;
-            Product product = new Product(){
-                ID = Convert.ToInt32(btn.Tag)
-            };
-            WebClient<Product> client = new WebClient<Product>()
+            MessageBoxResult result = MessageBox.Show("Are you sure you want to proceed?",
+                                                      "Confirmation",
+                                                      MessageBoxButton.YesNo,
+                                                      MessageBoxImage.Question);
+
+            if (result == MessageBoxResult.Yes)
             {
-                Schema = "http",
-                Host = "localhost",
-                Port = 5134
-            };
-            if (AppOnSale.OnSale)
-            {
-                client.Path = "api/StoreOwner/DeleteSale";
-            }       
-            else
-            {
-                client.Path = "api/StoreOwner/DeleteProduct";
-            }
-            client.AddParams("ProductID", btn.Tag.ToString());
-            bool Deleted = await client.PostAsync(product);
-            if (Deleted)
-            {
-                this.DataContext = new Catalog(AppStoreOwnerID.StoreOwnerID); 
-            }
+                Button btn = (Button)sender;
+                Product product = new Product()
+                {
+                    ID = Convert.ToInt32(btn.Tag)
+                };
+                WebClient<Product> client = new WebClient<Product>()
+                {
+                    Schema = "http",
+                    Host = "localhost",
+                    Port = 5134
+                };
+                if (AppOnSale.OnSale)
+                {
+                    client.Path = "api/StoreOwner/DeleteSale";
+                }
+                else
+                {
+                    client.Path = "api/StoreOwner/DeleteProduct";
+                }
+                client.AddParams("ProductID", btn.Tag.ToString());
+                bool Deleted = await client.PostAsync(product);
+                if (Deleted)
+                {
+                    this.DataContext = new Catalog(AppStoreOwnerID.StoreOwnerID);
+                }
+            }            
         }
 
         private async void btn_StoreOwnerView(object sender, RoutedEventArgs e)

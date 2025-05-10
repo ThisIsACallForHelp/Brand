@@ -24,6 +24,7 @@ namespace MallAdmin
     /// </summary>
     public partial class AddProductForm : UserControl
     {
+        string relativePath;
         public AddProductForm()
         {
             InitializeComponent();
@@ -54,25 +55,21 @@ namespace MallAdmin
                 File.Copy(sourceFilePath, destinationPath, overwrite: false);
                 //copy the file into the destination, and prevent overwriting of the files
 
-                //// Show image in WPF (optional)
-                //BitmapImage image = new BitmapImage();
-                //image.BeginInit();
-                //image.UriSource = new Uri(destinationPath); // Use local path
-                //image.CacheOption = BitmapCacheOption.OnLoad;
-                //image.EndInit();
-                //ProductIMG.Source = image;
-
                 //save the path 
-                string relativePath = uniqueFileName;
+                relativePath = uniqueFileName;
             }
         }
 
 
         private async void btn_AddProduct(object sender, RoutedEventArgs e)
-        {
-            //i forgot to add the image, so no image i guess  
-
-            WebClient<Product> webClient = new WebClient<Product>();
+        { 
+            WebClient<Product> webClient = new WebClient<Product>()
+            {
+                Schema = "http",
+                Port = 5134,
+                Host = "localhost",
+                Path = "api/StoreOwner/AddNewProductToStore"
+            };
             Product product = new Product()
             {
                 ProductName = ProductName.Text,
@@ -80,8 +77,8 @@ namespace MallAdmin
                 ID = Convert.ToInt32(ProductID.Text),
                 ProductBrand = Convert.ToInt32(BrandID.Text),
                 StoreID = Convert.ToInt32(StoreID.Text),
-                SaleID = Convert.ToInt32(Percentage)
-                
+                SaleID = Convert.ToInt32(Percentage.Text),
+                ProductIMG = relativePath                
             };
             product.SaleID = (product.SaleID - product.SaleID % 5) / 5;
             bool Added = await webClient.PostAsync(product);
