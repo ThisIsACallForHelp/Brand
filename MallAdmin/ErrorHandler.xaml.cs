@@ -28,6 +28,7 @@ namespace MallAdmin
 
         private void btn_Return(object sender, RoutedEventArgs e)
         {
+            //it all works thank god 
             switch (AppErrorHandler.SenderName) 
             {
                 case "AddProduct":
@@ -41,6 +42,9 @@ namespace MallAdmin
                     Application.Current.MainWindow = new MainWindow();
                     Application.Current.MainWindow.Show();
                     CurrWindow.Close();
+                    break;
+                case "Delete":
+                    this.Content = new Catalog(AppStoreOwnerID.StoreOwnerID);
                     break;
             }
         }

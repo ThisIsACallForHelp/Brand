@@ -30,7 +30,7 @@ namespace MallAdmin
         }
         private async void btn_AddSale(object sender, RoutedEventArgs e)
         {
-            //AddSale
+            //works
             try
             {
                 WebClient<Product> webClient = new WebClient<Product>()

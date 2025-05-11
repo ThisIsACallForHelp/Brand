@@ -32,6 +32,11 @@ namespace MallAdmin
 
         private async void btn_AdminLogIn(object sender, RoutedEventArgs e)        
         {
+            //works 
+            if (this.FirstName.Text == null || this.LastName.Text == null || this.ID.Text == null)
+            {
+                throw new Exception();
+            }
             try
             {
                 WebClient<int> Client = new WebClient<int>()

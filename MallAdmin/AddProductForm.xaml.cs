@@ -32,6 +32,8 @@ namespace MallAdmin
 
         private void UploadImage_Click(object sender, RoutedEventArgs e)
         {
+            //works 
+
             //another code documentation🗣️🗣️🗣️💯💯
             OpenFileDialog dialog = new OpenFileDialog();
             //OpenFileDialog opens the panel from which the user can select the file
@@ -63,6 +65,7 @@ namespace MallAdmin
 
         private async void btn_AddProduct(object sender, RoutedEventArgs e)
         {
+            //works
             try
             {
                 WebClient<Product> webClient = new WebClient<Product>()
