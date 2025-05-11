@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8o7pgd0ywk</Fingerprint>
-      <Integrity>GNcKRsuR0gQtYd1D7u1IRnNzznhWBNHS7Hlu7DTGS3I=</Integrity>
+      <Fingerprint>tfw5e28pjy</Fingerprint>
+      <Integrity>eQkY9LaWL/MI+h+iFQsaC7qgdLso0Nkz95jtuQeBDzg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GUI\ajax.js'))</OriginalItemSpec>

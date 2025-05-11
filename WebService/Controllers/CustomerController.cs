@@ -193,81 +193,6 @@ namespace WebService
             }
         }
 
-        [HttpGet]
-        public CatalogViewModel GetProductList(int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0,
-                                        int ProductsPerPage = 16, int pageNumber = 1)
-        {
-            //AJAX uses this function 
-            CatalogViewModel catalogViewModel = new CatalogViewModel();
-            try
-            {
-                this.dbContext.OpenConnection();
-                List<Product> products = new List<Product>();
-                int SaleID = (Percentage + (Percentage % 5)) / 5;
-                catalogViewModel.Products = null;
-                if (StoreTypeID > 0)
-                {
-                    catalogViewModel.stores = this.unitOfWork.StoreRepository.GetStoresByType(StoreTypeID);
-                }
-                if (StoreID > 0 && Percentage > 0)
-                {
-                    BrandID = 0;
-                    products = this.unitOfWork.ProductRepository.SaleAndStore(SaleID, StoreID);
-                }
-                if (Percentage > 0  && BrandID > 0)
-                {
-                    products = this.unitOfWork.ProductRepository.PercentSalesRangeList(Percentage);
-                }
-                if (Percentage == 0 && StoreID > 0 && BrandID == 0)
-                {
-                    products = this.unitOfWork.ProductRepository.ProductsFromStore(StoreID);
-                }
-                if (BrandID > 0 && Percentage > 0 && StoreID == 0)
-                {
-                    StoreID = 0;
-                    products = this.unitOfWork.ProductRepository.FromBrandAndSale(SaleID, StoreID);
-                }
-                if (StoreID > 0 && BrandID == 0 && Percentage == 0)
-                {
-                    products = this.unitOfWork.ProductRepository.ProductsFromStore(StoreID);
-                }
-                else
-                {
-                    products = this.unitOfWork.ProductRepository.GetAll();
-                }
-                catalogViewModel.MaxPage = products.Count / ProductsPerPage;
-                if (products.Count % ProductsPerPage > 0)
-                {
-                    catalogViewModel.MaxPage++;
-                }
-                products = products.Skip((pageNumber - 1) * ProductsPerPage).Take(ProductsPerPage * pageNumber).ToList();
-                catalogViewModel.Products = products;
-                catalogViewModel.PageNumber = pageNumber;
-                catalogViewModel.stores = null;
-                catalogViewModel.storeTypes = null;
-                catalogViewModel.SaleID = SaleID;
-                catalogViewModel.Brands = null;
-                catalogViewModel.PageNumber = pageNumber;
-                catalogViewModel.StoreTypeID = StoreTypeID;
-                catalogViewModel.StoreID = StoreID;
-                catalogViewModel.BrandID = BrandID;
-                return catalogViewModel;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-                return null;
-            }
-            finally
-            {
-                this.dbContext.ClearParameters();
-                this.dbContext.CloseConnection();
-            }
-        }
-
-
-
-
         [HttpPost]
         public bool AddToCart(CartProduct cart)
         {
@@ -318,8 +243,9 @@ namespace WebService
             try
             {
                 this.dbContext.OpenConnection();
-                customerCartViewModel.products = this.unitOfWork.ProductRepository.ProductsFromCart(CustomerID);
-                this.dbContext.ClearParameters();
+                List<Product> products = this.unitOfWork.ProductRepository.ProductsFromCart(CustomerID);
+                customerCartViewModel.products = products;
+                customerCartViewModel.TotalPrice = this.unitOfWork.ProductRepository.GetTotalPrice(CustomerID, products);
                 return customerCartViewModel;
             }
             catch(Exception ex)
@@ -329,6 +255,7 @@ namespace WebService
             }
             finally
             {
+                this.dbContext.ClearParameters();
                 this.dbContext.CloseConnection();
             }
         }

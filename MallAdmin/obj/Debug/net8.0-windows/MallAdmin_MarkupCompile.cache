@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\MyMall\Brand\MallAdmin\App.xaml
-4493603548
+52072020673
 
-9722575391
+11413569481
 205271441507
-AddProductForm.xaml;AddSale.xaml;Catalog.xaml;MainWindow.xaml;
+AddProductForm.xaml;AddSale.xaml;Catalog.xaml;ErrorHandler.xaml;MainWindow.xaml;
 
 False
 

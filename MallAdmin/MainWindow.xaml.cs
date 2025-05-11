@@ -32,37 +32,42 @@ namespace MallAdmin
 
         private async void btn_AdminLogIn(object sender, RoutedEventArgs e)        
         {
-            //works
-            WebClient<int> Client = new WebClient<int>()
-            {
-                Schema = "http",
-                Port = 5134,
-                Host = "localhost",
-                Path = "api/StoreOwner/OwnerSignIn"
-            };
-            StoreOwner Owner = new StoreOwner()
-            {
-                StoreOwnerName = this.FirstName.Text,
-                StoreOwnerLastName = this.LastName.Text,
-                ID = Convert.ToInt32(this.ID.Text)
-            };
-            Client.AddParams("StoreOwnerName", Owner.StoreOwnerName);
-            Client.AddParams("StoreOwnerLastName", Owner.StoreOwnerLastName);
-            Client.AddParams("StoreOwnerID", Owner.ID.ToString());
             try
             {
+                WebClient<int> Client = new WebClient<int>()
+                {
+                    Schema = "http",
+                    Port = 5134,
+                    Host = "localhost",
+                    Path = "api/StoreOwner/OwnerSignIn"
+                };
+                StoreOwner Owner = new StoreOwner()
+                {
+                    StoreOwnerName = this.FirstName.Text,
+                    StoreOwnerLastName = this.LastName.Text,
+                    ID = Convert.ToInt32(this.ID.Text)
+                };
+                Client.AddParams("StoreOwnerName", Owner.StoreOwnerName);
+                Client.AddParams("StoreOwnerLastName", Owner.StoreOwnerLastName);
+                Client.AddParams("StoreOwnerID", Owner.ID.ToString());
+
                 AppStoreOwnerID.StoreOwnerID = await Client.GetAsync();
-                Console.WriteLine("Owner Id = "+ AppStoreOwnerID.StoreOwnerID);
+                Console.WriteLine("Owner Id = " + AppStoreOwnerID.StoreOwnerID);
                 if (AppStoreOwnerID.StoreOwnerID != 0)
                 {
                     Catalog catalog = new Catalog(AppStoreOwnerID.StoreOwnerID);
                     catalog.Show();
                     this.Close();
                 }
+                else
+                {
+                    throw new Exception();
+                }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Console.WriteLine(ex.ToString());
+                AppErrorHandler.SenderName = "AdminLogIn";                
+                this.Content.Child = new ErrorHandler();
             }
         }
     }

@@ -30,25 +30,37 @@ namespace MallAdmin
         }
         private async void btn_AddSale(object sender, RoutedEventArgs e)
         {
-            //works, i just need to finish it. just go back to the catalog 
-            WebClient<Product> webClient = new WebClient<Product>()
+            //AddSale
+            try
             {
-                Schema = "http",
-                Port = 5134,
-                Host = "localhost",
-                Path = "api/StoreOwner/AddNewSale"
-            };
-            Product product = new Product()
+                WebClient<Product> webClient = new WebClient<Product>()
+                {
+                    Schema = "http",
+                    Port = 5134,
+                    Host = "localhost",
+                    Path = "api/StoreOwner/AddNewSale"
+                };
+                Product product = new Product()
+                {
+                    ID = Convert.ToInt32(ProductID.Text),
+                    SaleID = Convert.ToInt32(Percentage.Text)
+                };
+                product.SaleID = (product.SaleID - product.SaleID % 5) / 5;
+                bool Added = await webClient.PostAsync(product);
+                if (Added)
+                {
+                    Catalog catalog = new Catalog(AppStoreOwnerID.StoreOwnerID);
+                    catalog.Show();
+                }
+                else
+                {
+                    throw new Exception();
+                }
+            }
+            catch (Exception ex)
             {
-                ID = Convert.ToInt32(ProductID.Text),
-                SaleID = Convert.ToInt32(Percentage.Text)
-            };
-            product.SaleID = (product.SaleID - product.SaleID % 5) / 5;
-            bool Added = await webClient.PostAsync(product);
-            if(Added)
-            {
-                Catalog catalog = new Catalog(AppStoreOwnerID.StoreOwnerID);
-                catalog.Show();
+                AppErrorHandler.SenderName = "AddSale";
+                this.Content = new ErrorHandler();
             }
         }
     }

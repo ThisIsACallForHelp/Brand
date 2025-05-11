@@ -12,6 +12,8 @@ namespace Models
         public List<Product>? products {  get; set; }
         //list of products
         public int CustomerID { get; set; }
+
+        public int TotalPrice { get; set; }
         
     }
 }

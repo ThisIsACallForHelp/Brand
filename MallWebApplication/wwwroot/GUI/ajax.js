@@ -26,9 +26,9 @@
                     method: "GET",
                     dataType: "html",
                     beforeSend: function () {
-                        let loader = "<div class='modal-inner' style='top: 40 %; right: 40 %; position: calc(-50 %, -50 %); position: absolute'>" +
-                            "<img src='~/GUI/images/AJAX_GIF.gif'/>" +
-                            "</div>";
+                        let loader = `<div class="modal-inner"" style="top: 40 %; right: 40 %; position: absolute; transform: translate(-50%, -50%)">` +
+                            `<img src="~/GUI/images/AJAX_GIF.gif" style="top: 40%;left: 50%; position: absolute; transform: translate(-50%, -50%)"/>` +
+                            `</div>`;
                         $(".ProductContent").html(loader);
                     },
                     error: function () {

@@ -11,5 +11,8 @@
     <Compile Update="Catalog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="ErrorHandler.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

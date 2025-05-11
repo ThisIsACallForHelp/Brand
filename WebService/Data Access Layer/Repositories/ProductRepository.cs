@@ -1,7 +1,7 @@
 ﻿using Models;
 using System.Collections.Generic;
 using System.Data;
-
+using System.Linq;
 namespace WebService
 {
     public class ProductRepository : Repository, IRepository<Product>
@@ -32,8 +32,7 @@ namespace WebService
             using (IDataReader product = base.dbContext.Read(sql))
             {
                 product.Read(); //Read the object 
-                p =  this.modelFactory.ProductCreator.CreateModel(product); //return the brand
-                return p;
+                return this.modelFactory.ProductCreator.CreateModel(product); //return the brand
             }
         }
         public List<Product> GetAll()
@@ -288,6 +287,22 @@ namespace WebService
                     products.Add(this.modelFactory.ProductCreator.CreateModel(reader));
                 }
                 return products;
+            }
+        }
+
+        public int GetTotalPrice(int CustomerID, List<Product> products)
+        {
+            int i = 0;
+            string sql = $@"SELECT * FROM CartProduct WHERE CustomerID = @CustomerID";
+            base.dbContext.AddParameters("@CustomerID", CustomerID.ToString());
+            using (IDataReader reader = base.dbContext.Read(sql))
+            {
+                while (reader.Read())
+                {
+                    products[i].ProductPrice *= this.modelFactory.CartProductCreator.CreateModel(reader).Quantity;
+                    i++;
+                }
+                return products.Sum(p => p.ProductPrice);
             }
         }
     }

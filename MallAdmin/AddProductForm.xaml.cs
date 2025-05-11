@@ -62,30 +62,38 @@ namespace MallAdmin
 
 
         private async void btn_AddProduct(object sender, RoutedEventArgs e)
-        { 
-            WebClient<Product> webClient = new WebClient<Product>()
+        {
+            try
             {
-                Schema = "http",
-                Port = 5134,
-                Host = "localhost",
-                Path = "api/StoreOwner/AddNewProductToStore"
-            };
-            Product product = new Product()
+                WebClient<Product> webClient = new WebClient<Product>()
+                {
+                    Schema = "http",
+                    Port = 5134,
+                    Host = "localhost",
+                    Path = "api/StoreOwner/AddNewProductToStore"
+                };
+                Product product = new Product()
+                {
+                    ProductName = ProductName.Text,
+                    ProductPrice = Convert.ToInt32(ProductPrice.Text),
+                    ID = Convert.ToInt32(ProductID.Text),
+                    ProductBrand = Convert.ToInt32(BrandID.Text),
+                    StoreID = Convert.ToInt32(StoreID.Text),
+                    SaleID = Convert.ToInt32(Percentage.Text),
+                    ProductIMG = relativePath
+                };
+                product.SaleID = (product.SaleID - product.SaleID % 5) / 5;
+                bool Added = await webClient.PostAsync(product);
+                if (Added)
+                {
+                    Catalog catalog = new Catalog(AppStoreOwnerID.StoreOwnerID);
+                    catalog.Show();
+                }
+            }
+            catch (Exception ex)
             {
-                ProductName = ProductName.Text,
-                ProductPrice = Convert.ToInt32(ProductPrice.Text),
-                ID = Convert.ToInt32(ProductID.Text),
-                ProductBrand = Convert.ToInt32(BrandID.Text),
-                StoreID = Convert.ToInt32(StoreID.Text),
-                SaleID = Convert.ToInt32(Percentage.Text),
-                ProductIMG = relativePath                
-            };
-            product.SaleID = (product.SaleID - product.SaleID % 5) / 5;
-            bool Added = await webClient.PostAsync(product);
-            if (Added)
-            {
-                Catalog catalog = new Catalog(AppStoreOwnerID.StoreOwnerID);
-                catalog.Show();
+                AppErrorHandler.SenderName = "AddProduct";
+                this.Content = new ErrorHandler();
             }
         }
     }

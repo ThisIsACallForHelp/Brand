@@ -9,7 +9,6 @@ namespace MallWebApplication.Controllers
         
         public IActionResult Index()
         {
-            TempData["CustomerID"] = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"));
             return RedirectToAction("GetCatalog", "User");
         }
 
@@ -106,7 +105,6 @@ namespace MallWebApplication.Controllers
         public async Task<IActionResult> AddProductToCart(int ProductID, int Quantity)
         {
             //works
-            int CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"));
             WebClient<CartProduct> Client = new WebClient<CartProduct>()
             {
                 Schema = "http",
@@ -114,11 +112,12 @@ namespace MallWebApplication.Controllers
                 Host = "localhost",
                 Path = "api/Customer/AddToCart"
             };
+            Console.WriteLine("Quantity ->" + Quantity);
             CartProduct cartProduct = new CartProduct
             {
                 ProductID = ProductID,
                 Quantity = Quantity,
-                CustomerID = CustomerID
+                CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"))
             };
             bool cart = await Client.PostAsync(cartProduct);
             if (cart)
@@ -135,17 +134,16 @@ namespace MallWebApplication.Controllers
         public async Task<IActionResult> ViewProfile()
         {
             //nvm it works the register finally hands out the ID
-            int CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"));
             WebClient<ViewCustomerDetails> Client = new WebClient<ViewCustomerDetails>();
             Client.Schema = "http";
             Client.Port = 5134;
             Client.Host = "localhost";
             Client.Path = "api/Customer/GetDetail";
-            Client.AddParams("CustomerID", CustomerID.ToString());
-            Console.WriteLine("cusotmer id -> " + CustomerID);
+            Client.AddParams("CustomerID", HttpContext.Session.GetString("CustomerID"));
+            Console.WriteLine("cusotmer id -> " + Convert.ToInt32(HttpContext.Session.GetString("CustomerID")));
             ViewCustomerDetails Details = new ViewCustomerDetails()
             {
-                CustomerID = CustomerID
+                CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"))
             };
             Details = await Client.GetAsync();
             return View(Details);
@@ -157,15 +155,14 @@ namespace MallWebApplication.Controllers
         public async Task<IActionResult> GetCart()
         {
             //works
-            int CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"));
             WebClient<CustomerCartViewModel> Client = new WebClient<CustomerCartViewModel>();
             Client.Schema = "http";
             Client.Port = 5134;
             Client.Host = "localhost";
             Client.Path = "api/Customer/ViewCart";
-            Client.AddParams("CustomerID", CustomerID.ToString());
+            Client.AddParams("CustomerID", HttpContext.Session.GetString("CustomerID"));
             CustomerCartViewModel cartProduct = await Client.GetAsync();
-            cartProduct.CustomerID = CustomerID;
+            cartProduct.CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"));
             return View(cartProduct);
         }
 

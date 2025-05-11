@@ -3,6 +3,8 @@
 @{
     Layout = null;
     string CurrController = ViewContext.RouteData.Values["controller"].ToString();
+    int ID = Convert.ToInt32(Context.Session.GetString("CustomerID"));
+    Console.WriteLine("MasterPage ID -> " + ID);
 }
 
 <!DOCTYPE html>
@@ -23,13 +25,13 @@
         <img src="~/GUI/images/CRYSTAL_MallLogo-removebg-preview.png" style="height: 100px; width: 100px;">
 
         <nav class="navbar" style="width:800px; display: flex; text-align: center">
-            @if (CurrController == "User" && Model != null)
+            @if (ID != 0 && Model != null)
             {
                 <a href="http://localhost:5041/User/GetCatalog" style="width: 70px;"> Catalog</a>
                 <a href="http://localhost:5041/User/GetCart" style="width: 70px;" > My Cart</a>
                 <a href="http://localhost:5041/User/ViewProfile" style="width: 105px;" name="CustomerID"> My Account</a>
             }
-            @if (CurrController == "Guest" && Model != null)
+            @if (ID == 0 && Model != null)
             {
                 <a href="http://localhost:5041/Guest/GetCatalog" style="width: 70px;"> Catalog</a>
                 <a href="http://localhost:5041/Guest/RegistrationForm" style="width: 70px;"> Register</a>
