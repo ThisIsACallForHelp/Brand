@@ -140,93 +140,6 @@
         }
       }
     },
-    "/api/Customer/CreateCart": {
-      "post": {
-        "tags": [
-          "Customer"
-        ],
-        "parameters": [
-          {
-            "name": "CustomerID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/Customer/UpdateCustomer": {
-      "post": {
-        "tags": [
-          "Customer"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Customer"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Customer"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Customer"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/Customer/Catalog": {
       "get": {
         "tags": [
@@ -525,384 +438,6 @@
         }
       }
     },
-    "/api/MallOwner/CreateStore": {
-      "post": {
-        "tags": [
-          "MallOwner"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Store"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Store"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Store"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/MallOwner/DeleteStore": {
-      "post": {
-        "tags": [
-          "MallOwner"
-        ],
-        "parameters": [
-          {
-            "name": "StoreID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/MallOwner/UpdateStore": {
-      "post": {
-        "tags": [
-          "MallOwner"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Store"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Store"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/Store"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/MallOwner/GetStoreByID": {
-      "get": {
-        "tags": [
-          "MallOwner"
-        ],
-        "parameters": [
-          {
-            "name": "ID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Store"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Store"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Store"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/MallOwner/GetMasterList": {
-      "get": {
-        "tags": [
-          "MallOwner"
-        ],
-        "parameters": [
-          {
-            "name": "choice",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/MallOwnerViewModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/MallOwnerViewModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/MallOwnerViewModel"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/MallOwner/DeleteUser": {
-      "post": {
-        "tags": [
-          "MallOwner"
-        ],
-        "parameters": [
-          {
-            "name": "ID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "boolean"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/MallOwner/GetProductsFromStore": {
-      "get": {
-        "tags": [
-          "MallOwner"
-        ],
-        "parameters": [
-          {
-            "name": "StoreID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/Product"
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/MallOwner/GetProductByID": {
-      "get": {
-        "tags": [
-          "MallOwner"
-        ],
-        "parameters": [
-          {
-            "name": "ID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Product"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Product"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Product"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/MallOwner/GetCustomerByID": {
-      "get": {
-        "tags": [
-          "MallOwner"
-        ],
-        "parameters": [
-          {
-            "name": "ID",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Customer"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Customer"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Customer"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/StoreOwner/OwnerSignIn": {
       "get": {
         "tags": [
@@ -925,6 +460,14 @@
           },
           {
             "name": "StoreOwnerID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "StoreID",
             "in": "query",
             "schema": {
               "type": "integer",
@@ -1245,6 +788,45 @@
           }
         }
       }
+    },
+    "/api/StoreOwner/ViewStore": {
+      "get": {
+        "tags": [
+          "StoreOwner"
+        ],
+        "parameters": [
+          {
+            "name": "StoreOwnerID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Store"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Store"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Store"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -1257,10 +839,6 @@
             "format": "int32"
           },
           "brandName": {
-            "type": "string",
-            "nullable": true
-          },
-          "brandIMG": {
             "type": "string",
             "nullable": true
           }
@@ -1438,44 +1016,6 @@
         },
         "additionalProperties": false
       },
-      "MallOwnerViewModel": {
-        "type": "object",
-        "properties": {
-          "brand": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Brand"
-            },
-            "nullable": true
-          },
-          "store": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Store"
-            },
-            "nullable": true
-          },
-          "customer": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Customer"
-            },
-            "nullable": true
-          },
-          "storeOwners": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/StoreOwner"
-            },
-            "nullable": true
-          },
-          "choice": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
       "Product": {
         "type": "object",
         "properties": {
@@ -1526,10 +1066,6 @@
           "storeTypeID": {
             "type": "integer",
             "format": "int32",
-            "nullable": true
-          },
-          "storeIMG": {
-            "type": "string",
             "nullable": true
           },
           "storeFloor": {

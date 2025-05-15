@@ -11,8 +11,7 @@ namespace WebService
             {
                 ID = Convert.ToInt32(src["StoreID"]),
                 StoreName = Convert.ToString(src["StoreName"]),
-                StoreTypeID = null,
-                StoreIMG = Convert.ToString(src["StoreIMG"]),
+                StoreTypeID = Convert.ToInt32(src["StoreTypeID"]),
                 StoreFloor = Convert.ToInt32(src["StoreFloor"]),
                 StoreDescription = Convert.ToString(src["StoreDescription"]),
             };

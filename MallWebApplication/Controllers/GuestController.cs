@@ -217,7 +217,7 @@ namespace MallWebApplication
         }
 
         [HttpGet]
-        public async Task<IActionResult> OwnerLogin(string StoreOwnerName, string StoreOwnerLastName, int StoreOwnerID, int StoreID)
+        public async Task<IActionResult> OwnerLogin(string StoreOwnerName, string StoreOwnerLastName, int StoreOwnerID)
         {
             //works
             WebClient<int> Client = new WebClient<int>()
@@ -230,14 +230,11 @@ namespace MallWebApplication
             Client.AddParams("StoreOwnerName", StoreOwnerName);
             Client.AddParams("StoreOwnerLastName", StoreOwnerLastName);
             Client.AddParams("StoreOwnerID", StoreOwnerID.ToString());
-            Client.AddParams("StoreID", StoreID.ToString());
             int OwnerID = await Client.GetAsync();
             if (OwnerID != 0)
             {
                 HttpContext.Session.SetString("StoreOwnerID", OwnerID.ToString());
                 TempData["StoreOwnerID"] = OwnerID;
-                HttpContext.Session.SetString("StoreID", StoreID.ToString());
-                TempData["StoreID"] = StoreID;
                 return RedirectToAction("StoreOwnerView", "StoreOwner");
             }
             //ViewBag.Error = true;

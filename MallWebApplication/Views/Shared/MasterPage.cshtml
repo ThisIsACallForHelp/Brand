@@ -4,6 +4,7 @@
     Layout = null;
     string CurrController = ViewContext.RouteData.Values["controller"].ToString();
     int ID = Convert.ToInt32(Context.Session.GetString("CustomerID"));
+    int OwnerID = Convert.ToInt32(Context.Session.GetString("StoreOwnerID"));
     Console.WriteLine("MasterPage ID -> " + ID);
 }
 
@@ -31,7 +32,7 @@
                 <a href="http://localhost:5041/User/GetCart" style="width: 70px;" > My Cart</a>
                 <a href="http://localhost:5041/User/ViewProfile" style="width: 105px;" name="CustomerID"> My Account</a>
             }
-            @if (ID == 0 && Model != null)
+            @if (ID == 0 && Model != null && OwnerID == 0)
             {
                 <a href="http://localhost:5041/Guest/GetCatalog" style="width: 70px;"> Catalog</a>
                 <a href="http://localhost:5041/Guest/RegistrationForm" style="width: 70px;"> Register</a>

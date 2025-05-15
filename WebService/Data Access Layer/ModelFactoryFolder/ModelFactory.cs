@@ -6,7 +6,6 @@ namespace WebService
     {
         StoreOwnerCreator? storeOwnerCreator;
         BrandCreator? brandCreator;
-        CartCreator? cartCreator;
         CityCreator? cityCreator;
         CustomerCreator? customerCreator;
         ProductCreator? productCreator;
@@ -35,17 +34,6 @@ namespace WebService
                     this.brandCreator = new BrandCreator();
                 }
                 return this.brandCreator;
-            }
-        }
-        public CartCreator CartCreator
-        {
-            get
-            {
-                if (this.cartCreator == null)
-                {
-                    this.cartCreator = new CartCreator();
-                }
-                return this.cartCreator;
             }
         }
         public CityCreator CityCreator

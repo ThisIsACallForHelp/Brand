@@ -83,44 +83,8 @@ namespace WebService
             }
         }
 
-        [HttpPost]
-        public bool CreateCart(int CustomerID)
-        {
-            try
-            {
-                this.dbContext.OpenConnection();
-                return this.unitOfWork.CartRepository.CreateWithID(CustomerID);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-                return false;
-            }
-            finally
-            {
-                this.dbContext.CloseConnection();
-            }
-        }
-        [HttpPost]
-        public bool UpdateCustomer(Customer customer)
-        {
-
-            try
-            {
-                this.dbContext.OpenConnection();
-                return this.unitOfWork.CustomerRepository.Update(customer);
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
-                return false;
-            }
-            finally
-            {
-                this.dbContext.ClearParameters();
-                this.dbContext.CloseConnection();
-            }
-        }
+        
+        
 
         //StoreID > 0, BrandID == 0, Sale ==0
         //StoreID > 0, BrandID == 0, Sale > 0

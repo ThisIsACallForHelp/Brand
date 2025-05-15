@@ -9,8 +9,7 @@ namespace WebService
             Brand brand = new Brand()
             {
                 ID = Convert.ToInt32(src["BrandID"]),
-                BrandName = Convert.ToString(src["BrandName"]),
-                BrandIMG = "http:/localhost:5134/Brands/" + Convert.ToString(src["BrandIMG"])
+                BrandName = Convert.ToString(src["BrandName"])
             };
             return brand;
         }

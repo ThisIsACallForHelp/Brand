@@ -17,7 +17,7 @@ namespace WebService
         }
         [HttpGet]
 
-        public int OwnerSignIn(string StoreOwnerName, string StoreOwnerLastName, int StoreOwnerID)
+        public int OwnerSignIn(string StoreOwnerName, string StoreOwnerLastName, int StoreOwnerID, int StoreID)
         {
             try
             {
@@ -163,6 +163,25 @@ namespace WebService
             }
         }
 
-        
+        [HttpGet]
+
+        public Store ViewStore(int StoreOwnerID)
+        {
+            try
+            {
+                this.dbContext.OpenConnection();
+                return this.unitOfWork.StoreRepository.GetByOwnerID(StoreOwnerID);
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return null;
+            }
+            finally
+            {
+                this.dbContext.ClearParameters();
+                this.dbContext.CloseConnection();
+            }
+        }
     }
 }

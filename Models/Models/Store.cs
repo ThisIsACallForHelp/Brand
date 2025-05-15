@@ -12,8 +12,6 @@ namespace Models
         //Store's name  
         public int? StoreTypeID { get; set; }   
         //Store's Type ID
-        public string? StoreIMG { get; set; } 
-        //Store's image
         public int? StoreFloor {  get; set; } 
         //Store's floor
         public string? StoreDescription { get; set; } 

@@ -9,8 +9,7 @@ namespace WebService
             City city = new City()
             {
                 ID = Convert.ToInt32(src["CityID"]),
-                CityName = Convert.ToString(src["CityName"]),
-                //CustomersFromCity = null
+                CityName = Convert.ToString(src["CityName"])
             };
             return city;
         }

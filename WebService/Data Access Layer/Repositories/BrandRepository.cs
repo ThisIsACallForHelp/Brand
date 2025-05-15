@@ -13,11 +13,10 @@ namespace WebService
         }
         public bool Create(Brand brand)
         {
-            string sql = $@"INSERT INTO Brand(BrandID, BrandName, BrandIMG)
-                            VALUES(@BrandID, @BrandName,@BrandIMG)";
+            string sql = $@"INSERT INTO Brand(BrandID, BrandName)
+                            VALUES(@BrandID, @BrandName)";
             base.dbContext.AddParameters("@BrandID", brand.ID.ToString());
             base.dbContext.AddParameters("@BrandName", brand.BrandName);
-            base.dbContext.AddParameters("@BrandIMG", brand.BrandIMG);
             return this.dbContext.Create(sql) > 0;
         }
         public Brand GetByID(int ID)
@@ -47,11 +46,9 @@ namespace WebService
         public bool Update(Brand brand)
         {
             string sql = $@"UPDATE Brand SET BrandName = '@BrandName'
-                                             BrandIMG = '@BrandIMG'
                                          WHERE  BrandID = @BrandID";
             base.dbContext.AddParameters("@BrandID", brand.ID.ToString());
             base.dbContext.AddParameters("@BrandName", brand.BrandName);
-            base.dbContext.AddParameters("@BrandIMG", brand.BrandIMG);
             return this.dbContext.Update(sql) > 0;
         }
 

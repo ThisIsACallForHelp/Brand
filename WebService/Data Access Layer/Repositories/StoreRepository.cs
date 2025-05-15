@@ -11,12 +11,11 @@ namespace WebService
         }
         public bool Create(Store store)
         {
-            string sql = $@"INSERT INTO Store(StoreName, StoreID, StoreTypeID, StoreIMG, StoreFloor, StoreDescription)
-                            VALUES(@StoreName, @StoreID, @StoreTypeID, @StoreIMG, @StoreFloor, @StoreDescription)";
+            string sql = $@"INSERT INTO Store(StoreName, StoreID, StoreTypeID, StoreFloor, StoreDescription)
+                            VALUES(@StoreName, @StoreID, @StoreTypeID, @StoreFloor, @StoreDescription)";
             base.dbContext.AddParameters("@StoreName", store.StoreName);
             base.dbContext.AddParameters("@StoreID", store.ID.ToString());
             base.dbContext.AddParameters("@StoreTypeID", store.StoreTypeID.ToString());
-            base.dbContext.AddParameters("@StoreIMG", store.StoreIMG);
             base.dbContext.AddParameters("@StoreFloor", store.StoreFloor.ToString());
             base.dbContext.AddParameters("@StoreDescription", store.StoreDescription);
             return this.dbContext.Create(sql) > 0;
@@ -48,13 +47,11 @@ namespace WebService
         {
             string sql = $@"UPDATE Store SET StoreName = @StoreName,
                                              StoreTypeID = @StoreTypeID,
-                                             StoreIMG = @StoreIMG,
                                              StoreFloor = @StoreFloor,
                                              StoreDescription = @StoreDescription
                                          WHERE  StoreID = @StoreID";
             base.dbContext.AddParameters("@StoreName", store.StoreName);
             base.dbContext.AddParameters("@StoreTypeID", store.StoreTypeID.ToString());
-            base.dbContext.AddParameters("@StoreIMG", store.StoreIMG);
             base.dbContext.AddParameters("@StoreFloor", store.StoreFloor.ToString());
             base.dbContext.AddParameters("@StoreDescription", store.StoreDescription);
             base.dbContext.AddParameters("@StoreID", store.ID.ToString());
@@ -93,7 +90,6 @@ namespace WebService
         {
             string sql = $@"SELECT \r\n    " +
                         $@"Store.StoreName,\r\n   " +
-                        $@"   Store.StoreIMG,\r\n  " +
                         $@"  Store.StoreFloor,\r\n " +
                         $@"   Store.StoreDescription\r\nFROM \r\n    " +
                         $@"Store\r\nINNER JOIN \r\n   " +
@@ -137,7 +133,7 @@ namespace WebService
 
         public string GetStoreByPID(int ProductID)
         {
-            string sql = $@"SELECT Store.StoreName, Store.StoreID, Store.StoreTypeID, Store.StoreIMG, Store.StoreFloor, Store.StoreDescription
+            string sql = $@"SELECT Store.StoreName, Store.StoreID, Store.StoreTypeID, Store.StoreFloor, Store.StoreDescription
                                    FROM Store LEFT JOIN Product ON Store.StoreID = Product.StoreID
                                    WHERE Product.ProductID = @productID";
             base.dbContext.AddParameters("@ProductID", ProductID.ToString());
@@ -147,6 +143,20 @@ namespace WebService
                 return this.modelFactory.StoreCreator.CreateModel(reader).StoreName;
             }
 
+        }
+
+        public Store GetByOwnerID(int StoreOwnerID)
+        {
+            string sql = $@"SELECT Store.StoreName, Store.StoreTypeID, 
+                                   Store.StoreFloor,
+                                   StoreDescription, Store.StoreID FROM Store LEFT JOIN StoreOwner 
+                                   ON Store.StoreID = StoreOwner.StoreID WHERE StoreOwner.StoreOwnerID = @StoreOwnerID";
+            base.dbContext.AddParameters("@StoreOwnerID", StoreOwnerID.ToString());
+            using (IDataReader reader = base.dbContext.Read(sql))
+            {
+                reader.Read();
+                return this.modelFactory.StoreCreator.CreateModel(reader);
+            }
         }
     }
 }

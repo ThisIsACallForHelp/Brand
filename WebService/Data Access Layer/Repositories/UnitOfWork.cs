@@ -4,7 +4,6 @@ namespace WebService
     public class UnitOfWork
     {
         BrandRepository? brandRepository;
-        CartRepository? cartRepository;
         CityRepository? cityRepository;
         CustomerRepository? customerRepository;
         ProductRepository? productRepository;
@@ -41,18 +40,6 @@ namespace WebService
                     this.brandRepository = new BrandRepository(this.dbContext);
                 }
                 return this.brandRepository;
-            }
-        }
-
-        public CartRepository CartRepository
-        {
-            get
-            {
-                if (this.cartRepository == null)
-                {
-                    this.cartRepository = new CartRepository(this.dbContext);
-                }
-                return this.cartRepository;
             }
         }
         public CityRepository CityRepository
