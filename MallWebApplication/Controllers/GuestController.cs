@@ -126,7 +126,7 @@ namespace MallWebApplication
             }
             if (SaleID > 0)
             {
-                Client.AddParams("Percentage", SaleID.ToString());
+                Client.AddParams("SaleID", SaleID.ToString());
             }
             if (BrandID > 0)
             {

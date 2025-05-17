@@ -110,17 +110,21 @@ namespace WebService
                     BrandID = 0;
                     products = this.unitOfWork.ProductRepository.SaleAndStore(SaleID, StoreID);
                 }
-                if (SaleID > 0 && BrandID >0)
+                else if(SaleID > 0 && BrandID == 0 && StoreID == 0)
+                {
+                    products = this.unitOfWork.ProductRepository.PercentSalesRangeList(SaleID);
+                }
+                else if (SaleID > 0 && BrandID >0)
                 {
                     StoreID = 0;
                     products = this.unitOfWork.ProductRepository.SaleAndBrand(SaleID, BrandID);
                 }
-                if (StoreID > 0 && SaleID == 0)
+                else if (StoreID > 0 && SaleID == 0)
                 {
                     BrandID = 0;
                     products = this.unitOfWork.ProductRepository.ProductsFromStore(StoreID);
                 }
-                if (BrandID > 0 && SaleID == 0)
+                else if (BrandID > 0 && SaleID == 0)
                 {
                     StoreID = 0;
                     products = this.unitOfWork.ProductRepository.ProductsFromBrand(BrandID);

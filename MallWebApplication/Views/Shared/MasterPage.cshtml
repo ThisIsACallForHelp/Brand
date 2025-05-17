@@ -53,8 +53,7 @@
                         <select id="SaleID" name="SaleID">
                             @for (int i = 0; i <= 100; i += 5)
                             {
-                                <option class="Filter" data-SaleID="@(i/5)" value="@(i/5)"> @i</option>
-                                <br />
+                                <option class="Filter" name="SaleID" data-SaleID="@(i/5)" value="@(i/5)"> @i</option>
                             }
                         </select>
                         <button style="width: 100px;margin-left: 50px; margin-bottom: 60px;" onclick="RedirectToSale()">Submit</button>
@@ -163,8 +162,7 @@
         window.UsingController = Cont;
         function RedirectToSale() {
             let SID = document.getElementById("SaleID").value;
-            // Replace the URL here with the route to your action method
-            window.location.href = `http://localhost:5041/${Cont}/GetCatalog/SaleID=${SID}`;
+            window.location.href = `http://localhost:5041/${Cont}/GetCatalog?SaleID=${SID}`;
         }
     </script>
 </body>

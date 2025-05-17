@@ -101,8 +101,7 @@ namespace WebService
         public List<Product> PercentSalesRangeList(int SaleID)
         {
             List<Product> sales = new List<Product>();
-            string sql = $@"SELECT Product.ProductID, Product.ProductName, Product.ProductPrice, Product.ProductIMG  
-                            FROM Product LEFT JOIN Sales ON Product.SaleID = Sales.SaleID WHERE Sales.SaleID >= @SaleID AND Sales.Percentage <= 100";
+            string sql = $@"SELECT * FROM Product WHERE SaleID >= {SaleID} AND SaleID <= 20";
             base.dbContext.AddParameters("@SaleID", SaleID.ToString());
             using (IDataReader sale = base.dbContext.Read(sql))
             {
