@@ -62,26 +62,5 @@ namespace WebService
             base.dbContext.AddParameters("@SaleID", sale.ID.ToString());
             return dbContext.Delete(sql) > 0;
         }
-
-        public List<int> GetPercents()
-        {
-            int i = 0;
-            List<int> Percents = new List<int>();
-            for(; i <= 100; i+= 5)
-            {
-                Percents.Add(i);
-            }
-            return Percents;
-        }
-        public int GetIDByPercent(int Percentage)
-        {
-            string sql = $@"SELECT * FROM Sales WHERE Percentage = @Percentage";
-            base.dbContext.AddParameters("@Percentage", Percentage.ToString());
-            using (IDataReader sale = base.dbContext.Read(sql))
-            {
-                sale.Read(); //Read the object 
-                return this.modelFactory.SaleCreator.CreateModel(sale).ID; //return the brand 
-            }
-        }
     }
 }

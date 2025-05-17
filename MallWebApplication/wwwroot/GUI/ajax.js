@@ -1,8 +1,7 @@
 ﻿$("document").ready(
     function () {
         $(".Filter").click(
-            function () {
-                let SaleID = document.getElementById("SalePercentage")?.value;
+            function () {;
                 let uri = `http://localhost:5041/${window.UsingController}/GetProductCatalog/?`;
                 if (this.hasAttribute("data-StoreID")) {
                     let ext = "StoreID=" + this.getAttribute("data-StoreID");
@@ -16,8 +15,8 @@
                     let ext = "StoreTypeID=" + this.getAttribute("data-StoreTypeID");
                     uri = uri + ext;
                 }
-                if (SaleID > 0) {
-                    let ext = "SaleID=" + SaleID;
+                if (this.hasAttribute("data-SaleID")) {
+                    let ext = "SaleID=" + this.getAttribute("data-SaleID");
                     uri = uri + ext;
                 }
                 alert(uri);

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Numerics;
 namespace WebService
 {
     public class ProductRepository : Repository, IRepository<Product>
@@ -206,10 +207,21 @@ namespace WebService
                 return Products;
             }
         }
+        public int GetPercent(int ProductID)
+        {
+            string sql = $@"SELECT * FROM SaleID WHERE ProductID = @ProductID";
+            base.dbContext.AddParameters("@ProductID", ProductID.ToString());
+            using (IDataReader product = base.dbContext.Read(sql))
+            {
+                return this.modelFactory.SaleCreator.CreateModel(product).Percentage;
+            }
+        }
 
         public bool DeleteSale(int ProductID)
         {
-            string sql = $@"UPDATE Product SET SaleID=0 WHERE ProductID = {ProductID}";
+            Product product = GetByID(ProductID);
+            product.ProductPrice = (product.ProductPrice * 100) / (product.SaleID * 5);
+            string sql = $@"UPDATE Product SET SaleID=0, ProductPrice={product.ProductPrice} WHERE ProductID = {ProductID}";
             Console.WriteLine(sql);
             base.dbContext.AddParameters("@ProductID", ProductID.ToString());
             return base.dbContext.Update(sql) > 0;

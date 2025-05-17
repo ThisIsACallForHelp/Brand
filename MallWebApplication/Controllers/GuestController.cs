@@ -105,7 +105,7 @@ namespace MallWebApplication
         [HttpGet]
 
       
-        public async Task<IActionResult> GetCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int SaleID = 0, int StoreTypeID = 0, int BrandID = 0)
+        public async Task<IActionResult> GetCatalog(int SaleID = 0, int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int StoreTypeID = 0, int BrandID = 0)
         {
             //works
             WebClient<CatalogViewModel> Client = new WebClient<CatalogViewModel>();
@@ -113,6 +113,7 @@ namespace MallWebApplication
             Client.Port = 5134;
             Client.Host = "localhost";
             Client.Path = "api/Customer/Catalog";
+            Console.WriteLine("SaleID -> " + SaleID);
             Client.AddParams("pageNumber", pageNumber.ToString());
             Client.AddParams("ProductsPerPage", ProductsPerPage.ToString());
             if (StoreID > 0)

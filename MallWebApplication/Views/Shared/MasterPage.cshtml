@@ -48,7 +48,22 @@
             <div class="Properties">
                 <div class="SaleContainer">
                     <p style="font-size: 35px; margin: 0px;"><u> Search for sale</u></p>
-                    @* onclick="@Url.Action("GetCatalog", $"{CurrController}", new { Percentage = }) *@
+                    <p style="font-size: 25px; margin-bottom: 20px;"> Enter the sale percentage to see products on sale</p>
+                    <div style="display: flex;">
+                        <select id="SaleID" name="SaleID">
+                            @for (int i = 0; i <= 100; i += 5)
+                            {
+                                <option class="Filter" data-SaleID="@(i/5)" value="@(i/5)"> @i</option>
+                                <br />
+                            }
+                        </select>
+                        <button style="width: 100px;margin-left: 50px; margin-bottom: 60px;" onclick="RedirectToSale()">Submit</button>
+                    </div>
+
+                </div>
+                @* <div class="SaleContainer">
+                    <p style="font-size: 35px; margin: 0px;"><u> Search for sale</u></p>
+                    @* onclick="@Url.Action("GetCatalog", $"{CurrController}", new { Percentage = }) @
                     <p style="font-size: 25px;"> Enter the sale percentage to see products on sale</p>
                     <select style="margin: 0px; width:100px; height: 30px" id="SalePercentage">
                         @for(int i = 0; i <= 100; i+=5)
@@ -57,7 +72,7 @@
                             <br />
                         }
                     </select>
-                </div>
+                </div> *@
                 <div class="BrandsAndStores">
                     <h1 style="margin-top: 0px; margin-bottom: 20px; width: 100%;"> <u> Brands & Stores </u></h1>
                     @* @if (CurrController == "Guest")
@@ -146,6 +161,11 @@
     <script>
         let Cont = "@CurrController";
         window.UsingController = Cont;
+        function RedirectToSale() {
+            let SID = document.getElementById("SaleID").value;
+            // Replace the URL here with the route to your action method
+            window.location.href = `http://localhost:5041/${Cont}/GetCatalog/SaleID=${SID}`;
+        }
     </script>
 </body>
 </html>

@@ -29,6 +29,18 @@
       "PackagePath": "staticwebassets\\Customers\\fed3db23-6d05-4c74-9f7d-b928fe99c08f_100ACC.png"
     },
     {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\4d549f1e-5ba9-4fbb-a1fa-7ad40f776991_Screenshot 2025-05-03 142648.png",
+      "PackagePath": "staticwebassets\\Products\\4d549f1e-5ba9-4fbb-a1fa-7ad40f776991_Screenshot 2025-05-03 142648.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\58784142-48b9-430a-8b11-310bd7aaa8cb_Screenshot 2025-05-03 143344.png",
+      "PackagePath": "staticwebassets\\Products\\58784142-48b9-430a-8b11-310bd7aaa8cb_Screenshot 2025-05-03 143344.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\9a6fc564-fed5-49e8-8313-09f055e3f677_Screenshot 2025-05-11 205814.png",
+      "PackagePath": "staticwebassets\\Products\\9a6fc564-fed5-49e8-8313-09f055e3f677_Screenshot 2025-05-11 205814.png"
+    },
+    {
       "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\H&M_1.jpg",
       "PackagePath": "staticwebassets\\Products\\H&M_1.jpg"
     },
@@ -111,6 +123,10 @@
     {
       "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\H&M_9.jpg",
       "PackagePath": "staticwebassets\\Products\\H&M_9.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\b6b18252-dca1-4a3d-a9d7-3b121072d370_KSP_5.jpg",
+      "PackagePath": "staticwebassets\\Products\\b6b18252-dca1-4a3d-a9d7-3b121072d370_KSP_5.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

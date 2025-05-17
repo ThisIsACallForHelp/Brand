@@ -31,6 +31,7 @@ namespace WebService
             }
             finally
             {
+                this.dbContext.ClearParameters();
                 this.dbContext.CloseConnection();
             }
         }
@@ -51,6 +52,7 @@ namespace WebService
             }
             finally
             {
+                this.dbContext.ClearParameters();
                 this.dbContext.CloseConnection();
             }
         }
@@ -75,6 +77,7 @@ namespace WebService
             }
             finally
             {
+                this.dbContext.ClearParameters();
                 this.dbContext.CloseConnection();
             }
         }
@@ -115,6 +118,7 @@ namespace WebService
             }
             finally
             {
+                this.dbContext.ClearParameters();
                 this.dbContext.CloseConnection();
             }
         }
@@ -134,6 +138,7 @@ namespace WebService
             }
             finally
             {
+                this.dbContext.ClearParameters();
                 this.dbContext.CloseConnection();
             }
         }

@@ -92,10 +92,8 @@ namespace MallWebApplication.Controllers
             }
             else
             {
-                //if i did get scammed, then just tell the server to throw a
-                //BadRequest (code 400) Exception
-                return BadRequest("No image uploaded.");
-            }
+                ViewBag.Error = true;
+            }                
             Console.WriteLine("The Relative Path -> " + RelativePath);
             Console.WriteLine("The Relative Path Type -> " + RelativePath.GetType());
             // Create the Client now

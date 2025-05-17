@@ -30,6 +30,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\Customers\" />
+    <Folder Include="wwwroot\StoreOwners\" />
   </ItemGroup>
 
 </Project>

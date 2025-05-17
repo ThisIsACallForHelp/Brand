@@ -5,6 +5,10 @@ wwwroot\Customers\d249d963-0bd2-448d-9423-16c1ea156a72_2BRILLIANT.png
 wwwroot\Customers\dc7519fa-90c5-4420-9b5c-ca676eefe3fd_100ACC.png
 wwwroot\Customers\e28e955d-303e-44e4-a2d0-9bb0ab43b01e_100ACC.png
 wwwroot\Customers\fed3db23-6d05-4c74-9f7d-b928fe99c08f_100ACC.png
+wwwroot\Products\4d549f1e-5ba9-4fbb-a1fa-7ad40f776991_Screenshot 2025-05-03 142648.png
+wwwroot\Products\58784142-48b9-430a-8b11-310bd7aaa8cb_Screenshot 2025-05-03 143344.png
+wwwroot\Products\9a6fc564-fed5-49e8-8313-09f055e3f677_Screenshot 2025-05-11 205814.png
+wwwroot\Products\b6b18252-dca1-4a3d-a9d7-3b121072d370_KSP_5.jpg
 wwwroot\Products\H&M_1.jpg
 wwwroot\Products\H&M_10.jpg
 wwwroot\Products\H&M_11.jpg
