@@ -95,7 +95,7 @@ namespace WebService
         //All == 0
 
         [HttpGet]
-        public CatalogViewModel Catalog(int StoreID = 0, int SaleID = 0, int StoreTypeID =0, int BrandID =0,
+        public CatalogViewModel Catalog(int SaleID, int StoreID = 0, int StoreTypeID =0, int BrandID =0,
                                         int ProductsPerPage = 16, int pageNumber = 1)
         {
             CatalogViewModel catalogViewModel = new CatalogViewModel();
@@ -103,8 +103,12 @@ namespace WebService
             {
                 this.dbContext.OpenConnection();
                 List<Product> products = new List<Product>();
-                
+                List<Store> stores = this.unitOfWork.StoreRepository.GetAll();
                 catalogViewModel.Products = null;
+                if (StoreTypeID != 0)
+                {
+                    stores = this.unitOfWork.StoreRepository.GetStoresByType(StoreTypeID);
+                }
                 if(StoreID > 0 && SaleID > 0)
                 {
                     BrandID = 0;
@@ -141,7 +145,7 @@ namespace WebService
                 products = products.Skip((pageNumber - 1)*ProductsPerPage).Take(ProductsPerPage * pageNumber).ToList();
                 catalogViewModel.Products = products;
                 catalogViewModel.PageNumber = pageNumber;
-                catalogViewModel.stores = this.unitOfWork.StoreRepository.GetAll();
+                catalogViewModel.stores = stores;
                 catalogViewModel.storeTypes = this.unitOfWork.StoreTypeRepository.GetAll();
                 catalogViewModel.SaleID = SaleID;
                 catalogViewModel.Brands = this.unitOfWork.BrandRepository.GetAll();
@@ -159,6 +163,75 @@ namespace WebService
             finally
             {
                 this.dbContext.ClearParameters();
+                this.dbContext.CloseConnection();
+            }
+        }
+
+        [HttpGet]
+        public AJAXViewModel AJAXCatalog(int SaleID, int StoreID = 0, int StoreTypeID = 0, int BrandID = 0,
+                                        int ProductsPerPage = 16, int pageNumber = 1)
+        {
+            AJAXViewModel ajaxViewModel = new AJAXViewModel();
+            List<Product> products = new List<Product>();
+            List<Store> stores = new List<Store>();
+            try
+            {
+                this.dbContext.OpenConnection();
+                ajaxViewModel.products = null;
+                if (StoreTypeID != 0)
+                {
+                    stores = this.unitOfWork.StoreRepository.GetStoresByType(StoreTypeID);
+                }
+                if (StoreID > 0 && SaleID > 0)
+                {
+                    BrandID = 0;
+                    products = this.unitOfWork.ProductRepository.SaleAndStore(SaleID, StoreID);
+                }
+                else if (SaleID > 0 && BrandID == 0 && StoreID == 0)
+                {
+                    products = this.unitOfWork.ProductRepository.PercentSalesRangeList(SaleID);
+                }
+                else if (SaleID > 0 && BrandID > 0)
+                {
+                    StoreID = 0;
+                    products = this.unitOfWork.ProductRepository.SaleAndBrand(SaleID, BrandID);
+                }
+                else if (StoreID > 0 && SaleID == 0)
+                {
+                    BrandID = 0;
+                    products = this.unitOfWork.ProductRepository.ProductsFromStore(StoreID);
+                }
+                else if (BrandID > 0 && SaleID == 0)
+                {
+                    StoreID = 0;
+                    products = this.unitOfWork.ProductRepository.ProductsFromBrand(BrandID);
+                }
+                else
+                {
+                    products = this.unitOfWork.ProductRepository.GetAll();
+                }
+                ajaxViewModel.MaxPage = products.Count / ProductsPerPage;
+                if (products.Count % ProductsPerPage > 0)
+                {
+                    ajaxViewModel.MaxPage++;
+                }
+                products = products.Skip((pageNumber - 1) * ProductsPerPage).Take(ProductsPerPage * pageNumber).ToList();
+                ajaxViewModel.products = products;
+                ajaxViewModel.stores = stores;
+                ajaxViewModel.PageNumber = pageNumber;
+                ajaxViewModel.BrandID = BrandID;
+                ajaxViewModel.SaleID = SaleID;
+                ajaxViewModel.StoreTypeID = StoreTypeID;
+                ajaxViewModel.StoreID = StoreID;
+                return ajaxViewModel;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return null;
+            }
+            finally
+            {
                 this.dbContext.CloseConnection();
             }
         }

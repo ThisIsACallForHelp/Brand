@@ -112,8 +112,8 @@ namespace MallWebApplication.Controllers
                 ProductBrand = BrandID,
                 SaleID = (Percentage - (Percentage % 5)) / 5,
                 StoreID = StoreID,
-                ProductIMG = RelativePath,  
-                ID = ProductID
+                ProductIMG = RelativePath,
+                ID = ProductID,
             };
 
             bool CustomerAdded = await Client.PostAsync(product);

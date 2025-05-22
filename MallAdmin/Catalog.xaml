@@ -30,7 +30,7 @@
         </Image>
         <Border BorderBrush="Yellow" BorderThickness="1" x:Name="Content" Height="512" Width="800" Background="Yellow" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="122">
 
-            <ListView ItemsSource="{Binding Products}" Background="Yellow">
+            <ListView ItemsSource="{Binding Products}" Background="Yellow" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                 <!--SelectionChanged="ListView_SelectionChanged"-->
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
@@ -39,7 +39,7 @@
                 </ListView.ItemsPanel>
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <Border Width="120" Height="120" Margin="10">
+                        <Border Width="120" Height="120" Margin="30,30,30,50">
                             <Button Margin="0,120,0,-30" Background="Red" Height="30px" Content="Delete" Width="120px" Click="btn_Delete" Tag="{Binding ID}"></Button>
                             <Border.Background>
                                 <ImageBrush ImageSource="{Binding ProductIMG}"/>

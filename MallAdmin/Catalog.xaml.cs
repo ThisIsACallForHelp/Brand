@@ -34,7 +34,7 @@ namespace MallAdmin
 
         private async void CatalogInitializer()
         {
-            //works, but please dont forget to fix the ugly UI
+            //works
             WebClient<StoreOwnerViewModel> Client = new WebClient<StoreOwnerViewModel>()
             {
                 Schema = "http",
@@ -93,7 +93,8 @@ namespace MallAdmin
                     bool Deleted = await client.PostAsync(product);
                     if (Deleted)
                     {
-                        this.DataContext = new Catalog(AppStoreOwnerID.StoreOwnerID);
+                        Catalog catalog = new Catalog(AppStoreOwnerID.StoreOwnerID);
+                        this.DataContext = catalog;
                     }
                     else
                     {

@@ -1,23 +1,23 @@
 ﻿$("document").ready(
     function () {
         $(".Filter").click(
-            function () {;
+            function () {
+                let Sale = document.getElementById("SaleID").value;                
                 let uri = `http://localhost:5041/${window.UsingController}/GetProductCatalog/?`;
                 if (this.hasAttribute("data-StoreID")) {
                     let ext = "StoreID=" + this.getAttribute("data-StoreID");
-                    uri = uri + ext;
+                    uri = uri + ext + '&';
                 }
                 if (this.hasAttribute("data-BrandID")) {
                     let ext = "BrandID=" + this.getAttribute("data-BrandID");
-                    uri = uri + ext;
+                    uri = uri + ext + '&';
                 }
                 if (this.hasAttribute("data-StoreTypeID")) {
                     let ext = "StoreTypeID=" + this.getAttribute("data-StoreTypeID");
-                    uri = uri + ext;
+                    uri = uri + ext + '&';
                 }
-                if (this.hasAttribute("data-SaleID")) {
-                    let ext = "SaleID=" + this.getAttribute("data-SaleID");
-                    uri = uri + ext;
+                if (Sale > 0) {
+                    uri += "SaleID=" + Sale;
                 }
                 alert(uri);
                 $.ajax({
@@ -25,9 +25,22 @@
                     method: "GET",
                     dataType: "html",
                     beforeSend: function () {
-                        let loader = `<div class="modal-inner"" style="top: 40 %; right: 40 %; position: absolute; transform: translate(-50%, -50%)">` +
-                            `<img src="~/GUI/images/AJAX_GIF.gif" style="top: 40%;left: 50%; position: absolute; transform: translate(-50%, -50%)"/>` +
-                            `</div>`;
+                        let loader = `<style>
+                                        .parent{
+                                            height=100%;
+                                            align-content:center;
+                                        }
+                                        .child{
+                                            height:200px;
+                                            width:200px;
+                                            margin-inline:auto;
+                                        }
+                                      </style>
+                                      <div class="parent">
+                                        <div> class="child">
+                                            <img src="/images/AJAX_GIF.gif" alt="ajax gif"/>
+                                        </div>
+                                      </div>`;
                         $(".ProductContent").html(loader);
                     },
                     error: function () {

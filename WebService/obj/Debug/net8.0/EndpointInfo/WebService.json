@@ -147,16 +147,15 @@
         ],
         "parameters": [
           {
-            "name": "StoreID",
+            "name": "SaleID",
             "in": "query",
             "schema": {
               "type": "integer",
-              "format": "int32",
-              "default": 0
+              "format": "int32"
             }
           },
           {
-            "name": "SaleID",
+            "name": "StoreID",
             "in": "query",
             "schema": {
               "type": "integer",
@@ -218,6 +217,90 @@
               "text/json": {
                 "schema": {
                   "$ref": "#/components/schemas/CatalogViewModel"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Customer/AJAXCatalog": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "SaleID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "StoreID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "StoreTypeID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "BrandID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "ProductsPerPage",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 16
+            }
+          },
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/AJAXViewModel"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AJAXViewModel"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AJAXViewModel"
                 }
               }
             }
@@ -831,6 +914,54 @@
   },
   "components": {
     "schemas": {
+      "AJAXViewModel": {
+        "type": "object",
+        "properties": {
+          "products": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Product"
+            },
+            "nullable": true
+          },
+          "stores": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Store"
+            },
+            "nullable": true
+          },
+          "pageNumber": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maxPage": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "storeTypeID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "brandID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "storeID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "saleID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Brand": {
         "type": "object",
         "properties": {

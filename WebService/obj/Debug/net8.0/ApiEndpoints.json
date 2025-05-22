@@ -53,6 +53,57 @@
   },
   {
     "ContainingType": "WebService.CustomerController",
+    "Method": "AJAXCatalog",
+    "RelativePath": "api/Customer/AJAXCatalog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SaleID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StoreID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "StoreTypeID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BrandID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProductsPerPage",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Models.AJAXViewModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebService.CustomerController",
     "Method": "Catalog",
     "RelativePath": "api/Customer/Catalog",
     "HttpMethod": "GET",
@@ -60,12 +111,12 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "StoreID",
+        "Name": "SaleID",
         "Type": "System.Int32",
         "IsRequired": false
       },
       {
-        "Name": "SaleID",
+        "Name": "StoreID",
         "Type": "System.Int32",
         "IsRequired": false
       },

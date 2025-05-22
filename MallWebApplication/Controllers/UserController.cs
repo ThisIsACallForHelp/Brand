@@ -20,7 +20,7 @@ namespace MallWebApplication.Controllers
         //int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0,
         //                                int ProductsPerPage = 15, int pageNumber = 1
          
-        public async Task<IActionResult> GetCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int SaleID = 0, int StoreTypeID = 0, int BrandID = 0)
+        public async Task<IActionResult> GetCatalog(int SaleID, int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int StoreTypeID = 0, int BrandID = 0)
         {
             //works 
             WebClient<CatalogViewModel> Client = new WebClient<CatalogViewModel>();
@@ -38,10 +38,7 @@ namespace MallWebApplication.Controllers
             {
                 Client.AddParams("StoreTypeID", StoreTypeID.ToString());
             }
-            if (SaleID > 0)
-            {
-                Client.AddParams("Percentage", SaleID.ToString());
-            }
+            Client.AddParams("Percentage", SaleID.ToString());
             if (BrandID > 0)
             {
                 Client.AddParams("BrandID", BrandID.ToString());
@@ -51,9 +48,8 @@ namespace MallWebApplication.Controllers
         }
 
 
-        public async Task<PartialViewResult> GetProductCatalog(int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int SaleID = 0, int StoreTypeID = 0, int BrandID = 0)
+        public async Task<PartialViewResult> GetProductCatalog(int SaleID, int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int StoreTypeID = 0, int BrandID = 0)
         {
-
             //this is the catalog that USES THE AJAX
             //all of the CSS from the masterpage is gone, logical since Partial View
             //but i want and need that style from the masterpage i dont know what to do 
@@ -61,7 +57,7 @@ namespace MallWebApplication.Controllers
             Client.Schema = "http";
             Client.Port = 5134;
             Client.Host = "localhost";
-            Client.Path = "api/Customer/Catalog";
+            Client.Path = "api/Customer/AJAXCatalog";
             Client.AddParams("pageNumber", pageNumber.ToString());
             Client.AddParams("ProductsPerPage", ProductsPerPage.ToString());
             if (StoreID > 0)

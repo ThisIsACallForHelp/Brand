@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oIg6+rTW8YAyzgWfVQNobd3ne1740rpez0imo0k7pUw=",
+  "Hash": "Yks17goGAcbSxokREhQ0URyPnXWcprQ5EXe/AQtatIQ=",
   "Source": "WebService",
   "BasePath": "_content/WebService",
   "Mode": "Default",
@@ -164,6 +164,69 @@
       "OriginalItemSpec": "wwwroot\\Customers\\fed3db23-6d05-4c74-9f7d-b928fe99c08f_100ACC.png"
     },
     {
+      "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\0dc5e813-85f8-4089-a98f-6d7b82810e82_5th.png",
+      "SourceId": "WebService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\WebService\\wwwroot\\",
+      "BasePath": "_content/WebService",
+      "RelativePath": "Products/0dc5e813-85f8-4089-a98f-6d7b82810e82_5th#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n5wix3jn0m",
+      "Integrity": "SxAZmef0cZIB6rtyfKrprxB+YYeqviCGljI8KjF2ERw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\0dc5e813-85f8-4089-a98f-6d7b82810e82_5th.png"
+    },
+    {
+      "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\1ea1b5f7-f1ff-4897-9d9e-4cbf625fe8e2_BIDEN_BLAST.png",
+      "SourceId": "WebService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\WebService\\wwwroot\\",
+      "BasePath": "_content/WebService",
+      "RelativePath": "Products/1ea1b5f7-f1ff-4897-9d9e-4cbf625fe8e2_BIDEN_BLAST#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gj9od69p3m",
+      "Integrity": "tOQaUzzo9SWIwHLgeQS6/DZZqoN9G9mE4QJ947Vunf0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\1ea1b5f7-f1ff-4897-9d9e-4cbf625fe8e2_BIDEN_BLAST.png"
+    },
+    {
+      "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\2e9474fe-a081-4545-b99e-72b08e7c31c7_eagle.png",
+      "SourceId": "WebService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\WebService\\wwwroot\\",
+      "BasePath": "_content/WebService",
+      "RelativePath": "Products/2e9474fe-a081-4545-b99e-72b08e7c31c7_eagle#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hbr7sk0abi",
+      "Integrity": "840G695Bhr7gSM3NfNtCfTQZEzqC6p5lH9SE7VNfMIA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\2e9474fe-a081-4545-b99e-72b08e7c31c7_eagle.png"
+    },
+    {
       "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\4d549f1e-5ba9-4fbb-a1fa-7ad40f776991_Screenshot 2025-05-03 142648.png",
       "SourceId": "WebService",
       "SourceType": "Discovered",
@@ -183,6 +246,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Products\\4d549f1e-5ba9-4fbb-a1fa-7ad40f776991_Screenshot 2025-05-03 142648.png"
+    },
+    {
+      "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\5545c62e-80ba-48f7-8707-2d5829e29467_Antonina.png",
+      "SourceId": "WebService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\WebService\\wwwroot\\",
+      "BasePath": "_content/WebService",
+      "RelativePath": "Products/5545c62e-80ba-48f7-8707-2d5829e29467_Antonina#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "667zm5n9rk",
+      "Integrity": "8jZou7rFj1C/2QnsZ+0wzd+gOucisd1xKMXDxFgUGjs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\5545c62e-80ba-48f7-8707-2d5829e29467_Antonina.png"
     },
     {
       "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\58784142-48b9-430a-8b11-310bd7aaa8cb_Screenshot 2025-05-03 143344.png",
@@ -227,6 +311,27 @@
       "OriginalItemSpec": "wwwroot\\Products\\9a6fc564-fed5-49e8-8313-09f055e3f677_Screenshot 2025-05-11 205814.png"
     },
     {
+      "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\9d9a48ee-91cc-4fb5-b6d7-539e4eac1172_adolf.png",
+      "SourceId": "WebService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\WebService\\wwwroot\\",
+      "BasePath": "_content/WebService",
+      "RelativePath": "Products/9d9a48ee-91cc-4fb5-b6d7-539e4eac1172_adolf#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "00xyglmp20",
+      "Integrity": "cADsICYRwhXI/8Ugy8nAt7IDuYgslgGkMBFxY57XHtA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\9d9a48ee-91cc-4fb5-b6d7-539e4eac1172_adolf.png"
+    },
+    {
       "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\b6b18252-dca1-4a3d-a9d7-3b121072d370_KSP_5.jpg",
       "SourceId": "WebService",
       "SourceType": "Discovered",
@@ -246,6 +351,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Products\\b6b18252-dca1-4a3d-a9d7-3b121072d370_KSP_5.jpg"
+    },
+    {
+      "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\e0cd665f-7df9-4276-99fe-f2c58ed43ec2_chiyo .png",
+      "SourceId": "WebService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\WebService\\wwwroot\\",
+      "BasePath": "_content/WebService",
+      "RelativePath": "Products/e0cd665f-7df9-4276-99fe-f2c58ed43ec2_chiyo #[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v2f6m4p722",
+      "Integrity": "KbhG1ni2XpuwsbJbGZZnsZ7DXSAyGmpcIWcy/xM60LU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\e0cd665f-7df9-4276-99fe-f2c58ed43ec2_chiyo .png"
+    },
+    {
+      "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\e37a6f4e-4268-4390-8a35-eb13e89a2992_banana.png",
+      "SourceId": "WebService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\WebService\\wwwroot\\",
+      "BasePath": "_content/WebService",
+      "RelativePath": "Products/e37a6f4e-4268-4390-8a35-eb13e89a2992_banana#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uit8l2h8gy",
+      "Integrity": "iisgnA/wT5TXets/WEHIX7MMOE2iz6f9/0MKVRpfFdo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\e37a6f4e-4268-4390-8a35-eb13e89a2992_banana.png"
+    },
+    {
+      "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\f143333b-4b0b-4ae7-81e4-64872f9bced1_Screenshot 2025-05-03 142648.png",
+      "SourceId": "WebService",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\WebService\\wwwroot\\",
+      "BasePath": "_content/WebService",
+      "RelativePath": "Products/f143333b-4b0b-4ae7-81e4-64872f9bced1_Screenshot 2025-05-03 142648#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p7vqi6ovvd",
+      "Integrity": "e3V5BZ1VrQSvPtsIIFoVC23kl5vOVVc31KA3ku7z358=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Products\\f143333b-4b0b-4ae7-81e4-64872f9bced1_Screenshot 2025-05-03 142648.png"
     },
     {
       "Identity": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\H&M_1.jpg",
@@ -1265,6 +1433,252 @@
       ]
     },
     {
+      "Route": "Products/0dc5e813-85f8-4089-a98f-6d7b82810e82_5th.n5wix3jn0m.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\0dc5e813-85f8-4089-a98f-6d7b82810e82_5th.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52759"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SxAZmef0cZIB6rtyfKrprxB+YYeqviCGljI8KjF2ERw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:15:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n5wix3jn0m"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/0dc5e813-85f8-4089-a98f-6d7b82810e82_5th.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SxAZmef0cZIB6rtyfKrprxB+YYeqviCGljI8KjF2ERw="
+        }
+      ]
+    },
+    {
+      "Route": "Products/0dc5e813-85f8-4089-a98f-6d7b82810e82_5th.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\0dc5e813-85f8-4089-a98f-6d7b82810e82_5th.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52759"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SxAZmef0cZIB6rtyfKrprxB+YYeqviCGljI8KjF2ERw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:15:16 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SxAZmef0cZIB6rtyfKrprxB+YYeqviCGljI8KjF2ERw="
+        }
+      ]
+    },
+    {
+      "Route": "Products/1ea1b5f7-f1ff-4897-9d9e-4cbf625fe8e2_BIDEN_BLAST.gj9od69p3m.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\1ea1b5f7-f1ff-4897-9d9e-4cbf625fe8e2_BIDEN_BLAST.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284080"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tOQaUzzo9SWIwHLgeQS6/DZZqoN9G9mE4QJ947Vunf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:03:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gj9od69p3m"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/1ea1b5f7-f1ff-4897-9d9e-4cbf625fe8e2_BIDEN_BLAST.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tOQaUzzo9SWIwHLgeQS6/DZZqoN9G9mE4QJ947Vunf0="
+        }
+      ]
+    },
+    {
+      "Route": "Products/1ea1b5f7-f1ff-4897-9d9e-4cbf625fe8e2_BIDEN_BLAST.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\1ea1b5f7-f1ff-4897-9d9e-4cbf625fe8e2_BIDEN_BLAST.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "284080"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tOQaUzzo9SWIwHLgeQS6/DZZqoN9G9mE4QJ947Vunf0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:03:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tOQaUzzo9SWIwHLgeQS6/DZZqoN9G9mE4QJ947Vunf0="
+        }
+      ]
+    },
+    {
+      "Route": "Products/2e9474fe-a081-4545-b99e-72b08e7c31c7_eagle.hbr7sk0abi.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\2e9474fe-a081-4545-b99e-72b08e7c31c7_eagle.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"840G695Bhr7gSM3NfNtCfTQZEzqC6p5lH9SE7VNfMIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:05:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hbr7sk0abi"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/2e9474fe-a081-4545-b99e-72b08e7c31c7_eagle.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-840G695Bhr7gSM3NfNtCfTQZEzqC6p5lH9SE7VNfMIA="
+        }
+      ]
+    },
+    {
+      "Route": "Products/2e9474fe-a081-4545-b99e-72b08e7c31c7_eagle.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\2e9474fe-a081-4545-b99e-72b08e7c31c7_eagle.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "355097"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"840G695Bhr7gSM3NfNtCfTQZEzqC6p5lH9SE7VNfMIA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:05:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-840G695Bhr7gSM3NfNtCfTQZEzqC6p5lH9SE7VNfMIA="
+        }
+      ]
+    },
+    {
       "Route": "Products/4d549f1e-5ba9-4fbb-a1fa-7ad40f776991_Screenshot 2025-05-03 142648.p7vqi6ovvd.png",
       "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\4d549f1e-5ba9-4fbb-a1fa-7ad40f776991_Screenshot 2025-05-03 142648.png",
       "Selectors": [],
@@ -1343,6 +1757,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-e3V5BZ1VrQSvPtsIIFoVC23kl5vOVVc31KA3ku7z358="
+        }
+      ]
+    },
+    {
+      "Route": "Products/5545c62e-80ba-48f7-8707-2d5829e29467_Antonina.667zm5n9rk.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\5545c62e-80ba-48f7-8707-2d5829e29467_Antonina.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "299072"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8jZou7rFj1C/2QnsZ+0wzd+gOucisd1xKMXDxFgUGjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:03:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "667zm5n9rk"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/5545c62e-80ba-48f7-8707-2d5829e29467_Antonina.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8jZou7rFj1C/2QnsZ+0wzd+gOucisd1xKMXDxFgUGjs="
+        }
+      ]
+    },
+    {
+      "Route": "Products/5545c62e-80ba-48f7-8707-2d5829e29467_Antonina.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\5545c62e-80ba-48f7-8707-2d5829e29467_Antonina.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "299072"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8jZou7rFj1C/2QnsZ+0wzd+gOucisd1xKMXDxFgUGjs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:03:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8jZou7rFj1C/2QnsZ+0wzd+gOucisd1xKMXDxFgUGjs="
         }
       ]
     },
@@ -1511,6 +2007,88 @@
       ]
     },
     {
+      "Route": "Products/9d9a48ee-91cc-4fb5-b6d7-539e4eac1172_adolf.00xyglmp20.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\9d9a48ee-91cc-4fb5-b6d7-539e4eac1172_adolf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "461379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cADsICYRwhXI/8Ugy8nAt7IDuYgslgGkMBFxY57XHtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:02:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "00xyglmp20"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/9d9a48ee-91cc-4fb5-b6d7-539e4eac1172_adolf.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cADsICYRwhXI/8Ugy8nAt7IDuYgslgGkMBFxY57XHtA="
+        }
+      ]
+    },
+    {
+      "Route": "Products/9d9a48ee-91cc-4fb5-b6d7-539e4eac1172_adolf.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\9d9a48ee-91cc-4fb5-b6d7-539e4eac1172_adolf.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "461379"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cADsICYRwhXI/8Ugy8nAt7IDuYgslgGkMBFxY57XHtA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:02:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cADsICYRwhXI/8Ugy8nAt7IDuYgslgGkMBFxY57XHtA="
+        }
+      ]
+    },
+    {
       "Route": "Products/b6b18252-dca1-4a3d-a9d7-3b121072d370_KSP_5.gad8n1h6gt.jpg",
       "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\b6b18252-dca1-4a3d-a9d7-3b121072d370_KSP_5.jpg",
       "Selectors": [],
@@ -1589,6 +2167,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-uF+IFqQjSI26NXRdFBmaU5/WN248knTNjLIciWQ2gj8="
+        }
+      ]
+    },
+    {
+      "Route": "Products/e0cd665f-7df9-4276-99fe-f2c58ed43ec2_chiyo .png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\e0cd665f-7df9-4276-99fe-f2c58ed43ec2_chiyo .png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "279610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KbhG1ni2XpuwsbJbGZZnsZ7DXSAyGmpcIWcy/xM60LU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:04:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KbhG1ni2XpuwsbJbGZZnsZ7DXSAyGmpcIWcy/xM60LU="
+        }
+      ]
+    },
+    {
+      "Route": "Products/e0cd665f-7df9-4276-99fe-f2c58ed43ec2_chiyo .v2f6m4p722.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\e0cd665f-7df9-4276-99fe-f2c58ed43ec2_chiyo .png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "279610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KbhG1ni2XpuwsbJbGZZnsZ7DXSAyGmpcIWcy/xM60LU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:04:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v2f6m4p722"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/e0cd665f-7df9-4276-99fe-f2c58ed43ec2_chiyo .png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KbhG1ni2XpuwsbJbGZZnsZ7DXSAyGmpcIWcy/xM60LU="
+        }
+      ]
+    },
+    {
+      "Route": "Products/e37a6f4e-4268-4390-8a35-eb13e89a2992_banana.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\e37a6f4e-4268-4390-8a35-eb13e89a2992_banana.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1301997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iisgnA/wT5TXets/WEHIX7MMOE2iz6f9/0MKVRpfFdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:03:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iisgnA/wT5TXets/WEHIX7MMOE2iz6f9/0MKVRpfFdo="
+        }
+      ]
+    },
+    {
+      "Route": "Products/e37a6f4e-4268-4390-8a35-eb13e89a2992_banana.uit8l2h8gy.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\e37a6f4e-4268-4390-8a35-eb13e89a2992_banana.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1301997"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iisgnA/wT5TXets/WEHIX7MMOE2iz6f9/0MKVRpfFdo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:03:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uit8l2h8gy"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/e37a6f4e-4268-4390-8a35-eb13e89a2992_banana.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iisgnA/wT5TXets/WEHIX7MMOE2iz6f9/0MKVRpfFdo="
+        }
+      ]
+    },
+    {
+      "Route": "Products/f143333b-4b0b-4ae7-81e4-64872f9bced1_Screenshot 2025-05-03 142648.p7vqi6ovvd.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\f143333b-4b0b-4ae7-81e4-64872f9bced1_Screenshot 2025-05-03 142648.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e3V5BZ1VrQSvPtsIIFoVC23kl5vOVVc31KA3ku7z358=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:05:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p7vqi6ovvd"
+        },
+        {
+          "Name": "label",
+          "Value": "Products/f143333b-4b0b-4ae7-81e4-64872f9bced1_Screenshot 2025-05-03 142648.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e3V5BZ1VrQSvPtsIIFoVC23kl5vOVVc31KA3ku7z358="
+        }
+      ]
+    },
+    {
+      "Route": "Products/f143333b-4b0b-4ae7-81e4-64872f9bced1_Screenshot 2025-05-03 142648.png",
+      "AssetFile": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Products\\f143333b-4b0b-4ae7-81e4-64872f9bced1_Screenshot 2025-05-03 142648.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "81849"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e3V5BZ1VrQSvPtsIIFoVC23kl5vOVVc31KA3ku7z358=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 21:05:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e3V5BZ1VrQSvPtsIIFoVC23kl5vOVVc31KA3ku7z358="
         }
       ]
     },
