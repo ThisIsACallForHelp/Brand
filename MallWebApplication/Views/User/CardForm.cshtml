@@ -1,0 +1,45 @@
+﻿
+@{
+    ViewData["Title"] = "CardForm";
+    Layout = "~/Views/Shared/MasterPage.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/GUI/PaymentStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="http://localhost:5041/User/PaymentContinue" method="post" enctype="multipart/form-data">
+        <div class="MainHolder">
+            <h1 class="Title"> Fill Out Your Card Info! </h1>
+            <div class="CreditCard">
+                <img class="EMV_Chip" src="~/GUI/images/EMV_Chip-removebg-preview.png">
+                <div style="align-content: flex-start; display: flex; margin-top: 10px;">
+                    <input class="CardNumber" id="NumberOne" type="text" pattern="[0-9]{4}" style="margin-left: 25px;" placeholder="null">
+                    <input class="CardNumber" id="NumberTwo" type="text" pattern="[0-9]{4}" placeholder="null">
+                    <input class="CardNumber" id="NumberThree" type="text" pattern="[0-9]{4}" placeholder="null">
+                    <input class="CardNumber" id="NumberFour" type="text" pattern="[0-9]{4}" placeholder="null">
+                </div>
+                <div style="margin: 0px; display: flex;">
+                    <input type="text" style="margin-top: 5px; margin-left: 150px; width: 75px; height: 50px; font-size: 30px; background: transparent; color: white; border: none;" placeholder="Date" id="Date">
+                    <input type="text" style="margin-top: 5px; margin-left: 10px; width: 75px; height: 50px; font-size: 30px; background: transparent; color: white; border: none;" placeholder="CVV" id="CVV">
+                </div>
+                <div style="display: flex;">
+                    <input type="text" placeholder="Name" style="width: 150px; height: 60px; margin-bottom: 20px; margin-left: 20px; background: transparent; border: none; font-size: 30px; color: white;" id="OwnerName">
+                    <img src="~/GUI/images/ai-generated-3d-world-global-network-digital-technology-png-removebg-preview.png" style="height: 50px; width:50px; margin-left:50%; margin-bottom: 10px;">
+                </div>
+            </div>
+
+            <button type="submit" style="margin-left: 90px; width: 300px; height: 100px; background-color: lightgreen; font-size: 40px; border: 5px solid black; border-radius: 20px;font-family: 'Poppins', sans-serif;font-weight: 700;"> Submit </button>
+        </div>
+    </form>
+
+
+</body>
+<script src="~/GUI/CardVerify.js"></script>
+</html>
+

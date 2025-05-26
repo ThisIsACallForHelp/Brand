@@ -263,6 +263,32 @@
   },
   {
     "ContainingType": "WebService.CustomerController",
+    "Method": "Payment",
+    "RelativePath": "api/Customer/Payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cartProduct",
+        "Type": "Models.CartProduct",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Boolean",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebService.CustomerController",
     "Method": "RemoveFromCart",
     "RelativePath": "api/Customer/RemoveFromCart",
     "HttpMethod": "POST",

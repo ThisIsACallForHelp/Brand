@@ -78,5 +78,13 @@ namespace WebService
             base.dbContext.AddParameters("@CustomerID", cartProduct.CustomerID.ToString());
             return base.dbContext.Delete(sql) > 0;
         }
+
+        public bool DeleteEverything(int CustomerID)
+        {
+            string sql = $@"DELETE FROM CartProduct WHERE Customer={CustomerID}";
+            Console.WriteLine("Query -> " + sql);
+            base.dbContext.AddParameters("@CustomerID", CustomerID.ToString());
+            return base.dbContext.Delete(sql) > 0;
+        }
     }
 }

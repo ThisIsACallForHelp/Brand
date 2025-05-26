@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ucNgpqO9F/hMwVPdJ4jTZHSxopiGaMjiCJGBBqtkL0k=",
+  "Hash": "3fLRl+P9tgc2M0tRHuWgr0Dff8mI9mFSQg6qNbk4bmM=",
   "Source": "MallWebApplication",
   "BasePath": "_content/MallWebApplication",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GUI\\ajax.js"
+    },
+    {
+      "Identity": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\CardVerify.js",
+      "SourceId": "MallWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\",
+      "BasePath": "_content/MallWebApplication",
+      "RelativePath": "GUI/CardVerify#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0wvho49n7r",
+      "Integrity": "sLPQdPpq6ulMenUqOMsLESXQOZC6nW2FUWsn94njbOs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GUI\\CardVerify.js"
     },
     {
       "Identity": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\CartStyle.css",
@@ -248,6 +269,27 @@
       "OriginalItemSpec": "wwwroot\\GUI\\FormValidation.js"
     },
     {
+      "Identity": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\ai-generated-3d-world-global-network-digital-technology-png-removebg-preview.png",
+      "SourceId": "MallWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\",
+      "BasePath": "_content/MallWebApplication",
+      "RelativePath": "GUI/images/ai-generated-3d-world-global-network-digital-technology-png-removebg-preview#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "it4bdukeyt",
+      "Integrity": "JhJvBiQK3tgerz8FjZZe0Ov5gwpz7juObNMFZ748K0E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GUI\\images\\ai-generated-3d-world-global-network-digital-technology-png-removebg-preview.png"
+    },
+    {
       "Identity": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\AJAX_GIF.gif",
       "SourceId": "MallWebApplication",
       "SourceType": "Discovered",
@@ -269,6 +311,27 @@
       "OriginalItemSpec": "wwwroot\\GUI\\images\\AJAX_GIF.gif"
     },
     {
+      "Identity": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\CreditBG.png",
+      "SourceId": "MallWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\",
+      "BasePath": "_content/MallWebApplication",
+      "RelativePath": "GUI/images/CreditBG#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o79pufih6b",
+      "Integrity": "HCuaWk3F1mb41EHxhRCRhJPeD5dkhC9TBvatukBUT8E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GUI\\images\\CreditBG.png"
+    },
+    {
       "Identity": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\CRYSTAL_MallLogo-removebg-preview.png",
       "SourceId": "MallWebApplication",
       "SourceType": "Discovered",
@@ -288,6 +351,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GUI\\images\\CRYSTAL_MallLogo-removebg-preview.png"
+    },
+    {
+      "Identity": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\EMV_Chip-removebg-preview.png",
+      "SourceId": "MallWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\",
+      "BasePath": "_content/MallWebApplication",
+      "RelativePath": "GUI/images/EMV_Chip-removebg-preview#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iumxqs4s4p",
+      "Integrity": "6nsvmjfhjJVGkZBaHFPho8f/rdk3LQ+3FxEonB0oewo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GUI\\images\\EMV_Chip-removebg-preview.png"
     },
     {
       "Identity": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\Sams-Club-Dress-Code-for-staff.jpg",
@@ -351,6 +435,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GUI\\MasterPageStyle.css"
+    },
+    {
+      "Identity": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\PaymentStyle.css",
+      "SourceId": "MallWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\",
+      "BasePath": "_content/MallWebApplication",
+      "RelativePath": "GUI/PaymentStyle#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b1rumnaxkc",
+      "Integrity": "oamAmXLIpyPzFmBPF5WyYAy9mLcQk6vre1OO4Q9AU60=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\GUI\\PaymentStyle.css"
     },
     {
       "Identity": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\SignInValidation.js",
@@ -1863,6 +1968,88 @@
       ]
     },
     {
+      "Route": "GUI/CardVerify.0wvho49n7r.js",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\CardVerify.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sLPQdPpq6ulMenUqOMsLESXQOZC6nW2FUWsn94njbOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 18:16:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0wvho49n7r"
+        },
+        {
+          "Name": "label",
+          "Value": "GUI/CardVerify.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLPQdPpq6ulMenUqOMsLESXQOZC6nW2FUWsn94njbOs="
+        }
+      ]
+    },
+    {
+      "Route": "GUI/CardVerify.js",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\CardVerify.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sLPQdPpq6ulMenUqOMsLESXQOZC6nW2FUWsn94njbOs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 18:16:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sLPQdPpq6ulMenUqOMsLESXQOZC6nW2FUWsn94njbOs="
+        }
+      ]
+    },
+    {
       "Route": "GUI/CartStyle.css",
       "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\CartStyle.css",
       "Selectors": [],
@@ -2437,6 +2624,88 @@
       ]
     },
     {
+      "Route": "GUI/images/ai-generated-3d-world-global-network-digital-technology-png-removebg-preview.it4bdukeyt.png",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\ai-generated-3d-world-global-network-digital-technology-png-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "419576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JhJvBiQK3tgerz8FjZZe0Ov5gwpz7juObNMFZ748K0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 17:12:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "it4bdukeyt"
+        },
+        {
+          "Name": "label",
+          "Value": "GUI/images/ai-generated-3d-world-global-network-digital-technology-png-removebg-preview.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JhJvBiQK3tgerz8FjZZe0Ov5gwpz7juObNMFZ748K0E="
+        }
+      ]
+    },
+    {
+      "Route": "GUI/images/ai-generated-3d-world-global-network-digital-technology-png-removebg-preview.png",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\ai-generated-3d-world-global-network-digital-technology-png-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "419576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JhJvBiQK3tgerz8FjZZe0Ov5gwpz7juObNMFZ748K0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 17:12:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JhJvBiQK3tgerz8FjZZe0Ov5gwpz7juObNMFZ748K0E="
+        }
+      ]
+    },
+    {
       "Route": "GUI/images/AJAX_GIF.gif",
       "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\AJAX_GIF.gif",
       "Selectors": [],
@@ -2519,6 +2788,88 @@
       ]
     },
     {
+      "Route": "GUI/images/CreditBG.o79pufih6b.png",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\CreditBG.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "988137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HCuaWk3F1mb41EHxhRCRhJPeD5dkhC9TBvatukBUT8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:09:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o79pufih6b"
+        },
+        {
+          "Name": "label",
+          "Value": "GUI/images/CreditBG.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HCuaWk3F1mb41EHxhRCRhJPeD5dkhC9TBvatukBUT8E="
+        }
+      ]
+    },
+    {
+      "Route": "GUI/images/CreditBG.png",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\CreditBG.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "988137"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HCuaWk3F1mb41EHxhRCRhJPeD5dkhC9TBvatukBUT8E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:09:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HCuaWk3F1mb41EHxhRCRhJPeD5dkhC9TBvatukBUT8E="
+        }
+      ]
+    },
+    {
       "Route": "GUI/images/CRYSTAL_MallLogo-removebg-preview.jxic72g11s.png",
       "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\CRYSTAL_MallLogo-removebg-preview.png",
       "Selectors": [],
@@ -2597,6 +2948,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-19nxpfY7MoJhJQq2ZrbUrfMDnXy3DjJRsKh9HUPmqTY="
+        }
+      ]
+    },
+    {
+      "Route": "GUI/images/EMV_Chip-removebg-preview.iumxqs4s4p.png",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\EMV_Chip-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6nsvmjfhjJVGkZBaHFPho8f/rdk3LQ+3FxEonB0oewo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:15:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iumxqs4s4p"
+        },
+        {
+          "Name": "label",
+          "Value": "GUI/images/EMV_Chip-removebg-preview.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6nsvmjfhjJVGkZBaHFPho8f/rdk3LQ+3FxEonB0oewo="
+        }
+      ]
+    },
+    {
+      "Route": "GUI/images/EMV_Chip-removebg-preview.png",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\EMV_Chip-removebg-preview.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "102956"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6nsvmjfhjJVGkZBaHFPho8f/rdk3LQ+3FxEonB0oewo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 25 May 2025 19:15:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6nsvmjfhjJVGkZBaHFPho8f/rdk3LQ+3FxEonB0oewo="
         }
       ]
     },
@@ -2843,6 +3276,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-GcgxQZOn4oiHHhZfzl18dIe0RocRjkG9sgsz6RNboV4="
+        }
+      ]
+    },
+    {
+      "Route": "GUI/PaymentStyle.b1rumnaxkc.css",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\PaymentStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oamAmXLIpyPzFmBPF5WyYAy9mLcQk6vre1OO4Q9AU60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 18:08:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b1rumnaxkc"
+        },
+        {
+          "Name": "label",
+          "Value": "GUI/PaymentStyle.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oamAmXLIpyPzFmBPF5WyYAy9mLcQk6vre1OO4Q9AU60="
+        }
+      ]
+    },
+    {
+      "Route": "GUI/PaymentStyle.css",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\PaymentStyle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "881"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oamAmXLIpyPzFmBPF5WyYAy9mLcQk6vre1OO4Q9AU60=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 26 May 2025 18:08:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oamAmXLIpyPzFmBPF5WyYAy9mLcQk6vre1OO4Q9AU60="
         }
       ]
     },

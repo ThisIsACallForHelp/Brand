@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MallWebApplication.48krqn3vky.bundle.scp.css"
     },
     {
+      "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\CardVerify.js",
+      "PackagePath": "staticwebassets\\GUI\\CardVerify.js"
+    },
+    {
       "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\CartStyle.css",
       "PackagePath": "staticwebassets\\GUI\\CartStyle.css"
     },
@@ -39,6 +43,10 @@
     {
       "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\MasterPageStyle.css",
       "PackagePath": "staticwebassets\\GUI\\MasterPageStyle.css"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\PaymentStyle.css",
+      "PackagePath": "staticwebassets\\GUI\\PaymentStyle.css"
     },
     {
       "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\SignInValidation.js",
@@ -81,8 +89,20 @@
       "PackagePath": "staticwebassets\\GUI\\images\\CRYSTAL_MallLogo-removebg-preview.png"
     },
     {
+      "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\CreditBG.png",
+      "PackagePath": "staticwebassets\\GUI\\images\\CreditBG.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\EMV_Chip-removebg-preview.png",
+      "PackagePath": "staticwebassets\\GUI\\images\\EMV_Chip-removebg-preview.png"
+    },
+    {
       "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\Sams-Club-Dress-Code-for-staff.jpg",
       "PackagePath": "staticwebassets\\GUI\\images\\Sams-Club-Dress-Code-for-staff.jpg"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\images\\ai-generated-3d-world-global-network-digital-technology-png-removebg-preview.png",
+      "PackagePath": "staticwebassets\\GUI\\images\\ai-generated-3d-world-global-network-digital-technology-png-removebg-preview.png"
     },
     {
       "Id": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\favicon.ico",

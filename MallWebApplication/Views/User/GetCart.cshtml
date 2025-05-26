@@ -17,40 +17,50 @@
     <title>Document</title>
 </head>
 <body>
-
-    <div style="display: flex;">
-        <div class="ProductList" style="display:flex; flex-wrap:wrap; flex-direction: row">
-            @foreach (Product product in Model.products)
-            {
-                <form action="http://localhost:5041/User/RemoveProductFromCart"
-                      method="post" enctype="multipart/form-data">
-                    <div class="ProductInfo">
-                        <img src="@product.ProductIMG" style="width: 300px; height: 300px; border-right: 5px solid black;">
-                        <div class="ProductText" style="padding: 0px;">
-                            <h1>
-                                @product.ProductName
-                            </h1>
-                            <div style="display: flex; margin: 10px; width: 150px; height: 50px;">
-                                <h2 style="text-align: left;"> Price</h2>
-                                <h2 style="margin-left: 25px;">@product.ProductPrice</h2>
+    
+    @if (@Model.products.Count > 0)
+    {
+        <div style="display: flex;">
+            <div class="ProductList" style="display:flex; flex-wrap:wrap; flex-direction: row">
+                @foreach (Product product in Model.products)
+                {
+                    <form action="http://localhost:5041/User/RemoveProductFromCart"
+                          method="post" enctype="multipart/form-data">
+                        <div class="ProductInfo">
+                            <img src="@product.ProductIMG" style="width: 300px; height: 300px; border-right: 5px solid black;">
+                            <div class="ProductText" style="padding: 0px;">
+                                <h1>
+                                    @product.ProductName
+                                </h1>
+                                <div style="display: flex; margin: 10px; width: 150px; height: 50px;">
+                                    <h2 style="text-align: left;"> Price</h2>
+                                    <h2 style="margin-left: 25px;">@product.ProductPrice</h2>
+                                </div>
+                                <div style="display: flex; margin: 10px; width: 150px; height: 50px;">
+                                    <h2 style="text-align: left;"> StoreID: </h2>
+                                    <h2 style="margin-left: 25px;">@product.StoreID</h2>
+                                </div>
+                                <input type="hidden" name="CustomerID" value="@Model.CustomerID" />
+                                <input type="hidden" name="ProductID" value="@product.ID" />
+                                <button type="submit"> Remove </button>
                             </div>
-                            <div style="display: flex; margin: 10px; width: 150px; height: 50px;">
-                                <h2 style="text-align: left;"> StoreID: </h2>
-                                <h2 style="margin-left: 25px;">@product.StoreID</h2>
-                            </div>
-                            <input type="hidden" name="CustomerID" value="@Model.CustomerID" />
-                            <input type="hidden" name="ProductID" value="@product.ID" />
-                            <button type="submit"> Remove </button>
                         </div>
-                    </div>
-                </form>
-            }
+                    </form>
+                }
+            </div>
+            <div class="Total">
+                <h1> You have a total of @Model.products.Count Products</h1>
+                <h1> Estimated Price: @Model.TotalPrice</h1>
+                <button style="background-color: lightgreen; width: 150px;" onclick="window.location.href='http://localhost:5041/User/CardForm'"> Payment </button>
+            </div>
         </div>
-        <div class="Total">
-            <h1> You have a total of @Model.products.Count Products</h1>
-            <h1> Estimated Price: @Model.TotalPrice</h1>
-        </div>
-    </div>
+    }
+    else{
+
+        <h1 style="margin-left:50%"> Your Cart Is Empty</h1>
+
+    
+    }
 </body>
 </html>
 

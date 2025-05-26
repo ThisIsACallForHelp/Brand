@@ -1,0 +1,51 @@
+﻿
+.MainHolder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+    display: block;
+}
+
+.CreditCard {
+    height: 250px;
+    width: 450px;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    background-image: url(images/CreditBG.png);
+}
+
+.EMV_Chip {
+    height: 50px;
+    width: 75px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.Title {
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+.CardNumber {
+    color: white;
+    background: transparent;
+    border: none;
+    width: 60px;
+    height: 20px;
+    margin-left: 35px;
+    font-size: 25px;
+}
+
+    .CardNumber::placeholder {
+        color: #D3D3D3;
+    }
+
+input::placeholder {
+    color: #D3D3D3;
+}

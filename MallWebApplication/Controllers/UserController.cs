@@ -189,8 +189,35 @@ namespace MallWebApplication.Controllers
             }
         }
 
+        [HttpGet]
 
+        public IActionResult CardForm()
+        {
+            return View();
+        }
 
-        
+        [HttpPost]
+
+        public async Task<IActionResult> PaymentContinue()
+        {
+            WebClient<CartProduct> webClient = new WebClient<CartProduct>()
+            {
+                Schema = "http",
+                Host = "localhost",
+                Path = "api/Customer/Payment",
+                Port = 5134
+            };
+            CartProduct cart = new CartProduct()
+            {
+                CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"))
+            };
+            Console.WriteLine("ID ----> " + cart.CustomerID);
+            bool Succ = await webClient.PostAsync(cart);
+            if (Succ)
+            {
+                return RedirectToAction("GetCart", "User");
+            }
+            return RedirectToAction("GetCatalog", "User");
+        }
     }
 }

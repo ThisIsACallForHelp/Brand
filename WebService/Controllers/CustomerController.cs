@@ -349,5 +349,26 @@ namespace WebService
                 this.dbContext.CloseConnection();
             }
         }
+
+        [HttpPost]
+
+        public bool Payment(CartProduct cartProduct)
+        {
+            try
+            {
+                this.dbContext.OpenConnection();
+                return this.unitOfWork.CartProductRepository.DeleteEverything(cartProduct.CustomerID);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                return false;
+            }
+            finally
+            {
+                this.dbContext.ClearParameters();
+                this.dbContext.CloseConnection();
+            }
+        }
     }
 }
