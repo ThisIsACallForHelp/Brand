@@ -7,7 +7,7 @@ namespace WebService
     {
         public Store CreateModel(IDataReader src)
         {
-            Store store = new Store()
+            return new Store()
             {
                 ID = Convert.ToInt32(src["StoreID"]),
                 StoreName = Convert.ToString(src["StoreName"]),
@@ -15,7 +15,6 @@ namespace WebService
                 StoreFloor = Convert.ToInt32(src["StoreFloor"]),
                 StoreDescription = Convert.ToString(src["StoreDescription"]),
             };
-            return store;
         }
     }
 }

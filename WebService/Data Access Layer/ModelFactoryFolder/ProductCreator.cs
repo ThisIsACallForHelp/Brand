@@ -6,7 +6,7 @@ namespace WebService
     {
         public Product CreateModel(IDataReader src)
         {
-            Product product = new Product()
+            return new Product()
             {
                 ID = Convert.ToInt32(src["ProductID"]),
                 ProductName = Convert.ToString(src["ProductName"]),
@@ -16,7 +16,6 @@ namespace WebService
                 ProductIMG = "http://localhost:5134/Products/" + Convert.ToString(src["ProductIMG"]),
                 SaleID = Convert.ToInt32(src["SaleID"])
             };
-            return product;
         }
     }
 }

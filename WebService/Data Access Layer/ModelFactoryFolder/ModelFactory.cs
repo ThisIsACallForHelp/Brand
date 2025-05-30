@@ -107,7 +107,7 @@ namespace WebService
         {
             get
             {
-                if(cartProductCreator == null)
+                if(this.cartProductCreator == null)
                 {
                     this.cartProductCreator = new CartProductCreator();
                 }

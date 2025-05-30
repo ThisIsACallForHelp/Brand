@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3fLRl+P9tgc2M0tRHuWgr0Dff8mI9mFSQg6qNbk4bmM=",
+  "Hash": "vEVRtD9MBXxMLOBsKYffx6iM1reuWwdVPQScsc0E4SE=",
   "Source": "MallWebApplication",
   "BasePath": "_content/MallWebApplication",
   "Mode": "Default",
@@ -94,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "rzfxp9u260",
-      "Integrity": "yVOxc33ydfPMuMku/3iZ4UwkFauuL3ffr19fdDRIi0g=",
+      "Fingerprint": "h6j1m8hmfg",
+      "Integrity": "p2K9jtVzQ5H/32I/ajobeStE4h1D8h36ya+W3RzSry8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\GUI\\ajax.js"
@@ -1886,6 +1886,51 @@
       ]
     },
     {
+      "Route": "GUI/ajax.h6j1m8hmfg.js",
+      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\ajax.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p2K9jtVzQ5H/32I/ajobeStE4h1D8h36ya+W3RzSry8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 20:07:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h6j1m8hmfg"
+        },
+        {
+          "Name": "label",
+          "Value": "GUI/ajax.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p2K9jtVzQ5H/32I/ajobeStE4h1D8h36ya+W3RzSry8="
+        }
+      ]
+    },
+    {
       "Route": "GUI/ajax.js",
       "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\ajax.js",
       "Selectors": [],
@@ -1896,7 +1941,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2718"
+          "Value": "2700"
         },
         {
           "Name": "Content-Type",
@@ -1904,11 +1949,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yVOxc33ydfPMuMku/3iZ4UwkFauuL3ffr19fdDRIi0g=\""
+          "Value": "\"p2K9jtVzQ5H/32I/ajobeStE4h1D8h36ya+W3RzSry8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 20:07:44 GMT"
+          "Value": "Thu, 29 May 2025 20:07:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1918,52 +1963,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yVOxc33ydfPMuMku/3iZ4UwkFauuL3ffr19fdDRIi0g="
-        }
-      ]
-    },
-    {
-      "Route": "GUI/ajax.rzfxp9u260.js",
-      "AssetFile": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\ajax.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2718"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yVOxc33ydfPMuMku/3iZ4UwkFauuL3ffr19fdDRIi0g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 22 May 2025 20:07:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "rzfxp9u260"
-        },
-        {
-          "Name": "label",
-          "Value": "GUI/ajax.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yVOxc33ydfPMuMku/3iZ4UwkFauuL3ffr19fdDRIi0g="
+          "Value": "sha256-p2K9jtVzQ5H/32I/ajobeStE4h1D8h36ya+W3RzSry8="
         }
       ]
     },

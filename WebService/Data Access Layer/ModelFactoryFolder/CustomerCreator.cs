@@ -6,7 +6,7 @@ namespace WebService
     {
         public Customer CreateModel(IDataReader src)
         {
-            Customer customer = new Customer()
+            return new Customer()
             {
                 ID = Convert.ToInt32(src["CustomerID"]),
                 CustomerFirstName = Convert.ToString(src["CustomerFirstName"]),
@@ -17,7 +17,6 @@ namespace WebService
                 CustomerPassword = Convert.ToString(src["CustomerPassword"]),
                 CustomerIMG = "http://localhost:5134/Customers/" + Convert.ToString(src["CustomerIMG"])
             };
-            return customer;
         }
     }
 }

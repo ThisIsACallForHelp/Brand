@@ -6,12 +6,12 @@ namespace WebService
     {
         public Brand CreateModel(IDataReader src)
         {
-            Brand brand = new Brand()
+            return new Brand()
             {
                 ID = Convert.ToInt32(src["BrandID"]),
                 BrandName = Convert.ToString(src["BrandName"])
             };
-            return brand;
+
         }
     }
 }

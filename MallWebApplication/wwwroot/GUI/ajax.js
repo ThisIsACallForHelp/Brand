@@ -6,15 +6,15 @@
                 let uri = `http://localhost:5041/${window.UsingController}/GetProductCatalog/?`;
                 if (this.hasAttribute("data-StoreID")) {
                     let ext = "StoreID=" + this.getAttribute("data-StoreID");
-                    uri = uri + ext + '&';
+                    uri = uri + ext;
                 }
                 if (this.hasAttribute("data-BrandID")) {
                     let ext = "BrandID=" + this.getAttribute("data-BrandID");
-                    uri = uri + ext + '&';
+                    uri = uri + ext;
                 }
                 if (this.hasAttribute("data-StoreTypeID")) {
                     let ext = "StoreTypeID=" + this.getAttribute("data-StoreTypeID");
-                    uri = uri + ext + '&';
+                    uri = uri + ext;
                 }
                 if (Sale > 0) {
                     uri += "SaleID=" + Sale;

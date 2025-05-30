@@ -6,12 +6,11 @@ namespace WebService
     {
         public City CreateModel(IDataReader src)
         {
-            City city = new City()
+            return new City()
             {
                 ID = Convert.ToInt32(src["CityID"]),
                 CityName = Convert.ToString(src["CityName"])
             };
-            return city;
         }
     }
 }

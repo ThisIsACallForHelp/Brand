@@ -6,12 +6,12 @@ namespace WebService
     {
         public StoreType CreateModel(IDataReader src)
         {
-            StoreType storeType = new StoreType()
+            return new StoreType()
             {
                 ID = Convert.ToInt32(src["StoreTypeID"]),
                 StoreTypeName = Convert.ToString(src["StoreTypeName"])
             }; 
-            return storeType;
+
         }
     }
 }

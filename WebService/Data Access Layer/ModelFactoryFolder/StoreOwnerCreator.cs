@@ -6,7 +6,7 @@ namespace WebService
     {
         public StoreOwner CreateModel(IDataReader src)
         {
-            StoreOwner storeOwner = new StoreOwner()
+            return new StoreOwner()
             {
                 ID = Convert.ToInt32(src["StoreOwnerID"]),
                 StoreOwnerName = Convert.ToString(src["StoreOwnerName"]),
@@ -14,9 +14,9 @@ namespace WebService
                 StoreOwnerPhoneNumber = Convert.ToString(src["StoreOwnerPhoneNumber"]),
                 StoreOwnerEmail = Convert.ToString(src["StoreOwnerEmail"]),
                 StoreID = Convert.ToInt32(src["StoreID"]),
-                StoreOwnerIMG = Convert.ToString(src["StoreOwnerIMG"])
+                StoreOwnerIMG = "http://localhost:5134/StoreOwners/" + Convert.ToString(src["StoreOwnerIMG"])
             };
-            return storeOwner;
+
         }
     }
 }

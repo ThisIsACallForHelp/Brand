@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MallWebApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2455f5b7b7276488498efb04fc93769cdf12887")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97437a0855c5b115f7b390a44a83e98c88512aab")]
 [assembly: System.Reflection.AssemblyProductAttribute("MallWebApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MallWebApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

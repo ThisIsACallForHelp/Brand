@@ -1336,10 +1336,6 @@
           "cityName": {
             "type": "string",
             "nullable": true
-          },
-          "customerID": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false

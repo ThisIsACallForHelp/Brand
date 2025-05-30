@@ -137,11 +137,11 @@ namespace MallWebApplication.Controllers
             Client.Path = "api/Customer/GetDetail";
             Client.AddParams("CustomerID", HttpContext.Session.GetString("CustomerID"));
             Console.WriteLine("cusotmer id -> " + Convert.ToInt32(HttpContext.Session.GetString("CustomerID")));
-            ViewCustomerDetails Details = new ViewCustomerDetails()
-            {
-                CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"))
-            };
-            Details = await Client.GetAsync();
+            ViewCustomerDetails Details = await Client.GetAsync();/*new ViewCustomerDetails()*/
+            //{
+            //    CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"))
+            //};
+            //Details = await Client.GetAsync();
             return View(Details);
         }
 

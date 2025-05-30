@@ -1,7 +1,7 @@
 ﻿
 namespace WebService
 {
-    //Repository's task is to fulfill the CRUD technique using SQL commands 
+    //Repository's task is to fulfill the CRUD operations using SQL commands 
     //CRUD - Create, Read, Update, Delete
     public interface IRepository<T>
     {

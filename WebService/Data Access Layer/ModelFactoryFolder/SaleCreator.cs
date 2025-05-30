@@ -7,12 +7,12 @@ namespace WebService
     {
         public Sale CreateModel(IDataReader src)
         {
-            Sale sale = new Sale()
+            return new Sale()
             {
                 ID = Convert.ToInt32(src["SaleID"]),
                 Percentage = Convert.ToInt32(src["Percentage"])
             };
-            return sale;
+
         }
     }
 }

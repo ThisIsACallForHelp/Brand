@@ -2,8 +2,8 @@
 
 namespace WebService
 {
-    //Model Factory - Read the tables using RecordSet and 
-    //                Create models with the info we have
+    //Model Factory - Read the tables using RecordSet and Create models with the info we have
+    //                
     public interface IModelCreator<T>
     {
         T CreateModel(IDataReader src);
