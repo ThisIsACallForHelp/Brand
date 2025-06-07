@@ -16,7 +16,6 @@ namespace WebService
 
             string sql = $@"INSERT INTO Product(ProductName, ProductPrice, ProductID, StoreID, BrandID, ProductIMG)
                             VALUES('{product.ProductName}',{product.ProductPrice}, {product.ID}, {product.StoreID}, {product.ProductBrand}, '{product.ProductIMG}')";
-
             //base.dbContext.AddParameters("@ProductID", product.ID.ToString());
             //base.dbContext.AddParameters("@ProductName", product.ProductName);
             //base.dbContext.AddParameters("@ProductPrice", product.ProductPrice.ToString());
@@ -171,55 +170,12 @@ namespace WebService
                 }
             }
             return Products;
-
         }
-
-        public List<Product> CheckSaleAndStore(int StoreOwnerID, int SaleID)
-        {
-            List<Product> Products = new List<Product>();
-            string sql = $@"SELECT * FROM Product LEFT JOIN StoreOwner
-                                     ON Product.StoreID = StoreOwner.StoreID
-                                     WHERE Product.SaleID >= @SaleID";
-            using (IDataReader product = base.dbContext.Read(sql))
-            {
-                while (product.Read())
-                {
-                    Products.Add(this.modelFactory.ProductCreator.CreateModel(product));
-                }
-                return Products;
-            }
-        }
-
-        public List<Product> FromBrandAndSale(int SaleID, int BrandID)
-        {
-            List<Product> Products = new List<Product>();
-            string sql = $@"SELECT * FROM Product 
-                            WHERE BrandID = @brandID AND SaleID >= @saleID";
-            base.dbContext.AddParameters("@SaleID", SaleID.ToString());
-            base.dbContext.AddParameters("@BrandID", BrandID.ToString());
-            using (IDataReader product = base.dbContext.Read(sql))
-            {
-                while (product.Read())
-                {
-                    Products.Add(this.modelFactory.ProductCreator.CreateModel(product));
-                }
-                return Products;
-            }
-        }
-        public int GetPercent(int ProductID)
-        {
-            string sql = $@"SELECT * FROM SaleID WHERE ProductID = @ProductID";
-            base.dbContext.AddParameters("@ProductID", ProductID.ToString());
-            using (IDataReader product = base.dbContext.Read(sql))
-            {
-                return this.modelFactory.SaleCreator.CreateModel(product).Percentage;
-            }
-        }
-
         public bool DeleteSale(int ProductID)
         {
             Product product = GetByID(ProductID);
-            product.ProductPrice = (product.ProductPrice * 100) / (product.SaleID * 5);
+            if(20 - product.SaleID == 0) { return false; }
+            product.ProductPrice = (product.ProductPrice * 100) / ((20 - product.SaleID) * 5);
             string sql = $@"UPDATE Product SET SaleID=0, ProductPrice={product.ProductPrice} WHERE ProductID = {ProductID}";
             Console.WriteLine(sql);
             base.dbContext.AddParameters("@ProductID", ProductID.ToString());

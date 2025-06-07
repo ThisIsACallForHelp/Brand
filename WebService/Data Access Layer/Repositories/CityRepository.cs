@@ -62,20 +62,6 @@ namespace WebService
             return dbContext.Delete(sql) > 0;
         }
 
-        public List<Customer> AllCustomersFromCity(City city)
-        {
-            List<Customer> customers = new List<Customer>();
-            string sql = $@"SELECT * FROM Customer WHERE CityID = @CityID";
-            using (IDataReader customer = base.dbContext.Read(sql))
-            {
-                while (customer.Read()) //until you have not reached the end...
-                {
-                    customers.Add(this.modelFactory.CustomerCreator.CreateModel(customer)); //add the brand into the list
-                }
-            }
-            return customers;
-        }
-
         public string GetCityByCustomerID(int CustomerID)
         {
             string sql = $@"SELECT City.CityName, City.CityID FROM City LEFT JOIN

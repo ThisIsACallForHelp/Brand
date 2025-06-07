@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Customers\07674ea8-eedc-4609-84e3-6f82d12f70f4_9-11.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebService</BasePath>
+      <RelativePath>Customers/07674ea8-eedc-4609-84e3-6f82d12f70f4_9-11.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n7zvvagk5a</Fingerprint>
+      <Integrity>A6uW1xf/FvQReadVCNx252zfmb/DG2wLFb+XoPO3Whs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Customers\07674ea8-eedc-4609-84e3-6f82d12f70f4_9-11.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Customers\6207386e-570f-4a2c-b715-fa9ee8a9d12f_2BRILLIANT.png'))">
       <SourceType>Package</SourceType>
       <SourceId>WebService</SourceId>
@@ -35,6 +53,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Customers\8b5f89eb-4af8-4fe3-b003-9128a722b341_9-11.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Customers\bba00e94-5bfa-4703-bc89-a3c10b61cc97_9-11.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>WebService</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/WebService</BasePath>
+      <RelativePath>Customers/bba00e94-5bfa-4703-bc89-a3c10b61cc97_9-11.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n7zvvagk5a</Fingerprint>
+      <Integrity>A6uW1xf/FvQReadVCNx252zfmb/DG2wLFb+XoPO3Whs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Customers\bba00e94-5bfa-4703-bc89-a3c10b61cc97_9-11.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Customers\be4faa7f-9911-4085-9924-d9d9cda61547_9thGrade.png'))">
       <SourceType>Package</SourceType>

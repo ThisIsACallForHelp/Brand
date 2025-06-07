@@ -311,7 +311,7 @@ namespace WebService
             try
             {
                 this.dbContext.OpenConnection();
-                Details.customer = this.unitOfWork.CustomerRepository.GetCustomerDetails(CustomerID);
+                Details.customer = this.unitOfWork.CustomerRepository.GetByID(CustomerID);
                 Details.CityName = this.unitOfWork.CityRepository.GetCityByCustomerID(CustomerID);
                 return Details;
             }

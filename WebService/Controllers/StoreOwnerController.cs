@@ -123,25 +123,6 @@ namespace WebService
             }
         }
 
-        [HttpPost]
-        public bool UpdateOwner(StoreOwner Owner)
-        {
-            try
-            {
-                this.dbContext.OpenConnection();
-                return this.unitOfWork.StoreOwnerRepository.Update(Owner);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-                return false;
-            }
-            finally
-            {
-                this.dbContext.ClearParameters();
-                this.dbContext.CloseConnection();
-            }
-        }
         [HttpGet]
         public StoreOwnerViewModel StoreOwnerView(int StoreOwnerID, bool OnSale = false)
         {
@@ -159,27 +140,6 @@ namespace WebService
             catch(Exception ex) 
             {
                 Console.WriteLine($"Error: {ex.Message}");
-                return null;
-            }
-            finally
-            {
-                this.dbContext.ClearParameters();
-                this.dbContext.CloseConnection();
-            }
-        }
-
-        [HttpGet]
-
-        public Store ViewStore(int StoreOwnerID)
-        {
-            try
-            {
-                this.dbContext.OpenConnection();
-                return this.unitOfWork.StoreRepository.GetByOwnerID(StoreOwnerID);
-            }
-            catch(Exception ex)
-            {
-                Console.WriteLine(ex.ToString());
                 return null;
             }
             finally

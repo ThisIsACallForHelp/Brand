@@ -16,10 +16,6 @@ namespace WebService
             string sql = "SELECT @@identity";
             return Convert.ToInt32(this.dbContext.ReadValue(sql));
         }
-        //protected void AddParams(string paramName, string paramValue)
-        //{
-        //    OleDbParameter oleDbParameter = new OleDbParameter(paramName, paramValue);
-        //    this.dbContext.AddParameters(oleDbParameter);
-        //}
+
     }
 }

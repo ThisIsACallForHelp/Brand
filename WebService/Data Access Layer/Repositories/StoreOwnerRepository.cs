@@ -80,7 +80,6 @@ namespace WebService
                 storeOwner.Read();
                 return this.modelFactory.StoreOwnerCreator.CreateModel(storeOwner);
             }
-
         }
 
         public int SignInReturnID(string StoreOwnerName, string StoreOwnerLastName, int StoreOwnerID)

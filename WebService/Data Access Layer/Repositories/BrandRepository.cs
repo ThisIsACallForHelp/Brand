@@ -55,28 +55,15 @@ namespace WebService
         public bool DeleteByID(int ID)
         {
             string sql = $@"DELETE FROM Brand WHERE BrandID = @brandID";
-            base.dbContext.AddParameters("@BrandName", ID.ToString());
+            base.dbContext.AddParameters("@BrandID", ID.ToString());
             return dbContext.Delete(sql) > 0;
         }
 
         public bool Delete(Brand brand)
         {
             string sql = $@"DELETE FROM Brand WHERE BrandID = @BrandID";
-            base.dbContext.AddParameters("@BrandName", brand.ID.ToString());
+            base.dbContext.AddParameters("@BrandID", brand.ID.ToString());
             return dbContext.Delete(sql) > 0;
         }
-        //public List<Store> stores(Brand brand)
-        //{
-        //    List<Store> stores = new List<Store>();
-        //    string sql = $@"SELECT Store.StoreName, "
-        //    using (IDataReader store = base.dbContext.Read(sql))
-        //    {
-        //        while (store.Read()) //until you have not reached the end...
-        //        {
-        //            stores.Add(this.modelFactory.StoreCreator.CreateModel(store)); //add the brand into the list
-        //        }
-        //    }
-        //    return stores;
-        //}
     }
 }

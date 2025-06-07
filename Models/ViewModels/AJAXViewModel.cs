@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class AJAXViewModel
+    public class AJAXViewModel : Object
     {
         public List<Product> products { get; set; }
         public List<Store> stores { get; set; }

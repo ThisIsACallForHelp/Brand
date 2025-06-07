@@ -1,12 +1,20 @@
 {
   "Files": [
     {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\07674ea8-eedc-4609-84e3-6f82d12f70f4_9-11.png",
+      "PackagePath": "staticwebassets\\Customers\\07674ea8-eedc-4609-84e3-6f82d12f70f4_9-11.png"
+    },
+    {
       "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\6207386e-570f-4a2c-b715-fa9ee8a9d12f_2BRILLIANT.png",
       "PackagePath": "staticwebassets\\Customers\\6207386e-570f-4a2c-b715-fa9ee8a9d12f_2BRILLIANT.png"
     },
     {
       "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\8b5f89eb-4af8-4fe3-b003-9128a722b341_9-11.png",
       "PackagePath": "staticwebassets\\Customers\\8b5f89eb-4af8-4fe3-b003-9128a722b341_9-11.png"
+    },
+    {
+      "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\bba00e94-5bfa-4703-bc89-a3c10b61cc97_9-11.png",
+      "PackagePath": "staticwebassets\\Customers\\bba00e94-5bfa-4703-bc89-a3c10b61cc97_9-11.png"
     },
     {
       "Id": "C:\\MyMall\\Brand\\WebService\\wwwroot\\Customers\\be4faa7f-9911-4085-9924-d9d9cda61547_9thGrade.png",

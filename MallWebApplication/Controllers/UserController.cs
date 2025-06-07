@@ -150,7 +150,6 @@ namespace MallWebApplication.Controllers
         [HttpGet]
         public async Task<IActionResult> GetCart()
         {
-            //works
             WebClient<CustomerCartViewModel> Client = new WebClient<CustomerCartViewModel>();
             Client.Schema = "http";
             Client.Port = 5134;
@@ -158,7 +157,6 @@ namespace MallWebApplication.Controllers
             Client.Path = "api/Customer/ViewCart";
             Client.AddParams("CustomerID", HttpContext.Session.GetString("CustomerID"));
             CustomerCartViewModel cartProduct = await Client.GetAsync();
-            cartProduct.CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"));
             return View(cartProduct);
         }
 

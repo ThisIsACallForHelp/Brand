@@ -514,57 +514,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "WebService.StoreOwnerController",
-    "Method": "UpdateOwner",
-    "RelativePath": "api/StoreOwner/UpdateOwner",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Owner",
-        "Type": "Models.StoreOwner",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Boolean",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "WebService.StoreOwnerController",
-    "Method": "ViewStore",
-    "RelativePath": "api/StoreOwner/ViewStore",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "StoreOwnerID",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Models.Store",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   }
 ]

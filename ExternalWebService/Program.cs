@@ -7,7 +7,7 @@ namespace ExternalWebService
     { 
         public static void Main(string[] Args)
         {
-            
+            object obj = new object();
         } 
     }
 
