@@ -69,7 +69,7 @@ namespace MallAdmin {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MallAdmin;component/addsale.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MallAdmin;V1.0.0.0;component/addsale.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddSale.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

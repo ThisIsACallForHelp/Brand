@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\MyMall\\Brand\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9B40011D-9961-419E-A06A-1CC2DEE6D535}|MallPhoneApp\\MallPhoneApp.csproj|c:\\mymall\\brand\\mallphoneapp\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B40011D-9961-419E-A06A-1CC2DEE6D535}|MallPhoneApp\\MallPhoneApp.csproj|solutionrelative:mallphoneapp\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9B40011D-9961-419E-A06A-1CC2DEE6D535}|MallPhoneApp\\MallPhoneApp.csproj|c:\\mymall\\brand\\mallphoneapp\\errorhandler.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9B40011D-9961-419E-A06A-1CC2DEE6D535}|MallPhoneApp\\MallPhoneApp.csproj|solutionrelative:mallphoneapp\\errorhandler.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B40011D-9961-419E-A06A-1CC2DEE6D535}|MallPhoneApp\\MallPhoneApp.csproj|c:\\mymall\\brand\\mallphoneapp\\errorhandler.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9B40011D-9961-419E-A06A-1CC2DEE6D535}|MallPhoneApp\\MallPhoneApp.csproj|solutionrelative:mallphoneapp\\errorhandler.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9B40011D-9961-419E-A06A-1CC2DEE6D535}|MallPhoneApp\\MallPhoneApp.csproj|c:\\mymall\\brand\\mallphoneapp\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9B40011D-9961-419E-A06A-1CC2DEE6D535}|MallPhoneApp\\MallPhoneApp.csproj|solutionrelative:mallphoneapp\\catalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9B40011D-9961-419E-A06A-1CC2DEE6D535}|MallPhoneApp\\MallPhoneApp.csproj|c:\\mymall\\brand\\mallphoneapp\\addproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
@@ -135,8 +135,7 @@
               "ToolTip": "C:\\MyMall\\Brand\\MallAdmin\\ErrorHandler.xaml",
               "RelativeToolTip": "MallAdmin\\ErrorHandler.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T12:11:26.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T12:11:26.676Z"
             },
             {
               "$type": "Document",
@@ -148,8 +147,7 @@
               "RelativeToolTip": "MallAdmin\\MainWindow.xaml.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:11:16.738Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T12:11:16.738Z"
             },
             {
               "$type": "Document",
@@ -161,8 +159,7 @@
               "RelativeToolTip": "MallAdmin\\ErrorHandler.xaml.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:10:45.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T12:10:45.936Z"
             },
             {
               "$type": "Document",
@@ -174,25 +171,24 @@
               "RelativeToolTip": "MallPhoneApp\\MainPage.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T11:40:54.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T11:40:54.745Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Catalog.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\Catalog.xaml.cs",
               "RelativeDocumentMoniker": "MallPhoneApp\\Catalog.xaml.cs",
               "ToolTip": "C:\\MyMall\\Brand\\MallPhoneApp\\Catalog.xaml.cs",
               "RelativeToolTip": "MallPhoneApp\\Catalog.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwC4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T11:37:55.718Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ErrorHandler.xaml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\ErrorHandler.xaml",
               "RelativeDocumentMoniker": "MallPhoneApp\\ErrorHandler.xaml",
@@ -205,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ErrorHandler.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\ErrorHandler.xaml.cs",
               "RelativeDocumentMoniker": "MallPhoneApp\\ErrorHandler.xaml.cs",
@@ -213,8 +209,7 @@
               "RelativeToolTip": "MallPhoneApp\\ErrorHandler.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:08:39.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T12:08:39.709Z"
             },
             {
               "$type": "Document",
@@ -252,8 +247,7 @@
               "RelativeToolTip": "MallAdmin\\AppData\\AppErrorHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:10:38.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T12:10:38.964Z"
             },
             {
               "$type": "Document",
@@ -265,8 +259,7 @@
               "RelativeToolTip": "MallAdmin\\AppData\\AppOnSale.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:10:37.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T12:10:37.797Z"
             },
             {
               "$type": "Document",
@@ -278,8 +271,7 @@
               "RelativeToolTip": "MallAdmin\\AppData\\AppStoreOwnerID.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T12:10:37.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T12:10:37.061Z"
             },
             {
               "$type": "Document",
@@ -291,8 +283,7 @@
               "RelativeToolTip": "MallPhoneApp\\Catalog.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T11:44:27.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T11:44:27.218Z"
             },
             {
               "$type": "Document",
@@ -304,8 +295,7 @@
               "RelativeToolTip": "MallAdmin\\Catalog.xaml.cs",
               "ViewState": "AgIAAFUAAAAAAAAAAAAcwGIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T11:39:40.291Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T11:39:40.291Z"
             },
             {
               "$type": "Document",
@@ -317,8 +307,7 @@
               "RelativeToolTip": "MallPhoneApp\\AppInfo\\OwnerInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-08T11:37:36.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T11:37:36.247Z"
             },
             {
               "$type": "Document",
@@ -343,8 +332,7 @@
               "RelativeToolTip": "MallPhoneApp\\AddProduct.xaml",
               "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T11:23:38.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T11:23:38.04Z"
             },
             {
               "$type": "Document",
@@ -356,8 +344,7 @@
               "RelativeToolTip": "MallPhoneApp\\AddSale.xaml",
               "ViewState": "AgIAABgAAAAAAAAAAAAwwCwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-08T11:23:36.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-08T11:23:36.511Z"
             },
             {
               "$type": "Document",

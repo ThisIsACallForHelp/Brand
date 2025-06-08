@@ -53,7 +53,7 @@ namespace MallAdmin {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MallAdmin;component/errorhandler.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MallAdmin;V1.0.0.0;component/errorhandler.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ErrorHandler.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

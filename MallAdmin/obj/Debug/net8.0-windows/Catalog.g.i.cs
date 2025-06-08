@@ -61,7 +61,7 @@ namespace MallAdmin {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/MallAdmin;component/catalog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/MallAdmin;V1.0.0.0;component/catalog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Catalog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
