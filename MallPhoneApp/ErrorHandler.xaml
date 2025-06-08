@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MallPhoneApp.ErrorHandler"
+             Title="ErrorHandler">
+    <Grid RowDefinitions="Auto,*">
+        <!-- Top and Bottom sections -->
+
+        <!-- Top Menu (Row 0) -->
+        <Grid Grid.Row="0"
+      BackgroundColor="LightGray"
+      ColumnSpacing="10"
+      Padding="10"
+      ColumnDefinitions="Auto,Auto,Auto,Auto">
+            <Button 
+                BackgroundColor="Red" 
+                Text="Go Back" 
+                Margin="450,0,0,0"
+                WidthRequest="500"
+                Clicked="GoBack"></Button>
+        </Grid>
+
+        <!-- Bottom Area (Row 1) -->
+        <Grid Grid.Row="1" BackgroundColor="Yellow">
+            <Label Text="Something Went Wrong! Try Again"
+           TextColor="Red"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" 
+           FontSize="75" />
+        </Grid>
+
+
+    </Grid>
+</ContentPage>

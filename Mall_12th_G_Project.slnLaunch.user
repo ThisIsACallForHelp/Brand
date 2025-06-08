@@ -7,11 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "MallWebApplication\\MallWebApplication.csproj",
-        "Action": "Start"
-      },
-      {
-        "Path": "MallAdmin\\MallAdmin.csproj",
+        "Path": "MallPhoneApp\\MallPhoneApp.csproj",
         "Action": "Start"
       }
     ]

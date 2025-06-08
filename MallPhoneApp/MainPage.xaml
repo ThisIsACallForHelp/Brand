@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MallPhoneApp.MainPage">
+
+    <Grid RowDefinitions="Auto,*">
+        <!-- Top Menu -->
+        <Grid BackgroundColor="Gray" Padding="10" Row="0" ColumnDefinitions="Auto,*,Auto" HeightRequest="200">
+            <!-- Logo on the left -->
+            <Image Grid.Column="0"
+                   Source="logo.png"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   Aspect="AspectFit"
+                   VerticalOptions="Center" />
+
+            <!-- Centered Button -->
+            <Button Grid.Column="1"
+                    Text="Log-In"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    Clicked="OwnerLogIn"/>
+        </Grid>
+
+        <!-- Bottom Content -->
+        <ScrollView Grid.Row="1" BackgroundColor="Yellow">
+            <VerticalStackLayout
+                Padding="20"
+                Spacing="20"
+                HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand">
+
+                <Frame BackgroundColor="White"
+                       BorderColor="Black"
+                       CornerRadius="5"
+                       Padding="20"
+                       HasShadow="True"
+                       WidthRequest="500"
+                       HorizontalOptions="Center">
+
+                    <VerticalStackLayout Spacing="15">
+                        <Label Text="Enter your details:"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               HorizontalOptions="Center" TextColor="Black" />
+
+                        <Entry x:Name="FirstName" Placeholder="First Name" TextColor="Black"  Text="Test"/>
+                        <Entry x:Name="LastName" Placeholder="Last Name"  TextColor="Black" Text="Test"/>
+                        <Entry x:Name="ID" Placeholder="ID" Keyboard="Numeric" TextColor="Black" Text="1"/>
+                    </VerticalStackLayout>
+                </Frame>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+
+
+</ContentPage>

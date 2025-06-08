@@ -1187,12 +1187,6 @@ C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\scopedcss\projectbundle\Mall
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets.build.json
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets.development.json
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets\msbuild.MallWebApplication.Microsoft.AspNetCore.StaticWebAssets.props
-C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets\msbuild.MallWebApplication.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets\msbuild.build.MallWebApplication.props
-C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MallWebApplication.props
-C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MallWebApplication.props
-C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets.pack.json
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\MallWebA.644BE9B5.Up2Date
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\MallWebApplication.dll
@@ -1201,3 +1195,4 @@ C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\MallWebApplication.pdb
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\MallWebApplication.genruntimeconfig.cache
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\ref\MallWebApplication.dll
 C:\MyMall\Brand\MallWebApplication\bin\Debug\net8.0\Docker.DotNet.dll
+C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets.build.json.cache

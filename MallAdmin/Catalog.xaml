@@ -31,7 +31,6 @@
         <Border BorderBrush="Yellow" BorderThickness="1" x:Name="Content" Height="512" Width="800" Background="Yellow" HorizontalAlignment="Center" VerticalAlignment="Top" Canvas.Top="122">
 
             <ListView ItemsSource="{Binding Products}" Background="Yellow" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
-                <!--SelectionChanged="ListView_SelectionChanged"-->
                 <ListView.ItemsPanel>
                     <ItemsPanelTemplate>
                         <WrapPanel />

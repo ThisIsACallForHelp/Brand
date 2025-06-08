@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MallPhoneApp.AddSale"
+             Title="AddSale">
+    <Grid RowDefinitions="Auto,*">
+        <Grid Grid.Row="0"
+              BackgroundColor="LightGray"
+              ColumnSpacing="10"
+              Padding="10"
+              ColumnDefinitions="Auto">
+            <Button WidthRequest="400"
+                    Text="Go Back"
+                    Grid.Column="0"
+                    Margin="500,0,0,0"
+                    Clicked="BackToPrevPage"
+                    BackgroundColor="Red" />
+        </Grid>
+        <ScrollView Grid.Row="1"
+                    BackgroundColor="Yellow"
+                    Padding="20">
+            <Frame BackgroundColor="White"
+                   BorderColor="Black"
+                   CornerRadius="10"
+                   Padding="20"
+                   HasShadow="True"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Start"
+                   WidthRequest="400">
+                <VerticalStackLayout Spacing="15">
+                    <Label Text="Enter your details:"
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           HorizontalOptions="Center"
+                           TextColor="Black" />
+                    <Entry x:Name="ProductID"
+                            Placeholder="ID"
+                            TextColor="Black" />
+                    <Entry x:Name="SaleID"
+                        Placeholder="SalePercentage"
+                        TextColor="Black" />
+                    <Button Text="Submit"
+                        BackgroundColor="Green"
+                        TextColor="White"
+                        Clicked="CreateSale"/>
+                </VerticalStackLayout>
+            </Frame>
+        </ScrollView>
+    </Grid>
+</ContentPage>

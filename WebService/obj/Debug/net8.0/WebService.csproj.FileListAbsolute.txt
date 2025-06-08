@@ -371,12 +371,6 @@ C:\MyMall\Brand\WebService\obj\Debug\net8.0\scopedcss\bundle\WebService.styles.c
 C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets.build.json
 C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets.development.json
 C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets\msbuild.WebService.Microsoft.AspNetCore.StaticWebAssets.props
-C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets\msbuild.WebService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets\msbuild.build.WebService.props
-C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebService.props
-C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebService.props
-C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets.pack.json
 C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\MyMall\Brand\WebService\obj\Debug\net8.0\WebService.csproj.Up2Date
 C:\MyMall\Brand\WebService\obj\Debug\net8.0\WebService.dll
@@ -386,3 +380,4 @@ C:\MyMall\Brand\WebService\obj\Debug\net8.0\WebService.genruntimeconfig.cache
 C:\MyMall\Brand\WebService\obj\Debug\net8.0\ref\WebService.dll
 C:\MyMall\Brand\WebService\bin\Debug\net8.0\Docker.DotNet.dll
 C:\MyMall\Brand\WebService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\MyMall\Brand\WebService\obj\Debug\net8.0\staticwebassets.build.json.cache

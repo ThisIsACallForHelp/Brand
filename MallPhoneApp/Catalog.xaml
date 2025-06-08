@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MallPhoneApp.Catalog"
+             Title="Catalog">
+    <Grid RowDefinitions="Auto,*">
+        <!-- Fixed top row, flexible bottom row -->
+
+        <!-- Top Menu -->
+        <Grid Grid.Row="0"
+          BackgroundColor="LightGray"
+          ColumnSpacing="10"
+          Padding="10"
+          ColumnDefinitions="Auto,Auto,Auto,Auto">
+
+            <Button WidthRequest="300" Text="All Products" Grid.Column="0" Margin="65,0,0,0" Clicked="StoreOwnerCatalog" ClassId="false"/>
+            <Button WidthRequest="300" Text="OnSale" Grid.Column="1" Margin="20,0,0,0" Clicked="StoreOwnerCatalog" ClassId="true"/>
+            <Button WidthRequest="300" Text="Add A Product" Grid.Column="2" Margin="20,0,0,0" Clicked="AddProductForm"/>
+            <Button WidthRequest="300" Text="Add A Sale" Grid.Column="3" Margin="20,0,0,0" Clicked="AddSaleForm"/>
+
+        </Grid>
+
+        <!-- Bottom Content -->
+        <CollectionView Grid.Row="1"
+            ItemsSource="{Binding Products}"
+            BackgroundColor="Yellow"
+            ItemsLayout="VerticalGrid, 4"
+            SelectionMode="None"
+            Margin="10">
+
+            <CollectionView.ItemTemplate >
+                <DataTemplate>
+                    <Grid WidthRequest="175" HeightRequest="240" Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="175" />
+                            <!-- Image height -->
+                            <RowDefinition Height="50" />
+                            <!-- Button height -->
+                        </Grid.RowDefinitions>
+
+                        <Image Source="{Binding ProductIMG}"
+                    Aspect="AspectFill"
+                    WidthRequest="175"
+                    HeightRequest="175"
+                    Grid.Row="0" />
+                        <Button Text="Delete"
+                    BackgroundColor="Red"
+                    TextColor="White"
+                    HeightRequest="30"
+                    WidthRequest="175"
+                    Grid.Row="1"
+                    ClassId="{Binding ID}" 
+                    Clicked="Delete"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+    </Grid>
+
+</ContentPage>
