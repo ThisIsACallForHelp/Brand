@@ -92,7 +92,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Models.AJAXViewModel",
+        "Type": "Models.CatalogViewModel",
         "MediaTypes": [
           "text/plain",
           "application/json",

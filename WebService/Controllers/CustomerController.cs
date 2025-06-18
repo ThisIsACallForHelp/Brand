@@ -168,16 +168,16 @@ namespace WebService
         }
 
         [HttpGet]
-        public AJAXViewModel AJAXCatalog(int SaleID, int StoreID = 0, int StoreTypeID = 0, int BrandID = 0,
+        public CatalogViewModel AJAXCatalog(int SaleID, int StoreID = 0, int StoreTypeID = 0, int BrandID = 0,
                                         int ProductsPerPage = 16, int pageNumber = 1)
         {
-            AJAXViewModel ajaxViewModel = new AJAXViewModel();
+            CatalogViewModel ajaxViewModel = new CatalogViewModel();
             List<Product> products = new List<Product>();
             List<Store> stores = new List<Store>();
             try
             {
                 this.dbContext.OpenConnection();
-                ajaxViewModel.products = null;
+                ajaxViewModel.Products = null;
                 if (StoreTypeID != 0)
                 {
                     stores = this.unitOfWork.StoreRepository.GetStoresByType(StoreTypeID);
@@ -216,7 +216,7 @@ namespace WebService
                     ajaxViewModel.MaxPage++;
                 }
                 products = products.Skip((pageNumber - 1) * ProductsPerPage).Take(ProductsPerPage * pageNumber).ToList();
-                ajaxViewModel.products = products;
+                ajaxViewModel.Products = products;
                 ajaxViewModel.stores = stores;
                 ajaxViewModel.PageNumber = pageNumber;
                 ajaxViewModel.BrandID = BrandID;

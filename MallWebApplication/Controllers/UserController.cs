@@ -12,14 +12,7 @@ namespace MallWebApplication.Controllers
             return RedirectToAction("GetCatalog", "User");
         }
 
-
-
-
-        [HttpGet]
-
-        //int StoreID = 0, int Percentage = 0, int StoreTypeID = 0, int BrandID = 0,
-        //                                int ProductsPerPage = 15, int pageNumber = 1
-         
+        [HttpGet]        
         public async Task<IActionResult> GetCatalog(int SaleID, int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int StoreTypeID = 0, int BrandID = 0)
         {
             //works 
@@ -186,16 +179,12 @@ namespace MallWebApplication.Controllers
                 return null;
             }
         }
-
         [HttpGet]
-
         public IActionResult CardForm()
         {
             return View();
         }
-
         [HttpPost]
-
         public async Task<IActionResult> PaymentContinue()
         {
             WebClient<CartProduct> webClient = new WebClient<CartProduct>()
@@ -209,7 +198,6 @@ namespace MallWebApplication.Controllers
             {
                 CustomerID = Convert.ToInt32(HttpContext.Session.GetString("CustomerID"))
             };
-            Console.WriteLine("ID ----> " + cart.CustomerID);
             bool Succ = await webClient.PostAsync(cart);
             if (Succ)
             {

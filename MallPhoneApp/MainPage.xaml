@@ -19,6 +19,8 @@
                     Text="Log-In"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
+                    WidthRequest="300"
+                    HeightRequest="150"
                     Clicked="OwnerLogIn"/>
         </Grid>
 
@@ -44,9 +46,9 @@
                                FontSize="Medium"
                                HorizontalOptions="Center" TextColor="Black" />
 
-                        <Entry x:Name="FirstName" Placeholder="First Name" TextColor="Black"  Text="Test"/>
-                        <Entry x:Name="LastName" Placeholder="Last Name"  TextColor="Black" Text="Test"/>
-                        <Entry x:Name="ID" Placeholder="ID" Keyboard="Numeric" TextColor="Black" Text="1"/>
+                        <Entry x:Name="FirstName" Placeholder="First Name" TextColor="Black"  />
+                        <Entry x:Name="LastName" Placeholder="Last Name"  TextColor="Black" />
+                        <Entry x:Name="ID" Placeholder="ID" Keyboard="Numeric" TextColor="Black" />
                     </VerticalStackLayout>
                 </Frame>
             </VerticalStackLayout>

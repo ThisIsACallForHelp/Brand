@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MallPhoneApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ed3f2df932933a649ed13a88025ea1aa5be3aa82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d909a456c7ddbd88342d00a060c435363e0a103b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MallPhoneApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MallPhoneApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
