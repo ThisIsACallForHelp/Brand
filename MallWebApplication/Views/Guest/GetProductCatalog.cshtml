@@ -15,18 +15,20 @@
         <button onclick="window.location.href='@Url.Action("GetProduct", "Guest", new { ProductID = product.ID })'">Click Me To See More!</button>
     </div>
 }
-
-<div class="Paging">
-    @if (@Model.PageNumber != @Model.MaxPage)
-    {
-        <div class="Arrow Right" style="margin-left: 42%;background: none" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { pageNumber = Next })'"></div>
-    }
-    @if (@Model.PageNumber != 1 && @Model.PageNumber != @Model.MaxPage)
-    {
-        <div class="Arrow Left" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { pageNumber = Previous })'"></div>
-    }
-    @if (Model.PageNumber == Model.MaxPage)
-    {
-        <div class="Arrow Left" style="margin-left: 55%;background: none" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { pageNumber = Previous })'"></div>
-    }
-</div>
+@if(Model.MaxPage != 0)
+{
+    <div class="Paging">
+        @if (@Model.PageNumber != @Model.MaxPage)
+        {
+            <div class="Arrow Right" style="margin-left: 42%;background: none" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { pageNumber = Next, StoreID = Model.StoreID, BrandID = Model.BrandID, StoreTypeID = Model.StoreTypeID, SaleID = Model.SaleID })'"></div>
+        }
+        @if (@Model.PageNumber != 1 && @Model.PageNumber != @Model.MaxPage)
+        {
+            <div class="Arrow Left" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { pageNumber = Previous })'"></div>
+        }
+        @if (Model.PageNumber == Model.MaxPage)
+        {
+            <div class="Arrow Left" style="margin-left: 55%;background: none" onclick="window.location.href='@Url.Action("GetCatalog", "Guest", new { pageNumber = Previous, StoreID = Model.StoreID, BrandID = Model.BrandID, StoreTypeID = Model.StoreTypeID, SaleID = Model.SaleID })'"></div>
+        }
+    </div>
+}

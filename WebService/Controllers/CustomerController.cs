@@ -109,30 +109,21 @@ namespace WebService
                 {
                     stores = this.unitOfWork.StoreRepository.GetStoresByType(StoreTypeID);
                 }
-                if(StoreID > 0 && SaleID > 0)
-                {
-                    BrandID = 0;
-                    products = this.unitOfWork.ProductRepository.SaleAndStore(SaleID, StoreID);
-                }
-                else if(SaleID > 0 && BrandID == 0 && StoreID == 0)
-                {
-                    products = this.unitOfWork.ProductRepository.PercentSalesRangeList(SaleID);
-                }
-                else if (SaleID > 0 && BrandID >0)
+                else if (SaleID > 0)
                 {
                     StoreID = 0;
-                    products = this.unitOfWork.ProductRepository.SaleAndBrand(SaleID, BrandID);
+                    products = this.unitOfWork.ProductRepository.PercentSalesRangeList(SaleID);
                 }
-                else if (StoreID > 0 && SaleID == 0)
+                else if (StoreID > 0)
                 {
                     BrandID = 0;
                     products = this.unitOfWork.ProductRepository.ProductsFromStore(StoreID);
                 }
-                else if (BrandID > 0 && SaleID == 0)
+                else if (BrandID > 0)
                 {
                     StoreID = 0;
                     products = this.unitOfWork.ProductRepository.ProductsFromBrand(BrandID);
-                }             
+                }
                 else
                 {
                     products = this.unitOfWork.ProductRepository.GetAll();
@@ -168,7 +159,7 @@ namespace WebService
         }
 
         [HttpGet]
-        public CatalogViewModel AJAXCatalog(int SaleID, int StoreID = 0, int StoreTypeID = 0, int BrandID = 0,
+        public CatalogViewModel AJAXCatalog(int SaleID, int StoreID, int StoreTypeID, int BrandID,
                                         int ProductsPerPage = 16, int pageNumber = 1)
         {
             CatalogViewModel ajaxViewModel = new CatalogViewModel();
@@ -180,28 +171,19 @@ namespace WebService
                 ajaxViewModel.Products = null;
                 if (StoreTypeID != 0)
                 {
-                    stores = this.unitOfWork.StoreRepository.GetStoresByType(StoreTypeID);
-                }
-                if (StoreID > 0 && SaleID > 0)
-                {
-                    BrandID = 0;
-                    products = this.unitOfWork.ProductRepository.SaleAndStore(SaleID, StoreID);
-                }
-                else if (SaleID > 0 && BrandID == 0 && StoreID == 0)
-                {
-                    products = this.unitOfWork.ProductRepository.PercentSalesRangeList(SaleID);
-                }
-                else if (SaleID > 0 && BrandID > 0)
+                    products = this.unitOfWork.ProductRepository.GetAll();
+                    stores = this.unitOfWork.StoreRepository.GetStoresByType(StoreTypeID);                }
+                else if (SaleID > 0)
                 {
                     StoreID = 0;
-                    products = this.unitOfWork.ProductRepository.SaleAndBrand(SaleID, BrandID);
+                    products = this.unitOfWork.ProductRepository.PercentSalesRangeList(SaleID);
                 }
-                else if (StoreID > 0 && SaleID == 0)
+                else if (StoreID > 0)
                 {
                     BrandID = 0;
                     products = this.unitOfWork.ProductRepository.ProductsFromStore(StoreID);
                 }
-                else if (BrandID > 0 && SaleID == 0)
+                else if (BrandID > 0)
                 {
                     StoreID = 0;
                     products = this.unitOfWork.ProductRepository.ProductsFromBrand(BrandID);

@@ -84,7 +84,8 @@ namespace WebService
 
         public List<Product> ProductsFromStore(int StoreID)
         {
-            string sql = $@"SELECT * FROM Product WHERE StoreID = @StoreID";
+            string sql = $@"SELECT * FROM Product WHERE StoreID = {StoreID}";
+            Console.WriteLine("Chosen Store ID With The Query-> " + sql);
             base.dbContext.AddParameters("@StoreID", StoreID.ToString());
             List<Product> products = new List<Product>();
             using (IDataReader Product = base.dbContext.Read(sql)) //Read the command

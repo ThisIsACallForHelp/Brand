@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MallAdmin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed3f2df932933a649ed13a88025ea1aa5be3aa82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15015ee2ce6cfea0d75c3e47db83d33cc5adb621")]
 [assembly: System.Reflection.AssemblyProductAttribute("MallAdmin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MallAdmin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

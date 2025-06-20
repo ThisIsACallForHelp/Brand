@@ -66,7 +66,7 @@ namespace MallWebApplication
         [HttpGet]
 
       
-        public async Task<IActionResult> GetCatalog(int SaleID, int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int StoreTypeID = 0, int BrandID = 0)
+        public async Task<IActionResult> GetCatalog(int SaleID, int StoreID, int StoreTypeID, int BrandID, int ProductsPerPage = 16, int pageNumber = 1)
         {
             //works
             WebClient<CatalogViewModel> Client = new WebClient<CatalogViewModel>();
@@ -94,7 +94,7 @@ namespace MallWebApplication
             return View(productsAndSalesViewModel);
         }
 
-        public async Task<PartialViewResult> GetProductCatalog(int SaleID, int ProductsPerPage = 16, int pageNumber = 1, int StoreID = 0, int StoreTypeID = 0, int BrandID = 0)
+        public async Task<PartialViewResult> GetProductCatalog(int SaleID, int StoreID, int StoreTypeID, int BrandID, int ProductsPerPage = 16, int pageNumber = 1)
         {
 
             //this is the catalog that USES THE AJAX

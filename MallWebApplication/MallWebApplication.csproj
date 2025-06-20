@@ -17,4 +17,10 @@
     <ProjectReference Include="..\WebApiClient\WebApiClient.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="wwwroot\GUI\images\AJAX_GIF.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>

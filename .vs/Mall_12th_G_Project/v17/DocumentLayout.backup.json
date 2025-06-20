@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\data access layer\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\data access layer\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\controllers\\guestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\wwwroot\\gui\\ajax.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\wwwroot\\gui\\ajax.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\data access layer\\dbcontext\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +27,48 @@
       "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\views\\guest\\getproductcatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\wwwroot\\gui\\ajax.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\wwwroot\\gui\\ajax.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\views\\shared\\masterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\views\\shared\\masterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\views\\guest\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\views\\guest\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\views\\guest\\getcatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\views\\guest\\getcatalog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\data access layer\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\data access layer\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\data access layer\\modelfactoryfolder\\customercreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\data access layer\\modelfactoryfolder\\customercreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\data access layer\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\data access layer\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\data access layer\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\data access layer\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\data access layer\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\data access layer\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\views\\shared\\masterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\views\\shared\\masterpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|c:\\mymall\\brand\\webservice\\webservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -47,10 +83,6 @@
       "RelativeMoniker": "D:0:0:{AA3A4DAD-5F9B-476F-AB32-CFD5754A9FDC}|WebService\\WebService.csproj|solutionrelative:webservice\\data access layer\\dbcontext\\idbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\wwwroot\\gui\\cardverify.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\wwwroot\\gui\\cardverify.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -61,10 +93,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\views\\user\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\views\\user\\getproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|c:\\mymall\\brand\\mallwebapplication\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D5575D51-966C-47AE-95D3-44A979285197}|MallWebApplication\\MallWebApplication.csproj|solutionrelative:mallwebapplication\\controllers\\storeownercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ADAFD1C-A07B-4A5D-B7BB-D38A9B159F9C}|MallAdmin\\MallAdmin.csproj|c:\\mymall\\brand\\malladmin\\errorhandler.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -162,7 +190,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "AddProductForm.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AddProductForm.xaml.cs",
               "RelativeDocumentMoniker": "MallAdmin\\AddProductForm.xaml.cs",
@@ -196,15 +224,106 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ajax.js",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\ajax.js",
+              "RelativeDocumentMoniker": "MallWebApplication\\wwwroot\\GUI\\ajax.js",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\ajax.js",
+              "RelativeToolTip": "MallWebApplication\\wwwroot\\GUI\\ajax.js",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwCcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-20T18:10:46.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MasterPage.cshtml",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Shared\\MasterPage.cshtml",
-              "RelativeDocumentMoniker": "MallWebApplication\\Views\\Shared\\MasterPage.cshtml",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Shared\\MasterPage.cshtml",
-              "RelativeToolTip": "MallWebApplication\\Views\\Shared\\MasterPage.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "GetProduct.cshtml",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Guest\\GetProduct.cshtml",
+              "RelativeDocumentMoniker": "MallWebApplication\\Views\\Guest\\GetProduct.cshtml",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Guest\\GetProduct.cshtml",
+              "RelativeToolTip": "MallWebApplication\\Views\\Guest\\GetProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T17:50:14.514Z",
+              "WhenOpened": "2025-06-20T17:49:05.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GuestController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\GuestController.cs",
+              "RelativeDocumentMoniker": "MallWebApplication\\Controllers\\GuestController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\GuestController.cs",
+              "RelativeToolTip": "MallWebApplication\\Controllers\\GuestController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAMwE8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:20:09.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "WebService\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Controllers\\CustomerController.cs*",
+              "RelativeToolTip": "WebService\\Controllers\\CustomerController.cs*",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAMwLIAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T17:47:18.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "WebService\\Data Access Layer\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "WebService\\Data Access Layer\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAMwGQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-20T17:02:12.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetProductCatalog.cshtml",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Guest\\GetProductCatalog.cshtml",
+              "RelativeDocumentMoniker": "MallWebApplication\\Views\\Guest\\GetProductCatalog.cshtml",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Guest\\GetProductCatalog.cshtml",
+              "RelativeToolTip": "MallWebApplication\\Views\\Guest\\GetProductCatalog.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-18T17:52:24.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\DBContext\\DBContext.cs",
+              "RelativeDocumentMoniker": "WebService\\Data Access Layer\\DBContext\\DBContext.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\DBContext\\DBContext.cs",
+              "RelativeToolTip": "WebService\\Data Access Layer\\DBContext\\DBContext.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAMwDEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T18:27:41.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StoreOwnerController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\StoreOwnerController.cs",
+              "RelativeDocumentMoniker": "MallWebApplication\\Controllers\\StoreOwnerController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\StoreOwnerController.cs",
+              "RelativeToolTip": "MallWebApplication\\Controllers\\StoreOwnerController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:14:44.636Z",
               "EditorCaption": ""
             },
             {
@@ -215,7 +334,7 @@
               "RelativeDocumentMoniker": "MallWebApplication\\Views\\Guest\\GetCatalog.cshtml",
               "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Guest\\GetCatalog.cshtml",
               "RelativeToolTip": "MallWebApplication\\Views\\Guest\\GetCatalog.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-18T17:50:03.57Z",
               "EditorCaption": ""
@@ -223,97 +342,117 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "WebService",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\WebService.csproj",
-              "RelativeDocumentMoniker": "WebService\\WebService.csproj",
-              "ToolTip": "C:\\MyMall\\Brand\\WebService\\WebService.csproj",
-              "RelativeToolTip": "WebService\\WebService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-18T17:49:36.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "WebService\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "WebService\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAKoAAAAAAAAAAAA8wKwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T17:47:18.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GuestController.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\GuestController.cs",
-              "RelativeDocumentMoniker": "MallWebApplication\\Controllers\\GuestController.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\GuestController.cs",
-              "RelativeToolTip": "MallWebApplication\\Controllers\\GuestController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAmwGEAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T06:20:09.959Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DBContext.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\DBContext\\DBContext.cs",
-              "RelativeDocumentMoniker": "WebService\\Data Access Layer\\DBContext\\DBContext.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\DBContext\\DBContext.cs",
-              "RelativeToolTip": "WebService\\Data Access Layer\\DBContext\\DBContext.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAcwFgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:27:41.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "StoreOwnerController.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Controllers\\StoreOwnerController.cs",
               "RelativeDocumentMoniker": "WebService\\Controllers\\StoreOwnerController.cs",
               "ToolTip": "C:\\MyMall\\Brand\\WebService\\Controllers\\StoreOwnerController.cs",
               "RelativeToolTip": "WebService\\Controllers\\StoreOwnerController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAmwHsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwHsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-08T07:58:58.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ajax.js",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\ajax.js",
-              "RelativeDocumentMoniker": "MallWebApplication\\wwwroot\\GUI\\ajax.js",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\ajax.js",
-              "RelativeToolTip": "MallWebApplication\\wwwroot\\GUI\\ajax.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-06-18T17:51:39.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetProductCatalog.cshtml",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Guest\\GetProductCatalog.cshtml",
-              "RelativeDocumentMoniker": "MallWebApplication\\Views\\Guest\\GetProductCatalog.cshtml",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Guest\\GetProductCatalog.cshtml",
-              "RelativeToolTip": "MallWebApplication\\Views\\Guest\\GetProductCatalog.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "MasterPage.cshtml",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Shared\\MasterPage.cshtml",
+              "RelativeDocumentMoniker": "MallWebApplication\\Views\\Shared\\MasterPage.cshtml",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\Shared\\MasterPage.cshtml",
+              "RelativeToolTip": "MallWebApplication\\Views\\Shared\\MasterPage.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-18T17:52:24.612Z",
+              "WhenOpened": "2025-06-18T17:50:14.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MallWebApplication\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MallWebApplication\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCsAAACiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T06:13:40.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "WebService\\Data Access Layer\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "WebService\\Data Access Layer\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T18:47:59.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerCreator.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\ModelFactoryFolder\\CustomerCreator.cs",
+              "RelativeDocumentMoniker": "WebService\\Data Access Layer\\ModelFactoryFolder\\CustomerCreator.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\ModelFactoryFolder\\CustomerCreator.cs",
+              "RelativeToolTip": "WebService\\Data Access Layer\\ModelFactoryFolder\\CustomerCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T10:48:15.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "WebService\\Data Access Layer\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "WebService\\Data Access Layer\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:02:39.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WebService.csproj",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\WebService.csproj",
+              "RelativeDocumentMoniker": "WebService\\WebService.csproj",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\WebService.csproj",
+              "RelativeToolTip": "WebService\\WebService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-18T17:49:36.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "WebService\\Data Access Layer\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\Repositories\\Repository.cs",
+              "RelativeToolTip": "WebService\\Data Access Layer\\Repositories\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T18:48:30.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "WebService\\Data Access Layer\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "WebService\\Data Access Layer\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T18:50:55.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "BrandCreator.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\ModelFactoryFolder\\BrandCreator.cs",
               "RelativeDocumentMoniker": "WebService\\Data Access Layer\\ModelFactoryFolder\\BrandCreator.cs",
@@ -321,12 +460,11 @@
               "RelativeToolTip": "WebService\\Data Access Layer\\ModelFactoryFolder\\BrandCreator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T18:34:56.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T18:34:56.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "IDBContext.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\WebService\\Data Access Layer\\DBContext\\IDBContext.cs",
               "RelativeDocumentMoniker": "WebService\\Data Access Layer\\DBContext\\IDBContext.cs",
@@ -338,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 22,
               "Title": "GetProduct.cshtml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\User\\GetProduct.cshtml",
               "RelativeDocumentMoniker": "MallWebApplication\\Views\\User\\GetProduct.cshtml",
@@ -350,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 20,
               "Title": "CardVerify.js",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\wwwroot\\GUI\\CardVerify.js",
               "RelativeDocumentMoniker": "MallWebApplication\\wwwroot\\GUI\\CardVerify.js",
@@ -362,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "CardForm.cshtml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Views\\User\\CardForm.cshtml",
               "RelativeDocumentMoniker": "MallWebApplication\\Views\\User\\CardForm.cshtml",
@@ -374,31 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StoreOwnerController.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\StoreOwnerController.cs",
-              "RelativeDocumentMoniker": "MallWebApplication\\Controllers\\StoreOwnerController.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\StoreOwnerController.cs",
-              "RelativeToolTip": "MallWebApplication\\Controllers\\StoreOwnerController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T06:14:44.636Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "MallWebApplication\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\MyMall\\Brand\\MallWebApplication\\Controllers\\UserController.cs",
-              "RelativeToolTip": "MallWebApplication\\Controllers\\UserController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T06:13:40.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MallAdmin\\MainWindow.xaml",
@@ -409,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 25,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\MainPage.xaml",
               "RelativeDocumentMoniker": "MallPhoneApp\\MainPage.xaml",
@@ -421,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 32,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "MallPhoneApp\\MainPage.xaml.cs",
@@ -433,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 27,
               "Title": "Catalog.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\Catalog.xaml.cs",
               "RelativeDocumentMoniker": "MallPhoneApp\\Catalog.xaml.cs",
@@ -446,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 33,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MallAdmin\\MainWindow.xaml.cs",
@@ -458,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "ErrorHandler.xaml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\ErrorHandler.xaml",
               "RelativeDocumentMoniker": "MallAdmin\\ErrorHandler.xaml",
@@ -469,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "ErrorHandler.xaml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\ErrorHandler.xaml",
               "RelativeDocumentMoniker": "MallPhoneApp\\ErrorHandler.xaml",
@@ -481,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "ErrorHandler.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\ErrorHandler.xaml.cs",
               "RelativeDocumentMoniker": "MallPhoneApp\\ErrorHandler.xaml.cs",
@@ -493,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 31,
               "Title": "AddSale.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\AddSale.xaml.cs",
               "RelativeDocumentMoniker": "MallPhoneApp\\AddSale.xaml.cs",
@@ -506,7 +620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 30,
               "Title": "AddProduct.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\AddProduct.xaml.cs",
               "RelativeDocumentMoniker": "MallPhoneApp\\AddProduct.xaml.cs",
@@ -519,7 +633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 26,
               "Title": "AddProduct.xaml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\AddProduct.xaml",
               "RelativeDocumentMoniker": "MallPhoneApp\\AddProduct.xaml",
@@ -531,7 +645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 34,
               "Title": "ErrorHandler.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\ErrorHandler.xaml.cs",
               "RelativeDocumentMoniker": "MallAdmin\\ErrorHandler.xaml.cs",
@@ -543,7 +657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 35,
               "Title": "AppErrorHandler.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AppData\\AppErrorHandler.cs",
               "RelativeDocumentMoniker": "MallAdmin\\AppData\\AppErrorHandler.cs",
@@ -555,7 +669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "AppOnSale.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AppData\\AppOnSale.cs",
               "RelativeDocumentMoniker": "MallAdmin\\AppData\\AppOnSale.cs",
@@ -567,7 +681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "AppStoreOwnerID.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AppData\\AppStoreOwnerID.cs",
               "RelativeDocumentMoniker": "MallAdmin\\AppData\\AppStoreOwnerID.cs",
@@ -579,7 +693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "Catalog.xaml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\Catalog.xaml",
               "RelativeDocumentMoniker": "MallPhoneApp\\Catalog.xaml",
@@ -591,7 +705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "Catalog.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\Catalog.xaml.cs",
               "RelativeDocumentMoniker": "MallAdmin\\Catalog.xaml.cs",
@@ -603,7 +717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "OwnerInfo.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\AppInfo\\OwnerInfo.cs",
               "RelativeDocumentMoniker": "MallPhoneApp\\AppInfo\\OwnerInfo.cs",
@@ -615,7 +729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "AddSale.xaml",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallPhoneApp\\AddSale.xaml",
               "RelativeDocumentMoniker": "MallPhoneApp\\AddSale.xaml",
@@ -627,7 +741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "AddSale.xaml.cs",
               "DocumentMoniker": "C:\\MyMall\\Brand\\MallAdmin\\AddSale.xaml.cs",
               "RelativeDocumentMoniker": "MallAdmin\\AddSale.xaml.cs",

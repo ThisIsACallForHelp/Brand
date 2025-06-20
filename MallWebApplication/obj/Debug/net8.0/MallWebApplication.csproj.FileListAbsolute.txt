@@ -1196,3 +1196,4 @@ C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\MallWebApplication.genruntim
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\ref\MallWebApplication.dll
 C:\MyMall\Brand\MallWebApplication\bin\Debug\net8.0\Docker.DotNet.dll
 C:\MyMall\Brand\MallWebApplication\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\MyMall\Brand\MallWebApplication\bin\Debug\net8.0\wwwroot\GUI\images\AJAX_GIF.gif
